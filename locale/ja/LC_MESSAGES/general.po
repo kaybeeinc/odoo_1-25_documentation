@@ -7,16 +7,16 @@
 # Martin Trigaux, 2024
 # Tiffany Chang, 2024
 # Wil Odoo, 2024
-# Junko Augias, 2024
+# Junko Augias, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-31 16:01+0000\n"
+"POT-Creation-Date: 2025-01-28 12:25+0000\n"
 "PO-Revision-Date: 2024-10-08 06:34+0000\n"
-"Last-Translator: Junko Augias, 2024\n"
+"Last-Translator: Junko Augias, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/odoo/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4244,22 +4244,24 @@ msgstr ""
 msgid ""
 "To add an external SMTP server in Odoo, open :guilabel:`Settings`, and "
 "enable the :guilabel:`Use Custom Email Servers` option found under the "
-":guilabel:`Discuss` section."
+":guilabel:`Emails` section. Then, click :guilabel:`Save` at the top of the "
+"page to save the changes."
 msgstr ""
-"Odooに外部SMTPサーバを追加するには、:guilabel:`設定` を開き、:guilabel:`ディスカッション` セクションにある "
-":guilabel:`カスタムEメールサーバを使用する` オプションを有効にします。"
+"Odooに外部SMTPサーバを追加するには、:guilabel:`管理設定` を開き、:guilabel:`Eメール` セクションにある "
+":guilabel:`カスタムEメールサーバを使用する` オプションを有効にします。次に、ページ上部の :guilabel:`保存` "
+"をクリックして変更を保存します。"
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:105
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:106
 msgid ""
-"Still under the :guilabel:`Discuss` section, click :guilabel:`Outgoing Email"
+"Returning to the :guilabel:`Emails` section, click :guilabel:`Outgoing Email"
 " Servers`, then `New` to create an outgoing mail server record. Most fields "
 "are the common parameters used to set up a connection to an SMTP server; use"
 " the values provided by your email provider."
 msgstr ""
-"まだ :guilabel:`ディスカス` セクションにある状態で、:guilabel:`送信Eメールサーバ` をクリックし、次に `新規` "
-"をクリックして送信メールサーバレコードを作成します。ほとんどのフィールドは、SMTPサーバへの接続を設定する際に使用する共通パラメータです。ご使用のEメールプロバイダが提供する値を使用して下さい。"
+":guilabel:`Eメール` セクションに戻り、:guilabel:`送信メールサーバ` をクリックし、次に `新規` "
+"をクリックして送信メールサーバのレコードを作成します。ほとんどのフィールドは、SMTPサーバへの接続を設定する際に使用する一般的なパラメータです。メールプロバイダから提供された値を使用して下さい。"
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:109
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:110
 msgid ""
 "Once completed, click :guilabel:`Test Connection`. Note that a successful "
 "test connection does not confirm that the email will go out as some "
@@ -4269,61 +4271,61 @@ msgstr ""
 "完了したら、:guilabel:`接続テスト` "
 "をクリックします。テスト接続が成功しても、プロバイダー側で何らかの制限が残っている可能性があるため、Eメールが送信されることが確定するわけではないことにご注意下さい。そのため、プロバイダーのドキュメントを参照することをお勧めします。"
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:116
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:117
 msgid "Local-part values"
 msgstr "ローカルパート値"
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:118
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:119
 msgid ""
 "Below are presented the different local-part values that can be used by Odoo"
 " to send emails. It might be required to whitelist them in your mail server:"
 msgstr "以下は、OdooがEメール送信に使用するさまざまなローカルパート値です。メールサーバでホワイトリストに登録する必要がある場合があります。"
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:121
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:122
 msgid "The Alias Domain Bounce Alias (default value = `bounce`),"
 msgstr "エイリアス ドメイン バウンス エイリアス (デフォルト値 = `bounce`),"
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:122
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:123
 msgid "The Alias Domain Default From (default value = `notifications`),"
 msgstr "エイリアスドメインのデフォルト(デフォルト値   = `notifications`),"
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:123
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:124
 msgid ""
 "The default admin address `admin@company-name.odoo.com` or, if changed, the "
 "new value),"
 msgstr "デフォルトドメインアドレス `admin@company-name.odoo.com` または、変更された場合、新しい値),"
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:124
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:125
 msgid ""
 "The default Odoobot address `odoobot@company-name.odoo.com` or, if changed, "
 "the new value),"
 msgstr "デフォルトOdoobotアドレス `odoobot@company-name.odoo.com` または、変更された場合、新しい値),"
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:125
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:126
 msgid "The specific FROM defined on an email marketing campaign,"
 msgstr "Eメールマーケティングキャンペーンで定義された特定の送信元、"
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:126
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:127
 msgid "The specific FROM that can be defined in an email template."
 msgstr "Eメールテンプレートで定義できる特定の送信元。"
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:129
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:130
 msgid ":doc:`google_oauth`"
 msgstr ":doc:`google_oauth`"
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:130
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:131
 msgid ":doc:`azure_oauth`"
 msgstr ":doc:`azure_oauth`"
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:135
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:136
 msgid "Setting up different servers for transactional and mass emails"
 msgstr "トランザクションメールと大量メール用に異なるサーバを設定する"
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:140
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:141
 msgid "Personalized mail servers"
 msgstr "パーソナライズされたメールサーバ"
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:142
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:143
 msgid ""
 "Transactional emails and mass mailings can be sent using separate email "
 "servers in Odoo. Doing so means day-to-day emails, quotations, or invoices "
@@ -4335,7 +4337,7 @@ msgstr ""
 "そうすることで、顧客に送信される日常的なEメール、見積書、請求書は、*トランザクションメール* として処理されます。 請求書や見積書のバッチ送信を含む "
 "*メール一括配信* は、マーケティングオートメーションまたはEメールマーケティングアプリケーションによって管理されます。"
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:148
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:149
 msgid ""
 "You can use services like Gmail, Amazon SES, or Brevo for transactional "
 "emails, and services like Mailgun, Sendgrid, or Mailjet for mass mailings."
@@ -4343,7 +4345,7 @@ msgstr ""
 "ランザクションメールには、Gmail、Amazon "
 "SES、Brevoなどのサービスを利用できます。また、メール一括配信には、Mailgun、Sendgrid、Mailjetなどのサービスを利用できます。"
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:151
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:152
 msgid ""
 "First, activate the :ref:`developer-mode` and go to :menuselection:`Settings"
 " --> Technical --> Email: Outgoing Mail Servers`. There, add two outgoing "
@@ -4361,7 +4363,7 @@ msgstr ""
 msgid "Example of split between transaction and mass mailing mail servers."
 msgstr "取引とメール一括配信サーバ間の分割の例。"
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:160
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:161
 msgid ""
 "Now, go to :menuselection:`Email Marketing --> Configuration --> Settings`, "
 "enable :guilabel:`Dedicated Server`, and select the appropriate email "
@@ -14380,31 +14382,34 @@ msgstr "選択された言語で、Eメールとドキュメントがユーザ�
 
 #: ../../content/applications/general/users/ldap.rst:3
 msgid "LDAP authentication"
-msgstr ""
+msgstr "LDAP認証"
 
 #: ../../content/applications/general/users/ldap.rst:5
 msgid ""
 "To configure :abbr:`LDAP (Lightweight Directory Access Protocol)` "
 "authentication in Odoo:"
-msgstr ""
+msgstr "Odooで :abbr:`LDAP (Lightweight Directory Access Protocol)` 認証を設定するには:"
 
 #: ../../content/applications/general/users/ldap.rst:7
 msgid ""
 "Open the Settings app, scroll down to the :guilabel:`Integrations` section, "
 "and enable :guilabel:`LDAP Authentication`."
 msgstr ""
+"設定アプリを開き、スクロールダウンして :guilabel:`統合` セクションまで移動し :guilabel:`LDAP認証` を有効にします。"
 
 #: ../../content/applications/general/users/ldap.rst:9
 msgid ""
 "Click :guilabel:`Save`, then go back to the :guilabel:`Integrations` section"
 " and click :guilabel:`LDAP Server`."
 msgstr ""
+":guilabel:`保存` をクリックし、:guilabel:`統合` セクションに戻って、:guilabel:`LDAPサーバ` をクリックします。"
 
 #: ../../content/applications/general/users/ldap.rst:11
 msgid ""
 "In the :guilabel:`Set up your LDAP Server` list, click :guilabel:`New`, then"
 " select the required company in the dropdown list."
 msgstr ""
+" :guilabel:`LDAPサーバの設定` リストで :guilabel:`新規` をクリックし、ドロップダウンリストから必要な会社を選択します。"
 
 #: ../../content/applications/general/users/ldap.rst:13
 msgid ""
@@ -14412,12 +14417,16 @@ msgid ""
 " and port in the :guilabel:`LDAP server address` and :guilabel:`LDAP Server "
 "port` fields, respectively."
 msgstr ""
+":guilabel:`サーバ情報` セクションでサーバのIPアドレスとポートを各 :guilabel:`LDAPサーバアドレス` と "
+":guilabel:`LDAPサーバポート` フィールドに入力します。"
 
 #: ../../content/applications/general/users/ldap.rst:15
 msgid ""
 "Enable :guilabel:`Use TLS` to request secure TLS/SSL encryption when "
 "connecting to the LDAP server, providing the server has StartTLS enabled."
 msgstr ""
+"LDAPサーバに接続する際に安全なTLS/SSL暗号化を要求するには、:guilabel:`Use TLSを使用` "
+"を有効にして下さい。ただし、サーバでStartTLSが有効になっている場合に限ります。"
 
 #: ../../content/applications/general/users/ldap.rst:17
 msgid ""
@@ -14426,36 +14435,45 @@ msgid ""
 ":guilabel:`LDAP password` fields, respectively. If the fields are left "
 "empty, the server will perform the query anonymously."
 msgstr ""
+":guilabel:`ログイン情報` セクションで、:guilabel:`LDAP binddn` および :guilabel:`LDAPパスワード` "
+"フィールドに、それぞれサーバに問い合わせを行う際に使用するアカウントのIDとパスワードを入力します。 "
+"フィールドが空欄のままの場合、サーバは匿名で問い合わせを行います。"
 
 #: ../../content/applications/general/users/ldap.rst:20
 msgid "In the :guilabel:`Process parameter` section, enter:"
-msgstr ""
+msgstr ":guilabel:`パラメータを処理` セクションで以下を入力します:"
 
 #: ../../content/applications/general/users/ldap.rst:22
 msgid ""
 "the LDAP server's name in the :guilabel:`LDAP base` field using LDAP format "
 "(e.g., ``dc=example,dc=com``);"
 msgstr ""
+":guilabel:`LDAP base` フィールド内でLDAPフォーマット (例 ``dc=example,dc=com``) "
+"を使用したLDAPサーバ名"
 
 #: ../../content/applications/general/users/ldap.rst:24
 msgid "``uid=%s`` in the :guilabel:`LDAP filter` field."
-msgstr ""
+msgstr ":guilabel:`LDAPフィルタ` フィールド内での ``uid=%s`` "
 
 #: ../../content/applications/general/users/ldap.rst:26
 msgid "In the :guilabel:`User information` section:"
-msgstr ""
+msgstr ":guilabel:`ユーザ情報`セクション:"
 
 #: ../../content/applications/general/users/ldap.rst:28
 msgid ""
 "Enable :guilabel:`Create user` to create a user profile in Odoo the first "
 "time someone logs in using LDAP;"
 msgstr ""
+"LDAPを使用して誰かが初めてログインした際に、Odooでユーザプロファイルを作成できるようにするには、:guilabel:`ユーザ作成` "
+"を有効にします。"
 
 #: ../../content/applications/general/users/ldap.rst:30
 msgid ""
 "Select the :guilabel:`User template` to be used to create the new user "
 "profiles. If no template is selected, the administrator's profile is used."
 msgstr ""
+"新しいユーザプロファイルを作成する際に使用する :guilabel:`ユーザテンプレート` "
+"を選択します。テンプレートが選択されていない場合は、管理者のプロファイルが使用されます。"
 
 #: ../../content/applications/general/users/ldap.rst:34
 msgid ""
@@ -14463,28 +14481,31 @@ msgid ""
 " experience login issues despite using valid credentials, create a new "
 "system parameter to disable referral chasing in the LDAP client:"
 msgstr ""
+"Microsoft Active Directory (AD) "
+"を使用してLDAP認証を行う場合、ユーザが有効な認証情報を使用しているにもかかわらずログインに問題がある場合は、LDAPクライアントで照会追跡を無効にする新しいシステムパラメータを作成します。"
 
 #: ../../content/applications/general/users/ldap.rst:38
 msgid ":ref:`Activate the developer mode. <developer-mode>`"
-msgstr ""
+msgstr ":ref:`開発者モードを有効化します。 <developer-mode>`"
 
 #: ../../content/applications/general/users/ldap.rst:39
 msgid ""
 "Go to :menuselection:`Settings --> Technical --> System Parameters` and "
 "click :guilabel:`New`."
 msgstr ""
+":menuselection:`管理設定 --> 技術設定 --> システムパラメータ` に行き、:guilabel:`新規` をクリックします。"
 
 #: ../../content/applications/general/users/ldap.rst:41
 msgid "Fill in the fields:"
-msgstr ""
+msgstr "以下のフィールを入力します:"
 
 #: ../../content/applications/general/users/ldap.rst:43
 msgid ":guilabel:`Key`: ``auth_ldap.disable_chase_ref``"
-msgstr ""
+msgstr ":guilabel:`キー: ``auth_ldap.disable_chase_ref``"
 
 #: ../../content/applications/general/users/ldap.rst:44
 msgid ":guilabel:`Value`: ``True``"
-msgstr ""
+msgstr ":guilabel:`値`: ``True``"
 
 #: ../../content/applications/general/users/portal.rst:3
 msgid "Portal access"

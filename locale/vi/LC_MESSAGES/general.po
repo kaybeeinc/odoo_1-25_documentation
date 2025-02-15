@@ -8,16 +8,16 @@
 # Nancy Momoland <thanh.np2502@gmail.com>, 2024
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
-# Thi Huong Nguyen, 2024
+# Thi Huong Nguyen, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-31 16:01+0000\n"
+"POT-Creation-Date: 2025-01-28 12:25+0000\n"
 "PO-Revision-Date: 2024-10-08 06:34+0000\n"
-"Last-Translator: Thi Huong Nguyen, 2024\n"
+"Last-Translator: Thi Huong Nguyen, 2025\n"
 "Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: ../../content/applications/general/apps_modules.rst:3
 msgid "Apps and modules"
-msgstr ""
+msgstr "Ứng dụng và phân hệ"
 
 #: ../../content/applications/general/apps_modules.rst:5
 msgid ""
@@ -273,7 +273,7 @@ msgstr ""
 
 #: ../../content/applications/general/companies.rst:75
 msgid "Switch between companies"
-msgstr ""
+msgstr "Chuyển đổi giữa các công ty"
 
 #: ../../content/applications/general/companies.rst:77
 msgid ""
@@ -495,23 +495,24 @@ msgstr ""
 
 #: ../../content/applications/general/companies.rst:204
 msgid ":doc:`Taxes <../finance/accounting/taxes>`"
-msgstr ""
+msgstr ":doc:`Thuế <../finance/accounting/taxes>`"
 
 #: ../../content/applications/general/companies.rst:205
 msgid ":doc:`Fiscal Positions <../finance/accounting/taxes/fiscal_positions>`"
 msgstr ""
+":doc:`Vị trí tài chính <../finance/accounting/taxes/fiscal_positions>`"
 
 #: ../../content/applications/general/companies.rst:206
 msgid ":doc:`Journals <../finance/accounting/bank>`"
-msgstr ""
+msgstr ":doc:`Sổ nhật ký <../finance/accounting/bank>`"
 
 #: ../../content/applications/general/companies.rst:207
 msgid ":doc:`Fiscal Localizations <../finance/fiscal_localizations>`"
-msgstr ""
+msgstr ":doc:`Bản địa hoá tài chính <../finance/fiscal_localizations>`"
 
 #: ../../content/applications/general/companies.rst:208
 msgid ":doc:`Pricelists <../sales/sales/products_prices/prices/pricing>`"
-msgstr ""
+msgstr ":doc:`Bảng giá <../sales/sales/products_prices/prices/pricing>`"
 
 #: ../../content/applications/general/companies.rst:210
 msgid ""
@@ -608,7 +609,7 @@ msgstr ""
 
 #: ../../content/applications/general/companies.rst:257
 msgid ":doc:`Multi-company Guidelines <../../developer/howtos/company>`"
-msgstr ""
+msgstr ":doc:`Hướng dẫn về đa công ty <../../developer/howtos/company>`"
 
 #: ../../content/applications/general/companies.rst:258
 msgid ":doc:`../finance/accounting/get_started/multi_currency`"
@@ -879,7 +880,7 @@ msgstr ""
 
 #: ../../content/applications/general/companies/digest_emails.rst:130
 msgid ":guilabel:`Point of Sale`"
-msgstr ""
+msgstr ":guilabel:`Điểm bán hàng`"
 
 #: ../../content/applications/general/companies/digest_emails.rst:130
 msgid ":guilabel:`POS Sales`"
@@ -891,7 +892,7 @@ msgstr ""
 
 #: ../../content/applications/general/companies/digest_emails.rst:133
 msgid ":guilabel:`% of Happiness`"
-msgstr ""
+msgstr ":guilabel:`% hài lòng`"
 
 #: ../../content/applications/general/companies/digest_emails.rst:134
 msgid ":guilabel:`Conversations handled`"
@@ -1405,7 +1406,7 @@ msgstr ""
 
 #: ../../content/applications/general/companies/email_template.rst:103
 msgid "XML/HTML code editor"
-msgstr ""
+msgstr "Trình soạn thảo mã HTML/XML"
 
 #: ../../content/applications/general/companies/email_template.rst:105
 msgid ""
@@ -1467,6 +1468,13 @@ msgid ""
 "corresponding Odoo field. Each dynamic placeholder will vary in "
 "configuration."
 msgstr ""
+"Để sử dụng phần giữ chỗ động trong phần :guilabel:`Thân` của email, hãy mở "
+"tính năng **powerbox** bằng cách nhập `/` vào phần thân của mẫu email trong "
+"tab :guilabel:`Nội dung`. Cuộn xuống cuối danh sách tùy chọn, đến "
+":guilabel:`Công cụ marketing`. Tiếp theo, chọn :guilabel:`Phần giữ chỗ "
+"động`. Sau đó, chọn phần giữ chỗ động từ danh sách các tùy chọn khả dụng và "
+"làm theo hướng dẫn để cấu hình phần giữ chỗ động đó với trường Odoo tương "
+"ứng mong muốn. Mỗi phần giữ chỗ động sẽ có cấu hình khác nhau."
 
 #: ../../content/applications/general/companies/email_template.rst-1
 msgid "Using dynamic placeholders in an email template."
@@ -1942,15 +1950,15 @@ msgstr ""
 
 #: ../../content/applications/general/email_communication.rst:80
 msgid ":doc:`Outlook documentation <email_communication/azure_oauth>`"
-msgstr ""
+msgstr ":doc:`Tài liệu Outlook <email_communication/azure_oauth>`"
 
 #: ../../content/applications/general/email_communication.rst:81
 msgid ":doc:`Gmail documentation <email_communication/google_oauth>`"
-msgstr ""
+msgstr ":doc:`Tài liệu Gmail <email_communication/google_oauth>`"
 
 #: ../../content/applications/general/email_communication.rst:82
 msgid ":doc:`Mailjet documentation <email_communication/mailjet_api>`"
-msgstr ""
+msgstr ":doc:`Tài liệu Mailjet <email_communication/mailjet_api>`"
 
 #: ../../content/applications/general/email_communication.rst:85
 msgid ""
@@ -1961,11 +1969,11 @@ msgstr ""
 
 #: ../../content/applications/general/email_communication.rst:89
 msgid ":doc:`Activities <../essentials/activities>`"
-msgstr ""
+msgstr ":doc:`Hoạt động <../essentials/activities>`"
 
 #: ../../content/applications/general/email_communication.rst:90
 msgid ":doc:`Discuss app <../productivity/discuss>`"
-msgstr ""
+msgstr ":doc:`Ứng dụng Thảo luận <../productivity/discuss>`"
 
 #: ../../content/applications/general/email_communication.rst:91
 msgid ":doc:`Digest emails <companies/digest_emails>`"
@@ -1977,7 +1985,7 @@ msgstr ""
 
 #: ../../content/applications/general/email_communication.rst:93
 msgid ":doc:`Email templates <companies/email_template>`"
-msgstr ""
+msgstr ":doc:`Mẫu email <companies/email_template>`"
 
 #: ../../content/applications/general/email_communication.rst:94
 msgid ":ref:`Expense creation using an email alias <expenses/email_expense>`"
@@ -2249,7 +2257,7 @@ msgstr ""
 #: ../../content/applications/general/email_communication/azure_oauth.rst:136
 #: ../../content/applications/general/email_communication/google_oauth.rst:111
 msgid "Setup in Odoo"
-msgstr ""
+msgstr "Thiết lập trong Odoo"
 
 #: ../../content/applications/general/email_communication/azure_oauth.rst:139
 msgid "Enter Microsoft Outlook credentials"
@@ -2540,6 +2548,14 @@ msgid ""
 ":guilabel:`Outlook Token Valid` Now :guilabel:`Test and Confirm` the "
 "account. The account should be ready to receive email to the Odoo database."
 msgstr ""
+"Tài khoản email đến phải được cấu hình theo cách tương tự như tài khoản "
+"email đi. Đi đến :guilabel:`Máy chủ thư đến` trong :guilabel:`Menu kỹ thuật`"
+" và :guilabel:`Tạo` cấu hình mới. Đánh dấu hoặc Chọn nút bên cạnh "
+":guilabel:`Xác minh Oauth Outlook` và nhập :guilabel:`Tên người dùng "
+"Microsoft Outlook`. Nhấp vào :guilabel:`Kết nối tài khoản Outlook của bạn`. "
+"Odoo sẽ thông báo: :guilabel:`Token Outlook hợp lệ`. Bây giờ, hãy "
+":guilabel:`Kiểm tra và xác nhận` tài khoản. Tài khoản sẽ sẵn sàng nhận email"
+" đến cơ sở dữ liệu Odoo."
 
 #: ../../content/applications/general/email_communication/email_domain.rst:3
 msgid "Configure DNS records to send emails in Odoo"
@@ -2771,6 +2787,8 @@ msgid ""
 "`OVH DNS "
 "<https://docs.ovh.com/us/en/domains/web_hosting_how_to_edit_my_dns_zone/>`_"
 msgstr ""
+"`OVH DNS "
+"<https://docs.ovh.com/us/en/domains/web_hosting_how_to_edit_my_dns_zone/>`_"
 
 #: ../../content/applications/general/email_communication/email_domain.rst:140
 msgid ""
@@ -2789,6 +2807,9 @@ msgid ""
 "<https://www.namecheap.com/support/knowledgebase/article.aspx/317/2237/how-"
 "do-i-add-txtspfdkimdmarc-records-for-my-domain/>`_"
 msgstr ""
+"`NameCheap "
+"<https://www.namecheap.com/support/knowledgebase/article.aspx/317/2237/how-"
+"do-i-add-txtspfdkimdmarc-records-for-my-domain/>`_"
 
 #: ../../content/applications/general/email_communication/email_domain.rst:143
 msgid ""
@@ -2810,6 +2831,8 @@ msgid ""
 "`Azure DNS <https://docs.microsoft.com/en-us/azure/dns/dns-getstarted-"
 "portal>`_"
 msgstr ""
+"`Azure DNS <https://docs.microsoft.com/en-us/azure/dns/dns-getstarted-"
+"portal>`_"
 
 #: ../../content/applications/general/email_communication/email_domain.rst:147
 msgid ""
@@ -2838,7 +2861,7 @@ msgstr ""
 
 #: ../../content/applications/general/email_communication/email_servers_inbound.rst:12
 msgid "Email aliases"
-msgstr ""
+msgstr "Bí danh email"
 
 #: ../../content/applications/general/email_communication/email_servers_inbound.rst:17
 msgid "Model specific aliases"
@@ -3184,15 +3207,15 @@ msgstr ""
 
 #: ../../content/applications/general/email_communication/email_servers_inbound.rst:210
 msgid "`catchall@company-name.com` → `catchall@company-name.odoo.com`"
-msgstr ""
+msgstr "`catchall@company-name.com` → `catchall@company-name.odoo.com`"
 
 #: ../../content/applications/general/email_communication/email_servers_inbound.rst:211
 msgid "`bounce@company-name.com` → `bounce@company-name.odoo.com`"
-msgstr ""
+msgstr "`bounce@company-name.com` → `bounce@company-name.odoo.com`"
 
 #: ../../content/applications/general/email_communication/email_servers_inbound.rst:212
 msgid "`info@company-name.com` → `info@company-name.odoo.com`"
-msgstr ""
+msgstr "`info@company-name.com` → `info@company-name.odoo.com`"
 
 #: ../../content/applications/general/email_communication/email_servers_inbound.rst:215
 msgid ""
@@ -3636,18 +3659,19 @@ msgstr ""
 msgid ""
 "To add an external SMTP server in Odoo, open :guilabel:`Settings`, and "
 "enable the :guilabel:`Use Custom Email Servers` option found under the "
-":guilabel:`Discuss` section."
+":guilabel:`Emails` section. Then, click :guilabel:`Save` at the top of the "
+"page to save the changes."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:105
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:106
 msgid ""
-"Still under the :guilabel:`Discuss` section, click :guilabel:`Outgoing Email"
+"Returning to the :guilabel:`Emails` section, click :guilabel:`Outgoing Email"
 " Servers`, then `New` to create an outgoing mail server record. Most fields "
 "are the common parameters used to set up a connection to an SMTP server; use"
 " the values provided by your email provider."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:109
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:110
 msgid ""
 "Once completed, click :guilabel:`Test Connection`. Note that a successful "
 "test connection does not confirm that the email will go out as some "
@@ -3655,61 +3679,61 @@ msgid ""
 "consult your provider’s documentation."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:116
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:117
 msgid "Local-part values"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:118
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:119
 msgid ""
 "Below are presented the different local-part values that can be used by Odoo"
 " to send emails. It might be required to whitelist them in your mail server:"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:121
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:122
 msgid "The Alias Domain Bounce Alias (default value = `bounce`),"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:122
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:123
 msgid "The Alias Domain Default From (default value = `notifications`),"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:123
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:124
 msgid ""
 "The default admin address `admin@company-name.odoo.com` or, if changed, the "
 "new value),"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:124
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:125
 msgid ""
 "The default Odoobot address `odoobot@company-name.odoo.com` or, if changed, "
 "the new value),"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:125
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:126
 msgid "The specific FROM defined on an email marketing campaign,"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:126
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:127
 msgid "The specific FROM that can be defined in an email template."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:129
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:130
 msgid ":doc:`google_oauth`"
 msgstr ":doc:`google_oauth`"
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:130
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:131
 msgid ":doc:`azure_oauth`"
 msgstr ":doc:`azure_oauth`"
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:135
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:136
 msgid "Setting up different servers for transactional and mass emails"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:140
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:141
 msgid "Personalized mail servers"
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:142
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:143
 msgid ""
 "Transactional emails and mass mailings can be sent using separate email "
 "servers in Odoo. Doing so means day-to-day emails, quotations, or invoices "
@@ -3718,13 +3742,13 @@ msgid ""
 " managed by the Marketing Automation or Email Marketing application."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:148
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:149
 msgid ""
 "You can use services like Gmail, Amazon SES, or Brevo for transactional "
 "emails, and services like Mailgun, Sendgrid, or Mailjet for mass mailings."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:151
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:152
 msgid ""
 "First, activate the :ref:`developer-mode` and go to :menuselection:`Settings"
 " --> Technical --> Email: Outgoing Mail Servers`. There, add two outgoing "
@@ -3738,7 +3762,7 @@ msgstr ""
 msgid "Example of split between transaction and mass mailing mail servers."
 msgstr ""
 
-#: ../../content/applications/general/email_communication/email_servers_outbound.rst:160
+#: ../../content/applications/general/email_communication/email_servers_outbound.rst:161
 msgid ""
 "Now, go to :menuselection:`Email Marketing --> Configuration --> Settings`, "
 "enable :guilabel:`Dedicated Server`, and select the appropriate email "
@@ -4498,6 +4522,14 @@ msgid ""
 "to send repeatedly. Logs show every action to the email servers from the "
 "database."
 msgstr ""
+"Bạn có thể sử dụng nhật ký cơ sở dữ liệu để hiểu và khắc phục sự cố. Nhật ký"
+" là tập hợp được lưu trữ của tất cả các tác vụ đã hoàn thành trong cơ sở dữ "
+"liệu. Chúng là một biểu diễn chỉ có văn bản, hoàn chỉnh với dấu thời gian "
+"của mọi hành động được thực hiện trên cơ sở dữ liệu Odoo. Điều này có thể "
+"hữu ích để theo dõi các email rời khỏi cơ sở dữ liệu. Các lỗi gửi cũng có "
+"thể được nhật ký nhìn thấy khi chúng chỉ ra rằng tin nhắn đã cố gắng gửi "
+"nhiều lần. Nhật ký hiển thị mọi hành động đến máy chủ email từ cơ sở dữ "
+"liệu."
 
 #: ../../content/applications/general/email_communication/faq.rst:310
 msgid ""
@@ -5410,7 +5442,7 @@ msgstr ""
 
 #: ../../content/applications/general/integrations/google_translate.rst:3
 msgid "Google Translate"
-msgstr ""
+msgstr "Google Dịch"
 
 #: ../../content/applications/general/integrations/google_translate.rst:5
 msgid ""
@@ -6476,7 +6508,7 @@ msgstr ""
 
 #: ../../content/applications/general/iot/config/connect.rst:170
 msgid "Raspberry Pi 4"
-msgstr ""
+msgstr "Raspberry Pi 4"
 
 #: ../../content/applications/general/iot/config/connect.rst:174
 msgid "The Odoo IoT box (Raspberry Pi 4) schema with labels."
@@ -6484,7 +6516,7 @@ msgstr ""
 
 #: ../../content/applications/general/iot/config/connect.rst:177
 msgid "Raspberry Pi 3"
-msgstr ""
+msgstr "Raspberry Pi 3"
 
 #: ../../content/applications/general/iot/config/connect.rst:181
 msgid "The Odoo IoT box (Raspberry Pi 3) schema with labels."
@@ -6492,11 +6524,11 @@ msgstr ""
 
 #: ../../content/applications/general/iot/config/https_certificate_iot.rst:5
 msgid "HTTPS certificate (IoT)"
-msgstr ""
+msgstr "Chứng chỉ HTTPS (IoT)"
 
 #: ../../content/applications/general/iot/config/https_certificate_iot.rst:8
 msgid "What is HTTPS?"
-msgstr ""
+msgstr "HTTPS là gì?"
 
 #: ../../content/applications/general/iot/config/https_certificate_iot.rst:10
 msgid ""
@@ -7035,7 +7067,7 @@ msgstr ""
 
 #: ../../content/applications/general/iot/config/pos.rst:51
 msgid "Customer display"
-msgstr ""
+msgstr "Màn hình cho khách hàng"
 
 #: ../../content/applications/general/iot/config/pos.rst:52
 msgid ""
@@ -7121,7 +7153,7 @@ msgstr ""
 
 #: ../../content/applications/general/iot/config/ssh_connect.rst:31
 msgid "Click :guilabel:`Generate password`."
-msgstr ""
+msgstr "Nhấp :guilabel:`Tạo mật khẩu`."
 
 #: ../../content/applications/general/iot/config/ssh_connect.rst:34
 msgid ""
@@ -7160,7 +7192,7 @@ msgstr "Khắc phục sự cố"
 
 #: ../../content/applications/general/iot/config/troubleshooting.rst:6
 msgid "IoT box connection"
-msgstr ""
+msgstr "Kết nối Hộp IoT"
 
 #: ../../content/applications/general/iot/config/troubleshooting.rst:9
 msgid "Unable to locate the pairing code to connect the IoT box"
@@ -7426,7 +7458,7 @@ msgstr ""
 
 #: ../../content/applications/general/iot/config/troubleshooting.rst:155
 msgid "**Choosing the printer**"
-msgstr ""
+msgstr "**Chọn máy in**"
 
 #: ../../content/applications/general/iot/config/troubleshooting.rst:157
 msgid ""
@@ -7709,6 +7741,14 @@ msgid ""
 "plugging it back in, the printer reappears, so it can be said that this is "
 "the printer in question."
 msgstr ""
+"Trong trường hợp này, máy in được kết nối qua :abbr:`USB (Universal Serial "
+"Bus)` nên nó sẽ không phải là một phần của :guilabel:`Máy in mạng được phát "
+"hiện`. Thay vào đó, nó có thể là một phần của lựa chọn :guilabel:`Không xác "
+"định` trong :guilabel:`Máy in cục bộ`. Bằng cách rút :abbr:`USB (Universal "
+"Serial Bus)` của máy in khỏi hộp :abbr:`IoT (Internet vạn vật)` và làm mới "
+"trang, máy in :guilabel:`Không xác định` sẽ biến mất. Bằng cách cắm lại, máy"
+" in sẽ xuất hiện trở lại, vì vậy có thể nói rằng đây chính là máy in đang "
+"được đề cập."
 
 #: ../../content/applications/general/iot/config/troubleshooting.rst:296
 msgid ""
@@ -8336,6 +8376,13 @@ msgid ""
 " update, or an update from the :abbr:`IoT (Internet of Things)` box home "
 "page, does not resolve issues."
 msgstr ""
+"Trong một số trường hợp, Thẻ micro SD của hộp :abbr:`IoT (Internet vạn vật)`"
+" có thể cần phải được flash lại bằng phần mềm *Etcher* để được hưởng lợi từ "
+"bản cập nhật hình ảnh :abbr:`IoT (Internet vạn vật)` mới nhất của Odoo. Điều"
+" này có nghĩa là phần mềm hộp :abbr:`IoT (Internet vạn vật)` của Odoo có thể"
+" cần được cập nhật nếu có hộp :abbr:`IoT (Internet vạn vật)` mới hoặc khi "
+"bản cập nhật của trình xử lý hoặc bản cập nhật từ trang chủ hộp :abbr:`IoT "
+"(Internet vạn vật)` không giải quyết được sự cố."
 
 #: ../../content/applications/general/iot/config/updating_iot.rst:38
 msgid ""
@@ -8524,11 +8571,11 @@ msgstr ""
 
 #: ../../content/applications/general/iot/config/updating_iot.rst:141
 msgid ":guilabel:`Odoo server`"
-msgstr ""
+msgstr ":guilabel:`Máy chủ Odoo`"
 
 #: ../../content/applications/general/iot/config/updating_iot.rst:142
 msgid ":guilabel:`Odoo IoT`"
-msgstr ""
+msgstr ":guilabel:`Odoo IoT`"
 
 #: ../../content/applications/general/iot/config/updating_iot.rst:143
 msgid ":guilabel:`Nginx WebServer`"
@@ -8776,11 +8823,11 @@ msgstr ""
 
 #: ../../content/applications/general/iot/config/windows_iot.rst:52
 msgid "**Odoo server**"
-msgstr ""
+msgstr "**Máy chủ Odoo**"
 
 #: ../../content/applications/general/iot/config/windows_iot.rst:53
 msgid "**Odoo IoT**"
-msgstr ""
+msgstr "**Odoo IoT**"
 
 #: ../../content/applications/general/iot/config/windows_iot.rst:54
 msgid "**Nginx WebServer**"
@@ -8864,7 +8911,7 @@ msgstr ""
 
 #: ../../content/applications/general/iot/config/windows_iot.rst:99
 msgid "Receipt printers (Epson/Star)"
-msgstr ""
+msgstr "Máy in biên lai (Epson/Star)"
 
 #: ../../content/applications/general/iot/config/windows_iot.rst:100
 msgid "Barcode scanners"
@@ -8884,7 +8931,7 @@ msgstr ""
 
 #: ../../content/applications/general/iot/config/windows_iot.rst:106
 msgid "Label printers (Zebra)"
-msgstr ""
+msgstr "Máy in nhãn (Zebra)"
 
 #: ../../content/applications/general/iot/config/windows_iot.rst:107
 msgid "Scales"
@@ -9007,7 +9054,7 @@ msgstr ""
 
 #: ../../content/applications/general/iot/config/windows_iot.rst:180
 msgid "Configure new rule"
-msgstr ""
+msgstr "Cấu hình quy tắc mới"
 
 #: ../../content/applications/general/iot/config/windows_iot.rst:182
 msgid ""
@@ -9313,6 +9360,12 @@ msgid ""
 "point/check has been reached, or when a specific key is pressed during "
 "manufacturing."
 msgstr ""
+"Bạn có thể kết nối camera với hộp :abbr:`IoT (Internet vạn vật)` đã tích hợp"
+" với cơ sở dữ liệu Odoo chỉ trong vài bước. Sau khi camera được kết nối với "
+"hộp :abbr:`IoT (Internet vạn vật)`, nó có thể được sử dụng trong quy trình "
+"sản xuất hoặc có thể được liên kết với điểm kiểm soát chất lượng/kiểm tra "
+"chất lượng. Điều này cho phép chụp ảnh khi đạt đến điểm kiểm soát/kiểm tra "
+"chất lượng đã chọn hoặc khi nhấn một phím cụ thể trong quá trình sản xuất."
 
 #: ../../content/applications/general/iot/devices/camera.rst:12
 #: ../../content/applications/general/iot/devices/footswitch.rst:14
@@ -9496,6 +9549,16 @@ msgid ""
 "*Manufacturing app* could be the :guilabel:`Validate` or :guilabel:`Mark as "
 "Done` buttons on a manufacturing work order."
 msgstr ""
+"Để liên kết footswitch với một tác vụ, trước tiên cần phải cấu hình nó trên "
+"một khu vực làm việc. Đi đến :menuselection:`Ứng dụng Sản xuất --> Cấu hình "
+"--> Khu vực làm việc`. Từ đây, hãy đến :guilabel:`Khu vực làm việc` mong "
+"muốn mà footswitch sẽ được sử dụng và thêm thiết bị vào tab :guilabel:`Trình"
+" kích hoạt IoT`, trong cột :guilabel:`Thiết bị`, bằng cách chọn "
+":guilabel:`Thêm một dòng`. Điều này có nghĩa là footswitch có thể được liên "
+"kết với một tùy chọn trong danh sách thả xuống cột :guilabel:`Tác vụ` và bạn"
+" có thể chọn thêm một khóa để kích hoạt nó. Một ví dụ về :guilabel:`Tác vụ` "
+"trong *ứng dụng Sản xuất* có thể là các nút :guilabel:`Xác thực` hoặc "
+":guilabel:`Đánh dấu là hoàn tất` trên một công đoạn sản xuất."
 
 #: ../../content/applications/general/iot/devices/footswitch.rst-1
 msgid "Footswitch trigger setup on the Odoo database."
@@ -10162,6 +10225,13 @@ msgid ""
 "the company name in the drop-down menu. To enable multiple companies at "
 "once, tick the checkbox next to each desired company name."
 msgstr ""
+"Danh sách :ref:`các công ty mà nhân viên có quyền truy cập "
+"<general/employee-access>` trong |mcd| có thể được tìm thấy ở góc trên bên "
+"phải của thanh menu chính của Odoo, nơi liệt kê những công ty đang hoạt "
+"động. Nhấp vào tên công ty để hiển thị danh sách tất cả công ty được phép. "
+"Để chuyển sang một công ty khác, hãy nhấp vào tên công ty trong menu thả "
+"xuống. Để bật nhiều công ty cùng một lúc, hãy đánh dấu vào hộp kiểm bên cạnh"
+" mỗi tên công ty mong muốn."
 
 #: ../../content/applications/general/multi_company.rst:29
 msgid ""
@@ -10272,7 +10342,7 @@ msgstr ""
 
 #: ../../content/applications/general/multi_company.rst:92
 msgid "Use cases"
-msgstr ""
+msgstr "Trường hợp vận dụng"
 
 #: ../../content/applications/general/multi_company.rst:95
 msgid "Multinational companies"
@@ -10334,7 +10404,7 @@ msgstr ""
 #: ../../content/applications/general/multi_company.rst:125
 #: ../../content/applications/general/users/access_rights.rst:3
 msgid "Access rights"
-msgstr ""
+msgstr "Quyền truy cập"
 
 #: ../../content/applications/general/multi_company.rst:127
 msgid ""
@@ -10355,7 +10425,7 @@ msgstr ""
 
 #: ../../content/applications/general/multi_company.rst:137
 msgid "PDF Reports"
-msgstr ""
+msgstr "Báo cáo PDF"
 
 #: ../../content/applications/general/multi_company.rst:139
 msgid ""
@@ -10797,27 +10867,31 @@ msgstr ""
 
 #: ../../content/applications/general/users/2fa.rst:25
 msgid "`Authy <https://authy.com/>`_"
-msgstr ""
+msgstr "`Authy <https://authy.com/>`_"
 
 #: ../../content/applications/general/users/2fa.rst:26
 msgid "`FreeOTP <https://freeotp.github.io/>`_"
-msgstr ""
+msgstr "`FreeOTP <https://freeotp.github.io/>`_"
 
 #: ../../content/applications/general/users/2fa.rst:27
 msgid ""
 "`Google Authenticator "
 "<https://support.google.com/accounts/answer/1066447?hl=en>`_"
 msgstr ""
+"`Google Authenticator "
+"<https://support.google.com/accounts/answer/1066447?hl=en>`_"
 
 #: ../../content/applications/general/users/2fa.rst:28
 msgid "`LastPass Authenticator <https://lastpass.com/auth/>`_"
-msgstr ""
+msgstr "`LastPass Authenticator <https://lastpass.com/auth/>`_"
 
 #: ../../content/applications/general/users/2fa.rst:29
 msgid ""
 "`Microsoft Authenticator <https://www.microsoft.com/en-"
 "gb/account/authenticator?cmp=h66ftb_42hbak>`_"
 msgstr ""
+"`Microsoft Authenticator <https://www.microsoft.com/en-"
+"gb/account/authenticator?cmp=h66ftb_42hbak>`_"
 
 #: ../../content/applications/general/users/2fa.rst:32
 msgid "Password managers are another option. Common examples include:"
@@ -10830,6 +10904,7 @@ msgstr ""
 #: ../../content/applications/general/users/2fa.rst:35
 msgid "`Bitwarden <https://bitwarden.com/help/article/authenticator-keys/>`_,"
 msgstr ""
+"`Bitwarden <https://bitwarden.com/help/article/authenticator-keys/>`_,"
 
 #: ../../content/applications/general/users/2fa.rst:38
 msgid ""
@@ -10840,7 +10915,7 @@ msgstr ""
 
 #: ../../content/applications/general/users/2fa.rst:42
 msgid "Two-factor authentication setup"
-msgstr ""
+msgstr "Thiết lập xác thực hai yếu tố"
 
 #: ../../content/applications/general/users/2fa.rst:44
 msgid ""
@@ -11230,6 +11305,8 @@ msgid ""
 "`[('mrp_production_ids', 'in', "
 "user.partner_id.commercial_partner_id.production_ids.ids)]`"
 msgstr ""
+"`[('mrp_production_ids', 'in', "
+"user.partner_id.commercial_partner_id.production_ids.ids)]`"
 
 #: ../../content/applications/general/users/access_rights.rst:149
 msgid ""
@@ -11350,7 +11427,7 @@ msgstr ""
 
 #: ../../content/applications/general/users/azure.rst:27
 msgid "Odoo System Parameter"
-msgstr ""
+msgstr "Tham số hệ thống Odoo"
 
 #: ../../content/applications/general/users/azure.rst:29
 msgid ""
@@ -11368,7 +11445,7 @@ msgstr ""
 
 #: ../../content/applications/general/users/azure.rst:37
 msgid "Microsoft Azure dashboard"
-msgstr ""
+msgstr "Trang chủ Microsoft Azure"
 
 #: ../../content/applications/general/users/azure.rst:42
 msgid ""
@@ -11452,6 +11529,14 @@ msgid ""
 "and check the boxes labeled: :guilabel:`Access tokens (used for implicit "
 "flows)` and :guilabel:`ID tokens (used for implicit and hybrid flows)`."
 msgstr ""
+"Tiếp theo, loại *token* cần thiết cho xác thực OAuth sẽ được chọn. Đây không"
+" phải là token tiền tệ mà là token xác thực được truyền giữa Microsoft và "
+"Odoo. Do đó, không mất phí cho các token này; chúng chỉ được sử dụng cho mục"
+" đích xác thực giữa hai :abbr:`API (giao diện lập trình ứng dụng)`. Chọn các"
+" token sẽ được cấp bởi endpoint ủy quyền bằng cách cuộn xuống màn hình và "
+"đánh dấu vào các ô có nhãn: :guilabel:`Token truy cập (được sử dụng cho các "
+"chu trình ngầm)` và :guilabel:`Token ID (được sử dụng cho các chu trình ngầm"
+" và hybrid)`."
 
 #: ../../content/applications/general/users/azure.rst-1
 msgid "Authentication settings and endpoint tokens."
@@ -11750,7 +11835,7 @@ msgstr ""
 
 #: ../../content/applications/general/users/facebook.rst:82
 msgid "Click :guilabel:`Save changes`."
-msgstr ""
+msgstr "Nhấp :guilabel:`Lưu thay đổi`."
 
 #: ../../content/applications/general/users/facebook.rst-1
 msgid ""
@@ -12239,11 +12324,11 @@ msgstr ""
 
 #: ../../content/applications/general/users/ldap.rst:43
 msgid ":guilabel:`Key`: ``auth_ldap.disable_chase_ref``"
-msgstr ""
+msgstr ":guilabel:`Khoá`: ``auth_ldap.disable_chase_ref``"
 
 #: ../../content/applications/general/users/ldap.rst:44
 msgid ":guilabel:`Value`: ``True``"
-msgstr ""
+msgstr ":guilabel:`Giá trị`: ``True``"
 
 #: ../../content/applications/general/users/portal.rst:3
 msgid "Portal access"

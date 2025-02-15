@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-31 16:01+0000\n"
+"POT-Creation-Date: 2025-01-28 12:25+0000\n"
 "PO-Revision-Date: 2024-10-08 06:34+0000\n"
 "Last-Translator: Chloe Wang, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
@@ -3980,15 +3980,17 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/create_events.rst:65
 msgid ""
-":guilabel:`Date`: when the event is scheduled to take place. This field is "
-"auto-populated, but modifiable, and is **required**."
-msgstr ":guilabel:`日期`：活动计划发生的时间。此字段为自动填充，但可修改，并且是**必填**。"
+":guilabel:`Date`: when the event is scheduled to take place (expressed in "
+"your local timezone). This field is auto-populated, but modifiable, and is "
+"**required**."
+msgstr ""
 
 #: ../../content/applications/marketing/events/create_events.rst:67
 msgid ""
-":guilabel:`Timezone`: the corresponding timezone related to the event. This "
-"field is auto-populated, but modifiable, and is **required**."
-msgstr ":guilabel:`时区`：与事件相关的相应时区。此字段为自动填充，但可修改，并且是**必填**。"
+":guilabel:`Display Timezone`: the timezone in which the event dates/times "
+"will be displayed on the website. This field is auto-populated, but "
+"modifiable, and is **required**."
+msgstr ""
 
 #: ../../content/applications/marketing/events/create_events.rst:69
 msgid ""
@@ -6280,37 +6282,38 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/event_tracks.rst:226
 msgid "Add Quiz button"
-msgstr ""
+msgstr "添加测验按钮"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:228
 msgid ""
 "The :guilabel:`Add Quiz` button **only** appears on event track forms if the"
 " *Event Gamification* setting is enabled in the Odoo *Events* settings."
 msgstr ""
+"如果在 Odoo *活动* 设置中启用了 *活动游戏化* 设置，则 :guilabel:`添加测验` 按钮 **仅** 会出现在活动跟踪表单中。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:231
 msgid ""
 "To add a quiz to the event track, click the :guilabel:`Add Quiz` button. "
 "Doing so reveals a separate page where an event track quiz can be created "
 "and configured."
-msgstr ""
+msgstr "要在活动追踪中添加测验，请点击 :guilabel:`添加测验` 按钮。这样就会显示一个单独的页面，在此可以创建和配置事件追踪测验。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst-1
 msgid "The Add Quiz page in the Odoo Events application for an event track."
-msgstr ""
+msgstr "在 Odoo 活动应用程序中为活动轨迹添加测验页面。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:238
 msgid ""
 "Start by entering a title for the quiz in the blank field at the top of the "
 "page. Then, if participants should be allowed to try the quiz multiple "
 "times, tick the checkbox beside :guilabel:`Allow multiple tries`."
-msgstr ""
+msgstr "首先，在页面顶部的空白区域输入测验标题。然后，如果允许参与者多次尝试测验，请勾选 :guilabel:`允许多次尝试` 旁边的复选框。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:242
 msgid ""
 "The :guilabel:`Event` and :guilabel:`Event Track` fields are non-modifiable,"
 " and show the corresponding event and track this quiz is associated with."
-msgstr ""
+msgstr ":guilabel:`活动`和 :guilabel:`活动轨迹` 字段不可修改，并显示此测验关联的相应事件和轨迹。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:245
 msgid ""
@@ -6318,16 +6321,18 @@ msgid ""
 ":guilabel:`Question` column. Doing so reveals a :guilabel:`Create Questions`"
 " pop-up window."
 msgstr ""
+"要在测验中添加问题，请点击 :guilabel:`问题` 栏下的 :guilabel:`添加一行`。这样会弹出一个 :guilabel:`创建问题` "
+"窗口。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst-1
 msgid ""
 "The Create Questions pop-up window on an event-specific track quiz in the "
 "Odoo Events app."
-msgstr ""
+msgstr "在 Odoo 活动应用程序中，创建问题弹出窗口出现在特定活动轨迹测验上。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:253
 msgid "**All** track quiz questions are multiple choice."
-msgstr ""
+msgstr "**所有** 轨道测验题均为多选题。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:255
 msgid ""
@@ -6336,41 +6341,43 @@ msgid ""
 ":guilabel:`Add a line`, a new line appears, in which an answer option can be"
 " entered."
 msgstr ""
+"在弹出的窗口中，在顶部的空白区域输入问题。然后点击 :guilabel:`添加一行` 添加答案选项。点击 :guilabel:`添加一行` "
+"后，会出现一行新内容，可在其中输入答案选项。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:259
 msgid ""
 "Once an answer option has been entered, proceed to designate whether it is "
 "the :guilabel:`Correct` response, by ticking the checkbox in the "
 ":guilabel:`Correct` column."
-msgstr ""
+msgstr "输入答案选项后，请勾选 :guilabel:`正确` 栏中的复选框，指定该选项是否为 :guilabel:`正确` 答案。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:262
 msgid ""
 "Then, there is the option to add a point value in the :guilabel:`Points` "
 "column."
-msgstr ""
+msgstr "然后，可以选择在 :guilabel:`积点` 列中添加点值。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:264
 msgid ""
 "And, if there are any additional comments that should accompany an answer "
 "option, type them into the :guilabel:`Extra Comment` field."
-msgstr ""
+msgstr "如果答案选项有任何附加注释，请在 :guilabel:`附加评论` 字段中输入。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:268
 msgid ""
 "The :guilabel:`Correct`, :guilabel:`Points`, and :guilabel:`Extra Comment` "
 "fields are all optional."
-msgstr ""
+msgstr "guilabel:`正确`、:guilabel:`点数` 和 :guilabel:`附加评论` 字段都是可选的。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:271
 msgid "Repeat this process for all the answer options."
-msgstr ""
+msgstr "对所有答案选项重复此过程。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:273
 msgid ""
 "To remove an answer option, click the :icon:`fa-trash-o` :guilabel:`(trash "
 "can)` icon on the far-right."
-msgstr ""
+msgstr "要删除答案选项，请点击最右侧的 :icon:`fa-trash-o` :guilabel:`（垃圾桶）` 图标。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:276
 msgid ""
@@ -6391,7 +6398,7 @@ msgstr "要从测验中删除任何问题，请点击问题行最右侧的 :icon
 
 #: ../../content/applications/marketing/events/event_tracks.rst:285
 msgid "Publish event track"
-msgstr ""
+msgstr "发布活动轨迹"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:287
 msgid ""
@@ -6406,7 +6413,7 @@ msgid ""
 "The stage of a track can also be changed from the :guilabel:`Event Tracks` "
 "page, where the desired track card can be dragged-and-dropped into the "
 "appropriate Kanban stage."
-msgstr ""
+msgstr "还可以通过 :guilabel:`活动轨迹` 页面更改轨道的阶段，在该页面中可以将所需的轨道卡拖放到相应的看板阶段。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:295
 msgid ""
@@ -6474,12 +6481,13 @@ msgid ""
 ":menuselection:`Events app --> Registration Desk`, and selecting the "
 ":guilabel:`Scan a badge` option."
 msgstr ""
+"通过导航至 :menuselection:`活动应用程序 --> 登记处` 并选择 :guilabel:`扫描胸卡` 选项，扫描活动参与者胸卡上的代码。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:28
 msgid ""
 "Odoo **must** be granted access to the camera being used for the "
 ":guilabel:`Scan a badge` option to work."
-msgstr ""
+msgstr "必须授予 Odoo 访问所用相机的权限，:guilabel:`扫描胸卡` 选项才能工作。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:31
 msgid ""
@@ -6488,12 +6496,14 @@ msgid ""
 "specified view finder box present, whose size can be manually modified, "
 "accordingly, using the :icon:`fa-crop` :guilabel:`(crop)` icon."
 msgstr ""
+"一旦 Odoo 可以访问摄像机，就会出现一个 :guilabel:`条形码扫描器` 弹出窗口，显示摄像机的视角。此外，还会出现一个指定的取景框，可使用 "
+":icon:`fa-crop`(裁剪)` 图标手动修改取景框的大小。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst-1
 msgid ""
 "The Barcode Scanner window of the Registration Desk in the Odoo Events "
 "application."
-msgstr ""
+msgstr "Odoo 活动应用程序中登记处的条形码扫描器窗口。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:39
 msgid ""
@@ -8157,6 +8167,9 @@ msgid ""
 "*Marketing Automation* app to confirm marketing email consent from the "
 "contacts in the *Newsletter* mailing list."
 msgstr ""
+"在发送任何营销电子邮件之前，:ref:`使用 *市场营销_自动化* 应用程序中的双重选择营销活动模板 "
+"<marketing_automation/template/using-double-optin>`，以确认 *时事通讯* "
+"邮件列表中的联系人同意发送营销电子邮件。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:141
 msgid ""
@@ -8164,16 +8177,18 @@ msgid ""
 "double opt-in in the *Confirmed contacts* mailing list "
 "(:menuselection:`Email Marketing app --> Mailing Lists --> Mailing Lists`)."
 msgstr ""
+"启动 *双重选择* 营销活动后，在 *已确认联系人* 邮件列表（:menuselection:`电子邮件营销应用程序--> 邮件列表--> "
+"邮件列表`）中查看已双选的联系人。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst-1
 msgid "Activity metrics on the campaign form."
-msgstr ""
+msgstr "活动表格上的活动指标。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:149
 msgid ""
 "Now, the *Confirmed contacts* mailing list is ready to be used for sending "
 "newsletter marketing emails from an Odoo database."
-msgstr ""
+msgstr "现在， *已确认联系人* 邮件列表已准备好，可以从 Odoo 数据库发送新闻通讯营销电子邮件。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:153
 msgid ":doc:`../understanding_metrics`"
@@ -10925,6 +10940,8 @@ msgid ""
 "example if the :guilabel:`Calendar Event` model is selected, then the "
 "following options appear in addition to those above:"
 msgstr ""
+"根据所选的 :guilabel:`模型`，可能会出现其他选项。例如，如果选择了 :guilabel:`日历活动` "
+"模型，则除上述选项外，还会出现以下选项："
 
 #: ../../content/applications/marketing/sms_marketing/sms_analysis.rst:70
 msgid ":guilabel:`Email Events`"
@@ -10975,6 +10992,8 @@ msgid ""
 "away from the completed automation rule, or manually save (by clicking the "
 ":guilabel:`☁️ (cloud)` icon), to implement the change."
 msgstr ""
+"在 :guilabel:`说明` 选项卡下添加任何必要的注释。最后，导航离开已完成的自动化规则，或手动保存（通过点击 :guilabel:`☁️ "
+"(云朵)` 图标）以执行更改。"
 
 #: ../../content/applications/marketing/social_marketing.rst:5
 msgid "Social Marketing"
@@ -11527,13 +11546,13 @@ msgstr "Odoo *社媒营销* 应用程序与其他 Odoo 应用程序整合，如*
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:3
 msgid "Social posts"
-msgstr ""
+msgstr "社交贴文"
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:5
 msgid ""
 "The Odoo *Social Marketing* application provides various ways to create "
 "posts for any type of social media outlet."
-msgstr ""
+msgstr "Odoo *社媒营销* 应用程序提供了为任何类型的社交媒体渠道创建贴文的各种方法。"
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:9
 msgid "Posts page"
@@ -12281,7 +12300,7 @@ msgstr "规则下方显示的 :guilabel:`记录` 数量代表指定目标受众�
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:395
 msgid ":doc:`social_campaigns`"
-msgstr ""
+msgstr ":doc:`social_campaigns`"
 
 #: ../../content/applications/marketing/surveys.rst:5
 msgid "Surveys"
@@ -12291,7 +12310,7 @@ msgstr "调查"
 msgid ""
 "Companies gather valuable insights from customers and employees through "
 "surveys, aiding informed decision-making."
-msgstr ""
+msgstr "公司通过调查从客户和员工那里收集宝贵的意见，从而帮助做出明智决策。"
 
 #: ../../content/applications/marketing/surveys.rst:10
 msgid ""
@@ -12683,7 +12702,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/surveys.rst:222
 msgid ":doc:`surveys/create`"
-msgstr ""
+msgstr ":doc:`调查/创建`"
 
 #: ../../content/applications/marketing/surveys.rst:225
 #: ../../content/applications/marketing/surveys/scoring.rst:3
@@ -12695,11 +12714,11 @@ msgid ""
 "Discover how to measure a survey participant's performance, or overall "
 "satisfaction, with Odoo's detailed (and fully customizable) survey scoring "
 "options."
-msgstr ""
+msgstr "了解如何利用 Odoo 详细（完全自定义）调查问卷评分选项来衡量调查问卷参与者的绩效或总体满意度。"
 
 #: ../../content/applications/marketing/surveys.rst:231
 msgid ":doc:`surveys/scoring`"
-msgstr ""
+msgstr ":doc:`调查/评分`"
 
 #: ../../content/applications/marketing/surveys.rst:234
 #: ../../content/applications/marketing/surveys/questions.rst:3
@@ -12712,11 +12731,11 @@ msgid ""
 "With Odoo *Surveys*, there are many question types and options to choose "
 "from, providing the ability to create any kind of unique survey, "
 "questionnarire, and/or certification."
-msgstr ""
+msgstr "借助 Odoo *调查问卷*，有许多问题类型和选项可供选择，从而能够创建任何类型的独特调查、问卷和/或认证。"
 
 #: ../../content/applications/marketing/surveys.rst:240
 msgid ":doc:`surveys/questions`"
-msgstr ""
+msgstr ":doc:`调查/问题`"
 
 #: ../../content/applications/marketing/surveys.rst:243
 #: ../../content/applications/marketing/surveys/live_session.rst:3
@@ -12746,10 +12765,12 @@ msgid ""
 "available in Odoo *Surveys* provide countless ways to examine everything "
 "related to surveys, and their submitted responses."
 msgstr ""
+"一旦开始收到调查问卷，就该对参与者的回复进行分析了。幸运的是，Odoo *调查* "
+"中的深入报告页面和选项提供了无数方法来检查与调查有关的所有内容及其提交的答复。"
 
 #: ../../content/applications/marketing/surveys.rst:260
 msgid ":doc:`surveys/analysis`"
-msgstr ""
+msgstr ":doc:`调查/分析`"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:5
 msgid ""
@@ -13177,14 +13198,14 @@ msgstr ""
 #: ../../content/applications/marketing/surveys/analysis.rst-1
 msgid ""
 "The Participations smart button at the top of a survey form in Odoo Surveys."
-msgstr ""
+msgstr "Odoo 调查中调查表格顶部的参与智能按钮。"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:223
 msgid ""
 "Doing so reveals a separate :guilabel:`Participations` page, showcasing the "
 "participants for that specific survey, along with a collection of pertinent "
 "information related to each one."
-msgstr ""
+msgstr "这样做会显示一个单独的 :guilabel:`参与` 页面，展示该特定调查的参与者，以及与每个参与者相关的信息集合。"
 
 #: ../../content/applications/marketing/surveys/analysis.rst-1
 msgid ""
@@ -13353,7 +13374,7 @@ msgstr "在 :guilabel:`问题` 选项卡中查看、访问、添加和/或删除
 msgid ""
 "By default, two columns are present in the :guilabel:`Questions` tab: "
 ":guilabel:`Title` (i.e. the question) and :guilabel:`Question Type`."
-msgstr ""
+msgstr "默认情况下，:guilabel:`问题` 选项卡中有两列 :guilabel:`标题`（即问题）和 :guilabel:`问题类型`。"
 
 #: ../../content/applications/marketing/surveys/create.rst:58
 #: ../../content/applications/marketing/surveys/questions.rst:28
@@ -13362,6 +13383,8 @@ msgid ""
 ":guilabel:`Options` tab of the survey form, a column titled, :guilabel:`# "
 "Questions Randomly Picked` appears in the :guilabel:`Questions` tab."
 msgstr ""
+"如果调查表的 :guilabel:`选项` 标签页中启用了 :guilabel:`每节随机分组` 选项，则 :guilabel:`问题` "
+"选项卡中将出现标题为 :guilabel:`# 随机选择的问题` 列。"
 
 #: ../../content/applications/marketing/surveys/create.rst:62
 msgid ""
@@ -13370,12 +13393,14 @@ msgid ""
 "Then, select :guilabel:`Mandatory Answer` from the drop-down menu to reveal "
 "the :guilabel:`Mandatory Answer` column in the :guilabel:`Questions` tab."
 msgstr ""
+"点击列标题最右侧的 :guilabel:`（可选列）` 图标，说明问题是否需要必答。然后，从下拉菜单中选择 :guilabel:`必答题`，以显示 "
+":guilabel:`问题` 选项卡中的 :guilabel:`必答题` 栏。"
 
 #: ../../content/applications/marketing/surveys/create.rst-1
 msgid ""
 "The slider drop-down menu with the Mandatory Answer option selected in Odoo "
 "Surveys."
-msgstr ""
+msgstr "在 Odoo 调查中选择了强制回答选项的滑块下拉菜单。"
 
 #: ../../content/applications/marketing/surveys/create.rst:71
 msgid "Add a question"
@@ -13387,12 +13412,14 @@ msgid ""
 ":guilabel:`Questions` tab, and proceed to fill out the :guilabel:`Create "
 "Sections and Questions` pop-up window that appears."
 msgstr ""
+"要在调查问卷中添加问题，请点击 :guilabel:`问题` 选项卡中的 :guilabel:`添加问题`，然后继续填写出现的 "
+":guilabel:`创建章节和问题` 弹出窗口。"
 
 #: ../../content/applications/marketing/surveys/create.rst:76
 msgid ""
 "To learn how to create and customize questions, refer to the :doc:`create "
 "questions <questions>` documentation."
-msgstr ""
+msgstr "要了解如何创建和自定义问题，请参阅 :doc:`创建问题<questions>` 文档。"
 
 #: ../../content/applications/marketing/surveys/create.rst:80
 #: ../../content/applications/marketing/surveys/questions.rst:73
@@ -13402,6 +13429,8 @@ msgid ""
 "the survey, an error pop-up message appears in the upper-right corner, "
 "instructing the user to enter a survey title."
 msgstr ""
+"**必须** 输入调查表标题，:guilabel:`创建章节和问题` "
+"弹出窗口才会出现。如果未输入调查表标题，右上角会弹出错误消息，指示用户输入调查表标题。"
 
 #: ../../content/applications/marketing/surveys/create.rst:85
 msgid "Add a section"
@@ -13482,7 +13511,7 @@ msgstr ""
 #: ../../content/applications/marketing/surveys/create.rst:123
 #: ../../content/applications/marketing/surveys/live_session.rst:66
 msgid "Questions section"
-msgstr ""
+msgstr "问题部分"
 
 #: ../../content/applications/marketing/surveys/create.rst-1
 msgid ""

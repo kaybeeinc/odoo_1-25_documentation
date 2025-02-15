@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Thi Huong Nguyen, 2024
 # Wil Odoo, 2024
+# Thi Huong Nguyen, 2025
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-05 09:20+0000\n"
 "PO-Revision-Date: 2024-10-08 06:34+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"Last-Translator: Thi Huong Nguyen, 2025\n"
 "Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,15 +34,15 @@ msgstr ""
 
 #: ../../content/applications/studio.rst:21
 msgid ":doc:`Fields <studio/fields>`"
-msgstr ""
+msgstr ":doc:`Trường <studio/fields>`"
 
 #: ../../content/applications/studio.rst:22
 msgid ":doc:`Views <studio/views>`"
-msgstr ""
+msgstr ":doc:`Chế độ xem <studio/views>`"
 
 #: ../../content/applications/studio.rst:23
 msgid ":doc:`Models <studio/models_modules_apps>`"
-msgstr ""
+msgstr ":doc:`Mô hình <studio/models_modules_apps>`"
 
 #: ../../content/applications/studio.rst:24
 msgid ":doc:`Automated actions <studio/automated_actions>`"
@@ -58,7 +58,7 @@ msgstr ""
 
 #: ../../content/applications/studio.rst:27
 msgid "Security rules"
-msgstr ""
+msgstr "Quy tắc bảo mật"
 
 #: ../../content/applications/studio.rst:29
 msgid ""
@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../content/applications/studio/approval_rules.rst:3
 msgid "Approval rules"
-msgstr ""
+msgstr "Quy tắc phê duyệt"
 
 #: ../../content/applications/studio/approval_rules.rst:5
 msgid ""
@@ -272,7 +272,7 @@ msgstr ""
 
 #: ../../content/applications/studio/automated_actions.rst:3
 msgid "Automation rules"
-msgstr ""
+msgstr "Quy tắc tự động hoá"
 
 #: ../../content/applications/studio/automated_actions.rst:5
 msgid ""
@@ -661,6 +661,14 @@ msgid ""
 ":guilabel:`Priority is set to` to `High` and define the :guilabel:`Update "
 "Record` action as follows:"
 msgstr ""
+"Ngoài ra, bạn cũng có thể thiết lập trường của bản ghi một cách linh hoạt "
+"bằng mã Python. Để thực hiện, chọn :guilabel:`Tính toán` thay vì "
+":guilabel:`Cập nhật`, sau đó nhập mã sẽ được sử dụng để tính giá trị của "
+"trường. Ví dụ, nếu bạn muốn quy tắc tự động tính toán :ref:`trường ngày giờ "
+"<studio/fields/simple-fields/date-time>` tùy chỉnh khi mức độ ưu tiên của "
+"nhiệm vụ được đặt thành `Cao` (bằng cách đánh dấu sao cho nhiệm vụ), bạn có "
+"thể xác định trình kích hoạt :guilabel:`Mức độ ưu tiên được đặt thành` thành"
+" `Cao` và xác định hành động :guilabel:`Cập nhật bản ghi` như sau:"
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Compute a custom datetime field using a Python expression"
@@ -922,7 +930,7 @@ msgstr ""
 
 #: ../../content/applications/studio/fields.rst:21
 msgid "Simple fields"
-msgstr ""
+msgstr "Trường đơn giản"
 
 #: ../../content/applications/studio/fields.rst:23
 msgid "Simple fields contain basic values, such as text, numbers, files, etc."
@@ -1111,7 +1119,7 @@ msgstr ""
 
 #: ../../content/applications/studio/fields.rst:149
 msgid "Html (`html`)"
-msgstr ""
+msgstr "Html (`html`)"
 
 #: ../../content/applications/studio/fields.rst:151
 msgid ""
@@ -1175,7 +1183,7 @@ msgstr ""
 
 #: ../../content/applications/studio/fields.rst:198
 msgid "Checkbox (`boolean`)"
-msgstr ""
+msgstr "Hộp kiểm (`boolean`)"
 
 #: ../../content/applications/studio/fields.rst:200
 msgid ""
@@ -1360,7 +1368,7 @@ msgstr ""
 
 #: ../../content/applications/studio/fields.rst:330
 msgid "Many2One (`many2one`)"
-msgstr ""
+msgstr "Many2One (`many2one`)"
 
 #: ../../content/applications/studio/fields.rst:332
 msgid ""
@@ -1406,7 +1414,7 @@ msgstr ""
 
 #: ../../content/applications/studio/fields.rst:357
 msgid "One2Many (`one2many`)"
-msgstr ""
+msgstr "One2Many (`one2many`)"
 
 #: ../../content/applications/studio/fields.rst:359
 msgid ""
@@ -1456,7 +1464,7 @@ msgstr ""
 
 #: ../../content/applications/studio/fields.rst:397
 msgid "Many2Many (`many2many`)"
-msgstr ""
+msgstr "Many2Many (`many2many`)"
 
 #: ../../content/applications/studio/fields.rst:399
 msgid ""
@@ -1493,7 +1501,7 @@ msgstr ""
 
 #: ../../content/applications/studio/fields.rst:421
 msgid "Tags (`many2many`)"
-msgstr ""
+msgstr "Thẻ (`many2many`)"
 
 #: ../../content/applications/studio/fields.rst:423
 msgid ""
@@ -1659,6 +1667,13 @@ msgid ""
 "Furthermore, these features interact together in some cases to increase "
 "their usefulness."
 msgstr ""
+"Khi bạn tạo một mô hình hoặc ứng dụng mới bằng Studio, bạn có thể chọn thêm "
+"tối đa 14 tính năng để tăng tốc quá trình tạo. Các tính năng này kết hợp các"
+" trường, thiết lập mặc định và chế độ xem thường được sử dụng cùng nhau để "
+"cung cấp một số chức năng chuẩn. Hầu hết các tính năng này có thể được thêm "
+"vào sau, nhưng việc thêm chúng ngay từ đầu giúp quá trình tạo mô hình dễ "
+"dàng hơn nhiều. Hơn nữa, các tính năng này tương tác với nhau trong một số "
+"trường hợp để tăng tính hữu ích của chúng."
 
 #: ../../content/applications/studio/models_modules_apps.rst:28
 msgid ""
@@ -1918,7 +1933,7 @@ msgstr ""
 
 #: ../../content/applications/studio/pdf_reports.rst:3
 msgid "PDF reports"
-msgstr ""
+msgstr "Báo cáo PDF"
 
 #: ../../content/applications/studio/pdf_reports.rst:5
 msgid ""
@@ -2631,6 +2646,13 @@ msgid ""
 "corresponding XPath, which defines the modified part of the view, are "
 "automatically generated."
 msgstr ""
+"Nếu bạn đang chỉnh sửa chế độ xem bằng trình chỉnh sửa XML, hãy tránh thực "
+"hiện thay đổi trực tiếp đối với chế độ xem chuẩn và chế độ xem kế thừa, vì "
+"những thay đổi này sẽ được đặt lại và mất trong quá trình cập nhật hoặc nâng"
+" cấp phân hệ. Luôn đảm bảo rằng bạn chọn đúng chế độ xem kế thừa Studio: Khi"
+" bạn sửa đổi chế độ xem trong Studio bằng cách kéo và thả một trường mới, ví"
+" dụ, chế độ xem kế thừa Studio cụ thể và XPath tương ứng của nó, xác định "
+"phần đã sửa đổi của chế độ xem, sẽ tự động được tạo."
 
 #: ../../content/applications/studio/views.rst:30
 msgid "General views"

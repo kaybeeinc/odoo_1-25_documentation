@@ -295,7 +295,7 @@ msgstr ""
 
 #: ../../content/applications/hr/appraisals.rst-1
 msgid "A list view of all available surveys in the Appraisals application."
-msgstr "평가 애플리케이션에서 사용 가능한 전체 설문에 대한 목록 화면"
+msgstr "평가 애플리케이션에 있는 전체 설문에 대한 목록 보기입니다."
 
 #: ../../content/applications/hr/appraisals.rst:132
 msgid ""
@@ -518,6 +518,7 @@ msgid ""
 "Appraisals are scheduled automatically (appear in gray), according to their "
 "respective :ref:`appraisals/appraisal-plan`."
 msgstr ""
+"평가는 자동으로 예약되며(회색으로 표시), 해당 :ref:`appraisals/appraisal-plan` 에 따라 진행됩니다."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:31
 msgid ""
@@ -671,7 +672,7 @@ msgstr "이 보고서는 :ref:`상태를 기준으로 그룹화할 수 있습니
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst-1
 msgid ""
 "A report showing only the appraisals the user is responsible for, by status."
-msgstr ""
+msgstr "보고서에는 본인이 담당하는 평가만 상태별로 표시됩니다."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:114
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:163
@@ -1546,6 +1547,7 @@ msgid ""
 "To access this *Skills Evolution* report, navigate to "
 ":menuselection:`Appraisals app --> Reporting --> Skills Evolution`."
 msgstr ""
+"이 *직무 기술 개발* 보고서에 액세스하려면 :menuselection:`평가 앱 --> 보고 --> 직무 기술 개발` 로 이동합니다."
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:25
 msgid ""
@@ -2982,9 +2984,9 @@ msgid ""
 " Mode <attendances/kiosk-mode>` **must** be available in order to use these "
 "two methods."
 msgstr ""
-"직원이 배지나 RFID를 사용하여 :ref:`체크인 및 체크아웃 <attendances/kiosk-mode-entry>` 을 할 수 있게"
-" 하려면, :ref:`키오스크 모드 <attendances/kiosk-mode>` 에서 :doc:`접근 가능한 장치 <hardware>`"
-" 가 **반드시** 사용 가능하게 되어 있어야 합니다."
+"직원 :ref:`체크인 및 체크아웃 <attendances/kiosk-mode-entry>` 을 사원증이나 RFID으로 할 수 있게 "
+"하려면, :ref:`키오스크 모드 <attendances/kiosk-mode>` 에 있는 :doc:`접근 가능한 장치 "
+"<hardware>`  가 **반드시** 사용 가능으로 되어 있어야 합니다."
 
 #: ../../content/applications/hr/attendances/kiosks.rst:24
 msgid ""
@@ -3379,7 +3381,7 @@ msgstr ""
 msgid ""
 "To access the *Employee Certifications* report, the **Surveys** app **must**"
 " be installed."
-msgstr ""
+msgstr "*직원 자격증* 보고서에 액세스하려면 **설문조사** 앱을 **반드시** 설치해야 합니다."
 
 #: ../../content/applications/hr/employees/certifications.rst:15
 msgid "View certifications"
@@ -3395,7 +3397,7 @@ msgstr ""
 msgid ""
 "All certifications appear in a list view, grouped by employee. Each "
 "certification entry displays the following:"
-msgstr ""
+msgstr "모든 자격증이 직원별로 그룹화된 목록 보기에 나타납니다. 각 자격증 항목은 다음과 같이 표시됩니다."
 
 #: ../../content/applications/hr/employees/certifications.rst:23
 msgid ""
@@ -3419,7 +3421,7 @@ msgstr ":guilabel:`유효기간 종료`: 자격증이 만료되는 날짜입니�
 msgid ""
 ":guilabel:`Certification`: the corresponding course in the **Surveys** app "
 "that was completed by the employee, if applicable."
-msgstr ""
+msgstr ":guilabel:`자격증`: **설문조사** 앱에서 직원이 완료한 해당 과정이며, 관련된 경우에 표시됩니다."
 
 #: ../../content/applications/hr/employees/certifications.rst:30
 msgid ""
@@ -3520,7 +3522,7 @@ msgstr ":guilabel:`제목`: 이 필드에 인증에 대한 설명을 간략하�
 msgid ""
 ":guilabel:`Employee`: Using the drop-down menu, select the employee who "
 "received the certification."
-msgstr ""
+msgstr ":guilabel:`직원`: 드롭다운 메뉴로 자격증을 받은 직원을 선택합니다."
 
 #: ../../content/applications/hr/employees/certifications.rst:79
 msgid ""
@@ -3569,7 +3571,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Display Type`: Select the visibility of the certification in this"
 " field. The default options are:"
-msgstr ""
+msgstr ":guilabel:`표시 유형`: 이 필드에서 자격증의 공개 범위를 선택합니다. 기본 옵션은 다음과 같습니다."
 
 #: ../../content/applications/hr/employees/certifications.rst:98
 msgid ""
@@ -5303,7 +5305,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Detailed Reason`: Enter a short description for the employee's "
 "departure in this field."
-msgstr ""
+msgstr ":guilabel:`상세 사유`: 직원 퇴사에 대한 간략한 설명을 이 필드에 입력합니다."
 
 #: ../../content/applications/hr/employees/offboarding.rst:37
 msgid ""
@@ -5336,7 +5338,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Time Off`: cancels any time off requests after the contract end "
 "date."
-msgstr ""
+msgstr ":guilabel:`휴가`: 휴가 신청일이 계약 종료일 이후인 경우 모두 취소됩니다."
 
 #: ../../content/applications/hr/employees/offboarding.rst:46
 msgid ""
@@ -5414,19 +5416,19 @@ msgstr "직원 양식이 모두 작성되면, 다음 필드가 입력되어 있�
 msgid ""
 ":guilabel:`Private Information` tab: Ensure an email address is entered in "
 "the :guilabel:`Email` field."
-msgstr ""
+msgstr ":guilabel:`개인 정보` 탭: :guilabel:`이메일` 필드에 이메일 주소가 입력되어 있는지 확인합니다."
 
 #: ../../content/applications/hr/employees/offboarding.rst:81
 msgid ""
 ":guilabel:`HR Settings` tab: Ensure a :guilabel:`Related User` is selected "
 "in the corresponding field."
-msgstr ""
+msgstr ":guilabel:`HR 설정` 탭: 해당 필드에서 :guilabel:`대상 사용자` 가 선택되어 있는지 확인합니다."
 
 #: ../../content/applications/hr/employees/offboarding.rst:84
 msgid ""
 "After the necessary information is entered, :ref:`resend the HR documents "
 "access link <employees/send-link>`"
-msgstr ""
+msgstr "필수 정보를 입력한 후 :ref:`HR 문서 액세스 링크를 재전송합니다 <employees/send-link>`."
 
 #: ../../content/applications/hr/employees/offboarding.rst:90
 msgid "Send HR documents access link"
@@ -5476,7 +5478,7 @@ msgstr "직원 유지율 보고서"
 msgid ""
 "It is possible to determine the retention rate for a company by modifying an"
 " existing report."
-msgstr ""
+msgstr "기존 보고서를 수정하여 회사의 유지율을 지정할 수 있습니다."
 
 #: ../../content/applications/hr/employees/retention_report.rst:7
 msgid ""
@@ -5511,6 +5513,8 @@ msgid ""
 "pivot` :guilabel:`(Pivot)` icon in the upper-right corner, and the data is "
 "presented in a pivot table."
 msgstr ""
+"이 내용을 더 간단한 형식으로 보려면 오른쪽 상단에 있는 :icon:`oi-view-pivot` :guilabel:`(피벗)` 아이콘을 "
+"클릭합니다. 그러면 데이터가 피벗 테이블로 표시됩니다."
 
 #: ../../content/applications/hr/employees/retention_report.rst:23
 msgid ""
@@ -5630,7 +5634,7 @@ msgstr ""
 msgid ""
 "The rows display the departments, and lists each individual employee for "
 "each department, in the rows."
-msgstr ""
+msgstr "행에는 부서가 표시되고 각 부서에 소속된 개별 직원이 행에 표시됩니다."
 
 #: ../../content/applications/hr/employees/retention_report.rst:74
 msgid ""
@@ -5661,7 +5665,7 @@ msgstr ""
 msgid ""
 "The report modified to show the difference between two years of employees "
 "who left."
-msgstr ""
+msgstr "퇴사한 직원과 관련된 2년 간의 차액이 표시되도록 보고서가 수정되었습니다."
 
 #: ../../content/applications/hr/employees/retention_report.rst:89
 msgid ""
@@ -6193,6 +6197,8 @@ msgid ""
 "Upon doing so, all services appear in a Kanban view, organized by their "
 "respective :guilabel:`Status`."
 msgstr ""
+"다음으로 검색 창에서 기본 :guilabel:`서비스 유형` 필터를 제거합니다. 그러면 모든 서비스가 각각의 :guilabel:`상태` "
+"에 따라 칸반 보기로 정리되어 표시됩니다."
 
 #: ../../content/applications/hr/fleet/accidents.rst:151
 msgid "Drag-and-drop the service record to the desired stage."
@@ -6202,7 +6208,7 @@ msgstr "서비스 레코드를 원하는 스테이지로 끌어다 놓습니다.
 msgid ""
 "The Kanban view of stages, with a card being dragged and dropped to the "
 "Running stage."
-msgstr ""
+msgstr "칸반 보기에 있는 단계에서 카드를 실행 단계로 끌어다 놓을 수 있습니다."
 
 #: ../../content/applications/hr/fleet/accidents.rst:158
 msgid "Accident reporting"
@@ -6344,7 +6350,7 @@ msgstr ""
 msgid ""
 "The Cost Analysis report, displaying the contract and service costs separately, as well as\n"
 "the total."
-msgstr ""
+msgstr "비용 분석 보고서에 계약 및 서비스 비용이 별도로 표시되어 있고 총액 역시 나타나 있는 모습입니다."
 
 #: ../../content/applications/hr/fleet/accidents.rst:235
 msgid ""
@@ -6417,12 +6423,12 @@ msgstr ""
 #: ../../content/applications/hr/fleet/accidents.rst:266
 msgid ""
 "Click the :guilabel:`Add` button at the bottom to add the new custom filter."
-msgstr ""
+msgstr "하단의 :guilabel:`추가` 버튼을 클릭하면 새 사용자 지정 필터가 추가됩니다."
 
 #: ../../content/applications/hr/fleet/accidents.rst-1
 msgid ""
 "The filter settings to be added to only display new and running services."
-msgstr ""
+msgstr "신규 및 실행 중인 서비스만 표시하도록 필터 설정을 추가할 수 있습니다."
 
 #: ../../content/applications/hr/fleet/accidents.rst:272
 msgid ""
@@ -6468,6 +6474,8 @@ msgid ""
 "Odoo comes with preconfigured car models from four major auto manufacturers:"
 " Audi, BMW, Mercedes, and Opel."
 msgstr ""
+"Odoo에서는 Audi, BMW, Mercedes, Opel 등 주요 4대 자동차 제조업체에 대해 차량 모델을 사전 구성하여 제공하고 "
+"있습니다."
 
 #: ../../content/applications/hr/fleet/models.rst:11
 msgid ""
@@ -6701,7 +6709,7 @@ msgstr ""
 msgid ""
 "Be advised, some fields are specific to Belgian based companies, so not all "
 "fields or sections may be visible depending on the location of the company."
-msgstr ""
+msgstr "일부 필드는 벨기에에 소재한 회사에만 해당되므로, 회사의 위치에 따라서 필드나 섹션이 나타나지 않을 수 있습니다."
 
 #: ../../content/applications/hr/fleet/models.rst:63
 msgid ":guilabel:`Model name`: enter the model name in the field."
@@ -6741,6 +6749,8 @@ msgid ""
 "menu. To create a new category, type in the category and then click "
 ":guilabel:`Create (new category)`."
 msgstr ""
+":guilabel:`카테고리`: 드롭다운 메뉴에서 차량에 대한 카테고리를 선택합니다. 새 카테고리를 만들려면 카테고리를 입력한 다음 "
+":guilabel:`만들기(새 카테고리)` 를 클릭합니다."
 
 #: ../../content/applications/hr/fleet/models.rst:80
 msgid "Information tab"
@@ -6781,7 +6791,7 @@ msgstr ":guilabel:`모델 연도`: 차량 제조년도를 입력합니다."
 msgid ""
 ":guilabel:`Trailer Hitch`: tick this checkbox if the vehicle has a trailer "
 "hitch installed."
-msgstr ""
+msgstr ":guilabel:`트레일러 히치`: 차량에 트레일러 히치가 설치되어 있는 경우 이 확인란에 표시하세요."
 
 #: ../../content/applications/hr/fleet/models.rst:96
 msgid "Salary section"
@@ -6915,6 +6925,8 @@ msgid ""
 "engine specifications, and **cannot** be modified. The percentage is based "
 "on the localization settings and local tax laws."
 msgstr ""
+":guilabel:`세금 공제`: 이 필드는 엔진 사양에 따라 자동으로 입력되며 **수정할 수 없습니다**. 백분율은 현지화 설정 및 "
+"현지 세법에 따라 지정됩니다."
 
 #: ../../content/applications/hr/fleet/models.rst:147
 msgid "Vendors tab"
@@ -6977,7 +6989,7 @@ msgstr ""
 msgid ""
 "Odoo does **not** come with any models preconfigured; all models **must** be"
 " added."
-msgstr ""
+msgstr "Odoo에서는 사전 설정된 모델이 **제공되지 않으며**, 모델은 **반드시** 모두 추가해야 합니다."
 
 #: ../../content/applications/hr/fleet/models.rst:177
 msgid ""
@@ -7197,9 +7209,9 @@ msgid ""
 "**not** check this box if the current driver does not plan to change their "
 "vehicle."
 msgstr ""
-":guilabel:`차량 변경 계획`: 이 차량에 설정된 현재 운전자가 새로운 차량을 대기 중이며, 그 사유가 주문한 새 차량을 기다리고"
-" 있는 경우이거나 현재 차량이 임시 배정된 차량으로 다음에 운전하게 될 차량이 이미 확인된 경우에는 확인란에 표시합니다. 현재 운전자가 "
-"차량을 변경할 계획이 없는 경우에는 확인란을 선택하지 **마세요**."
+":guilabel:`차량 변경 계획`: 현재 지정된 운전자가 차량을 변경할 계획이 있는 경우입니다. 변경 사유는 주문 중인 신규 차량을 "
+"대기 중이거나 혹은 임시 배차된 차량을 운전 중이며 다음에 운전할 차량을 이미 알고 있는 경우가 이에 해당합니다. 이런 경우 확인란에 "
+"표시합니다. 현재 운전자가 차량을 변경할 계획이 없는 경우에는 확인란을 **표시하지 마세요**."
 
 #: ../../content/applications/hr/fleet/new_vehicle.rst:77
 msgid ""
@@ -8359,6 +8371,8 @@ msgid ""
 ":guilabel:`New`, :guilabel:`Running`, :guilabel:`Done`, or "
 ":guilabel:`Cancelled`."
 msgstr ""
+":guilabel:`단계`: 서비스 또는 수리 상태입니다. :guilabel:`신규`, :guilabel:`실행 중`, "
+":guilabel:`완료` 또는 :guilabel:`취소됨` 중에서 선택할 수 있습니다."
 
 #: ../../content/applications/hr/fleet/service.rst:283
 msgid ""
@@ -9458,6 +9472,8 @@ msgid ""
 ":guilabel:`Checked-In`, :guilabel:`Planned`, :guilabel:`Checked-Out`, or "
 ":guilabel:`Cancelled`."
 msgstr ""
+":guilabel:`상태`: 게스트의 상태입니다. :guilabel:`체크인`, :guilabel:`예정`, "
+":guilabel:`체크아웃` 또는 :guilabel:`취소` 중에서 선택할 수 있습니다."
 
 #: ../../content/applications/hr/frontdesk/visitors.rst:37
 msgid ":guilabel:`Email`\\*: the guest's email address."
@@ -10173,7 +10189,7 @@ msgstr "*점심* 앱은 관리자뿐만 아니라 모든 사용자가 주문을 
 msgid ""
 "To cancel an order from a vendor, individual products **must** be cancelled "
 "one at a time."
-msgstr ""
+msgstr "공급업체의 주문을 취소하려면 개별 품목을 **반드시** 한 번에 하나씩 취소해야 합니다."
 
 #: ../../content/applications/hr/lunch/management.rst:63
 msgid ""
@@ -10189,7 +10205,7 @@ msgstr ""
 msgid ""
 "Only products with a red :guilabel:`Status` tag of :guilabel:`Ordered` can "
 "be cancelled."
-msgstr ""
+msgstr "품목에 빨간색 :guilabel:`상태` 태그로 :guilabel:`주문됨` 표시가 있는 경우에만 취소할 수 있습니다."
 
 #: ../../content/applications/hr/lunch/management.rst-1
 msgid "Order lines with the cancel button highlighted."
@@ -10566,8 +10582,8 @@ msgid ""
 " To Cart` button in the lower-left of the pop-up window. To cancel the "
 "order, click the :guilabel:`Discard` button."
 msgstr ""
-"품목을 모두 선택한 후에는 팝업 창 왼쪽 하단에 있는 :guilabel:`장바구니에 추가` 버튼을 클릭합니다. 주문을 취소하려면 "
-":guilabel:`취소` 버튼을 클릭합니다."
+"품목에 대한 선택이 모두 완료되면 팝업창 왼쪽 하단에 있는 :guilabel:`장바구니에 추가` 버튼을 클릭합니다. 주문을 취소하려면 "
+":guilabel:`폐기` 버튼을 클릭합니다."
 
 #: ../../content/applications/hr/lunch/orders.rst-1
 msgid ""
@@ -11422,6 +11438,8 @@ msgid ""
 "the vendor is available for, in addition to how and when orders are placed "
 "and received."
 msgstr ""
+"공급업체 양식의 :guilabel:`주문` 섹션에는 가능한 공급업체 위치가 자세히 나타나 있으며, 이와 함께 주문을 접수받는 방법 및 "
+"시기가 나와 있습니다."
 
 #: ../../content/applications/hr/lunch/vendors.rst:81
 msgid ""
@@ -11524,25 +11542,25 @@ msgstr ""
 msgid ""
 ":guilabel:`Extra (#) Quantity`: select how the extras are selected. The "
 "options are:"
-msgstr ""
+msgstr ":guilabel:`추가 수량(개)`: 추가 수량을 선택할 방법을 선택합니다. 다음 중에서 선택할 수 있습니다."
 
 #: ../../content/applications/hr/lunch/vendors.rst:130
 msgid ""
 ":guilabel:`None or More`: select this if the user is not required to make a "
 "selection."
-msgstr ""
+msgstr ":guilabel:`없음 또는 추가`: 선택할 필요가 없는 경우에는 이 항목을 선택합니다."
 
 #: ../../content/applications/hr/lunch/vendors.rst:131
 msgid ""
 ":guilabel:`One or More`: select this to **require** the user to make **at "
 "least one** selection."
-msgstr ""
+msgstr ":guilabel:`하나 이상`: **최소한 하나 이상** 은 **팔수적으로** 선택하게 하려면 선택합니다."
 
 #: ../../content/applications/hr/lunch/vendors.rst:132
 msgid ""
 ":guilabel:`Only One`: select this to **require** the user to **make only "
 "one** selection."
-msgstr ""
+msgstr ":guilabel:`하나만`: **필수** 항목을 **하나만** 선택하게 하려면 이 옵션을 사용합니다."
 
 #: ../../content/applications/hr/lunch/vendors.rst:135
 msgid "Add extras"
@@ -11570,7 +11588,7 @@ msgstr ""
 msgid ""
 "For a pizzeria that only offers personal pizzas, see their extras configured"
 " as follows:"
-msgstr ""
+msgstr "개인 맞춤 피자만 판매하는 피자 가게에 대해, 다음의 추가 환경설정 메뉴를 참조하세요."
 
 #: ../../content/applications/hr/lunch/vendors.rst:148
 msgid ""
@@ -11579,8 +11597,8 @@ msgid ""
 "Quantity` is set to :guilabel:`None or More`. The various toppings are then "
 "added, with their corresponding costs."
 msgstr ""
-"첫 번째 추가 항목은 제공하고 있는 다양한 토핑에 맞추어 설정합니다. :guilabel:`추가 라벨 1` 은 `토핑` 으로 설정하고 "
-":guilabel:`추가 수량 1 `은 :guilabel:`없음 또는 추가` 로 설정합니다. 그런 다음 여러 가지 토핑을 가격과 함께 "
+"첫 번째 추가 항목은 제공 중인 여러 가지 토핑에 맞추어 설정합니다. :guilabel:`추가 라벨 1` 은 `토핑` 으로 설정하고 "
+":guilabel:`추가 수량 1 `은 :guilabel:`없음 또는 추가` 로 설정합니다. 그런 다음 다양한 토핑을 가격과 함께 "
 "추가합니다."
 
 #: ../../content/applications/hr/lunch/vendors.rst:0
@@ -11661,8 +11679,8 @@ msgid ""
 "account move line created from all the accounting entries from the same "
 "period. This disables the generation of single payments."
 msgstr ""
-":guilabel:`일괄 계정 작업 줄`: 같은 기간 동안 모든 회계 항목에 대해 계정 작업 줄을 하나로 생성하려면 선택하여 사용합니다."
-" 이렇게 하면 단일 결제 생성 항목은 사용이 해제됩니다."
+":guilabel:`일괄 계정 작업 줄`: 이 항목을 선택하면같은 기간 동안 모든 회계 항목에 대해 계정 작업 줄을 하나로 생성할 수 "
+"있습니다. 이렇게 하면 단일 결제 생성 기능은 비활성화됩니다."
 
 #: ../../content/applications/hr/payroll.rst:37
 msgid "Localizations"
@@ -14203,9 +14221,9 @@ msgid ""
 "under the work entry type `generic time off`, for a total of forty (40) "
 "hours worth of work entries."
 msgstr ""
-"풀타임 근무 시간이 주 40시간이고, 이 직원은 20시간을 근무할 경우 :guilabel:`% (백분율)` 필드에 `50`을 입력합니다 "
-"(40시간의 50% = 20시간). 이 직원의 근무 항목 유형을 `파트타임`으로 20시간의 근무 항목을 생성하고, 근무 항목 유형으로 "
-"`일반 휴가`를 20시간으로 근무 항목을 생성하면 총 40시간의 근무 항목이 생성됩니다."
+"전일제 직원의 근무 시간이 주 40시간일 때, 이 직원이 20시간을 근무할 경우 :guilabel:`% (백분율)` 필드에 `50`을 "
+"입력합니다 (40시간의 50% = 20시간). 이 직원에 대해 근무 항목 유형을 `시간제` 로 하여 근무 항목을 20시간으로 생성하고, "
+"근무 항목 유형 중에서 `일반 휴가` 를 20시간으로 생성하면 총 40시간의 근무 항목이 생성됩니다."
 
 #: ../../content/applications/hr/payroll/contracts.rst:207
 msgid "Notes section"
@@ -15646,8 +15664,8 @@ msgid ""
 "Reporting` to view the available reports in a drop-down menu. Click on a "
 "specific report to view it."
 msgstr ""
-"모든 현지화 관련 보고서를 비롯하여 데이터베이스에서 사용할 수 있는 보고서를 모두 보려면 :menuselection:`급여 앱 --> "
-"보고` 로 이동하여 드롭다운 메뉴에서 사용 가능한 보고서를 확인합니다. 보고서를 클릭하면 해당 보고서를 볼 수 있습니다."
+"현지화 관련 보고서 등 데이터베이스에서 확인할 수 있는 보고서를 모두 보려면 :menuselection:`급여 앱 --> 보고` 로 "
+"이동하여 드롭다운 메뉴에 있는 보고서를 확인합니다. 보고서를 클릭하면 해당하는 보고서를 볼 수 있습니다."
 
 #: ../../content/applications/hr/payroll/reporting.rst-1
 msgid "Report dashboard view showing extra reports for Belgium databases."
@@ -16109,9 +16127,9 @@ msgid ""
 "deduction, and further grouped by individual payslip."
 msgstr ""
 "본 보고서를 확인하려면 :menuselection:`급여 앱 --> 보고 --> 급여 공제 보고서` 로 이동합니다. "
-":guilabel:`급여 공제 보고서` 에서는 직원별 모든 공제 혹은 차감 항목이 나타나 있으며, 기본 피벗 테이블로 급여 명세서를 "
-"기준으로 정리되어 있습니다. 기본 필터는 현재 연도 말일 (:guilabel:`급여 명세서 종료일: (연도)`)입니다. 행에는 직원이 "
-"입력되어 있으며 열에는 여러 가지 공제 항목이 있으며, 공제 유형별로 구분 후 다시 개별 급여 명세서별 그룹으로 나누어져 있습니다."
+":guilabel:`급여 공제 보고서` 에는 모든 공제 혹은 차감 항목이 직원별로 나타나 있으며, 급여명세서를 기준으로 기본 피벗 "
+"테이블이 정리되어 있습니다. 기본 필터는 현재 연도 말일 (:guilabel:`급여명세서 종료일: (연도)`)입니다. 행에는 직원이, "
+"열에는 여러 가지 공제 항목이 입력되어 있으며, 공제 유형별로 구분한 후 다시 개별 급여명세서별 그룹으로 나누어져 있습니다."
 
 #: ../../content/applications/hr/payroll/salary_attachment.rst:22
 msgid ""
@@ -16149,7 +16167,7 @@ msgstr ""
 msgid ""
 "The Attachment of Salary report that shows all salary garnishments in a "
 "condensed view."
-msgstr ""
+msgstr "모든 급여 공제 내용을 요약 보기로 보여주는 급여 공제 보고서입니다."
 
 #: ../../content/applications/hr/payroll/salary_attachment.rst:39
 msgid ""
@@ -16202,10 +16220,11 @@ msgid ""
 "previous time period values, as well as the :guilabel:`Variation` between "
 "the two, in a percentage."
 msgstr ""
+"보고서에는 현재 기간 값과 이전 기간 값, 그리고 두 값 사이의 :guilabel:`변동` 내역이 백분율로 업데이트되어 표시됩니다."
 
 #: ../../content/applications/hr/payroll/salary_attachment.rst-1
 msgid "The salary attachment report modified to compare to the previous year."
-msgstr ""
+msgstr "급여 공제 보고서가 이전 연도와 비교할 수 있도록 수정된 모습입니다."
 
 #: ../../content/applications/hr/payroll/salary_attachments.rst:5
 msgid ""
@@ -16331,6 +16350,9 @@ msgid ""
 " :guilabel:`Type`, the :guilabel:`Monthly Amount`, :guilabel:`Start Date`, "
 "and current :guilabel:`Status`."
 msgstr ""
+"모든 급여 공제 항목이 기본 목록 보기로 표시되고 :guilabel:`직원`, :guilabel:`설명`, 급여 공제 "
+":guilabel:`유형`, :guilabel:`월 금액`, :guilabel:`시작일`, 현재 :guilabel:`상태` 항목에 대한 "
+"이름이 표시됩니다."
 
 #: ../../content/applications/hr/payroll/salary_attachments.rst:67
 msgid ""
@@ -16338,6 +16360,8 @@ msgid ""
 "top-left corner, and a blank :guilabel:`Salary Attachment` form loads. Enter"
 " the following information on the form:"
 msgstr ""
+"새 급여 공제를 생성하려면, 왼쪽 상단에 있는 :guilabel:`새로 만들기` 버튼을 클릭하면 빈 :guilabel:`급여 공제` "
+"양식이 로드됩니다. 다음과 같은 내용을 양식에 입력합니다."
 
 #: ../../content/applications/hr/payroll/salary_attachments.rst:70
 msgid ""
@@ -16355,12 +16379,14 @@ msgid ""
 ":guilabel:`Type`: Using the drop-down menu, select the specific :ref:`salary"
 " attachment type <payroll/salary-attachment/types>`."
 msgstr ""
+":guilabel:`유형`: 드롭다운 메뉴를 사용하여 지정된 :ref:`급여 공제 유형 <payroll/salary-"
+"attachment/types>` 을 선택합니다."
 
 #: ../../content/applications/hr/payroll/salary_attachments.rst:75
 msgid ""
 ":guilabel:`Start Date`: Using the calendar selector, select the date the "
 "salary attachment goes into effect."
-msgstr ""
+msgstr ":guilabel:`시작일`: 캘린더 선택기로 급여 공제가 적용될 날짜를 선택합니다."
 
 #: ../../content/applications/hr/payroll/salary_attachments.rst:77
 msgid ""
@@ -16388,7 +16414,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Monthly Amount`: Enter the amount taken out of each paycheck "
 "every month in this field."
-msgstr ""
+msgstr ":guilabel:`월별 금액`: 이 필드에 매달 각 급여에서 공제될 금액을 입력합니다."
 
 #: ../../content/applications/hr/payroll/salary_attachments.rst:85
 msgid ""
@@ -16407,6 +16433,7 @@ msgid ""
 "after making a salary attachment for an individual employee, there is no "
 "further action required."
 msgstr ""
+"급여 공제 양식은 필드를 입력하면 자동으로 저장되므로, 직원 개인에 대해 급여 공제를 생성한 후에는 별도로 작업을 할 필요가 없습니다."
 
 #: ../../content/applications/hr/payroll/salary_attachments.rst:95
 msgid ""
@@ -16443,6 +16470,8 @@ msgid ""
 "navigate to :menuselection:`Payroll app --> Contracts --> Salary "
 "Attachments`."
 msgstr ""
+"급여 공제의 상태는 *실행 중*, *완료* 또는 *취소* 의 세 가지 중 하나 상태로 되어 있습니다. 현재 급여 공제 상태를 확인하려면 "
+":menuselection:`급여 앱 --> 계약서 --> 급여 공제` 로 이동합니다."
 
 #: ../../content/applications/hr/payroll/salary_attachments.rst:112
 msgid ""
@@ -16502,8 +16531,8 @@ msgid ""
 "required to pay $3,000.00. A salary attachment is created that takes $250.00"
 " a month out of Rose's paycheck, to go towards this settlement payment."
 msgstr ""
-"Rose Smith는 소송 합의금이 급여 공제되고 있으며, 지불 금액은 $3,000.00 입니다. 급여 공제로 Rose의 급여에서 매달 "
-"$250.00가 차감되어 이 합의금을 지불하게 됩니다."
+"Rose Smith는 소송 합의금이 급여 공제되고 있으며, 지급해야 할 금액은 $3,000.00 입니다. 급여 공제로 Rose의 급여에서"
+" 매달 $250.00가 차감되어 이 합의금에 대해 지불하게 됩니다."
 
 #: ../../content/applications/hr/payroll/salary_attachments.rst:140
 msgid ""
@@ -16666,6 +16695,8 @@ msgid ""
 ":guilabel:`Work Entry Type`: select the :ref:`work entry type <payroll/work-"
 "entries>` using the drop-down menu."
 msgstr ""
+":guilabel:`근무 항목 유형`: 드롭다운 메뉴에서 :ref:`근무 항목 유형 <payroll/work-entries>` 을 "
+"선택합니다."
 
 #: ../../content/applications/hr/payroll/work_entries.rst:64
 msgid ""
@@ -17282,8 +17313,8 @@ msgid ""
 ":guilabel:`Department`. If in a multi-company database, a "
 ":guilabel:`Company` option also appears."
 msgstr ""
-"표시된 정보를 변경하려면, 기본 열 위에 있는 :icon:`fa-plus-square` :guilabel:`총계` 를 클릭하면 사용 "
-"가능한 지표에 대한 드롭다운 메뉴가 나타납니다. 그룹 중에서 하나를 클릭하면 선택한 지표에 따라 데이터가 추가로 정리됩니다. 기본 "
+"표시된 정보를 변경하려면, 기본 열 위에 있는 :icon:`fa-plus-square` :guilabel:`총계` 를 클릭하여 선택할 수"
+" 있는 지표에 대한 드롭다운 메뉴를 표시합니다. 그룹 중에서 하나를 클릭하면 선택한 지표에 따라 데이터가 추가로 정리됩니다. 기본 "
 "옵션으로는 :guilabel:`근무 항목 유형`, :guilabel:`직원`, :guilabel:`부서` 중에서 선택할 수 있습니다. "
 "다중 회사 데이터베이스인 경우에는 :guilabel:`회사` 옵션도 표시됩니다."
 
@@ -17348,7 +17379,7 @@ msgstr ""
 
 #: ../../content/applications/hr/payroll/work_entry_analysis.rst:46
 msgid "Use case: overtime report comparison"
-msgstr "사용 사례: 초과 근무 보고서 비교하기"
+msgstr "사례: 초과 근무 보고서 비교하기"
 
 #: ../../content/applications/hr/payroll/work_entry_analysis.rst:48
 msgid ""
@@ -17432,7 +17463,7 @@ msgstr ""
 #: ../../content/applications/hr/payroll/work_entry_analysis.rst-1
 msgid ""
 "A pivot table comparing the overtime from September 2024 with August 2024."
-msgstr ""
+msgstr "피벗 테이블로 2024년 9월 및 2024년 8월의 초과 근무를 비교한 모습입니다."
 
 #: ../../content/applications/hr/recruitment.rst:5
 msgid "Recruitment"
@@ -17611,6 +17642,8 @@ msgid ""
 "For more information, refer to the :doc:`SMS pricing and FAQs "
 "<../marketing/sms_marketing/pricing_and_faq>` documentation."
 msgstr ""
+"자세한 내용은 :doc:`SMS 요금제 및 FAQ <../marketing/sms_marketing/pricing_and_faq>` "
+"문서를 참조하세요."
 
 #: ../../content/applications/hr/recruitment.rst:97
 msgid "CV display"
@@ -18371,8 +18404,8 @@ msgid ""
 "When doing a quick add, clicking away from an empty card, or clicking the "
 ":icon:`fa-trash-o` (:guilabel:`trash`) icon, discards the applicant."
 msgstr ""
-"빠른 추가를 할 때 빈 카드를 클릭하거나 :icon:`fa-trash-o` (:guilabel:`휴지통`) 아이콘을 클릭하면 지원자가 "
-"삭제됩니다."
+"빠른 추가를 할 경우, 빈 카드를 클릭하거나 :icon:`fa-trash-o` (:guilabel:`휴지통`) 아이콘을 클릭하면 지원자 "
+"항목이 폐기됩니다."
 
 #: ../../content/applications/hr/recruitment/add-new-applicants.rst-1
 msgid ""
@@ -18719,7 +18752,7 @@ msgid ""
 "When complete, click the :guilabel:`Create` button to save the entry, or the"
 " :guilabel:`Discard` button to delete it."
 msgstr ""
-"완료되면 :guilabel:`만들기` 버튼을 클릭하여 항목을 저장하거나 :guilabel:`취소` 버튼을 클릭하여 삭제합니다."
+"완료 후에는 :guilabel:`만들기` 버튼을 클릭하여 항목을 저장하거나 :guilabel:`폐기` 버튼을 클릭하여 삭제합니다."
 
 #: ../../content/applications/hr/recruitment/new_job.rst-1
 msgid "Create a new job position."
@@ -18981,6 +19014,7 @@ msgid ""
 "Refer to the :doc:`recruitment <../recruitment>` documentation for details "
 "on the various stages of the recruitment process."
 msgstr ""
+"채용 프로세스의 여러 가지 단계에 대한 자세한 내용은 :doc:`recruitment <../recruitment>` 문서를 참조하세요."
 
 #: ../../content/applications/hr/recruitment/offer_job_positions.rst:13
 msgid "Contract proposal"
@@ -19032,6 +19066,8 @@ msgid ""
 "applications are installed, some fields may not appear in the "
 ":guilabel:`Generate a Simulation Link` pop-up window."
 msgstr ""
+"회사에서 지정한 현지화 설정 및 애플리케이션 설치 여부에 따라서, 일부 필드는 :guilabel:`시뮬레이션 링크 생성` 팝업창에 "
+"나타나지 않을 수 있습니다."
 
 #: ../../content/applications/hr/recruitment/offer_job_positions.rst:37
 msgid ""
@@ -19047,7 +19083,7 @@ msgstr "일반 필드"
 msgid ""
 "The following fields appear in the :guilabel:`Generate a Simulation Link` "
 "pop-up window, regardless of the localization."
-msgstr ""
+msgstr "다음 필드가 :guilabel:`시뮬레이션 링크 생성` 팝업창에 표시되며, 현지화와는 무관합니다."
 
 #: ../../content/applications/hr/recruitment/offer_job_positions.rst:46
 msgid ""
@@ -19083,6 +19119,8 @@ msgid ""
 "field, by default. The title can be modified to suit the specific "
 "applicant's position and provide more details."
 msgstr ""
+":guilabel:`직위`: 지정한 :guilabel:`직무` 가 이 필드에 기본값으로 입력됩니다. 지원자의 직무에 맞게 직위를 수정하여"
+" 더 자세히 나타낼 수 있습니다."
 
 #: ../../content/applications/hr/recruitment/offer_job_positions.rst:62
 msgid ""
@@ -19142,10 +19180,10 @@ msgid ""
 "email on the applicant's card. Once an email is entered, click the "
 ":guilabel:`Generate Offer` button, and the email pop-up window loads again."
 msgstr ""
-"지원자의 지원자 카드에 이메일 주소가 기재되어 있지 않은 경우에는, :guilabel:`시뮬레이션 링크 생성` 팝업창 아래에 있는 빨간색"
-" 상자에 :guilabel:`지원자의 이메일 주소가 유효하지 않습니다. 오퍼 링크를 완료할 수 없습니다.` 라는 경고 메시지가 "
-"표시됩니다. :guilabel:`취소` 를 클릭하고 지원자의 카드에 이메일을 입력한 다음 :guilabel:`오퍼 생성` 버튼을 클릭하면"
-" 이메일 팝업창이 다시 로드됩니다."
+"지원자 카드에 지원자의 이메일 주소가 없는 경우에는, :guilabel:`시뮬레이션 링크 생성` 팝업창 아래에 있는 빨간색 상자에 "
+":guilabel:`지원자의 이메일 주소가 유효하지 않습니다. 오퍼 링크를 완료할 수 없습니다.` 라는 경고 메시지가 표시됩니다. "
+":guilabel:`폐기` 를 클릭하고 지원자의 카드에 이메일을 입력한 다음 :guilabel:`오퍼 생성` 버튼을 클릭하면 이메일 "
+"팝업창이 다시 로드됩니다."
 
 #: ../../content/applications/hr/recruitment/offer_job_positions.rst:90
 msgid ""
@@ -19284,7 +19322,7 @@ msgstr ""
 msgid ""
 "An employee form appears, with information from the applicant's card, and "
 "the employee contract."
-msgstr ""
+msgstr "직원 양식에서 지원자 카드 정보와 직원 계약서가 나타나 있는 모습입니다."
 
 #: ../../content/applications/hr/recruitment/offer_job_positions.rst:159
 msgid ""
@@ -19361,6 +19399,7 @@ msgid ""
 ":guilabel:`Files` section of the chatter, and is also stored in the "
 "*Documents* application."
 msgstr ""
+"이력서가 온라인 신청서에 첨부되어 있는 경우, 메시지창의 :guilabel:`파일` 섹션에 표시되고, *문서* 앱에도 저장됩니다."
 
 #: ../../content/applications/hr/recruitment/recruitment-flow.rst:43
 msgid ""
@@ -19386,6 +19425,7 @@ msgid ""
 "Depending on the browser zoom level, or size of the browser screen, the "
 "resumé may appear below the main applicant card information as a PDF link."
 msgstr ""
+"브라우저 확대/축소 수준이나 브라우저 화면 크기에 따라, 이력서가 기본 지원자 카드 정보 아래에 PDF 링크로 표시될 수 있습니다."
 
 #: ../../content/applications/hr/recruitment/recruitment-flow.rst:56
 msgid "Send interview"
@@ -19404,7 +19444,7 @@ msgstr ""
 msgid ""
 "The *Surveys* application is **required** to send interviews to an "
 "applicant, so it **must** be installed."
-msgstr ""
+msgstr "*설문조사* 애플리케이션은 지원자에게 면접 안내를 하기 위해서는 **필수** 이므로 **반드시** 설치해야 합니다."
 
 #: ../../content/applications/hr/recruitment/recruitment-flow.rst:64
 msgid ""
@@ -19467,7 +19507,7 @@ msgstr ""
 msgid ""
 "Enter the email address in the :guilabel:`Email` field, then click "
 ":guilabel:`Save & Close`."
-msgstr ""
+msgstr ":guilabel:`이메일` 필드에 이메일 주소를 입력한 다음 :guilabel:`저장 및 닫기` 를 클릭합니다."
 
 #: ../../content/applications/hr/recruitment/recruitment-flow.rst:92
 msgid ""
@@ -19739,7 +19779,7 @@ msgstr "지원자 불합격 처리"
 msgid ""
 "At any point in the recruitment process, a candidate can be :doc:`refused "
 "<refuse_applicant>`."
-msgstr ""
+msgstr "채용 프로세스 중 언제든지 지원자를 :doc:`불합격 <refuse_applicant>` 처리할 수 있습니다."
 
 #: ../../content/applications/hr/recruitment/recruitment_analysis.rst:3
 msgid "Recruitment analysis"
@@ -19833,7 +19873,7 @@ msgstr "자세한 피벗 테이블 보기입니다."
 
 #: ../../content/applications/hr/recruitment/recruitment_analysis.rst:49
 msgid "Use case: applicants with referrals"
-msgstr "사용 사례: 추천을 통한 지원자"
+msgstr "사례: 추천을 통한 지원자"
 
 #: ../../content/applications/hr/recruitment/recruitment_analysis.rst:51
 msgid ""
@@ -19871,7 +19911,7 @@ msgstr ""
 msgid ""
 "The detailed pivot table view displaying the number of referrals and the "
 "total applicants."
-msgstr ""
+msgstr "세부 피벗 테이블 보기에 추천 수와 총 지원자 수가 표시되어 있는 모습입니다."
 
 #: ../../content/applications/hr/recruitment/recruitment_analysis.rst:69
 msgid ""
@@ -20279,7 +20319,7 @@ msgstr "면접 일정 예약"
 msgid ""
 "Schedule in-person, virtual, and phone interviews with Odoo through the "
 "*Recruitment* app."
-msgstr ""
+msgstr "*채용* 앱을 통해 Odoo에서 대면 면접, 가상 면접 및 전화 면접 일정을 예약해 보세요."
 
 #: ../../content/applications/hr/recruitment/schedule_interviews.rst:7
 msgid ""
@@ -20398,6 +20438,8 @@ msgid ""
 "title for the meeting, along with the :guilabel:`Start` (and end date/time) "
 "fields."
 msgstr ""
+"양식에 관련 정보를 입력합니다. 반드시 입력해야 하는 필수 입력 필드는 회의 제목 및 :guilabel:`시작`(및 종료 날짜/시간) "
+"필드입니다."
 
 #: ../../content/applications/hr/recruitment/schedule_interviews.rst:67
 msgid ""
@@ -20426,6 +20468,8 @@ msgid ""
 "either of these fields opens a calendar pop-up window. Click "
 ":guilabel:`Apply` to close the window."
 msgstr ""
+":guilabel:`시작`: 회의가 시작 및 종료되는 날짜와 시간입니다. 해당 필드 중 하나를 클릭하면 캘린더 팝업창이 열립니다. "
+":guilabel:`적용` 을 클릭하면 창이 닫힙니다."
 
 #: ../../content/applications/hr/recruitment/schedule_interviews.rst:78
 msgid ""
@@ -20510,7 +20554,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Timezone`: using the drop-down menu, select the "
 ":guilabel:`Timezone` for the recurrent meetings."
-msgstr ""
+msgstr ":guilabel:`시간대`: 드롭다운 메뉴를 사용하여 정기 회의에 설정할 :guilabel:`시간대`를 선택하세요."
 
 #: ../../content/applications/hr/recruitment/schedule_interviews.rst:109
 msgid ""
@@ -20828,7 +20872,7 @@ msgstr ""
 msgid ""
 "`Subject: Can we plan an interview together for your (Job Position) "
 "application?`"
-msgstr ""
+msgstr "`제목: (채용 부문) 관련 면접 안내를 드립니다`"
 
 #: ../../content/applications/hr/recruitment/schedule_interviews.rst:256
 msgid ""
@@ -20875,15 +20919,15 @@ msgid ""
 "available. If the applicant does not wish to chose an interviewer, they can "
 "just click :guilabel:`See all availabilities` :icon:`fa-arrow-right`."
 msgstr ""
-"먼저, 면접관을 선택할 수 있는 항목이 있는 경우 사용자는 아이콘과 이름을 클릭하여 면접관을 선택합니다. 지원자에 대한 면접관이 한 "
-"명뿐인 경우 이 단계를 사용할 수 없습니다. 지원자가 면접관을 선택하고 싶지 않은 경우 :guilabel:`가능한 사람 전체 보기` "
+"먼저, 면접관 선택 항목이 있는 경우에는 아이콘과 이름을 클릭하여 대면 면접을 진행할 면접관을 선택합니다. 지원자에 대한 면접관이 한 명"
+" 뿐인 경우에는 이 단계는 선택할 수 없습니다. 지원자가 면접관을 선택하지 않고 진행하려면 :guilabel:`해당 사항 모두 보기` "
 ":icon:`fa-arrow-right` 를 클릭하면 됩니다."
 
 #: ../../content/applications/hr/recruitment/schedule_interviews.rst-1
 msgid ""
 "The first screen seen after clicking 'Plan my interview', where the applicant selects their\n"
 "interviewer."
-msgstr ""
+msgstr "'내 면접 계획' 을 클릭하면 나타나는 첫 번째 화면으로, 지원자가 면접관을 선택할 수 있습니다."
 
 #: ../../content/applications/hr/recruitment/schedule_interviews.rst:285
 msgid ""
@@ -20928,8 +20972,8 @@ msgid ""
 "ensure it is set to the correct time zone. Changing the time zone may alter "
 "the available times presented."
 msgstr ""
-"캘린더 아래에 있는 :guilabel:`시간대` 필드를 확인하여 알맞은 시간대로 설정되어 있는지 확인합니다. 시간대를 변경할 경우 사용 "
-"가능한 시간이 변경될 수 있습니다."
+"캘린더 아래에 있는 :guilabel:`시간대` 필드를 확인하여 시간대가 알맞게 설정되어 있는지 확인합니다. 시간대를 변경할 경우 가능한"
+" 시간 항목이 변경될 수 있습니다."
 
 #: ../../content/applications/hr/recruitment/schedule_interviews.rst:305
 msgid ""
@@ -21004,7 +21048,7 @@ msgstr "보고서 열기"
 msgid ""
 "To access the *Source Analysis* report, navigate to "
 ":menuselection:`Recruitment app --> Reporting --> Source Analysis`."
-msgstr ""
+msgstr "*출처 분석* 보고서에 액세스하려면 :menuselection:`채용 앱 --> 보고 --> 출처 분석` 으로 이동합니다."
 
 #: ../../content/applications/hr/recruitment/source_analysis.rst:19
 msgid ""
@@ -21021,7 +21065,7 @@ msgstr ""
 msgid ""
 "Hover the cursor over any column to view the specific numbers fort that "
 "column."
-msgstr ""
+msgstr "커서를 열 위로 가져가면 해당 열에 있는 숫자를 볼 수 있습니다."
 
 #: ../../content/applications/hr/recruitment/source_analysis.rst-1
 msgid "The default bar chart of the source analysis information."
@@ -21068,6 +21112,9 @@ msgid ""
 "displays a separate count for :guilabel:`Applicant`, :guilabel:`Hired`, and "
 ":guilabel:`Refused`."
 msgstr ""
+"그런 다음 각 열이 출처별로 그룹화되어 :guilabel:`검색 엔진`, :guilabel:`Facebook`, "
+":guilabel:`뉴스레터` 등의 그룹으로 나뉩니다. 각 출처는 :guilabel:`지원자`, :guilabel:`채용 합격`, "
+":guilabel:`채용 불합격` 에 대해 별도의 숫자가 표시됩니다."
 
 #: ../../content/applications/hr/recruitment/source_analysis.rst:48
 msgid ""
@@ -21083,7 +21130,7 @@ msgstr ""
 
 #: ../../content/applications/hr/recruitment/source_analysis.rst-1
 msgid "The axes flipped in the source analysis report, in pivot table view."
-msgstr ""
+msgstr "피벗 테이블 보기에서 출처 분석 보고서의 축이 전환되어 있는 모습입니다."
 
 #: ../../content/applications/hr/recruitment/source_analysis.rst:56
 msgid ""
@@ -21130,7 +21177,7 @@ msgstr ""
 
 #: ../../content/applications/hr/recruitment/source_analysis.rst-1
 msgid "The sources rows, expanded to also show the medium for each source."
-msgstr ""
+msgstr "출처 행에서, 행이 확장되어 각 출처에 대한 매체도 표시되어 있는 모습입니다."
 
 #: ../../content/applications/hr/recruitment/source_analysis.rst:80
 msgid ""
@@ -21155,7 +21202,7 @@ msgstr "팀 성과 보고"
 msgid ""
 "The *Team Performance* report in the **Recruitment** app shows how many "
 "applicants each recruiter is managing."
-msgstr ""
+msgstr "**채용** 앱에 있는 *팀별 실적* 보고서에서 각 채용 담당자가 관리하는 지원자 수를 확인할 수 있습니다."
 
 #: ../../content/applications/hr/recruitment/team_performance.rst:8
 msgid ""
@@ -21163,12 +21210,14 @@ msgid ""
 ":ref:`Recruiter <recruitment/applicant-details>` field on each applicant "
 "form."
 msgstr ""
+"이 내용은 각 지원자 양식의 :ref:`채용 담당자 <recruitment/applicant-details>` 필드에 입력되는 개인별로 "
+"지정됩니다."
 
 #: ../../content/applications/hr/recruitment/team_performance.rst:14
 msgid ""
 "To access the *Team Performance* report, navigate to "
 ":menuselection:`Recruitment app --> Reporting --> Team Performance`."
-msgstr ""
+msgstr "*팀 성과* 보고서에 액세스하려면 :menuselection:`채용 앱 --> 보고 --> 팀 성과` 로 이동합니다."
 
 #: ../../content/applications/hr/recruitment/team_performance.rst:17
 msgid ""
@@ -21242,7 +21291,7 @@ msgstr ""
 
 #: ../../content/applications/hr/recruitment/team_performance.rst:58
 msgid "Use case: recruiter performance over time"
-msgstr "사용 사례: 채용 담당자의 기간별 실적"
+msgstr "사례: 채용 담당자의 기간별 실적"
 
 #: ../../content/applications/hr/recruitment/team_performance.rst:60
 msgid ""
@@ -21372,7 +21421,7 @@ msgstr ""
 msgid ""
 "The default filter is :guilabel:`Last 365 Days Applicant`, showing "
 "information for the last 365 days."
-msgstr ""
+msgstr "기본 필터로 :guilabel:`지난 365일 지원자` 가 지정되어 있으며, 지난 365일 동안의 정보가 표시됩니다."
 
 #: ../../content/applications/hr/recruitment/time_in_stage.rst:25
 msgid ""
@@ -21410,7 +21459,7 @@ msgstr "단계별 시간 분석 보고서의 막대그래프 보기입니다."
 
 #: ../../content/applications/hr/recruitment/time_in_stage.rst:41
 msgid "Use case: comparing times by month"
-msgstr "사용 사례: 월별 시간 비교하기"
+msgstr "사례: 월별 시간 비교하기"
 
 #: ../../content/applications/hr/recruitment/time_in_stage.rst:43
 msgid ""
@@ -21829,8 +21878,8 @@ msgid ""
 "delete any changes, and revert to the original content."
 msgstr ""
 "추천 친구 양식은 자동으로 저장되지만, 왼쪽 상단에 있는 :guilabel:`(클라우드 업로드)` 아이콘으로 표시되어 있는 *수동으로 "
-"저장* 옵션을 클릭하면 언제든지 수동으로 저장할 수 있습니다. 변경 사항을 취소하려면 :guilabel:`✖️ (모든 변경 사항 취소)`"
-" 아이콘을 클릭하면 변경 사항이 삭제되고 원래 콘텐츠로 돌아갑니다."
+"저장* 옵션을 클릭하면 언제든지 수동으로도 저장할 수 있습니다. 변경 사항을 취소하려면 :guilabel:`✖️ (모든 변경 사항 "
+"폐기)` 아이콘을 클릭하여 변경 사항을 삭제하고 원래 콘텐츠로 돌아갑니다."
 
 #: ../../content/applications/hr/referrals.rst-1
 msgid "A friend form in edit mode."
@@ -21954,8 +22003,8 @@ msgid ""
 "and revert to the original content."
 msgstr ""
 "레벨 양식은 자동으로 저장되지만, 왼쪽 상단에 있는 :guilabel:`(클라우드 업로드)` 아이콘으로 표시되어 있는 *수동으로 저장* "
-"옵션을 클릭하면 언제든지 수동으로 저장할 수 있습니다. 변경 사항을 취소하려면 :guilabel:`✖️ (모든 변경 사항 취소)` "
-"아이콘을 클릭하면 변경 사항이 삭제되고 원래 콘텐츠로 돌아갑니다. "
+"옵션을 클릭하면 언제든지 수동으로 저장할 수 있습니다. 변경 사항을 취소하려면 :guilabel:`✖️ (모든 변경 사항 폐기)` "
+"아이콘을 클릭하여 변경 사항을 삭제하고 원래 콘텐츠로 돌아갑니다. "
 
 #: ../../content/applications/hr/referrals.rst-1
 msgid "A level form in edit mode."
@@ -22189,7 +22238,7 @@ msgstr "추천 포인트"
 msgid ""
 "The *Referrals* application allows employees to earn points that are then "
 "exchanged for :doc:`rewards <rewards>`."
-msgstr ""
+msgstr "*인재 추천* 애플리케이션을 사용하면 직원이 적립한 포인트를 :doc:`리워드 <rewards>` 로 교환할 수 있습니다."
 
 #: ../../content/applications/hr/referrals/points.rst:8
 msgid ""
@@ -22270,7 +22319,7 @@ msgstr ""
 msgid ""
 "For referrals that have been hired, the selected avatar also appears on the "
 "card."
-msgstr ""
+msgstr "추천한 사람이 합격한 경우, 선택한 아바타도 카드에 표시됩니다."
 
 #: ../../content/applications/hr/referrals/points.rst-1
 msgid "Two referral cards, one hired and one in-progress."
@@ -22373,6 +22422,8 @@ msgid ""
 ":guilabel:`Employees Referral Analysis` report, in a default :icon:`fa-bar-"
 "chart` :guilabel:`Bar Chart`."
 msgstr ""
+"*직원 추천 분석* 보고서에 액세스하려면 :menuselection:`인재 추천 앱 --> 보고` 로 이동합니다. 그러면 "
+":guilabel:`직원 추천 분석` 보고서가 기본 :icon:`fa-bar-chart` :guilabel:`막대그래프` 로 로드됩니다."
 
 #: ../../content/applications/hr/referrals/reporting.rst:20
 msgid ""
@@ -22397,13 +22448,13 @@ msgstr ""
 msgid ""
 "Hover over any bar to view a popover containing specific data for that "
 "particular bar."
-msgstr ""
+msgstr "표시줄 위에 마우스를 가져가면 해당 표시줄 관련 데이터가 있는 팝오버를 확인할 수 있습니다."
 
 #: ../../content/applications/hr/referrals/reporting.rst:30
 msgid ""
 "In this view, it is easy to see which :guilabel:`Medium` is the most "
 "successful."
-msgstr ""
+msgstr "이 보기를 통해 어떤 :guilabel:`매체` 가 가장 성공적인지 쉽게 확인할 수 있습니다."
 
 #: ../../content/applications/hr/referrals/reporting.rst:33
 msgid ""
@@ -22418,7 +22469,7 @@ msgstr "인재 추천 앱의 기본 보고서입니다."
 
 #: ../../content/applications/hr/referrals/reporting.rst:41
 msgid "Use case: hired referrals"
-msgstr "사용 사례: 추천 인재 채용"
+msgstr "사례: 추천 인재 채용"
 
 #: ../../content/applications/hr/referrals/reporting.rst:43
 msgid ""
@@ -22459,6 +22510,8 @@ msgid ""
 ":guilabel:`Earned Points` and :guilabel:`Employee Referral Refused` to hide "
 "those metrics. Click anywhere on the screen to close the drop-down menu."
 msgstr ""
+"다음으로 :guilabel:`측정값` :icon:`fa-caret-down` 을 클릭한 다음 :guilabel:`적립 포인트` 및 "
+":guilabel:`직원 추천 반려` 를 선택 해제하여 해당 지표를 숨깁니다. 화면의 아무 곳이나 클릭하면 드롭다운 메뉴가 닫힙니다."
 
 #: ../../content/applications/hr/referrals/reporting.rst:61
 msgid ""
@@ -22491,13 +22544,15 @@ msgstr ""
 msgid ""
 "The customized report showing which employees have the most referrals and "
 "hires."
-msgstr ""
+msgstr "사용자 지정 보고서에서 가장 추천 및 채용 합격이 많은 직원을 보여주는 모습입니다."
 
 #: ../../content/applications/hr/referrals/reporting.rst:76
 msgid ""
 "The pivot table can be inserted into a new or existing :doc:`spreadsheet "
 "<../../productivity/spreadsheet/insert>`, if desired."
 msgstr ""
+"피벗 테이블은 원하는 경우 새 스프레드시트나 기존 :doc:`스프레드시트 "
+"<../../productivity/spreadsheet/insert>` 에 삽입할 수 있습니다."
 
 #: ../../content/applications/hr/referrals/reporting.rst:79
 msgid ""
@@ -22515,7 +22570,7 @@ msgstr ""
 msgid ""
 "Click :guilabel:`Confirm`, and the selected spreadsheet loads, with the new "
 "table in it."
-msgstr ""
+msgstr ":guilabel:`확인` 을 클릭하면 선택한 스프레드시트가 새로운 테이블과 함께 로드됩니다."
 
 #: ../../content/applications/hr/referrals/reporting.rst:86
 msgid ""
@@ -23279,7 +23334,7 @@ msgstr "추가 휴가를 신청한다고 해서 휴가가 승인되는 것은 **
 msgid ""
 ":guilabel:`Approval`: Select the type of approvals required for the "
 "allocation of this particular time off type."
-msgstr ""
+msgstr ":guilabel:`승인`: 이와 같은 특정한 휴가 유형을 배정할 때 필요한 승인 유형을 선택합니다."
 
 #: ../../content/applications/hr/time_off.rst:107
 msgid ""
@@ -23310,7 +23365,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Take Time Off in`: Select the format the time off is requested in"
 " from the drop-down menu."
-msgstr ""
+msgstr ":guilabel:`휴가 단위`: 드롭다운 메뉴에서 휴가 신청 단위를 선택합니다."
 
 #: ../../content/applications/hr/time_off.rst:121
 msgid "The options are:"
@@ -23478,13 +23533,13 @@ msgstr "표시 항목 섹션"
 msgid ""
 ":guilabel:`Color`: Select a color to be used in the **Time Off** app "
 "dashboard."
-msgstr ""
+msgstr ":guilabel:`색상`: **휴가** 앱 현황판에서 사용할 색상을 선택합니다."
 
 #: ../../content/applications/hr/time_off.rst:195
 msgid ""
 ":guilabel:`Cover Image`: Select an icon to be used in the **Time Off** app "
 "dashboard."
-msgstr ""
+msgstr ":guilabel:`표지 이미지`: **휴가** 앱 현황판에서 사용할 아이콘을 선택합니다."
 
 #: ../../content/applications/hr/time_off.rst-1
 msgid ""
@@ -23546,6 +23601,7 @@ msgid ""
 ":guilabel:`Carry-Over Time`: Select when the employee received previously "
 "earned time. The options are:"
 msgstr ""
+":guilabel:`휴가 이월`: 직원이 이전 기간에서 이월된 휴가를 부여받을 기간을 선택합니다. 다음 중에서 선택할 수 있습니다."
 
 #: ../../content/applications/hr/time_off.rst:229
 msgid ""
@@ -23614,7 +23670,7 @@ msgstr ""
 msgid ""
 "At the end of the month, the employee accrues only three days, instead of "
 "four."
-msgstr ""
+msgstr "월말에는 직원에게 4일이 아니라 3일만 누적됩니다."
 
 #: ../../content/applications/hr/time_off.rst:257
 msgid ""
@@ -23663,7 +23719,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Employee accrue`: Select the parameters for earned time off in "
 "this section."
-msgstr ""
+msgstr ":guilabel:`직원 누적`: 이 섹션에서는 누적된 휴가에 대한 매개변수를 선택합니다."
 
 #: ../../content/applications/hr/time_off.rst:284
 msgid ""
@@ -23749,13 +23805,13 @@ msgstr ":guilabel:`이월`: 사용하지 않은 휴가를 처리하는 방법을
 #: ../../content/applications/hr/time_off.rst:313
 msgid ""
 ":guilabel:`None. Accrued time reset to 0`: Any unused time off is gone."
-msgstr ""
+msgstr ":guilabel:`없음. 누적 시간이 0으로 재설정됨`: 소진하지 않은 휴가는 소멸됩니다."
 
 #: ../../content/applications/hr/time_off.rst:314
 msgid ""
 ":guilabel:`All accrued time carried over`: All unused time off is rolled "
 "over to the next calendar year."
-msgstr ""
+msgstr ":guilabel:`전체 누적 휴가 이월`: 사용하지 않은 휴가는 모두 다음 연도로 이월됩니다."
 
 #: ../../content/applications/hr/time_off.rst:316
 msgid ""
@@ -24070,7 +24126,7 @@ msgstr "이 필드를 비워두면 회사 전체에 필수 근무일이 적용�
 msgid ""
 ":guilabel:`Start Date`: Using the calendar picker, select the date the "
 "mandatory day starts."
-msgstr ""
+msgstr ":guilabel:`시작일`: 캘린더 선택기에서 필수 근무일이 시작될 날짜를 선택합니다."
 
 #: ../../content/applications/hr/time_off.rst:455
 msgid ""
@@ -24214,6 +24270,8 @@ msgid ""
 "If the **Documents** app is installed, an option to add the report to a "
 "spreadsheet appears. If not, the report can be added to a *Dashboard*."
 msgstr ""
+"*문서* 애플리케이션이 설치되어 있으면 보고서를 스프레드시트에 추가하는 선택 항목이 나타납니다. 설치가 되어 있지 않으면 보고서를 "
+"*현황판* 에 추가할 수 있습니다."
 
 #: ../../content/applications/hr/time_off.rst:526
 msgid "By employee"
@@ -24405,7 +24463,7 @@ msgstr "여기에서 현재 배정 목록과 함께 해당하는 상태가 모�
 msgid ""
 "Click :guilabel:`New` to allocate time off, and a blank "
 ":guilabel:`Allocation` form appears."
-msgstr ""
+msgstr "휴가를 배정할 수 있도록 :guilabel:`새로 만들기` 를 클릭하면 새로 :guilabel:`배정` 양식이 나타납니다."
 
 #: ../../content/applications/hr/time_off/allocations.rst:26
 msgid ""
@@ -24555,7 +24613,7 @@ msgstr ""
 
 #: ../../content/applications/hr/time_off/allocations.rst:87
 msgid "Multiple Allocations"
-msgstr ""
+msgstr "다중 배정"
 
 #: ../../content/applications/hr/time_off/allocations.rst:89
 msgid ""
@@ -24582,7 +24640,7 @@ msgstr ""
 #: ../../content/applications/hr/time_off/allocations.rst:100
 msgid ""
 "Using the drop-down menu, select one of the following :guilabel:`Modes`:"
-msgstr ""
+msgstr "드롭다운 메뉴에서 다음 :guilabel:`모드` 중 하나를 선택합니다."
 
 #: ../../content/applications/hr/time_off/allocations.rst:102
 msgid ""
@@ -24592,6 +24650,9 @@ msgid ""
 "employees to receive the allocation in the :guilabel:`Employees` field. "
 "There is no limit to the amount of employees that can be selected."
 msgstr ""
+":guilabel:`직원별`: 이 옵션을 선택하면 부서, 회사 또는 태그와 무관하게 여러 명의 개별 직원을 선택할 수 있습니다. 선택할 "
+"경우 :guilabel:`직원` 필드가 표시됩니다. 배정을 받을 직원을 :guilabel:`직원` 필드에서 선택합니다. 선택할 수 있는 "
+"직원 수에는 제한이 없습니다."
 
 #: ../../content/applications/hr/time_off/allocations.rst:106
 msgid ""
@@ -24602,6 +24663,10 @@ msgid ""
 "field. When a company is selected, *all* employees within the company "
 "receive the allocation."
 msgstr ""
+":guilabel:`회사별`: 이 항목을 선택하면 지정된 회사에 있는 직원을 모두 선택할 수 있습니다. 선택하면 "
+":guilabel:`회사` 필드가 표시됩니다. 배정할 수 있도록 지정할 :guilabel:`회사` 를 선택합니다. "
+":guilabel:`회사` 필드에서 회사는 하나만 지정할 수 있습니다. 회사를 선택하면 회사 내의 *모든* 직원에게 배정을 할 수 "
+"있습니다."
 
 #: ../../content/applications/hr/time_off/allocations.rst:110
 msgid ""
@@ -24612,6 +24677,9 @@ msgid ""
 ":guilabel:`Department` field. When a department is selected, *all* employees"
 " within the department receive the allocation."
 msgstr ""
+":guilabel:`부서별`: 이 옵션을 선택하면 특정 부서에 있는 모든 직원을 선택할 수 있습니다. 선택하면 :guilabel:`부서`"
+" 필드가 표시됩니다. 배정을 받을 :guilabel:`부서` 를 선택합니다. :guilabel:`부서` 필드에는 하나의 부서만 지정할 수"
+" 있습니다. 부서를 선택하면 부서 내의 *모든* 직원에게 배정을 할 수 있습니다."
 
 #: ../../content/applications/hr/time_off/allocations.rst:115
 msgid ""
@@ -24622,6 +24690,10 @@ msgid ""
 ":guilabel:`Employee Tag` field. When a tag is selected, *all* employees with"
 " that tag receive the allocation."
 msgstr ""
+":guilabel:`직원별 태그`: 이 항목을 선택하면 특정한 태그가 지정되어 있는 직원을 모두 선택할 수 있습니다. 선택하면 "
+":guilabel:`직원 태그` 필드가 표시됩니다. 원하는 :guilabel:`직원 태그` 를 선택하면 해당 태그가 있는 모든 직원이 "
+"선택됩니다. :guilabel:`직원 태그` 필드에서 태그는 하나만 지정할 수 있습니다. 태그를 선택하면 해당 태그가 있는 *모든* "
+"직원에게 배정을 할 수 있습니다."
 
 #: ../../content/applications/hr/time_off/allocations.rst:121
 msgid ""
@@ -24678,9 +24750,9 @@ msgid ""
 ":guilabel:`My Allocations` list view, the screen navigates to a new "
 "allocation request page, instead of presenting a pop-up window."
 msgstr ""
-"두 가지 방법 모두 새로운 배정 요청 양식을 열 수 있으나, :guilabel:`현황판` 에서 요청하는 경우에는 양식이 팝업 창에 "
-"나타나고 *유효 기간* 은 표시되지 **않습니다**. :guilabel:`내 배정` 목록 보기에서 요청할 경우에는 팝업 창을 대신 화면이"
-" 새 배정 요청 페이지로 이동합니다."
+"두 가지 방법 중 어느 방식으로든 새로운 배정 요청 양식을 열 수는 있으나, :guilabel:`현황판` 에서 요청하는 경우에는 양식이 "
+"팝업창에 나타나고 *유효 기간* 은 표시되지 **않습니다**. :guilabel:`내 배정` 목록 보기에서 요청할 경우에는 팝업창이 "
+"나타나는 대신 새 배정 요청 페이지로 이동합니다."
 
 #: ../../content/applications/hr/time_off/allocations.rst:152
 msgid "Enter the following information on the new allocation request form:"
@@ -24720,6 +24792,8 @@ msgid ""
 "in this field. This should include any details that approvers may need to "
 "approve the request."
 msgstr ""
+":guilabel:`사유 추가...`: 이 필드에 배정 신청에 대한 설명을 입력합니다. 여기에는 승인자가 신청을 승인하기 위해서 필요한 "
+"세부 내용을 모두 기재해야 합니다."
 
 #: ../../content/applications/hr/time_off/allocations.rst:166
 msgid ""
@@ -25164,8 +25238,8 @@ msgid ""
 "available balance (in hours or days), and an expiration date (if "
 "applicable)."
 msgstr ""
-"캘린더 보기 위에는 사용자의 잔여 휴가에 대한 요약이 표시됩니다. 배정된 휴가 유형별로 각각의 요약 상자에 표시됩니다. 각 요약에는 휴가"
-" 유형, 해당하는 아이콘, 현재 사용 가능한 잔여 휴가 (시간 또는 일 단위) 및 만료일 (해당하는 경우)가 표시되어 있습니다."
+"캘린더 보기 위에는 잔여 휴가가 요약하여 표시됩니다. 배정된 휴가 유형별로 모두 각각의 요약 상자에 나타나게 됩니다. 각 요약 내용에는 "
+"휴가 유형, 해당하는 아이콘, 현재 사용할 수 있는 잔여 휴가 (시간 또는 일 단위) 및 만료일 (해당하는 경우)이 표시되어 있습니다."
 
 #: ../../content/applications/hr/time_off/my_time.rst:40
 msgid ""

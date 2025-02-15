@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-31 16:01+0000\n"
+"POT-Creation-Date: 2025-01-28 12:25+0000\n"
 "PO-Revision-Date: 2024-10-08 06:34+0000\n"
 "Last-Translator: Sarah Park, 2025\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
@@ -147,31 +147,33 @@ msgstr ":guilabel:`전송 완료`: 이메일이 전송된 횟수입니다."
 msgid ""
 ":guilabel:`Delivered (%)`: percentage of sent emails that have been "
 "successfully delivered."
-msgstr ""
+msgstr ":guilabel:`전달됨(%)`: 전송된 이메일 중 전송에 성공한 백분율입니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:78
 msgid ""
 ":guilabel:`Opened (%)`: percentage of sent emails that have been opened by "
 "the recipients."
-msgstr ""
+msgstr ":guilabel:`열어봄(%)`: 전송한 이메일 중에서 수신자가 열어 본 이메일의 비율입니다"
 
 #: ../../content/applications/marketing/email_marketing.rst:79
 msgid ""
 ":guilabel:`Clicked (%)`: percentage of sent emails that have been clicked by"
 " the recipients."
-msgstr ""
+msgstr ":guilabel:`클릭함(%)`: 전송한 이메일 중에서 수신자가 클릭한 이메일의 비율입니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:80
 msgid ""
 ":guilabel:`Replied (%)`: percentage of sent emails that have been replied to"
 " by the recipients."
-msgstr ""
+msgstr ":guilabel:`회신(%)`: 보낸 메일에 대해 수신자가 회신한 백분율입니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:81
 msgid ""
 ":guilabel:`Status`: the status of the email (:guilabel:`Draft`, "
 ":guilabel:`In Queue`, or :guilabel:`Sent`)."
 msgstr ""
+":guilabel:`상태`: 이메일의 상태(:guilabel:`초안`, :guilabel:`대기 중` 또는 "
+":guilabel:`전송됨`)입니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:84
 msgid ""
@@ -205,7 +207,7 @@ msgstr "Odoo 이메일 마케팅 애플리케이션의 기본 현황판의 칸�
 msgid ""
 "While in Kanban view, the email information is displayed in the various "
 "stages."
-msgstr ""
+msgstr "칸반 보기에서 이메일 정보는 여러 가지 단계에서 표시됩니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:102
 msgid ""
@@ -286,7 +288,7 @@ msgstr ""
 #: ../../content/applications/marketing/email_marketing.rst-1
 msgid ""
 "Calendar view of the mailings dashboard in the Email Marketing application."
-msgstr ""
+msgstr "이메일 마케팅 애플리케이션에 있는 메일링 현황판의 캘린더 보기입니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:139
 msgid ""
@@ -305,7 +307,7 @@ msgstr ""
 msgid ""
 "To hide the right sidebar, click the :guilabel:`(panel-right)` icon, located"
 " above the sidebar."
-msgstr ""
+msgstr "오른쪽에 있는 사이드바를 숨기려면 사이드바 위에 있는 :guilabel:`(패널-오른쪽)` 아이콘을 클릭합니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:147
 msgid ""
@@ -337,7 +339,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/email_marketing.rst:158
 msgid "To jump back to the current date, click the :guilabel:`Today` button."
-msgstr ""
+msgstr "현재 날짜로 돌아가려면 :guilabel:`오늘` 버튼을 클릭하세요."
 
 #: ../../content/applications/marketing/email_marketing.rst:163
 msgid "Graph view"
@@ -579,7 +581,7 @@ msgstr ""
 msgid ""
 "View of the Configuration menu with Settings page in the Odoo Email "
 "Marketing application."
-msgstr ""
+msgstr "Odoo 이메일 마케팅 애플리케이션 환경설정 메뉴 보기의 설정 페이지입니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:283
 msgid "On the :guilabel:`Settings` page, there are four features available."
@@ -655,6 +657,9 @@ msgid ""
 "<email_marketing/mail_body>`, :ref:`A/B Tests <email_marketing/ab_tests>`, "
 "and :ref:`Settings <email_marketing/settings_tab>`."
 msgstr ""
+"그 아래에는 :ref:`메일 본문 <email_marketing/mail_body>`, :ref:`A/B 테스트 "
+"<email_marketing/ab_tests>`, :ref:`설정 <email_marketing/settings_tab>` 의 세 가지"
+" 탭이 나타나 있습니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:323
 msgid "Subject"
@@ -671,7 +676,7 @@ msgstr ""
 msgid ""
 "The :guilabel:`Subject` field is mandatory. An email can **not** be sent "
 "without a :guilabel:`Subject`."
-msgstr ""
+msgstr ":guilabel:`제목` 은 필수 필드입니다. :guilabel:`제목` 이 없으면 이메일을 전송할 수 **없습니다**."
 
 #: ../../content/applications/marketing/email_marketing.rst:332
 msgid ""
@@ -721,7 +726,7 @@ msgstr ""
 msgid ""
 "More than one mailing list can be chosen from the :guilabel:`Select mailing "
 "lists` field."
-msgstr ""
+msgstr ":guilabel:`메일링 리스트 선택` 필드에서 메일링 목록을 두 개 이상 선택할 수 있습니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:356
 msgid ""
@@ -760,7 +765,7 @@ msgstr ""
 msgid ""
 "The :guilabel:`Recipients` field options, other than the default "
 ":guilabel:`Mailing List` option, are as follows:"
-msgstr ""
+msgstr "기본 :guilabel:`메일링 리스트` 옵션 이외의 :guilabel:`수신자` 필드 옵션은 다음과 같습니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:375
 msgid ""
@@ -889,7 +894,7 @@ msgstr ""
 msgid ""
 "The :guilabel:`➕ (plus sign)` icon adds a new node (line) to the overall "
 "targeting logic."
-msgstr ""
+msgstr ":guilabel:`➕(더하기 기호)` 아이콘으로 전체 타겟팅 로직에 새 노드(줄)를 추가합니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:434
 msgid ""
@@ -904,7 +909,7 @@ msgstr ""
 msgid ""
 "The :guilabel:`🗑️ (trash)` icon deletes a specific node (line) in the array "
 "of logic."
-msgstr ""
+msgstr ":guilabel:`🗑️ (휴지통)` 아이콘으로 로직 배열에서 특정 노드(줄)를 삭제합니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:442
 msgid "Mail Body tab"
@@ -920,7 +925,7 @@ msgstr ""
 msgid ""
 "View of the templates in the Mail Body tab in Odoo Email Marketing "
 "application."
-msgstr ""
+msgstr "Odoo 이메일 마케팅 애플리케이션의 메일 본문 탭에 있는 템플릿 보기입니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:451
 msgid ""
@@ -935,7 +940,7 @@ msgstr ""
 msgid ""
 "View of the building blocks in the Mail Body tab in Odoo Email Marketing "
 "application."
-msgstr ""
+msgstr "Odoo 이메일 마케팅 애플리케이션에서 메일 본문 탭에 빌딩 블록이 표시되어 있는 모습입니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:458
 msgid ""
@@ -979,7 +984,7 @@ msgstr ""
 msgid ""
 "View of the rich text editor drop-down in the Odoo Email Marketing "
 "application."
-msgstr ""
+msgstr "Odoo 이메일 마케팅 애플리케이션에서 다양한 서식이 텍스트 편집기 드롭다운 보기에 있는 모습입니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:482
 msgid "A/B Tests tab"
@@ -1069,19 +1074,19 @@ msgstr ""
 msgid ""
 ":guilabel:`Leads`: the mailing with the most leads generated is determined "
 "to be the \"winning\" version."
-msgstr ""
+msgstr ":guilabel:`영업제안`: 가장 영업제안이 많이 생성된 메일링이 \"성공\" 버전으로 지정됩니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:519
 msgid ""
 ":guilabel:`Quotations`: the mailing with the most quotations generated is "
 "determined to be the \"winning\" version."
-msgstr ""
+msgstr ":guilabel:`견적서`: 가장 견적서가 많이 생성된 메일링이 \"성공\" 버전으로 지정됩니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:521
 msgid ""
 ":guilabel:`Revenues`: the mailing with the most revenue generated is "
 "determined to be the \"winning\" version."
-msgstr ""
+msgstr ":guilabel:`수익`: 가장 수익이 많이 발생한 메일링이 \"성공\" 버전으로 지정됩니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:524
 msgid ""
@@ -1094,7 +1099,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/email_marketing.rst-1
 msgid "View of the A/B Tests tab in Odoo Email Marketing application."
-msgstr ""
+msgstr "Odoo 이메일 마케팅 애플리케이션의 A/B 테스트 탭 보기입니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:532
 msgid ""
@@ -1139,7 +1144,7 @@ msgstr ""
 msgid ""
 "View of settings tab in Odoo Email Marketing app, without campaign setting "
 "activated."
-msgstr ""
+msgstr "Odoo 이메일 마케팅 앱의 설정 탭 보기에서 캠페인 설정이 활성화되어 있지 않은 모습입니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:558
 msgid "Email content"
@@ -1161,7 +1166,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Send From`: designate an email alias that displays as the sender "
 "of this particular email."
-msgstr ""
+msgstr ":guilabel:`보낸 사람`: 특정 이메일에서 보낸 사람으로 표시될 이메일 별칭을 지정합니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:566
 msgid ""
@@ -1184,7 +1189,7 @@ msgstr "추적"
 msgid ""
 ":guilabel:`Responsible`: designate a user in the database to be responsible "
 "for this particular email."
-msgstr ""
+msgstr ":guilabel:`담당자`: 해당하는 특정 이메일을 담당할 데이터베이스 사용자를 지정합니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:578
 msgid ""
@@ -1197,7 +1202,7 @@ msgstr ""
 msgid ""
 "View of settings tab in Odoo Email Marketing when campaign setting is "
 "activated."
-msgstr ""
+msgstr "Odoo 이메일 마케팅의 설정 탭 보기가 캠페인 설정 활성화 후 나타난 모습입니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:585
 msgid ""
@@ -1246,7 +1251,7 @@ msgstr "보내기"
 msgid ""
 "The :guilabel:`Send` button reveals a :guilabel:`Ready to unleash emails?` "
 "pop-up window."
-msgstr ""
+msgstr ":guilabel:`보내기` 버튼을 클릭하면 :guilabel:`이메일을 전송할까요?` 팝업창이 나타납니다."
 
 #: ../../content/applications/marketing/email_marketing.rst-1
 msgid ""
@@ -1271,7 +1276,7 @@ msgstr "예약"
 msgid ""
 "The :guilabel:`Schedule` button reveals a :guilabel:`When do you want to "
 "send your mailing?` pop-up window."
-msgstr ""
+msgstr ":guilabel:`예약` 버튼을 클릭하면 :guilabel:`언제 메일링을 전송할까요?` 팝업창이 나타납니다."
 
 #: ../../content/applications/marketing/email_marketing.rst-1
 #: ../../content/applications/marketing/email_marketing.rst-1
@@ -1284,7 +1289,7 @@ msgstr ""
 msgid ""
 "In this pop-up window, click the :guilabel:`Send on` field to reveal a "
 "calendar pop-up window."
-msgstr ""
+msgstr "이 팝업창에서 :guilabel:'전송 날짜` 필드를 클릭하면 캘린더 팝업창이 나타납니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:633
 msgid ""
@@ -1348,7 +1353,7 @@ msgstr "메일링 캠페인"
 msgid ""
 "The *Email Marketing* application provides users with the ability to build "
 "mailing campaigns."
-msgstr ""
+msgstr "*이메일 마케팅* 애플리케이션에서는 메일링 캠페인을 구축하는 기능을 제공하고 있습니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:668
 msgid ""
@@ -1395,7 +1400,7 @@ msgstr ""
 msgid ""
 "Clicking any campaign from the :guilabel:`Campaigns` page reveals that "
 "campaign's form."
-msgstr ""
+msgstr ":guilabel:`캠페인` 페이지에서 캠페인을 클릭하면 해당 캠페인의 양식이 나타납니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:693
 msgid ""
@@ -1501,6 +1506,7 @@ msgid ""
 "From this campaign form, a :guilabel:`Campaign Name`, a "
 ":guilabel:`Responsible`, and :guilabel:`Tags` can be added."
 msgstr ""
+"이 캠페인 양식에서 :guilabel:`캠페인 이름`, :guilabel:`담당자`, :guilabel:`태그` 를 추가할 수 있습니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:755
 msgid ""
@@ -1591,7 +1597,7 @@ msgstr ""
 #: ../../content/applications/marketing/email_marketing.rst-1
 msgid ""
 "View of the mailing campaign creation in the Settings tab of an email form."
-msgstr ""
+msgstr "이메일 양식의 설정 탭에 있는 메일링 캠페인 생성 보기입니다."
 
 #: ../../content/applications/marketing/email_marketing.rst:803
 msgid ""
@@ -1661,6 +1667,10 @@ msgid ""
 "<email-marketing/view-metrics>`, that can be interpreted through "
 ":ref:`reports <email_marketing/create_reports>` to improve future campaigns."
 msgstr ""
+"이메일 마케팅 캠페인의 성패에 대해 제대로 이해하려면 몇 가지 주요 지표를 모니터링해야 합니다. 이러한 지표를 통해 향후 캠페인을 "
+"최적화할 수 있는 인사이트를 쌓을 수 있습니다. Odoo **이메일 마케팅** 애플리케이션에서는 여러 가지 :ref:`핵심 지표 "
+"<email-marketing/key-metrics>` 를 추적하고 있으며, 이 지표를 :ref:`보고서 "
+"<email_marketing/create_reports>` 를 통해 해석하여 향후 캠페인을 개선하기 위해 활용할 수 있습니다."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:16
 msgid "View metrics"
@@ -1680,26 +1690,28 @@ msgid ""
 "for that mailing. Click on one of the mailings in the list to open the "
 "record."
 msgstr ""
+"개별 메일링에 대한 지표를 확인하려면 :menuselection:`이메일 마케팅 앱 --> 메일링` 으로 이동합니다. 목록 보기에서 "
+"메일링을 찾은 후 열 제목을 사용하여 해당 메일링에 대한 결과를 봅니다. 목록에 있는 메일링 중 하나를 클릭하면 레코드가 열립니다."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:25
 msgid ""
 "At the top of the record, detailed metrics are displayed as smart buttons."
-msgstr ""
+msgstr "레코드 상단에는 세부적인 지표가 스마트 버튼으로 표시됩니다."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst-1
 msgid ""
 "The smart buttons on a mass mailing, displaying the results of the message."
-msgstr ""
+msgstr "대량 메일링에 있는 스마트 버튼으로 메시지 결과가 표시되어 있는 모습입니다."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:32
 msgid "Opened rate"
-msgstr "오픈율"
+msgstr "확인율"
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:34
 msgid ""
 "The percentage of emails opened by recipients, against the total number of "
 "sent emails."
-msgstr ""
+msgstr "이메일 발송 총 숫자 대비 수신자가 열어본 이메일의 비율입니다."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:36
 msgid ""
@@ -1837,7 +1849,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:111
 msgid "Create metrics reports"
-msgstr ""
+msgstr "지표 보고서 만들기"
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:113
 msgid ""
@@ -1875,6 +1887,10 @@ msgid ""
 "metric for analyzing who on the team is sending in volume or quantity over a"
 " set time period."
 msgstr ""
+" :guilabel:`그룹화 기준` 을 여러 개 설정할 경우, 먼저 선택된 옵션에 따라 그룹이 중첩하여 생성됩니다. 예를 들어 "
+":guilabel:`보낸 기간` 을 선택한 다음 :guilabel:`사용자 지정 그룹 추가 --> 담당자` 를 :guilabel:`그룹 "
+"기준` 열에서 선택하면, 결과가 *먼저* 보낸 기간별로 정렬되고 *그런 다음* 담당 팀원별로 정렬됩니다. 이 내용은 팀에서 일정 기간 "
+"동안 전송한 분량이나 수량을 분석하는 데 유용한 지표입니다."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:133
 msgid ""
@@ -1887,11 +1903,11 @@ msgstr ""
 msgid ""
 "A monthly newsletter has been sent out, and 6.9% of the sent emails were "
 "bounced."
-msgstr ""
+msgstr "월간 뉴스레터 발송이 완료되었으며, 발송된 이메일의 6.9%가 반송되었습니다."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:0
 msgid "The metrics smart buttons of the newsletter."
-msgstr ""
+msgstr "뉴스레터의 메트릭 스마트 버튼입니다."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:143
 msgid ""
@@ -1903,10 +1919,14 @@ msgid ""
 "recipients that have been created on, or after, July 1st, 2024, in the "
 "report."
 msgstr ""
+"이와 같이 반송된 경우 수신자의 공통점을 확인하기 위해, 모든 레코드를 메일링 리스트별로 대상 :guilabel:`메일링 리스트` 에 "
+"대한 사용자 지정 그룹으로 만들어 레코드를 그룹화합니다. 그런 다음 `2024년 7월 1일 00:00:00에 생성됨` 규칙으로 레코드에 "
+"사용자 지정 필터를 사용하여 메일링 리스트가 마지막으로 확인된 날짜를 기준으로 필터를 적용합니다. 이 필터를 사용할 경우 2024년 7월"
+" 1일 또는 그 이후에 생성된 수신자만 보고서에서 포함됩니다."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:0
 msgid "The custom filter creation form."
-msgstr ""
+msgstr "사용자 지정 필터 생성 양식"
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:153
 msgid ""
@@ -1916,20 +1936,24 @@ msgid ""
 " (i.e: @yaoo.com instead of @yahoo.com), likely due to a manual entry error "
 "while updating the database."
 msgstr ""
+"이렇게 환경설정을 해두면, 최근에 목록이 확인된 후에 이메일이 반송된 모든 수신자가 추가되었다는 것을 알 수 있습니다. 도메인을 자세히 "
+"살펴보면 각 수신자 이메일 도메인이 잘못 설정된 것인 것이 분명하며(예: @yahoo.com 대신 @yaoo.com), 이는 "
+"데이터베이스를 업데이트하는 동안 수동 입력 오류가 발생했을 가능성이 큽니다."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:0
 msgid "A list of bounced email addresses with malformed email domains."
-msgstr ""
+msgstr "이메일 도메인 형식 오류로 인해 반송된 이메일 주소 목록입니다."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:163
 msgid ""
 "View :doc:`../../essentials/search` for more information about making custom"
 " groups and filters."
 msgstr ""
+"사용자 지정 그룹 및 필터 만들기에 대한 자세한 내용은 :doc:`../../essentials/search` 를 참조하세요."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:169
 msgid "Mass mailing analysis"
-msgstr ""
+msgstr "대량 메일 분석"
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:171
 msgid ""
@@ -1951,7 +1975,7 @@ msgstr ""
 msgid ""
 "The following chart displays the number of opened emails from two different "
 "mass mailings."
-msgstr ""
+msgstr "다음 그래프에는 다른 두 개의 대량 메일링에서 이메일을 열어 본 수가 표시되어 있습니다."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:183
 msgid ""
@@ -1960,12 +1984,14 @@ msgid ""
 "attributed to a subject line that failed to capture readers' attention, the "
 "subject line of each mass mailing can be a good place to begin looking."
 msgstr ""
+"이 보기에서 첫 번째 대량 메일이 두 번째보다 확인 비율이 더 높았음을 알 수 있습니다. 확인율이 낮다는 것은 보통 수신자의 관심을 "
+"끌만한 제목이 아니었다는 의미가 될 수 있으므로, 각 대량 메일에 있는 제목줄을 검토하는 것이 무엇보다도 중요합니다."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:0
 msgid ""
 "A bar chart displaying the different opened rate between two mass mailing "
 "campaigns."
-msgstr ""
+msgstr "막대그래프로 두 건의 대량 메일 캠페인의 확인율이 다르게 표시되어 있는 모습입니다."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:192
 msgid ""
@@ -1986,7 +2012,7 @@ msgstr "배달 가능성 문제"
 msgid ""
 "The following define possible reasons for a high bounce rate or low received"
 " rate:"
-msgstr ""
+msgstr "다음은 반송률이 높거나 수신률이 낮은 이유에 대한 설명입니다."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:204
 msgid ""
@@ -2105,7 +2131,7 @@ msgstr ""
 msgid ""
 "To view a list of all matching records, click the :guilabel:`# record(s)` "
 "text."
-msgstr ""
+msgstr "일치하는 레코드 목록을 모두 확인하려면 :guilabel:`레코드 개수` 텍스트를 클릭합니다."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:0
 msgid "The # record(s) text is located below the list of Recipient filters."
@@ -2126,13 +2152,15 @@ msgstr ""
 msgid ""
 "Here are the minimum necessary filters that pertain to a lost leads "
 "reactivation mailing campaign:"
-msgstr ""
+msgstr "다음은 실패한 영업제안 재활성화 메일링 캠페인과 관련된 최소한의 필수 필터입니다."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:50
 msgid ""
 "The :ref:`Recipients <email_marketing/recipients_field>` field **must** be "
 "set to the *Lead/Opportunity* model."
 msgstr ""
+":ref:`수신자 <email_marketing/recipients_field>` 필드는 반드시 *영업제안/영업기회* 모델로 설정해야 "
+"합니다."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:52
 msgid ""
@@ -2171,6 +2199,8 @@ msgid ""
 "A pair of :ref:`Active <email_marketing/active_filter>` filters to target "
 "*both* active and inactive leads."
 msgstr ""
+":ref:`활성 <email_marketing/active_filter>` 필터 쌍에서 활성 및 비활성 영업제안 *모두* 가 대상으로 "
+"나타나 있는 모습입니다."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:65
 msgid "Add the necessary filters"
@@ -2240,7 +2270,7 @@ msgstr ""
 msgid ""
 "A custom filter rule setting the time period to be anything before today's "
 "date."
-msgstr ""
+msgstr "사용자 지정 필터 규칙을 통해 오늘 날짜 이전으로 기간을 설정하는 모습입니다."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:104
 msgid ""
@@ -2256,7 +2286,7 @@ msgstr ""
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:0
 msgid ""
 "The statement at the top of the filters list, with the drop-down menu open."
-msgstr ""
+msgstr "필터 목록 상단의 문구와 함께 드롭다운 메뉴가 열려 있는 모습입니다."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:116
 msgid "Stage"
@@ -2317,7 +2347,7 @@ msgstr ""
 msgid ""
 "Three filter rules requiring that the Stage does not contain New, Qualified,"
 " or Won."
-msgstr ""
+msgstr "세 가지 필터 규칙에서 스테이지에 신규, 적격 또는 성공 건이 포함되지 않도록 된 모습입니다."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:151
 msgid "Lost Reason"
@@ -2364,7 +2394,7 @@ msgstr ""
 msgid ""
 "A list of filter rules that exclude all lost reasons other than the desired "
 "reason."
-msgstr ""
+msgstr "선택한 사유 외에 모든 실패 사유를 제외시킬 수 있는 필터 규칙 목록입니다."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:175
 msgid "Active"
@@ -2416,7 +2446,7 @@ msgstr ""
 msgid ""
 "A pair of Match Any Of filter rules that include both active and inactive "
 "leads."
-msgstr ""
+msgstr "활성 및 비활성 영업제안이 모두 포함되어 있는 모든 일치 항목 필터 규칙 쌍입니다."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:201
 msgid "Add body content"
@@ -2449,7 +2479,7 @@ msgstr ""
 msgid ""
 "The Save as Favorite Filter pop-up can save the lost leads criteria for "
 "later."
-msgstr ""
+msgstr "즐겨찾기 필터 팝업 저장 기능으로 실패한 영업제안 기준을 나중에 사용할 수 있도록 저장할 수 있습니다."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:217
 msgid "Send or schedule"
@@ -2457,7 +2487,7 @@ msgstr "보내기 또는 예약"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:219
 msgid "Once all the components of the email campaign are complete, either:"
-msgstr ""
+msgstr "이메일 캠페인의 모든 구성 요소가 완료되면:"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:221
 msgid ""
@@ -2525,10 +2555,12 @@ msgid ""
 "For more information on *Lost Reasons*, including the creation of them, "
 "refer to :doc:`../../sales/crm/pipeline/lost_opportunities`."
 msgstr ""
+"*실패 사유* 에 대해 생성 방법과 같은 자세한 내용은 "
+":doc:`../../sales/crm/pipeline/lost_opportunities` 를 참조하세요."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:255
 msgid "By default, Odoo includes a few common *Lost Reasons*, such as:"
-msgstr ""
+msgstr "기본적으로 Odoo에는 다음과 같은 일반적인 *실패 사유* 가 몇 가지 있습니다."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:257
 msgid "*Too expensive*"
@@ -2567,7 +2599,7 @@ msgstr ""
 msgid ""
 "A list of filter rules that exclude all lost reasons except for Out of "
 "Stock."
-msgstr ""
+msgstr "필터 규칙 목록을 통해 품절을 제외한 모든 실패 사유가 제외됩니다."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:274
 msgid ""
@@ -2579,7 +2611,7 @@ msgstr ""
 msgid ""
 "A list of filter rules that exclude all lost reasons except for Too "
 "Expensive."
-msgstr ""
+msgstr "필터 규칙 목록을 통해 너무 비쌈을 제외한 모든 실패 사유가 제외됩니다."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:282
 msgid "Analyze the results"
@@ -2627,7 +2659,7 @@ msgstr ":guilabel:`회신`: 이메일에 회신한 수신자의 백분율입니�
 msgid ""
 ":guilabel:`Clicked`: click-through rate (%) of recipients that clicked on a "
 "link in the email."
-msgstr ""
+msgstr ":guilabel:`클릭함`: 이메일의 링크를 클릭한 수신자의 클릭률(%)입니다."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:300
 msgid ""
@@ -2697,7 +2729,7 @@ msgstr "효과적인 영업제안 육성을 하기 위한 접근 방식은 매�
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:324
 msgid "Sending an initial email (such as, a lost leads reactivation email)."
-msgstr ""
+msgstr "최초 이메일을 전송합니다(예: 실패한 영업제안 재활성화 이메일 등)."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:325
 msgid ""
@@ -2709,7 +2741,7 @@ msgstr ""
 msgid ""
 "Continuously analyzing results to learn what approaches have resulted in "
 "sales."
-msgstr ""
+msgstr "지속적으로 결과를 분석하여 어떤 접근 방식이 판매로 이어졌는지 파악합니다."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:328
 msgid ""
@@ -2742,7 +2774,7 @@ msgstr ""
 msgid ""
 "**Week 2:** the marketing team sends two different emails, depending on how "
 "a lead responded."
-msgstr ""
+msgstr "**2주차:** 마케팅 팀에서는 영업제안이 응답한 방식에 따라 두 가지 다른 이메일을 전송합니다."
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:343
 msgid ""
@@ -3523,7 +3555,7 @@ msgid ""
 "When :guilabel:`Unblacklist` is clicked, an :guilabel:`Are you sure you want"
 " to unblacklist this Email Address?` pop-up window appears."
 msgstr ""
-":guilabel:`수신 거부 해제`를 클릭하면 :guilabel:`이메일 주소에 대한 수신 거부를 해제할까요?` 팝업창이 나타납니다."
+":guilabel:`수신 거부 해제` 를 클릭하면 :guilabel:`이메일 주소에 대한 수신 거부를 해제할까요?` 팝업창이 나타납니다."
 
 #: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:117
 msgid ""
@@ -3680,7 +3712,7 @@ msgstr ""
 msgid ""
 "The Events section on the Odoo Events settings page in the Odoo Events "
 "application."
-msgstr ""
+msgstr "Odoo 행사 애플리케이션의 Odoo 행사 설정 페이지에 있는 행사 섹션입니다."
 
 #: ../../content/applications/marketing/events.rst:115
 msgid ""
@@ -3703,7 +3735,7 @@ msgstr ""
 msgid ""
 "The :guilabel:`Live Broadcast` feature lets users air tracks online, via a "
 "*YouTube* integration."
-msgstr ""
+msgstr ":guilabel:`라이브 방송` 기능을 사용하면 *YouTube* 와 통합되어 온라인으로 트랙을 방송할 수 있습니다."
 
 #: ../../content/applications/marketing/events.rst:124
 msgid ""
@@ -3772,13 +3804,13 @@ msgstr ""
 msgid ""
 "The Registration section in the Odoo Events settings page in the Odoo Events"
 " application."
-msgstr ""
+msgstr "Odoo 행사 애플리케이션의 Odoo 행사 설정 페이지에 있는 등록 섹션입니다."
 
 #: ../../content/applications/marketing/events.rst:155
 msgid ""
 "The :guilabel:`Tickets` setting allows users to sell event tickets, via "
 "standard sales orders."
-msgstr ""
+msgstr ":guilabel:`티켓` 설정을 통해 행사 티켓을 판매할 수 있으며, 표준 판매주문서를 활용합니다."
 
 #: ../../content/applications/marketing/events.rst:157
 msgid ""
@@ -3804,7 +3836,7 @@ msgstr ""
 msgid ""
 "The Attendance section in the Odoo Events Settings page in the Odoo Events "
 "application."
-msgstr ""
+msgstr "Odoo 행사 애플리케이션의 Odoo 행사 설정 페이지에 있는 참석 섹션입니다."
 
 #: ../../content/applications/marketing/events.rst:171
 msgid ""
@@ -3866,7 +3898,7 @@ msgstr ""
 msgid ""
 "Odoo simplifies the ticket-purchasing process by providing plenty of payment"
 " method options, as well."
-msgstr ""
+msgstr "Odoo는 다양한 결제 수단을 통해 티켓 구매 프로세스를 간소화합니다."
 
 #: ../../content/applications/marketing/events.rst:201
 msgid ":doc:`events/sell_tickets`"
@@ -3940,7 +3972,7 @@ msgstr "등록 데스크"
 msgid ""
 "Grant access to event attendees quickly and easily with the Odoo **Events** "
 "*Registration Desk* feature."
-msgstr ""
+msgstr "Odoo **행사** *등록 데스크* 기능을 활용하여 행사 참석자에게 빠르고 쉽게 액세스 권한을 부여할 수 있습니다."
 
 #: ../../content/applications/marketing/events.rst:246
 msgid ":doc:`events/registration_desk`"
@@ -3955,7 +3987,7 @@ msgstr "수익 보고서"
 msgid ""
 "Gain invaluable insight into event-related revenues with customizable "
 "reports and metrics."
-msgstr ""
+msgstr "사용자 지정 보고서와 지표를 통해 행사 관련 수익에 대해 깊이있는 이해를 더할 수 있습니다."
 
 #: ../../content/applications/marketing/events.rst:254
 msgid ":doc:`events/revenues_report`"
@@ -4065,6 +4097,8 @@ msgid ""
 "and clickable tabs that serve to configure the initial, necessary details of"
 " the event."
 msgstr ""
+"스마트 버튼 아래에는 행사 양식이 있으며, 여기에는 다양한 필드와 함께 탭을 클릭하여 행사에 대한 기초적인 필수 세부 정보를 설정할 수 "
+"있습니다. "
 
 #: ../../content/applications/marketing/events/create_events.rst:55
 msgid "The following are fields found on an event form:"
@@ -4073,7 +4107,7 @@ msgstr "다음은 행사 양식에 있는 필드입니다:"
 #: ../../content/applications/marketing/events/create_events.rst:57
 msgid ""
 ":guilabel:`Event Name`: the title of the event. This field is **required**."
-msgstr ""
+msgstr ":guilabel:`행사명`: 행사의 제목입니다. 이 필드는 **필수** 필드입니다."
 
 #: ../../content/applications/marketing/events/create_events.rst:60
 msgid ""
@@ -4089,14 +4123,16 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/create_events.rst:65
 msgid ""
-":guilabel:`Date`: when the event is scheduled to take place. This field is "
-"auto-populated, but modifiable, and is **required**."
+":guilabel:`Date`: when the event is scheduled to take place (expressed in "
+"your local timezone). This field is auto-populated, but modifiable, and is "
+"**required**."
 msgstr ""
 
 #: ../../content/applications/marketing/events/create_events.rst:67
 msgid ""
-":guilabel:`Timezone`: the corresponding timezone related to the event. This "
-"field is auto-populated, but modifiable, and is **required**."
+":guilabel:`Display Timezone`: the timezone in which the event dates/times "
+"will be displayed on the website. This field is auto-populated, but "
+"modifiable, and is **required**."
 msgstr ""
 
 #: ../../content/applications/marketing/events/create_events.rst:69
@@ -4151,7 +4187,7 @@ msgstr ""
 msgid ""
 "Users also have the option to add a brief :guilabel:`Description` to the "
 "wall, as well."
-msgstr ""
+msgstr "또한 사용자는 담벼락에 간략하게 :guilabel:`설명` 추가도 할 수 있습니다."
 
 #: ../../content/applications/marketing/events/create_events.rst:94
 msgid ""
@@ -4190,7 +4226,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Template`: choose a pre-configured event template from the "
 "resulting drop-down menu."
-msgstr ""
+msgstr ":guilabel:`템플릿`: 드롭다운 메뉴가 나타나면 미리 설정된 행사 템플릿을 선택합니다."
 
 #: ../../content/applications/marketing/events/create_events.rst:110
 msgid ""
@@ -4201,7 +4237,7 @@ msgstr ""
 #: ../../content/applications/marketing/events/create_events.rst:113
 msgid ""
 ":guilabel:`Create` (which creates the template, and can be edited later) or"
-msgstr ""
+msgstr ":guilabel:`만들기`(템플릿을 생성한 후 나중에 편집할 수 있음) 또는"
 
 #: ../../content/applications/marketing/events/create_events.rst:114
 msgid ""
@@ -4234,7 +4270,7 @@ msgstr "guilabel:`주최자`: 행사의 주최자(회사, 연락처 또는 직�
 msgid ""
 ":guilabel:`Responsible`: designate a user in the database to be responsible "
 "for this event."
-msgstr ""
+msgstr ":guilabel:`담당자`: 해당 행사를 담당할 담당자를 데이터베이스에서 지정합니다."
 
 #: ../../content/applications/marketing/events/create_events.rst:126
 msgid ""
@@ -4312,6 +4348,9 @@ msgid ""
 "<events/event-communication>`, :ref:`Questions <events/event-questions>`, "
 "and :ref:`Notes <events/event-notes>`."
 msgstr ""
+"해당 탭은 :ref:`티켓 <events/event-tickets>`, :ref:`커뮤니케이션 <events/event-"
+"communication>`, :ref:`질문 <events/event-questions>`, :ref:`메모 <events/event-"
+"notes>` 로 구성되어 있습니다."
 
 #: ../../content/applications/marketing/events/create_events.rst:157
 msgid "Tickets tab"
@@ -4325,7 +4364,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/create_events.rst-1
 msgid "A typical tickets tab on an event form in the Odoo Events application."
-msgstr ""
+msgstr "행사 양식에 있는 일반적인 티켓 탭이 Odoo 행사 애플리케이션에 나타나 있는 모습입니다."
 
 #: ../../content/applications/marketing/events/create_events.rst:165
 msgid ""
@@ -4375,7 +4414,7 @@ msgstr ""
 msgid ""
 "Next, set the registration cost of the ticket in the :guilabel:`Price` "
 "field."
-msgstr ""
+msgstr "다음으로, :guilabel:`가격` 필드에 티켓 등록비를 설정합니다."
 
 #: ../../content/applications/marketing/events/create_events.rst:188
 msgid ""
@@ -4402,13 +4441,13 @@ msgstr ""
 msgid ""
 "Then, if desired, designate a :guilabel:`Maximum` amount of that specific "
 "ticket that can be sold."
-msgstr ""
+msgstr "그런 다음 필요한 경우, 해당 티켓의 판매용 :guilabel:`최대` 수량을 지정합니다."
 
 #: ../../content/applications/marketing/events/create_events.rst:198
 msgid ""
 "The :guilabel:`Taken` column populates with the number of tickets that are "
 "sold."
-msgstr ""
+msgstr ":guilabel:`판매됨` 열에는 판매된 티켓 수가 입력됩니다."
 
 #: ../../content/applications/marketing/events/create_events.rst:200
 msgid ""
@@ -4435,7 +4474,7 @@ msgstr ""
 msgid ""
 "Then, tick the checkbox beside :guilabel:`Description` from the resulting "
 "drop-down menu."
-msgstr ""
+msgstr "그런 다음 드롭다운 메뉴가 나타나면 :guilabel:`설명` 옆에 있는 확인란에 표시합니다."
 
 #: ../../content/applications/marketing/events/create_events.rst:213
 msgid ""
@@ -4462,7 +4501,7 @@ msgstr ""
 #: ../../content/applications/marketing/events/create_events.rst-1
 msgid ""
 "Typical communication tab on an event form in the Odoo Events application."
-msgstr ""
+msgstr "Odoo 행사 애플리케이션에 있는 행사 양식의 일반적인 커뮤니케이션 탭입니다."
 
 #: ../../content/applications/marketing/events/create_events.rst:229
 msgid ""
@@ -4641,7 +4680,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/create_events.rst-1
 msgid "Typical questions tab on an event form in the Odoo Events application."
-msgstr ""
+msgstr "Odoo 행사 애플리케이션의 행사 양식에 있는 일반적인 질문 탭입니다."
 
 #: ../../content/applications/marketing/events/create_events.rst:310
 msgid ""
@@ -4679,7 +4718,7 @@ msgstr ""
 msgid ""
 "The Create Question pop-up window that appears in the Odoo Events "
 "application."
-msgstr ""
+msgstr "Odoo 행사 애플리케이션에 표시되는 질문 만들기 팝업 창입니다."
 
 #: ../../content/applications/marketing/events/create_events.rst:326
 msgid ""
@@ -4726,19 +4765,19 @@ msgstr ""
 msgid ""
 ":guilabel:`Name`: provides registrants with a field for them to enter their "
 "name."
-msgstr ""
+msgstr ":guilabel:`이름`: 등록자 이름을 입력하는 필드입니다."
 
 #: ../../content/applications/marketing/events/create_events.rst:342
 msgid ""
 ":guilabel:`Email`: provides registrants with a field for them to enter their"
 " email address."
-msgstr ""
+msgstr ":guilabel:`이메일`: 등록한 사람의 이메일 주소를 입력하는 필드입니다."
 
 #: ../../content/applications/marketing/events/create_events.rst:343
 msgid ""
 ":guilabel:`Phone`: provides registrants with a field for them to enter their"
 " phone number."
-msgstr ""
+msgstr ":guilabel:`전화번호`: 등록한 사람의 전화번호를 입력하는 필드입니다."
 
 #: ../../content/applications/marketing/events/create_events.rst:344
 msgid ""
@@ -4824,7 +4863,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/create_events.rst-1
 msgid "Typical notes tab on an event form in the Odoo Events application."
-msgstr ""
+msgstr "Odoo 행사 애플리케이션의 행사 양식에 있는 일반적인 메모 탭입니다."
 
 #: ../../content/applications/marketing/events/create_events.rst:385
 msgid ""
@@ -4832,6 +4871,8 @@ msgid ""
 "internal notes for other event employees, like \"to-do\" lists, contact "
 "information, instructions, and so on."
 msgstr ""
+":guilabel:`메모` 탭에 있는 :guilabel:`메모` 필드에서, 다른 행사 직원에게 \"할 일\" 목록, 연락처 정보, 지침 "
+"등과 같은 내부 메모를 남길 수 있습니다."
 
 #: ../../content/applications/marketing/events/create_events.rst:388
 msgid ""
@@ -4871,6 +4912,8 @@ msgid ""
 ":doc:`Building block <../../websites/website/web_design/building_blocks>` "
 "documentation."
 msgstr ""
+"웹사이트 디자인 기능 및 옵션에 대해 더 자세히 알아보려면 :doc:`빌딩 블록 "
+"<../../websites/website/web_design/building_blocks>` 문서를 참조하세요."
 
 #: ../../content/applications/marketing/events/create_events.rst:406
 msgid ""
@@ -4999,7 +5042,7 @@ msgstr "Odoo 행사 애플리케이션에 있는 부스 카테고리 페이지�
 msgid ""
 "On the :guilabel:`Booth Category` page, the following information for each "
 "booth category is listed:"
-msgstr ""
+msgstr ":guilabel:`부스 카테고리` 페이지에는 각 부스 카테고리와 관련하여 다음 내용이 표시되어 있습니다."
 
 #: ../../content/applications/marketing/events/event_booths.rst:45
 msgid ":guilabel:`Name`: the name of the booth category."
@@ -5009,13 +5052,13 @@ msgstr ":guilabel:`이름`: 부스 카테고리의 제목입니다."
 msgid ""
 ":guilabel:`Create Sponsor`: if checked, booking this booth category creates "
 "a sponsor for the user."
-msgstr ""
+msgstr ":guilabel:`스폰서 생성`: 표시할 경우, 이 부스 카테고리를 예약하면 스폰서가 생성됩니다."
 
 #: ../../content/applications/marketing/events/event_booths.rst:48
 msgid ""
 ":guilabel:`Product`: the *Event Booth* product associated with that specific"
 " booth category."
-msgstr ""
+msgstr ":guilabel:`제품`: 해당 부스 카테고리와 관련된 *행사 부스* 제품입니다."
 
 #: ../../content/applications/marketing/events/event_booths.rst:49
 msgid ":guilabel:`Price`: the price of a booth in that booth category."
@@ -5126,7 +5169,7 @@ msgstr ""
 msgid ""
 "Select a desired level of sponsorship from the :guilabel:`Sponsor Level` "
 "drop-down field."
-msgstr ""
+msgstr "원하는 수준으로 스폰서 레벨을 :guilabel:`스폰서 레벨` 드롭다운 필드에서 선택합니다."
 
 #: ../../content/applications/marketing/events/event_booths.rst:100
 msgid ""
@@ -5167,7 +5210,7 @@ msgstr "그러면 :guilabel:`스폰서 레벨 만들기` 팝업창이 나타납�
 msgid ""
 "The Create Sponsor Level pop-up window that appears in the Odoo Events "
 "application."
-msgstr ""
+msgstr "스폰서 레벨 생성 팝업 창이 Odoo 행사 애플리케이션에 나타나 있는 모습입니다."
 
 #: ../../content/applications/marketing/events/event_booths.rst:119
 msgid ""
@@ -5277,13 +5320,13 @@ msgstr "Odoo 행사 애플리케이션의 일반적인 부스 양식입니다."
 msgid ""
 "Start by typing in a :guilabel:`Name` for the booth. This is a **required** "
 "field."
-msgstr ""
+msgstr "부스의 :guilabel:`이름` 을 입력하는 것부터 시작합니다. 이 필드는 **필수** 항목입니다."
 
 #: ../../content/applications/marketing/events/event_booths.rst:171
 msgid ""
 "Then, apply a :guilabel:`Booth Category` to the booth. This is a "
 "**required** field."
-msgstr ""
+msgstr "그런 다음 부스에 :guilabel:`부스 카테고리` 를 적용합니다. **필수** 필드입니다."
 
 #: ../../content/applications/marketing/events/event_booths.rst:174
 msgid ""
@@ -5418,6 +5461,7 @@ msgid ""
 "subheader menu. In this case, make sure the :guilabel:`Booth Register` "
 "checkbox is ticked."
 msgstr ""
+"여기에서 행사 하위 헤더에 위치할 메뉴를 선택합니다. 이 경우 :guilabel:`부스 등록` 확인란이 선택되어 있는지 확인하세요."
 
 #: ../../content/applications/marketing/events/event_booths.rst:232
 msgid ""
@@ -5430,7 +5474,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/event_booths.rst-1
 msgid "Typical Get A Booth page on the event website via the Odoo Events app."
-msgstr ""
+msgstr "Odoo 행사 앱을 통한 행사 웹사이트의 일반적인 부스 예약 페이지입니다."
 
 #: ../../content/applications/marketing/events/event_booths.rst:240
 msgid ""
@@ -5495,7 +5539,7 @@ msgstr ""
 msgid ""
 "Click the *Sponsors* smart button to modify any information about the "
 "sponsor, if necessary."
-msgstr ""
+msgstr "필요한 경우 *스폰서* 스마트 버튼을 클릭하면 스폰서에 대한 정보를 수정할 수 있습니다."
 
 #: ../../content/applications/marketing/events/event_booths.rst:270
 #: ../../content/applications/marketing/events/event_templates.rst:217
@@ -5533,7 +5577,7 @@ msgstr "행사 템플릿 페이지"
 msgid ""
 "In the Odoo *Events* application, event templates can quickly be created and"
 " modified."
-msgstr ""
+msgstr "Odoo *행사* 애플리케이션에서 행사 템플릿을 빠르게 생성하고 수정할 수 있습니다."
 
 #: ../../content/applications/marketing/events/event_templates.rst:17
 msgid ""
@@ -5570,7 +5614,7 @@ msgstr ""
 msgid ""
 "To learn more about event forms, refer to the :doc:`create_events` "
 "documentation."
-msgstr ""
+msgstr "행사 양식에 대해 자세히 알아보려면 :doc:`create_events` 문서를 참조하세요."
 
 #: ../../content/applications/marketing/events/event_templates.rst:37
 msgid "Create event template"
@@ -5580,7 +5624,7 @@ msgstr "행사 템플릿 만들기"
 msgid ""
 "There are two ways to create and configure an event template in Odoo "
 "*Events*."
-msgstr ""
+msgstr "Odoo *행사* 에서 행사 템플릿을 만들고 설정하는 방법에는 두 가지가 있습니다."
 
 #: ../../content/applications/marketing/events/event_templates.rst:41
 msgid ""
@@ -5718,7 +5762,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Allow Room Creation`: allow visitors to create community rooms of"
 " their own."
-msgstr ""
+msgstr ":guilabel:`방 만들기 허용`: 방문자가 직접 커뮤니티 방을 만들 수 있게 허용합니다."
 
 #: ../../content/applications/marketing/events/event_templates.rst:97
 msgid ""
@@ -5736,7 +5780,7 @@ msgstr ""
 msgid ""
 "Then, for organizational purposes, there is the option to add "
 ":guilabel:`Tags` to this event template."
-msgstr ""
+msgstr "그런 다음, 체계적으로 관리할 수 있도록 행사 템플릿에 :guilabel:`태그` 를 추가하는 옵션도 있습니다."
 
 #: ../../content/applications/marketing/events/event_templates.rst:106
 msgid ""
@@ -5866,7 +5910,7 @@ msgstr ""
 #: ../../content/applications/marketing/events/event_templates.rst-1
 msgid ""
 "The Create Booth Category pop-up window in the Odoo Events application."
-msgstr ""
+msgstr "Odoo 행사 애플리케이션의 부스 카테고리 만들기 팝업창입니다."
 
 #: ../../content/applications/marketing/events/event_templates.rst:167
 msgid ""
@@ -5890,7 +5934,7 @@ msgstr ""
 msgid ""
 "When all desired configurations are complete, click the :guilabel:`Save & "
 "Close` button."
-msgstr ""
+msgstr "원하는 대로 환경설정이 모두 완료되었으면 :guilabel:`저장 및 닫기` 버튼을 클릭합니다."
 
 #: ../../content/applications/marketing/events/event_templates.rst:177
 msgid ""
@@ -5926,9 +5970,9 @@ msgid ""
 ":guilabel:`Discard` to remove all changes, and return to the event template "
 "form."
 msgstr ""
-"모든 환경 설정 내역을 원하는 대로 완료한 후에는 :guilabel:`저장 후 닫기` 를 클릭하여 부스를 저장하고 행사 템플릿 양식으로 "
-"돌아갑니다. 또는 :guilabel:`저장 후 새로 만들기` 를 클릭하여 부스를 저장하고 새로운 :guilabel:`부스 만들기` 팝업 "
-"창에서 다른 부스 생성을 시작합니다. 모든 변경 사항을 삭제하고 행사 템플릿 양식으로 돌아가려면 :guilabel:`취소` 를 "
+"환경설정 내역을 원하는 대로 모두 완료한 후 :guilabel:`저장 후 닫기` 를 클릭하여 부스를 저장하고 행사 템플릿 양식으로 "
+"돌아갑니다. 또는 :guilabel:`저장 후 새로 만들기` 를 클릭하면 부스가 저장되고 새로운 :guilabel:`부스 만들기` 팝업 "
+"창에서 다른 부스 생성을 시작할 수 있습니다. 변경 사항을 모두 삭제하고 행사 템플릿 양식으로 돌아가려면 :guilabel:`폐기` 를 "
 "클릭합니다."
 
 #: ../../content/applications/marketing/events/event_templates.rst:194
@@ -6021,13 +6065,13 @@ msgstr ""
 msgid ""
 "The Schedule and Tracks setting in the Odoo Events app, along with "
 "corresponding options."
-msgstr ""
+msgstr "Odoo 행사 앱의 일정 및 트랙 설정과 해당 옵션입니다."
 
 #: ../../content/applications/marketing/events/event_tracks.rst:28
 msgid ""
 "The :guilabel:`Live Broadcast` option provides the ability to air tracks "
 "online through a *YouTube* integration."
-msgstr ""
+msgstr ":guilabel:`라이브 방송` 옵션을 선택하면 *YouTube* 와 통합되어 온라인으로 트랙을 방송할 수 있습니다."
 
 #: ../../content/applications/marketing/events/event_tracks.rst:31
 msgid ""
@@ -6100,7 +6144,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/event_tracks.rst-1
 msgid "Typical event tracks page for an event in the Odoo Events application."
-msgstr ""
+msgstr "Odoo 행사 애플리케이션에 있는 일반적인 행사 추적 페이지입니다."
 
 #: ../../content/applications/marketing/events/event_tracks.rst:67
 msgid ""
@@ -6163,7 +6207,7 @@ msgstr "Odoo 행사 애플리케이션의 일반적인 행사 트랙 양식입�
 msgid ""
 "Start by giving this track a :guilabel:`Title`. This field is **required** "
 "by Odoo."
-msgstr ""
+msgstr "이 트랙에 :guilabel:`제목` 을 지정하는 것부터 시작합니다. Odoo에서 입력 **필수** 인 필드입니다."
 
 #: ../../content/applications/marketing/events/event_tracks.rst:98
 msgid ""
@@ -6260,7 +6304,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/event_tracks.rst-1
 msgid "The Speaker tab on an event track form in the Odoo Events application."
-msgstr ""
+msgstr "Odoo 행사 애플리케이션의 행사 트랙 양식에 있는 발표자 탭입니다."
 
 #: ../../content/applications/marketing/events/event_tracks.rst:147
 msgid "Contact Details section"
@@ -6324,6 +6368,7 @@ msgid ""
 "Start by entering a :guilabel:`Name`, :guilabel:`Email`, and "
 ":guilabel:`Phone` number for the speaker."
 msgstr ""
+"발표자의 :guilabel:`이름`, :guilabel:`이메일`, :guilabel:`전화번호` 를 입력하는 것부터 시작합니다."
 
 #: ../../content/applications/marketing/events/event_tracks.rst:176
 msgid ""
@@ -6347,7 +6392,7 @@ msgstr ""
 msgid ""
 "In the :guilabel:`Biography` field, proceed to enter in a custom biography "
 "with any speaker-related information."
-msgstr ""
+msgstr ":guilabel:`약력` 필드에서 강연자 관련 정보를 맞춤형 약력에 입력합니다."
 
 #: ../../content/applications/marketing/events/event_tracks.rst:190
 #: ../../content/applications/marketing/surveys/create.rst:258
@@ -6377,7 +6422,7 @@ msgstr ""
 #: ../../content/applications/marketing/events/event_tracks.rst-1
 msgid ""
 "The Interactivity tab on an event track form in the Odoo Events application."
-msgstr ""
+msgstr "Odoo 행사 애플리케이션의 행사 트랙 양식에 있는 상호 작용 탭입니다."
 
 #: ../../content/applications/marketing/events/event_tracks.rst:208
 msgid ""
@@ -6398,7 +6443,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Button Title`: enter a title to appear on the button for "
 "attendees."
-msgstr ""
+msgstr ":guilabel:`버튼 제목`: 참석자에게 표시될 버튼 제목을 입력합니다."
 
 #: ../../content/applications/marketing/events/event_tracks.rst:215
 msgid ""
@@ -6415,7 +6460,7 @@ msgstr ""
 #: ../../content/applications/marketing/events/event_tracks.rst:221
 msgid ""
 "The magic button **only** appears if there is more than one published track."
-msgstr ""
+msgstr "트랙이 두 개 이상 게시된 경우에 **한해서만** 해당 버튼이 표시됩니다."
 
 #: ../../content/applications/marketing/events/event_tracks.rst:226
 msgid "Add Quiz button"
@@ -6438,7 +6483,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/event_tracks.rst-1
 msgid "The Add Quiz page in the Odoo Events application for an event track."
-msgstr ""
+msgstr "행사 트랙에 대한 Odoo 행사 애플리케이션의 퀴즈 추가 페이지입니다."
 
 #: ../../content/applications/marketing/events/event_tracks.rst:238
 msgid ""
@@ -6466,7 +6511,7 @@ msgstr ""
 msgid ""
 "The Create Questions pop-up window on an event-specific track quiz in the "
 "Odoo Events app."
-msgstr ""
+msgstr "Odoo 행사 앱에 있는 행사별 트랙 퀴즈에 질문 만들기 팝업창이 나타나 있는 모습입니다."
 
 #: ../../content/applications/marketing/events/event_tracks.rst:253
 msgid "**All** track quiz questions are multiple choice."
@@ -6493,7 +6538,7 @@ msgstr ""
 msgid ""
 "Then, there is the option to add a point value in the :guilabel:`Points` "
 "column."
-msgstr ""
+msgstr "그런 다음 :guilabel:`포인트` 열에 있는 포인트 값 추가 옵션을 확인합니다."
 
 #: ../../content/applications/marketing/events/event_tracks.rst:264
 msgid ""
@@ -6516,6 +6561,7 @@ msgid ""
 "To remove an answer option, click the :icon:`fa-trash-o` :guilabel:`(trash "
 "can)` icon on the far-right."
 msgstr ""
+"답변 옵션을 제거하려면 맨 오른쪽에 있는 :icon:`fa-trash-o` :guilabel:`(휴지통)` 아이콘을 클릭합니다."
 
 #: ../../content/applications/marketing/events/event_tracks.rst:276
 msgid ""
@@ -6574,16 +6620,16 @@ msgid ""
 "turning it from red to green, and making it accessible for attendees."
 msgstr ""
 "*마찬가지로* 행사 트랙도 행사 트랙 양식을 열고 :guilabel:`웹사이트로 이동` 스마트 버튼을 클릭하면 게시할 수 있습니다. 그런"
-" 다음 행사 참석자가 트랙 페이지를 볼 수 있게 (또한 액세스할 수 있게) 하려면 페이지 상단의 :icon:`fa-toggle-off` "
-":guilabel:`게시하지 않음` 스위치를 :icon:`fa-toggle-on` :guilabel:`게시함` 으로 전환합니다. 그러면 "
-"빨간색에서 초록색으로 바뀌고 참석자가 액세스할 수 있게 됩니다."
+" 다음 행사 참석자가 트랙 페이지를 확인할 수 있게(또한 액세스할 수 있게) 하려면 페이지 상단의 :icon:`fa-toggle-off`"
+" :guilabel:`게시되지 않음` 스위치를 :icon:`fa-toggle-on` :guilabel:`게시됨` 으로 전환합니다. 그러면"
+" 빨간색에서 초록색으로 바뀌고 참석자가 액세스할 수 있게 됩니다."
 
 #: ../../content/applications/marketing/events/event_tracks.rst-1
 #: ../../content/applications/marketing/events/track_manage_talks.rst-1
 msgid ""
 "The track-related event submenu options on an event website built with Odoo "
 "Events."
-msgstr ""
+msgstr "Odoo 행사를 통해 구축한 행사 웹사이트에 있는 트랙 관련 행사 하위 메뉴 항목들입니다."
 
 #: ../../content/applications/marketing/events/registration_desk.rst:3
 msgid "Registration Desk"
@@ -6650,7 +6696,7 @@ msgstr ""
 msgid ""
 "The Barcode Scanner window of the Registration Desk in the Odoo Events "
 "application."
-msgstr ""
+msgstr "Odoo 행사 애플리케이션의 등록 데스크에 있는 바코드 스캐너 창입니다."
 
 #: ../../content/applications/marketing/events/registration_desk.rst:39
 msgid ""
@@ -6690,7 +6736,7 @@ msgstr ""
 msgid ""
 "The Attendees page, via the Registration Desk, located in the Odoo Events "
 "application."
-msgstr ""
+msgstr "Odoo 행사 애플리케이션에 있는 등록 데스크를 통한 참석자 페이지입니다."
 
 #: ../../content/applications/marketing/events/registration_desk.rst:58
 msgid ""
@@ -6715,6 +6761,8 @@ msgid ""
 "Click the :icon:`fa-undo` :guilabel:`(counter-clockwise arrow)` button on an"
 " attendee's card to undo the previous action."
 msgstr ""
+"참석자 카드에서 :icon:`fa-undo` :guilabel:`(시계 반대 방향 화살표)` 버튼을 클릭하면 이전 작업이 실행 "
+"취소됩니다."
 
 #: ../../content/applications/marketing/events/registration_desk.rst:70
 msgid ""
@@ -6755,7 +6803,7 @@ msgstr ""
 msgid ""
 "The following documentation focuses on the reporting options related to "
 "event *Revenues*."
-msgstr ""
+msgstr "다음 문서에서는 행사 *수익* 과 관련된 보고 기능 항목을 중심으로 설명합니다."
 
 #: ../../content/applications/marketing/events/revenues_report.rst:11
 msgid "Revenues reporting page"
@@ -6765,13 +6813,13 @@ msgstr "수익 보고 페이지"
 msgid ""
 "To access the *Attendees* reporting page, navigate to :menuselection:`Events"
 " app --> Reporting --> Revenues`."
-msgstr ""
+msgstr "*참석자* 보고 페이지에 액세스하려면 :menuselection:`행사 앱 --> 보고 --> 수익` 으로 이동합니다."
 
 #: ../../content/applications/marketing/events/revenues_report.rst-1
 msgid ""
 "The default view of the Revenues reporting page in the Odoo Events "
 "application."
-msgstr ""
+msgstr "Odoo 행사 애플리케이션의 수익 보고 페이지의 기본 보기입니다."
 
 #: ../../content/applications/marketing/events/revenues_report.rst:20
 msgid ""
@@ -6807,6 +6855,8 @@ msgid ""
 "Choosing specific :ref:`Measures <reporting/choosing-measures>` is a quick "
 "way to customize reporting pages."
 msgstr ""
+"특정한 :ref:`측정값 <reporting/choosing-measures>` 을 선택할 경우 보고 페이지를 빠르게 사용자 지정할 수 "
+"있습니다."
 
 #: ../../content/applications/marketing/events/revenues_report.rst:39
 msgid ""
@@ -6826,13 +6876,13 @@ msgstr ""
 msgid ""
 "In graph view, only one of the :guilabel:`Measures` can be selected at a "
 "time."
-msgstr ""
+msgstr "그래프 보기에서 :guilabel:`측정값` 은 한 번에 하나만 선택할 수 있습니다."
 
 #: ../../content/applications/marketing/events/revenues_report.rst:48
 msgid ""
 "When the pivot option is selected, all :guilabel:`Measures` options are "
 "selected, by default."
-msgstr ""
+msgstr "피벗 옵션을 선택할 경우, :guilabel:`측정값` 옵션이 모두 기본값으로 선택됩니다."
 
 #: ../../content/applications/marketing/events/revenues_report.rst:50
 msgid ":guilabel:`Revenues`: shows the revenues generated from events."
@@ -6882,7 +6932,7 @@ msgstr ""
 msgid ""
 "Only **one** selection can be made from the :guilabel:`Comparison` column at"
 " a time."
-msgstr ""
+msgstr "한 번에 **하나만** :guilabel:`비교` 열에서 선택할 수 있습니다."
 
 #: ../../content/applications/marketing/events/revenues_report.rst:75
 msgid "Filter options"
@@ -6900,7 +6950,7 @@ msgstr ""
 #: ../../content/applications/marketing/events/revenues_report.rst:80
 msgid ""
 "Multiple options in the :guilabel:`Filters` column can be selected at once."
-msgstr ""
+msgstr ":guilabel:`필터` 열에 있는 여러 가지 옵션을 한 번에 선택할 수 있습니다."
 
 #: ../../content/applications/marketing/events/revenues_report.rst:82
 msgid "The :guilabel:`Filters` column has the following options:"
@@ -6920,13 +6970,13 @@ msgstr ":guilabel:`무료`: *이전에* 무료로 진행한 행사 티켓/등록
 msgid ""
 ":guilabel:`Pending payment`: event tickets/registrations that were "
 "purchased, but still have payment pending."
-msgstr ""
+msgstr ":guilabel:`결제 보류`: 행사 티켓/등록 항목에 대한 구매가 완료되었으나 아직 결제가 보류 중입니다."
 
 #: ../../content/applications/marketing/events/revenues_report.rst:88
 msgid ""
 ":guilabel:`Sold`: event tickets/registrations that have been successfully "
 "sold (and paid for)."
-msgstr ""
+msgstr ":guilabel:`판매됨`: 성공적으로 판매(및 결제) 완료된 행사 티켓/등록입니다."
 
 #: ../../content/applications/marketing/events/revenues_report.rst:89
 msgid ""
@@ -6949,7 +6999,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Past Events`: include revenue-related information for events that"
 " have already taken place."
-msgstr ""
+msgstr ":guilabel:`지난 행사`: 이미 진행한 행사에 대한 수익 관련 정보 등이 있습니다."
 
 #: ../../content/applications/marketing/events/revenues_report.rst:96
 msgid ""
@@ -6977,7 +7027,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Published Events`: Select this option to show revenue-related "
 "data for published events."
-msgstr ""
+msgstr ":guilabel:`게시된 행사`: 이 항목을 선택하면 게시된 행사에 대한 수익 관련 데이터가 표시됩니다."
 
 #: ../../content/applications/marketing/events/revenues_report.rst:104
 msgid ""
@@ -7023,7 +7073,7 @@ msgstr ":guilabel:`품목`: 행사 등록 품목을 기준으로 데이터를 �
 msgid ""
 ":guilabel:`Ticket`: Group data based on the type of event ticket purchased "
 "by attendees."
-msgstr ""
+msgstr ":guilabel:`티켓`: 참가자가 구매한 행사 티켓 유형을 기준으로 데이터를 그룹화합니다."
 
 #: ../../content/applications/marketing/events/revenues_report.rst:121
 msgid ""
@@ -7035,7 +7085,7 @@ msgstr ":guilabel:`등록 상태`: 그룹 데이터를 등록 상태에 따라 �
 msgid ""
 ":guilabel:`Sale Order Status`: Group data based on the status of event-"
 "related sales orders."
-msgstr ""
+msgstr ":guilabel:`판매주문서 상태`: 행사와 관련된 판매주문서의 상태를 기준으로 데이터를 그룹화합니다."
 
 #: ../../content/applications/marketing/events/revenues_report.rst:123
 msgid ":guilabel:`Customer`: Group data based on customer records."
@@ -7070,7 +7120,7 @@ msgstr ""
 msgid ""
 "The event ticket analysis sample report with unique filters and groupings in"
 " place."
-msgstr ""
+msgstr "행사 티켓 분석 보고서 샘플에서 고유 필터와 그룹화가 적용되어 있는 모습입니다."
 
 #: ../../content/applications/marketing/events/revenues_report.rst:139
 msgid ""
@@ -7123,7 +7173,7 @@ msgstr ""
 msgid ""
 "From there, additional configurations can be added for more detailed data, "
 "if desired."
-msgstr ""
+msgstr "원하는 경우 더 자세하게 데이터를 나타낼 수 있도록 별도로 환경설정을 추가할 수 있습니다."
 
 #: ../../content/applications/marketing/events/revenues_report.rst:160
 msgid ""
@@ -7154,7 +7204,7 @@ msgstr ""
 msgid ""
 "The event type analysis sample report with unique filters and groupings in "
 "place."
-msgstr ""
+msgstr "행사 유형 분석 보고서 샘플에 고유 필터와 그룹화가 적용된 모습입니다."
 
 #: ../../content/applications/marketing/events/revenues_report.rst:176
 msgid ""
@@ -7168,6 +7218,7 @@ msgid ""
 "Keep the default filters (:guilabel:`Non-free tickets` and :guilabel:`Event "
 "Start Date: (year)`) in the search bar."
 msgstr ""
+"검색창에 기본 필터(:guilabel:`무료가 아닌 티켓` 및 :guilabel:`행사 시작 날짜: (연도)`)를 계속 사용합니다."
 
 #: ../../content/applications/marketing/events/revenues_report.rst:183
 msgid ""
@@ -7207,7 +7258,7 @@ msgstr ""
 msgid ""
 "Odoo also simplifies the ticket-purchasing process by providing plenty of "
 "payment method options."
-msgstr ""
+msgstr "또한 Odoo에서는 티켓 구매 프로세스를 간소화할 수 있도록 다양한 결제 수단을 제공하고 있습니다."
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:14
 msgid ""
@@ -7218,7 +7269,7 @@ msgstr ""
 #: ../../content/applications/marketing/events/sell_tickets.rst:20
 msgid ""
 "In order to sell event tickets in Odoo, some settings must first be enabled."
-msgstr ""
+msgstr "Odoo에서 행사 티켓을 판매하려면 먼저 일부 설정을 반드시 활성화해야 합니다."
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:22
 msgid ""
@@ -7231,7 +7282,7 @@ msgstr ""
 msgid ""
 "The :guilabel:`Tickets` setting allows users to sell event tickets with "
 "standard sales orders."
-msgstr ""
+msgstr ":guilabel:`티켓` 설정을 사용하면 표준 판매주문서를 활용하여 행사 티켓을 판매할 수 있습니다."
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:28
 msgid ""
@@ -7280,7 +7331,7 @@ msgstr ""
 msgid ""
 "View of an event form highlighting the column product under the tickets tab "
 "in Odoo."
-msgstr ""
+msgstr "Odoo 티켓 탭 아래에 있는 행사 양식 보기에서 열 품목이 강조되어 있는 모습입니다."
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:56
 msgid ""
@@ -7331,13 +7382,13 @@ msgstr ""
 msgid ""
 "Once an event registration product is selected, a :guilabel:`Configure an "
 "event` pop-up window appears."
-msgstr ""
+msgstr "행사 등록 품목을 선택하면 :guilabel:`행사 환경설정` 팝업창이 나타납니다."
 
 #: ../../content/applications/marketing/events/sell_tickets.rst-1
 msgid ""
 "Standard 'Configure an event' pop-up window that appears on an event ticket "
 "sales order."
-msgstr ""
+msgstr "행사 티켓 판매주문서에 표시되어 있는 표준 '행사 환경설정' 팝업창입니다."
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:86
 msgid ""
@@ -7400,7 +7451,7 @@ msgstr ""
 msgid ""
 "The tickets pop-up window that appears on the event's website when "
 "'Register' is clicked."
-msgstr ""
+msgstr "행사 웹사이트에서 '등록' 을 클릭하면 나타나는 티켓 팝업창입니다."
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:118
 msgid ""
@@ -7423,7 +7474,7 @@ msgstr ""
 msgid ""
 "The attendees pop-up window that appears on the event's website when 'Ok' is"
 " clicked."
-msgstr ""
+msgstr "행사 웹사이트에서 '확인' 을 클릭하면 나타나는 참석자 팝업창입니다."
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:129
 msgid ""
@@ -7522,7 +7573,7 @@ msgstr ""
 msgid ""
 "The Talks page on an event website built through the Odoo Events "
 "application."
-msgstr ""
+msgstr "Odoo 행사 애플리케이션을 통해 구축된 행사 웹사이트의 토크 페이지 모습입니다."
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:42
 msgid ""
@@ -7544,7 +7595,7 @@ msgstr ""
 msgid ""
 "Selecting :guilabel:`Favorites` shows *only* the tracks that have been "
 "favorited by the attendee."
-msgstr ""
+msgstr ":guilabel:`즐겨찾기` 를 선택하면 참석자가 즐겨찾기에 추가한 트랙에 *한해서만* 표시됩니다."
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:52
 msgid ""
@@ -7556,7 +7607,7 @@ msgstr ""
 msgid ""
 "Selecting :guilabel:`All Talks` shows *all* the tracks, regardless if they "
 "have been favorited or not."
-msgstr ""
+msgstr ":guilabel:`모든 토크` 를 선택하면 즐겨찾기 여부와 관계없이 *모든* 트랙이 표시됩니다."
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:58
 msgid ""
@@ -7582,7 +7633,7 @@ msgstr "그렇게 하면 :guilabel:`태그 만들기` 팝업 양식이 표시됩
 msgid ""
 "The Create Tags pop-up form that coincides with drop-down filter menus on "
 "Talks page."
-msgstr ""
+msgstr "드롭다운 필터 메뉴와 일치하는 태그 만들기 팝업 양식이 토크 페이지에 나타나 있는 모습입니다."
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:72
 msgid ""
@@ -7650,7 +7701,7 @@ msgstr ""
 msgid ""
 "The Talk Proposals page on the event website built with the Odoo Events "
 "application."
-msgstr ""
+msgstr "Odoo 행사 애플리케이션으로 구축한 행사 웹사이트의 토크 제안 페이지입니다."
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:101
 msgid ""
@@ -7738,7 +7789,7 @@ msgstr ""
 msgid ""
 "The event Agenda page on the event website built with the Odoo Events "
 "application."
-msgstr ""
+msgstr "Odoo 행사 애플리케이션으로 구축한 행사 웹사이트의 행사 일정 페이지입니다."
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:138
 msgid ""
@@ -7838,6 +7889,8 @@ msgid ""
 "A new campaign can be created from scratch or from a :ref:`template "
 "<marketing_automation/campaign-templates>`."
 msgstr ""
+"캠페인을 처음부터 새로 만들거나 :ref:`템플릿 <marketing_automation/campaign-templates>` 에서 만들"
+" 수 있습니다."
 
 #: ../../content/applications/marketing/marketing_automation.rst:74
 msgid ""
@@ -8078,6 +8131,7 @@ msgid ""
 ":ref:`Email <marketing_automation/email-activity-type>`: an email that is "
 "sent to the target audience."
 msgstr ""
+":ref:`이메일 <marketing_automation/email-activity-type>`: 타겟 고객에게 전송할 이메일입니다."
 
 #: ../../content/applications/marketing/marketing_automation.rst:172
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:55
@@ -8085,6 +8139,8 @@ msgid ""
 ":ref:`Server action <marketing_automation/sa-activity-type>`: an internal "
 "action within the database that is executed."
 msgstr ""
+":ref:`서버 작업 <marketing_automation/sa-activity-type>`: 데이터베이스에서 실행되는 내부 "
+"작업입니다."
 
 #: ../../content/applications/marketing/marketing_automation.rst:174
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:57
@@ -8092,6 +8148,7 @@ msgid ""
 ":ref:`SMS <marketing_automation/sms-activity-type>`: a text message that is "
 "sent to the target audience."
 msgstr ""
+":ref:`SMS <marketing_automation/sms-activity-type>`: 대상 고객에게 전송되는 문자 메시지입니다."
 
 #: ../../content/applications/marketing/marketing_automation.rst:178
 msgid ":doc:`marketing_automation/workflow_activities`"
@@ -8229,13 +8286,13 @@ msgstr "캠페인 환경설정"
 msgid ""
 "Upon creation of the campaign, the campaign form loads with a new "
 "preconfigured campaign."
-msgstr ""
+msgstr "캠페인을 생성하면 캠페인 양식이 미리 설정되어 있는 새 캠페인과 함께 로드됩니다."
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:41
 msgid ""
 "The :guilabel:`Target` and :guilabel:`Filter` configurations of the campaign"
 " are as follows:"
-msgstr ""
+msgstr "캠페인 :guilabel:`대상` 및 :guilabel:`필터` 는 다음과 같이 환경설정합니다."
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:43
 msgid ":guilabel:`Name`: `Double Opt-in`"
@@ -8287,7 +8344,7 @@ msgstr ""
 msgid ""
 "The *Double Opt-in* campaign template is intended to **only** use the "
 ":guilabel:`Mailing Contact` model."
-msgstr ""
+msgstr "캠페인 템플릿이 *이중 수신 동의* 인 경우에는 **:guilabel:`메일 연락처` 모델만** 사용하도록 되어 있습니다."
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:63
 msgid ""
@@ -8535,13 +8592,13 @@ msgstr ""
 msgid ""
 ":guilabel:`Include archived`: allows or disallows the inclusion of archived "
 "records in the target audience."
-msgstr ""
+msgstr ":guilabel:`보관된 레코드 포함`: 대상 고객에게 보관된 레코드를 포함할지 여부를 지정합니다."
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:26
 msgid ""
 "A :guilabel:`Responsible` user can be assigned to the campaign by activating"
 " :ref:`developer-mode`."
-msgstr ""
+msgstr ":guilabel:`담당자` 인 사용자는 :ref:`개발자 모드` 를 활성화하여 캠페인에 지정할 수 있습니다."
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:30
 msgid ""
@@ -9409,9 +9466,9 @@ msgid ""
 " window to add another activity. Clicking :guilabel:`Discard` closes the "
 "pop-up window without saving the activity."
 msgstr ""
-"활동에 대한 환경 설정이 완료되면 :guilabel:`저장 및 닫기` 를 클릭하여 캠페인 워크플로우에 추가하거나 :guilabel:`저장"
-" 및 새로 만들기` 를 클릭하여 워크플로우에 활동을 추가하고 새 :guilabel:`활동 만들기` 팝업 창을 열어서 다른 활동을 "
-"추가합니다. guilabel:`취소` 를 클릭하면 활동이 저장되지 않고 팝업 창이 닫힙니다."
+"활동에 대해 환경설정을 완료한 후에는 :guilabel:`저장 및 닫기` 를 클릭하여 캠페인 워크플로우에 추가하거나 "
+":guilabel:`저장 및 새로 만들기` 를 클릭하여 워크플로우에 활동을 추가하고 새 :guilabel:`활동 만들기` 팝업창을 열어서"
+" 다른 활동을 추가합니다. guilabel:`폐기` 를 클릭하면 활동이 저장되지 않고 팝업창이 닫힙니다."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst-1
 msgid "The create activities pop-up window."
@@ -9425,7 +9482,7 @@ msgstr "활동 유형"
 msgid ""
 "There are three different types of activities available in the *Marketing "
 "Automation* app:"
-msgstr ""
+msgstr "*마케팅 자동화* 앱에는 세 가지 활동 유형이 있습니다."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:63
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:288
@@ -9560,13 +9617,13 @@ msgstr ":guilabel:`활동 만들기`: *메일 및 채팅* 앱으로 활동을 �
 msgid ""
 ":guilabel:`Send Email`: post a message, a note, or send an email with the "
 "*Discuss* app."
-msgstr ""
+msgstr ":guilabel:`이메일 보내기`: *회의 및 채팅* 앱에서 메시지, 메모 또는 이메일을 게시합니다."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:130
 msgid ""
 ":guilabel:`Send SMS`: send an SMS, and log them on documents, with the *SMS*"
 " app."
-msgstr ""
+msgstr ":guilabel:`SMS 보내기`: *SMS* 앱으로 SMS를 보내고 문서에 기록합니다."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:131
 msgid ""
@@ -9586,13 +9643,13 @@ msgstr ":guilabel:`코드 실행`: Python 코드 블록을 실행합니다."
 msgid ""
 ":guilabel:`Send Webhook Notification`: send a POST request to an external "
 "system."
-msgstr ""
+msgstr ":guilabel:`웹훅 알림 보내기`: 외부 시스템에 POST 요청을 보냅니다."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:136
 msgid ""
 ":guilabel:`Execute Existing Actions`: define an action that triggers several"
 " other server actions."
-msgstr ""
+msgstr ":guilabel:`기존 작업 실행`: 다른 여러 개의 서버 작업을 트리거할 작업을 지정합니다."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:139
 msgid ""
@@ -9707,7 +9764,7 @@ msgstr ""
 msgid ""
 ":guilabel:`beginning of workflow`: the activity is executed when the "
 "campaign is started."
-msgstr ""
+msgstr ":guilabel:`워크플로우 시작`: 캠페인이 시작될 때 활동이 실행됩니다."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:206
 msgid ""
@@ -9725,7 +9782,7 @@ msgstr ""
 msgid ""
 ":guilabel:`another activity`: to be executed after another activity in the "
 "campaign."
-msgstr ""
+msgstr ":guilabel:`다른 활동`: 캠페인의 다른 활동 후에 실행할 활동입니다."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:212
 msgid ""
@@ -9737,31 +9794,31 @@ msgstr ":guilabel:`메일: 열림`: 참가자가 활동에 대한 이메일을 �
 msgid ""
 ":guilabel:`Mail: not opened`: the activity's email was **not** opened by the"
 " participant."
-msgstr ""
+msgstr ":guilabel:`메일: 열지 않음`: 참가자가 활동의 이메일을 **열지** 않았습니다."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:214
 msgid ""
 ":guilabel:`Mail: replied`: the activity's email was replied to by the "
 "participant."
-msgstr ""
+msgstr ":guilabel:`메일: 회신함`: 참가자가 활동의 이메일에 회신했습니다."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:215
 msgid ""
 ":guilabel:`Mail: not replied`: the activity's email was **not** replied to "
 "by the participant."
-msgstr ""
+msgstr ":guilabel:`메일: 회신하지 않음`: 참가자가 활동 관련 이메일에 회신하지 **않았습니다**."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:216
 msgid ""
 ":guilabel:`Mail: clicked`: a link in the activity's email was clicked by the"
 " participant."
-msgstr ""
+msgstr ":guilabel:`메일: 클릭함`: 참가자가 활동 관련 이메일에 있는 링크를 클릭했습니다."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:217
 msgid ""
 ":guilabel:`Mail: not clicked`: a link in the activity's email was **not** "
 "clicked by the participant."
-msgstr ""
+msgstr ":guilabel:`메일: 클릭하지 않음`: 참가자가 활동 이메일에 있는 링크를 클릭하지 **않았습니다**."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:219
 msgid ":guilabel:`Mail: bounced`: the activity's email has bounced."
@@ -9771,13 +9828,13 @@ msgstr ":guilabel:`메일: 반송됨`: 활동 관련된 이메일이 반송되�
 msgid ""
 ":guilabel:`SMS: clicked`: a link in the activity's SMS was clicked by the "
 "participant."
-msgstr ""
+msgstr ":guilabel:`SMS: 클릭함`: 참가자가 활동 관련 SMS에 있는 링크를 클릭했습니다."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:221
 msgid ""
 ":guilabel:`SMS: not clicked`: a link in the activity's SMS was **not** "
 "clicked by the participant."
-msgstr ""
+msgstr ":guilabel:`SMS: 클릭하지 않음`: 참가자가 활동 SMS에 있는 링크를 클릭하지 **않았습니다**."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:222
 msgid ":guilabel:`SMS: bounced`: the activity's SMS has bounced."
@@ -9885,13 +9942,13 @@ msgstr "하위 활동"
 msgid ""
 "Activities that are connected to, and triggered by, another activity are "
 "known as, *child activities*."
-msgstr ""
+msgstr "활동 중에 다른 활동에 연결되어 있다가 이로 인해 트리거되는 활동을 *하위 활동* 이라고 합니다."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:277
 msgid ""
 "The activity that triggers a child activity is known as its *parent "
 "activity*."
-msgstr ""
+msgstr "하위 활동을 트리거하는 활동을 *상위 활동* 이라고 합니다."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:279
 msgid ""
@@ -9917,7 +9974,7 @@ msgstr "이메일 활동의 하위 활동에 대한 트리거 유형입니다."
 msgid ""
 "Each trigger the child activity on the following conditions of the parent "
 "activity:"
-msgstr ""
+msgstr "각각 상위 활동의 다음 조건에서 하위 활동을 트리거합니다."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:296
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:313
@@ -9943,18 +10000,18 @@ msgstr ":guilabel:`답신`: 참가자가 이메일에 답장했습니다."
 msgid ""
 ":guilabel:`Not Replied`: the email was **not** replied to by the "
 "participant."
-msgstr ""
+msgstr ":guilabel:`회신 없음`: 참가자가 이메일에 **회신하지 않았습니다.**"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:301
 msgid ""
 ":guilabel:`Clicked`: a link in the email was clicked by the participant."
-msgstr ""
+msgstr ":guilabel:`클릭함`: 참가자가 이메일의 링크를 클릭했습니다."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:302
 msgid ""
 ":guilabel:`Not Clicked`: a link in the email was **not** clicked by the "
 "participant."
-msgstr ""
+msgstr ":guilabel:`클릭하지 않음`: 이메일에 있는 링크를 참가자가 클릭하지 **않았습니다**."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:303
 msgid ":guilabel:`Bounced`: the email has bounced."
@@ -9966,13 +10023,13 @@ msgstr "서버 작업"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:0
 msgid "The trigger types for child activities of a server action activity."
-msgstr ""
+msgstr "서버 작업 활동의 하위 활동에 대한 트리거 유형입니다."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:311
 msgid ""
 "Triggers the child activity on the following condition of the parent "
 "activity:"
-msgstr ""
+msgstr "다음 상위 활동 조건에서 하위 활동이 트리거됩니다."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:0
 msgid "The trigger types for child activities of an SMS activity."
@@ -9980,13 +10037,13 @@ msgstr "SMS 활동의 하위 활동에 대한 트리거 유형입니다."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:324
 msgid ":guilabel:`Clicked`: a link in the SMS was clicked by the participant."
-msgstr ""
+msgstr ":guilabel:`클릭함`: 참가자가 SMS의 링크를 클릭했습니다."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:325
 msgid ""
 ":guilabel:`Not Clicked`: a link in the SMS was **not** clicked by the "
 "participant."
-msgstr ""
+msgstr ":guilabel:`클릭하지 않음`: SMS에 있는 링크를 참가자가 클릭하지 **않았습니다**."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:326
 msgid ":guilabel:`Bounced`: the SMS has bounced."
@@ -10148,7 +10205,7 @@ msgstr ""
 msgid ""
 "To learn more about mailing lists and contacts, check out "
 ":doc:`mailing_lists_blacklists`."
-msgstr ""
+msgstr "메일링 목록과 연락처에 대해 자세히 알아보려면 :doc:`mailing_lists_blacklists` 를 확인하세요."
 
 #: ../../content/applications/marketing/sms_marketing/create_sms.rst-1
 msgid "View of the mailing list page in the SMS marketing application."
@@ -11388,7 +11445,7 @@ msgstr ""
 msgid ""
 "Automation rule template with rule to do, SMS template and log as note "
 "highlighted."
-msgstr ""
+msgstr "할 일 규칙에 대한 자동화 규칙 템플릿으로, SMS 템플릿 및 메모로 기록이 강조 표시되어 있습니다."
 
 #: ../../content/applications/marketing/sms_marketing/sms_analysis.rst:92
 msgid ""
@@ -12234,7 +12291,7 @@ msgid ""
 "Upon clicking :guilabel:`Create Lead` from the comment's drop-down menu, a "
 ":guilabel:`Conver Post to Lead` pop-up window appears."
 msgstr ""
-"댓글 드롭다운 메뉴에서 :guilabel:`영업제안 만들기`를 클릭하면 :guilabel:`게시물을 영업제안으로 전환` 팝업 창이 "
+"댓글 드롭다운 메뉴에서 :guilabel:`영업제안 만들기` 를 클릭하면 :guilabel:`게시물을 영업제안으로 전환` 팝업창이 "
 "나타납니다."
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst-1
@@ -12799,7 +12856,7 @@ msgstr "설문조사"
 msgid ""
 "Companies gather valuable insights from customers and employees through "
 "surveys, aiding informed decision-making."
-msgstr ""
+msgstr "기업에서는 설문조사를 통해 고객과 직원에게서 귀중한 인사이트를 얻을 수 있으며, 정보에 입각하여 의사결정을 할 수 있습니다."
 
 #: ../../content/applications/marketing/surveys.rst:10
 msgid ""
@@ -12866,7 +12923,7 @@ msgstr "해당 설문조사의 :guilabel:`질문` 수"
 msgid ""
 ":guilabel:`Average Duration` of the survey (how long it typically takes a "
 "participant to complete)"
-msgstr ""
+msgstr "설문조사 :guilabel:`평균 소요 기간`(참가자가 완료하는 데 일반적으로 소요되는 기간)"
 
 #: ../../content/applications/marketing/surveys.rst:70
 msgid "Number of :guilabel:`Registered` participants for the survey"
@@ -12881,6 +12938,7 @@ msgid ""
 "Percentage and data bar showcasing how many people have :guilabel:`Passed` "
 "or become :guilabel:`Certified`"
 msgstr ""
+"백분율 및 데이터 막대로 :guilabel:`합격` 혹은 :guilabel:`인증` 받은 사람 수가 표시되어 있는 모습입니다."
 
 #: ../../content/applications/marketing/surveys.rst:76
 msgid ""
@@ -12914,7 +12972,7 @@ msgstr ""
 msgid ""
 "A half-trophy background image behind the survey name indicates that the "
 "survey is a *Certification*."
-msgstr ""
+msgstr "설문조사 제목 뒤에 있는 반쪽 트로피 배경 이미지가 있는 경우 설문조사가 *인증* 관련된 내용이라는 의미입니다."
 
 #: ../../content/applications/marketing/surveys.rst:92
 msgid ""
@@ -12997,7 +13055,7 @@ msgstr ""
 msgid ""
 "The :guilabel:`Additional Emails` field only appears when the survey's "
 "*Require Login* field is **not** active."
-msgstr ""
+msgstr ":guilabel:`추가 이메일` 필드는 설문조사의 *로그인 필수* 필드 활성화를 하지 **않은** 경우에만 표시됩니다."
 
 #: ../../content/applications/marketing/surveys.rst:132
 msgid ""
@@ -13082,7 +13140,7 @@ msgstr ""
 msgid ""
 "The three-dot drop-down menu of options that appears on the Odoo Surveys "
 "dashboard."
-msgstr ""
+msgstr "Odoo 설문조사 현황판에 선택 항목이 3개 점으로 된 드롭다운 메뉴로 표시되어 있는 모습입니다."
 
 #: ../../content/applications/marketing/surveys.rst:163
 msgid ""
@@ -13098,7 +13156,7 @@ msgstr ""
 msgid ""
 "The Schedule Activities drop-down menu that appears on the Odoo Surveys "
 "dashboard."
-msgstr ""
+msgstr "Odoo 설문조사 현황판에 표시되는 활동 스케줄 드롭다운 메뉴입니다."
 
 #: ../../content/applications/marketing/surveys.rst:174
 msgid ""
@@ -13118,13 +13176,13 @@ msgstr ""
 #: ../../content/applications/marketing/surveys.rst-1
 msgid ""
 "The list view option located on the Odoo Surveys application dashboard."
-msgstr ""
+msgstr "Odoo 설문조사 애플리케이션 현황판에 있는 목록 보기 옵션입니다."
 
 #: ../../content/applications/marketing/surveys.rst:183
 msgid ""
 "The columns shown on the *Surveys* app dashboard, while in list view, are as"
 " follows:"
-msgstr ""
+msgstr "*설문조사* 앱 현황판에서 목록 보기로 표시되는 열은 다음과 같습니다."
 
 #: ../../content/applications/marketing/surveys.rst:185
 msgid ":guilabel:`Survey Title`"
@@ -13337,7 +13395,7 @@ msgstr ""
 msgid ""
 "The 'See Results' button present on the main dashboard of the Odoo Surveys "
 "application."
-msgstr ""
+msgstr "Odoo 설문조사 애플리케이션의 기본 현황판에 있는 '결과 보기' 버튼입니다."
 
 #: ../../content/applications/marketing/surveys/analysis.rst:37
 msgid ""
@@ -13353,7 +13411,7 @@ msgstr ""
 msgid ""
 "Typical survey results page when 'See results' is clicked from the Odoo "
 "Surveys dashboard."
-msgstr ""
+msgstr "Odoo 설문조사 현황판에서 '결과 보기'를 클릭했을 때의 일반적인 설문조사 결과 페이지입니다."
 
 #: ../../content/applications/marketing/surveys/analysis.rst:45
 msgid ""
@@ -13393,7 +13451,7 @@ msgstr ""
 msgid ""
 "When that drop-down menu is clicked open, another option, "
 ":guilabel:`Completed surveys`, appears."
-msgstr ""
+msgstr "해당 드롭다운 메뉴를 클릭하여 열면, 다른 옵션인 :guilabel:`완료된 설문조사` 가 나타납니다."
 
 #: ../../content/applications/marketing/surveys/analysis.rst-1
 msgid ""
@@ -13469,7 +13527,7 @@ msgstr ""
 msgid ""
 "The 'Results Overview' section on the 'See results' page in the Odoo Surveys"
 " application."
-msgstr ""
+msgstr "Odoo 설문조사 애플리케이션의 '결과 보기' 페이지에 있는 '결과 전체보기' 섹션입니다."
 
 #: ../../content/applications/marketing/surveys/analysis.rst:98
 msgid ""
@@ -13526,7 +13584,7 @@ msgstr ""
 msgid ""
 "The Responded and Skipped indicators on the 'See results' page in Odoo "
 "Surveys."
-msgstr ""
+msgstr "Odoo 설문조사의 '결과 보기' 페이지에 있는 응답 완료 후 건너뛰기 표시 아이콘입니다."
 
 #: ../../content/applications/marketing/surveys/analysis.rst:126
 msgid ""
@@ -13542,7 +13600,7 @@ msgstr ""
 msgid ""
 "Sample of a 'correct' indicator on the 'See results' page in the Odoo "
 "Surveys application."
-msgstr ""
+msgstr "Odoo 설문조사 애플리케이션의 '결과 보기' 페이지에 있는 '정답' 표시의 예시입니다."
 
 #: ../../content/applications/marketing/surveys/analysis.rst:135
 msgid ""
@@ -13571,7 +13629,7 @@ msgstr ""
 msgid ""
 "Typical pie graph results on the 'See results' page in the Odoo Surveys "
 "application."
-msgstr ""
+msgstr "Odoo 설문조사 애플리케이션의 '결과 보기' 페이지에 있는 일반적인 원 그래프 결과입니다."
 
 #: ../../content/applications/marketing/surveys/analysis.rst:149
 msgid ""
@@ -13586,7 +13644,7 @@ msgstr ""
 msgid ""
 "Typical bar graph results on the 'See results' page in the Odoo Surveys "
 "application."
-msgstr ""
+msgstr "Odoo 설문조사 애플리케이션의 '결과 보기' 페이지에 있는 일반적인 막대그래프 결과입니다."
 
 #: ../../content/applications/marketing/surveys/analysis.rst:156
 msgid ""
@@ -13605,7 +13663,7 @@ msgstr ""
 msgid ""
 "Typical 'Data' tab on the 'See results' page in the Odoo Surveys "
 "application."
-msgstr ""
+msgstr "Odoo 설문조사 애플리케이션 '결과 보기' 페이지에 있는 일반적인 '데이터' 탭입니다."
 
 #: ../../content/applications/marketing/surveys/analysis.rst:167
 msgid ""
@@ -13619,12 +13677,14 @@ msgid ""
 "The :guilabel:`Most Common` tab shows the :guilabel:`User Responses`, the "
 ":guilabel:`Occurrence`, and the :guilabel:`Score` (if applicable)."
 msgstr ""
+":guilabel:`가장 일반적인 경우` 탭에는 :guilabel:`사용자 응답`, :guilabel:`발생`, "
+":guilabel:`점수`(해당되는 경우)가 표시됩니다."
 
 #: ../../content/applications/marketing/surveys/analysis.rst-1
 msgid ""
 "Typical 'Most Common' tab on the 'See results' page in the Odoo Surveys "
 "application."
-msgstr ""
+msgstr "Odoo 설문조사 애플리케이션의 '결과 보기' 페이지에 있는 일반적인 '가장 일반적인 경우' 탭입니다."
 
 #: ../../content/applications/marketing/surveys/analysis.rst:177
 msgid ""
@@ -13636,7 +13696,7 @@ msgstr ""
 msgid ""
 "Typical 'All Data' tab on the 'See results' page in the Odoo Surveys "
 "application."
-msgstr ""
+msgstr "Odoo 설문조사 애플리케이션의 '결과 보기' 페이지에 있는 일반적인 '전체 데이터' 탭입니다."
 
 #: ../../content/applications/marketing/surveys/analysis.rst:184
 msgid ""
@@ -13651,7 +13711,7 @@ msgstr ""
 msgid ""
 "The Maximum, Minimum, and Average indicators on the 'See results' page in "
 "Odoo Surveys."
-msgstr ""
+msgstr "Odoo 설문조사의 '결과 보기' 페이지에 있는 최대, 최소 및 평균 지표입니다."
 
 #: ../../content/applications/marketing/surveys/analysis.rst:192
 msgid ""
@@ -13666,7 +13726,7 @@ msgstr ""
 msgid ""
 "Typical 'Filter' icon on the 'See results' page in the Odoo Surveys "
 "application."
-msgstr ""
+msgstr "Odoo 설문조사 애플리케이션 '결과 보기' 페이지에 있는 일반적인 '필터' 아이콘입니다."
 
 #: ../../content/applications/marketing/surveys/analysis.rst:200
 msgid ""
@@ -13682,7 +13742,7 @@ msgstr ""
 msgid ""
 "The applied filter on the 'See results' page in the Odoo Surveys "
 "application."
-msgstr ""
+msgstr "Odoo 설문조사 애플리케이션의 '결과 보기' 페이지에 필터가 적용된 모습입니다."
 
 #: ../../content/applications/marketing/surveys/analysis.rst:208
 msgid ""
@@ -13713,7 +13773,7 @@ msgstr ""
 #: ../../content/applications/marketing/surveys/analysis.rst-1
 msgid ""
 "The Participations smart button at the top of a survey form in Odoo Surveys."
-msgstr ""
+msgstr "Odoo 설문조사의 설문 양식 상단에 있는 참여 스마트 버튼입니다."
 
 #: ../../content/applications/marketing/surveys/analysis.rst:223
 msgid ""
@@ -13726,7 +13786,7 @@ msgstr ""
 msgid ""
 "The Participations page for a singular survey in the Odoo Surveys "
 "application."
-msgstr ""
+msgstr "단일 설문 조사에 대한 참여 페이지가 Odoo 설문조사 애플리케이션에 나타나 있는 모습입니다."
 
 #: ../../content/applications/marketing/surveys/analysis.rst:230
 msgid ""
@@ -13758,7 +13818,7 @@ msgstr ""
 #: ../../content/applications/marketing/surveys/analysis.rst-1
 msgid ""
 "The Participations page for all surveys in the Odoo Surveys application."
-msgstr ""
+msgstr "Odoo 설문조사 애플리케이션의 모든 설문조사에 대한 참여 페이지입니다."
 
 #: ../../content/applications/marketing/surveys/analysis.rst:247
 msgid ""
@@ -13773,12 +13833,12 @@ msgstr ""
 msgid ""
 "The :guilabel:`Participations` page can also be viewed in a Kanban layout, "
 "as well."
-msgstr ""
+msgstr ":guilabel:`참가자` 페이지도 칸반 레이아웃으로 볼 수 있습니다."
 
 #: ../../content/applications/marketing/surveys/analysis.rst-1
 msgid ""
 "The Participations page in the Kanban view in the Odoo Surveys application."
-msgstr ""
+msgstr "칸반 보기로 참여 페이지가 Odoo 설문조사 애플리케이션에 나타나 있는 모습입니다."
 
 #: ../../content/applications/marketing/surveys/analysis.rst:257
 #: ../../content/applications/marketing/surveys/live_session.rst:219
@@ -13801,7 +13861,7 @@ msgstr ""
 msgid ""
 "The :guilabel:`New` button is **not** present on the *Surveys* dashboard if "
 "in the *Activities* view."
-msgstr ""
+msgstr ":guilabel:`새로 만들기` 버튼은 *활동* 보기인 경우에는 *설문조사* 현황판에 표시되지 **않습니다.**"
 
 #: ../../content/applications/marketing/surveys/create.rst:13
 msgid "Survey form"
@@ -13809,7 +13869,7 @@ msgstr "설문 양식"
 
 #: ../../content/applications/marketing/surveys/create.rst-1
 msgid "How a blank survey form looks in the Odoo Surveys application."
-msgstr ""
+msgstr "Odoo 설문조사 애플리케이션에서 빈 설문조사 양식이 표시되는 방식입니다."
 
 #: ../../content/applications/marketing/surveys/create.rst:19
 msgid ""
@@ -13882,12 +13942,14 @@ msgid ""
 "Below those fields and options are four tabs: :guilabel:`Questions`, "
 ":guilabel:`Options`, :guilabel:`Description`, and :guilabel:`End Message`."
 msgstr ""
+"해당 필드와 옵션 아래에는 :guilabel:`질문`, :guilabel:`옵션`, :guilabel:`설명`, 그리고 "
+":guilabel:`메시지 종료` 의 네 개의 탭이 있습니다."
 
 #: ../../content/applications/marketing/surveys/create.rst:52
 msgid ""
 "View, access, add, and/or delete questions and sections to the survey in the"
 " :guilabel:`Questions` tab."
-msgstr ""
+msgstr ":guilabel:`질문` 탭에서 설문조사에 있는 질문 및 섹션을 확인, 액세스, 추가 또는 삭제할 수 있습니다."
 
 #: ../../content/applications/marketing/surveys/create.rst:55
 #: ../../content/applications/marketing/surveys/questions.rst:25
@@ -13921,7 +13983,7 @@ msgstr ""
 msgid ""
 "The slider drop-down menu with the Mandatory Answer option selected in Odoo "
 "Surveys."
-msgstr ""
+msgstr "Odoo 설문조사에 있는 슬라이더 드롭다운 메뉴에서 필수 답변 옵션이 선택된 모습입니다."
 
 #: ../../content/applications/marketing/surveys/create.rst:71
 msgid "Add a question"
@@ -13940,7 +14002,7 @@ msgstr ""
 msgid ""
 "To learn how to create and customize questions, refer to the :doc:`create "
 "questions <questions>` documentation."
-msgstr ""
+msgstr "질문을 생성하고 사용자 지정하는 방법을 알아보려면 :doc:`질문 만들기 <questions>` 문서를 참조하세요."
 
 #: ../../content/applications/marketing/surveys/create.rst:80
 #: ../../content/applications/marketing/surveys/questions.rst:73
@@ -13974,7 +14036,7 @@ msgstr ""
 #: ../../content/applications/marketing/surveys/questions.rst:48
 msgid ""
 "The section line appears in dark gray in the :guilabel:`Questions` tab."
-msgstr ""
+msgstr "섹션에 있는 선은 :guilabel:`질문` 탭에서 진한 회색으로 표시됩니다."
 
 #: ../../content/applications/marketing/surveys/create.rst:94
 msgid ""
@@ -14054,7 +14116,7 @@ msgstr "질문 섹션"
 #: ../../content/applications/marketing/surveys/create.rst-1
 msgid ""
 "The Questions section of the Options tab on a survey form in Odoo Surveys."
-msgstr ""
+msgstr "Odoo 설문조사의 설문조사 양식에 있는 옵션 탭의 질문 섹션입니다."
 
 #: ../../content/applications/marketing/surveys/create.rst:129
 msgid ""
@@ -14082,13 +14144,13 @@ msgstr ""
 msgid ""
 "Next, select one of the following options in the :guilabel:`Display Progress"
 " as` field:"
-msgstr ""
+msgstr "다음으로, :guilabel:`진행 상황 표시` 필드에 있는 다음 항목 중에서 하나를 선택합니다."
 
 #: ../../content/applications/marketing/surveys/create.rst:142
 msgid ""
 ":guilabel:`Percentage left`: displays the percentage of the survey remaining"
 " to participants."
-msgstr ""
+msgstr ":guilabel:`남은 백분율`: 참가자에게 남은 설문 조사 백분율이 표시됩니다."
 
 #: ../../content/applications/marketing/surveys/create.rst:143
 msgid ""
@@ -14221,7 +14283,7 @@ msgstr "참가자 섹션"
 msgid ""
 "The Participants section of the Options tab on a survey form in Odoo "
 "Surveys."
-msgstr ""
+msgstr "Odoo 설문조사의 설문조사 양식에 있는 옵션 탭의 참가자 섹션입니다."
 
 #: ../../content/applications/marketing/surveys/create.rst:204
 msgid ""
@@ -14261,7 +14323,7 @@ msgstr "실시간 세션 섹션"
 msgid ""
 "The Live Session section of the Options tab on a survey form in Odoo "
 "Surveys."
-msgstr ""
+msgstr "Odoo 설문조사의 설문조사 양식에 있는 옵션 탭에 실시간 세션 섹션이 나타나 있는 모습입니다."
 
 #: ../../content/applications/marketing/surveys/create.rst:222
 msgid ""
@@ -14395,7 +14457,7 @@ msgstr ""
 msgid ""
 "The 'Share a Survey' pop-up window that appears in the Odoo Surveys "
 "application."
-msgstr ""
+msgstr "Odoo 설문조사 애플리케이션에 '설문조사 공유' 팝업 창이 나타나 있는 모습니다."
 
 #: ../../content/applications/marketing/surveys/create.rst:290
 msgid ""
@@ -14538,7 +14600,7 @@ msgstr ""
 msgid ""
 "Rendered concept of how a Live Session question and answer result appears in"
 " Odoo Surveys."
-msgstr ""
+msgstr "렌더링 개념으로 Odoo 설문조사에서 실시간 세션 질문과 답변 결과가 표시되는 방식을 나타낸 모습입니다."
 
 #: ../../content/applications/marketing/surveys/live_session.rst:24
 msgid "Create Live Session survey"
@@ -14607,7 +14669,7 @@ msgstr ""
 msgid ""
 "The Live Session question time limit option for questions in the Odoo "
 "Surveys application."
-msgstr ""
+msgstr "Odoo 설문조사 애플리케이션의 질문에 대한 실시간 세션 질문 시간 제한 옵션입니다."
 
 #: ../../content/applications/marketing/surveys/live_session.rst:59
 msgid ""
@@ -14957,7 +15019,7 @@ msgstr ""
 msgid ""
 "Fortunately, Odoo provides numerous ways to configure tailored questions for"
 " any kind of survey."
-msgstr ""
+msgstr "다행히 Odoo에서는 모든 설문조사 종류에 알맞도록 다양한 방법을 통해 맞춤형 질문을 설정할 수 있습니다."
 
 #: ../../content/applications/marketing/surveys/questions.rst:10
 msgid ""
@@ -15001,7 +15063,7 @@ msgstr ""
 msgid ""
 "The slider drop-down menu showing the Mandatory Answer option in Odoo "
 "Surveys."
-msgstr ""
+msgstr "슬라이더 드롭다운 메뉴로 필수 답변 옵션이 Odoo 설문조사에 나타나 있는 모습입니다."
 
 #: ../../content/applications/marketing/surveys/questions.rst:41
 msgid "Create sections"
@@ -15021,7 +15083,7 @@ msgstr ""
 msgid ""
 "To create questions for the survey, click :guilabel:`Add a question` in the "
 ":guilabel:`Questions` tab."
-msgstr ""
+msgstr "설문조사에서 질문을 생성하려면 :guilabel:`질문` 탭에 있는 :guilabel:`질문 추가` 를 클릭합니다."
 
 #: ../../content/applications/marketing/surveys/questions.rst:69
 msgid ""
@@ -15042,7 +15104,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/surveys/questions.rst:81
 msgid "Click :guilabel:`Discard` to discard the question entirely."
-msgstr "질문을 완전히 삭제하려면 :guilabel:`삭제` 를 클릭합니다."
+msgstr "질문을 완전히 삭제하려면 :guilabel:`폐기` 를 클릭합니다."
 
 #: ../../content/applications/marketing/surveys/questions.rst:84
 msgid "Create Sections and Questions pop-up window"
@@ -15076,13 +15138,13 @@ msgstr "다음의 :guilabel:`질문 유형` 중에서 선택하세요."
 msgid ""
 ":guilabel:`Multiple choice: only one answer`: a multiple choice question, "
 "where only one answer is permitted."
-msgstr ""
+msgstr ":guilabel:`객관식: 하나만 응답 가능`: 정답을 하나만 선택할 수 있는 객관식 문항입니다."
 
 #: ../../content/applications/marketing/surveys/questions.rst:100
 msgid ""
 ":guilabel:`Multiple choice: multiple answers allowed`: a multiple choice "
 "question, where more than answer is permitted."
-msgstr ""
+msgstr ":guilabel:`객관식: 복수 응답 허용`: 정답을 둘 이상 선택할 수 있는 객관식 질문입니다."
 
 #: ../../content/applications/marketing/surveys/questions.rst:102
 msgid ""
@@ -15100,13 +15162,13 @@ msgstr ":guilabel:`단문형 텍스트 상자`: 참가자가 단문형으로 답
 msgid ""
 ":guilabel:`Numerical Value`: a number-based question, where participants "
 "must enter a number as a response."
-msgstr ""
+msgstr ":guilabel:`숫자 값`: 숫자를 기반으로 하는 질문으로, 참가자는 숫자로 응답을 입력해야 합니다."
 
 #: ../../content/applications/marketing/surveys/questions.rst:108
 msgid ""
 ":guilabel:`Date`: a date-based question, where participants must enter a "
 "date (year-month-day) as a response."
-msgstr ""
+msgstr ":guilabel:`날짜`: 날짜를 기반으로 하는 질문으로, 참가자는 날짜(년-월-일)로 응답을 입력해야 합니다."
 
 #: ../../content/applications/marketing/surveys/questions.rst:110
 msgid ""
@@ -15126,12 +15188,13 @@ msgid ""
 "Different features appear in the :guilabel:`Answers` and :guilabel:`Options`"
 " tabs, depending on the chosen :guilabel:`Question Type`."
 msgstr ""
+"선택한 :guilabel:`질문 유형` 에 따라 :guilabel:`답변` 및 :guilabel:`옵션` 탭에 다른 기능이 나타납니다."
 
 #: ../../content/applications/marketing/surveys/questions.rst:120
 msgid ""
 "However, the :guilabel:`Description` tab **always** remains the same, "
 "regardless of the question type chosen."
-msgstr ""
+msgstr "그러나 :guilabel:`설명` 탭은 선택한 질문 유형과 무관하게 **항상** 동일하게 표시됩니다."
 
 #: ../../content/applications/marketing/surveys/questions.rst:123
 msgid ""
@@ -15141,15 +15204,15 @@ msgid ""
 ":guilabel:`Question Type`), the :guilabel:`Description` tab, and the "
 ":guilabel:`Options` tab."
 msgstr ""
-":guilabel:`질문 유형` 을 선택하면, 세 가지 탭으로 질문에 대한 정보를 사용자 지정할 수 있습니다. 여기에는 "
-":guilabel:`답변` 탭 (선택한 :guilabel:`질문 유형` 에 적용 가능한 경우), :guilabel:`설명` 탭 및 "
+":guilabel:`질문 유형` 을 선택하면, 세 가지 탭을 통해 질문에 대한 정보를 사용자 지정할 수 있습니다. 여기에는 "
+":guilabel:`답변` 탭 (선택한 :guilabel:`질문 유형` 에 해당하는 경우), :guilabel:`설명` 탭 및 "
 ":guilabel:`옵션` 탭이 있습니다."
 
 #: ../../content/applications/marketing/surveys/questions.rst:127
 msgid ""
 "Each tab offers a variety of different features, depending on what "
 ":guilabel:`Question Type` was chosen."
-msgstr ""
+msgstr "각각의 탭에서 다양한 기능을 활용할 수 있으며, 기능은 선택한 :guilabel:`질문 유형` 에 따라 달라집니다."
 
 #: ../../content/applications/marketing/surveys/questions.rst:131
 msgid "Answers tab"
@@ -15213,7 +15276,7 @@ msgstr ""
 msgid ""
 "The answer tab with a multiple choice answer option selected in Odoo "
 "Surveys."
-msgstr ""
+msgstr "Odoo 설문조사에서 다중 선택 답변 옵션이 답변 탭에 선택되어 있는 모습입니다."
 
 #: ../../content/applications/marketing/surveys/questions.rst:162
 msgid ""
@@ -15230,7 +15293,7 @@ msgstr ""
 msgid ""
 "The entered answer options appear in the :guilabel:`Choices` column of the "
 ":guilabel:`Answers` tab."
-msgstr ""
+msgstr "답변으로 입력한 항목이 :guilabel:`답변` 탭의 :guilabel:`선택` 열에 표시됩니다."
 
 #: ../../content/applications/marketing/surveys/questions.rst:168
 msgid ""
@@ -15292,7 +15355,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/surveys/questions.rst-1
 msgid "The answer tab with a matrix question type selected in Odoo Surveys."
-msgstr ""
+msgstr "Odoo 설문조사의 답변 탭에서 지표형 질문 유형이 선택되어 있는 모습입니다."
 
 #: ../../content/applications/marketing/surveys/questions.rst:200
 msgid ""
@@ -15348,13 +15411,13 @@ msgstr ""
 msgid ""
 "When enabled, two additional fields appear: :guilabel:`Comment Message` and "
 ":guilabel:`Comment is an answer`."
-msgstr ""
+msgstr "활성화하면 추가로 두 개의 필드인 :guilabel:`댓글 메시지` 및 :guilabel:`댓글 답변` 이 표시됩니다."
 
 #: ../../content/applications/marketing/surveys/questions.rst-1
 msgid ""
 "The answers section of the options tab when a multiple choice question type "
 "is selected."
-msgstr ""
+msgstr "객관식 문제 유형을 선택한 경우 옵션 탭에 있는 답변 섹션입니다."
 
 #: ../../content/applications/marketing/surveys/questions.rst:235
 msgid ""
@@ -15388,7 +15451,7 @@ msgstr ""
 msgid ""
 "The placeholder field when a multiple lines text box option is chosen in "
 "Odoo Surveys."
-msgstr ""
+msgstr "Odoo 설문조사에서 장문 텍스트 상자 옵션을 선택한 경우의 자리 표시자 필드입니다."
 
 #: ../../content/applications/marketing/surveys/questions.rst:253
 #: ../../content/applications/marketing/surveys/questions.rst:276
@@ -15456,7 +15519,7 @@ msgstr "Odoo 설문조사 옵션 탭에 있는 제약 조건 섹션입니다."
 msgid ""
 "In the :guilabel:`Constraints` section, there is one option available: "
 ":guilabel:`Mandatory Answer`."
-msgstr ""
+msgstr ":guilabel:`제약 조건` 섹션에는 :guilabel:`필수 답변` 만 사용할 수 있습니다."
 
 #: ../../content/applications/marketing/surveys/questions.rst:291
 msgid ""
@@ -15495,13 +15558,13 @@ msgstr ""
 msgid ""
 "There is only one field in the :guilabel:`Conditional Display` section: "
 ":guilabel:`Triggering Answers`."
-msgstr ""
+msgstr ":guilabel:`조건부 표시` 섹션에는 :guilabel:`답변 트리거` 필드 하나만 있습니다."
 
 #: ../../content/applications/marketing/surveys/questions.rst-1
 msgid ""
 "The Conditional Display section of the options tab in the Odoo Surveys "
 "application."
-msgstr ""
+msgstr "Odoo 설문조사 애플리케이션의 옵션 탭에 있는 조건부 표시 섹션입니다."
 
 #: ../../content/applications/marketing/surveys/questions.rst:315
 msgid ""
@@ -15527,12 +15590,12 @@ msgstr ""
 msgid ""
 "There is only one option available in the :guilabel:`Live Sessions` section:"
 " :guilabel:`Question Time Limit`."
-msgstr ""
+msgstr ":guilabel:`실시간 세션` 섹션에서 선택할 수 있는 항목은 :guilabel:`질문 시간 제한` 하나뿐입니다."
 
 #: ../../content/applications/marketing/surveys/questions.rst-1
 msgid ""
 "The Live Sessions section of the Option tab in the Odoo Surveys application."
-msgstr ""
+msgstr "Odoo 설문조사 애플리케이션의 옵션 탭에 있는 실시간 세션 섹션입니다."
 
 #: ../../content/applications/marketing/surveys/questions.rst:332
 msgid ""
@@ -15546,6 +15609,8 @@ msgid ""
 "Survey text colors are directly linked to the colors used for the "
 ":doc:`website theme <../../websites/website/web_design/themes>`."
 msgstr ""
+"설문조사 텍스트 색상은 :doc:`웹사이트 테마 <../../websites/website/web_design/themes>` 에서 "
+"사용된 색상으로 직접 연결됩니다."
 
 #: ../../content/applications/marketing/surveys/scoring.rst:5
 msgid ""

@@ -6,16 +6,16 @@
 # Translators:
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
-# Sarah Park, 2024
+# Sarah Park, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-02 16:24+0000\n"
+"POT-Creation-Date: 2025-01-28 12:25+0000\n"
 "PO-Revision-Date: 2024-10-08 06:34+0000\n"
-"Last-Translator: Sarah Park, 2024\n"
+"Last-Translator: Sarah Park, 2025\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -126,7 +126,7 @@ msgstr ":icon:`oi-view-kanban` :guilabel:`(칸반)` 보기에서도 활동을 �
 msgid ""
 "To do so, click on the |clock| located at the bottom of an individual "
 "record."
-msgstr "활동을 생성하려면 각각의 레코드 아래쪽에 있는 |시계| 를 클릭하세요."
+msgstr "활동을 생성하려면 각각의 레코드 아래쪽에 있는 |clock|| 를 클릭하세요."
 
 #: ../../content/applications/essentials/activities.rst:53
 msgid ""
@@ -382,7 +382,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Cancel`: discards any changes made on the :guilabel:`Schedule "
 "Activity` pop-up window."
-msgstr ":guilabel:`취소`: :guilabel:`활동 예약` 팝업 창에서 변경한 내용이 모두 삭제됩니다."
+msgstr ":guilabel:`취소`: :guilabel:`활동 예약` 팝업창에서 변경한 내용을 모두 폐기합니다."
 
 #: ../../content/applications/essentials/activities.rst-1
 msgid "View of CRM leads and the option to schedule an activity."
@@ -1089,10 +1089,10 @@ msgid ""
 "or :guilabel:`Create` a new one. Select the :guilabel:`Pricelist` drop-down "
 "menu to choose the appropriate :guilabel:`Pricelist`."
 msgstr ""
-"필요한 경우 특정한 :guilabel:`지급 조건` 이나 :guilabel:` 가격표` 도 설정할 수 있습니다. :guilabel:`지급"
-" 조건` 옆에 있는 드롭다운 메뉴를 클릭하고 미리 선택된 :guilabel:`지급 조건` 중 하나로 변경하거나 "
-":guilabel:`만들기` 로 새로운 항목을 만듭니다. :guilabel:` 가격표` 드롭다운 메뉴에서 적절한 :guilabel:` "
-"가격표` 를 선택합니다."
+"필요한 경우 특정한 :guilabel:`지급 조건` 이나 :guilabel:`가격표` 를 설정하는 것도 가능합니다. "
+":guilabel:`지급 조건` 옆에 있는 드롭다운 메뉴를 클릭한 후 미리 선택된 :guilabel:`지급 조건` 중 하나로 변경하거나 "
+":guilabel:`만들기` 를 통해 새로운 항목을 만듭니다. :guilabel:`가격표` 드롭다운 메뉴에서 알맞은 :guilabel:`"
+" 가격표` 를 선택하세요."
 
 #: ../../content/applications/essentials/contacts.rst:133
 msgid ""
@@ -1123,8 +1123,8 @@ msgid ""
 "preferred :guilabel:`Payment Method` here. A :guilabel:`Receipt Reminder` "
 "can be set here, as well."
 msgstr ""
-"여기에 :guilabel:`지급 조건`, :guilabel:`1099 박스` 정보 및 선호하는 :guilabel:`결제 방법` 을 "
-"지정합니다. :guilabel:`영수증 알림` 도 여기에서 설정할 수 있습니다."
+"여기에 :guilabel:`지급 조건`, :guilabel:`1099 박스` 정보 및 선호하는 :guilabel:`결제 수단` 을 "
+"지정합니다. :guilabel:`입고 알림` 역시 여기에서 설정할 수 있습니다."
 
 #: ../../content/applications/essentials/contacts.rst:149
 msgid "Misc section"
@@ -1211,7 +1211,7 @@ msgstr ""
 
 #: ../../content/applications/essentials/contacts.rst:187
 msgid "Membership tab"
-msgstr "멤버십 탭"
+msgstr "회원 관리 탭"
 
 #: ../../content/applications/essentials/contacts.rst:189
 msgid ""
@@ -1225,7 +1225,7 @@ msgstr ""
 
 #: ../../content/applications/essentials/contacts.rst:194
 msgid "Activate membership"
-msgstr "멤버십 활성화하기"
+msgstr "회원 관리 활성화하기"
 
 #: ../../content/applications/essentials/contacts.rst:196
 msgid ""
@@ -1593,7 +1593,7 @@ msgstr ""
 msgid "View of the different things to enable/click to export data."
 msgstr "데이터 내보내기를 할 때 활성화하거나 클릭할 수 있는 여러 가지 항목 보기"
 
-#: ../../content/applications/essentials/export_import_data.rst:34
+#: ../../content/applications/essentials/export_import_data.rst:33
 msgid ""
 "When clicking on :guilabel:`Export`, an :guilabel:`Export Data` pop-over "
 "window appears, with several options for the data to export:"
@@ -1602,10 +1602,10 @@ msgstr ""
 " 함께 표시됩니다."
 
 #: ../../content/applications/essentials/export_import_data.rst-1
-msgid "Overview of options to consider when exporting data in Odoo.."
-msgstr "Odoo에서 데이터 내보내기를 할 때 전반적으로 고려해야 할 사항"
+msgid "Overview of options to consider when exporting data in Odoo."
+msgstr "Odoo에서 데이터 내보내기를 할 때 전반적으로 고려해야 할 사항입니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:41
+#: ../../content/applications/essentials/export_import_data.rst:39
 msgid ""
 "With the :guilabel:`I want to update data (import-compatable export)` option"
 " ticked, the system only shows the fields that can be imported. This is "
@@ -1619,7 +1619,7 @@ msgstr ""
 "유용합니다. 필터처럼 작동하므로, 확인란에 표시하지 않으면 가져올 수 있는 항목뿐만 아니라 모든 항목이 표시되어 선택할 수 있는 항목이 "
 "더 많아집니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:46
+#: ../../content/applications/essentials/export_import_data.rst:44
 msgid ""
 "When exporting, there is the option to export in two formats: `.csv` and "
 "`.xls`. With `.csv`, items are separated by a comma, while `.xls` holds "
@@ -1629,7 +1629,7 @@ msgstr ""
 "내보내기를 할 때 `.csv`와 `.xls` 형식 두 가지 중에서 선택할 수 있습니다. `.csv` 는 쉼표로 항목을 구분하는 반면, "
 "`.xls` 에서는 내용과 형식 등 워크시트에 대한 모든 정보를 파일에 담고 있습니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:49
+#: ../../content/applications/essentials/export_import_data.rst:47
 msgid ""
 "These are the items that can be exported. Use the :guilabel:`> (right "
 "arrow)` icon to display more sub-field options. Use the :guilabel:`Search` "
@@ -1641,14 +1641,14 @@ msgstr ""
 "표시됩니다. :guilabel:`검색` 표시줄에서 특정한 항목을 검색할 수 있습니다. :guilabel:`> (오른쪽 화살표)` 를 모두"
 " 클릭하여 전체 항목이 나타나게 하면 보다 효율적으로 :guilabel:`검색` 메뉴를 활용할 수 있습니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:53
+#: ../../content/applications/essentials/export_import_data.rst:51
 msgid ""
 "The :guilabel:`+ (plus sign)` icon button is present to add fields to the "
 ":guilabel:`Fields to export` list."
 msgstr ""
 ":guilabel:`+ (더하기 기호)` 아이콘 버튼을 누르면 :guilabel:`내보내기 할 항목` 목록에 항목을 추가할 수 있습니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:55
+#: ../../content/applications/essentials/export_import_data.rst:53
 msgid ""
 "The :guilabel:`↕️ (up-down arrow)` to the left of the selected fields can be"
 " used to move the fields up and down, to change the order in which they are "
@@ -1658,7 +1658,7 @@ msgstr ""
 "선택한 항목 왼쪽에 있는 :guilabel:`↕️ (위-아래 화살표)` 를 사용하면 위아래에 있는 항목으로 이동하거나 내보낸 파일에 "
 "표시되는 순서를 변경할 수 있습니다. :guilabel:`↕️ (위아래 화살표)` 아이콘을 사용하여 끌어다 놓습니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:58
+#: ../../content/applications/essentials/export_import_data.rst:56
 msgid ""
 "The :guilabel:`🗑️ (trash can)` icon is used to remove fields. Click on the "
 ":guilabel:`🗑️ (trash can)` icon to remove the field."
@@ -1666,7 +1666,7 @@ msgstr ""
 ":guilabel:`🗑️ (휴지통)` 아이콘으로 항목을 삭제할 수 있습니다. 항목을 삭제하려면 :guilabel:`🗑️ (휴지통)` "
 "아이콘을 클릭합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:60
+#: ../../content/applications/essentials/export_import_data.rst:58
 msgid ""
 "For recurring reports, it is helpful to save export presets. Select all the "
 "needed fields, and click on the template drop-down menu. Once there, click "
@@ -1675,12 +1675,12 @@ msgid ""
 "configuration. The next time the same list needs to be exported, select the "
 "related template that was previously saved from the drop-down menu."
 msgstr ""
-"정기 보고서의 경우에는 내보내기 사전 설정을 저장해 두면 유용합니다. 필요한 항목을 모두 선택한 후 템플릿 드롭다운 메뉴를 클릭합니다. "
-":guilabel:`새 템플릿` 을 클릭하고 방금 생성한 내보내기 항목에 고유하게 이름을 지정합니다. :guilabel:`💾 (플로피 "
-"드라이브)` 아이콘을 클릭하여 환경설정 내용을 저장합니다. 다음에 동일한 목록을 내보내는 경우 드롭다운 메뉴에서 이전에 저장해 둔 관련 "
-"템플릿을 선택합니다."
+"정기 보고서의 경우에는 내보내기를 사전 설정하여 저장해 두면 유용하게 사용할 수 있습니다. 모든 필요 항목을 선택한 후 템플릿 드롭다운 "
+"메뉴를 클릭합니다. :guilabel:`새 템플릿` 을 클릭하고 방금 생성한 내보내기 항목에 고유한 이름을 지정합니다. "
+":guilabel:`💾 (플로피 드라이브)` 아이콘을 클릭하여 환경설정한 내용을 저장합니다. 다음에 동일한 목록을 내보낼 경우에는 "
+"드롭다운 메뉴에서 이전에 저장해 둔 관련 템플릿을 선택합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:67
+#: ../../content/applications/essentials/export_import_data.rst:65
 msgid ""
 "It is helpful to know the field's external identifier. For example, "
 ":guilabel:`Related Company` in the export user interface is equal to "
@@ -1691,11 +1691,11 @@ msgstr ""
 "*parent_id* (외부 식별자)와 동일합니다. 이렇게 하면 내보낸 내용 중에서 해당 데이터만 수정한 후 다시 가져오면 되기 때문에 "
 "유용하게 사용할 수 있습니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:74
+#: ../../content/applications/essentials/export_import_data.rst:72
 msgid "Import data into Odoo"
 msgstr "Odoo로 데이터 가져오기"
 
-#: ../../content/applications/essentials/export_import_data.rst:76
+#: ../../content/applications/essentials/export_import_data.rst:74
 msgid ""
 "Importing data into Odoo is extremely helpful during implementation, or in "
 "times where data needs to be :ref:`updated in bulk <essentials/update-"
@@ -1705,7 +1705,7 @@ msgstr ""
 "Odoo 데이터 가져오기 기능은 구현 중이거나 데이터를 :ref:`대량으로 업데이트 <essentials/update-data>`해야 "
 "하는 경우에 매우 유용합니다. 다음 문서에서는 Odoo 데이터베이스로 데이터 가져오기를 하는 방법에 대해 설명합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:81
+#: ../../content/applications/essentials/export_import_data.rst:79
 msgid ""
 "Imports are permanent and **cannot** be undone. However, it is possible to "
 "use filters (`created on` or `last modified`) to identify records changed or"
@@ -1714,7 +1714,7 @@ msgstr ""
 "가져오기를 하면 결과가 영구적이며 취소할 수 **없습니다**. 다만 필터 ('생성일' 혹은 '마지막 수정일')를 통해 가져오기로 "
 "변경되거나 생성된 레코드를 식별하는 것은 가능합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:85
+#: ../../content/applications/essentials/export_import_data.rst:83
 msgid ""
 "Activating :ref:`developer mode <developer-mode>` changes the visible import"
 " settings in the left menu. Doing so reveals an :menuselection:`Advanced` "
@@ -1729,7 +1729,7 @@ msgstr ""
 msgid "Advanced import options when developer mode is activated."
 msgstr "개발자 모드가 사용 설정되어 있는 고급 가져오기 항목"
 
-#: ../../content/applications/essentials/export_import_data.rst:93
+#: ../../content/applications/essentials/export_import_data.rst:90
 msgid ""
 "If the model uses openchatter, the :guilabel:`Track history during import` "
 "option sets up subscriptions and sends notifications during the import, but "
@@ -1738,7 +1738,7 @@ msgstr ""
 "모델이 일반 공개 메시지창을 사용하는 경우에는 :guilabel:`가져오기 중 레코드 추적` 을 선택하면 구독 항목을 설정하고 알림을 "
 "보낼 수 있으나, 가져오기 속도가 느려집니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:96
+#: ../../content/applications/essentials/export_import_data.rst:93
 msgid ""
 "Should the :guilabel:`Allow matching with subfields` option be selected, "
 "then all subfields within a field are used to match under the "
@@ -1747,11 +1747,11 @@ msgstr ""
 ":guilabel:`하위 필드와 일치 허용` 을 선택하면 필드 내에 있는 모든 하위 필드를 가져오기 중에 :guilabel:`Odoo "
 "필드` 에 일치시키는 데 사용됩니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:100
+#: ../../content/applications/essentials/export_import_data.rst:99
 msgid "Get started"
 msgstr "시작하기"
 
-#: ../../content/applications/essentials/export_import_data.rst:102
+#: ../../content/applications/essentials/export_import_data.rst:101
 msgid ""
 "Data can be imported on any Odoo business object using either Excel "
 "(`.xlsx`) or :abbr:`CSV (Comma-separated Values)` (`.csv`) formats. This "
@@ -1760,57 +1760,71 @@ msgstr ""
 "데이터 불러오기는 모든 Odoo 비즈니스 개체에 대해 실행할 수 있으며 Excel(`.xlsx`) 또는 :abbr:`CSV(쉼표로 구분된"
 " 값)`(`.csv`) 형식으로 불러옵니다. 여기에는 연락처, 품목, 은행 명세서, 전표 항목 및 주문 등이 포함되어 있습니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:106
+#: ../../content/applications/essentials/export_import_data.rst:105
 msgid ""
 "Open the view of the object to which the data should be imported/populated, "
-"and click on :menuselection:`⚙️ (Action) --> Import records`."
+"click the :icon:`fa-cog` (:guilabel:`gear`) icon and select "
+":guilabel:`Import records`."
 msgstr ""
-"데이터를 가져오거나 입력해야 하는 개체에 대한 화면을 열어서 :menuselection:`⭐ 즐겨찾기 --> 레코드 가져오기` 를 "
-"클릭합니다."
 
 #: ../../content/applications/essentials/export_import_data.rst-1
 msgid "Action menu revealed with the import records option highlighted."
 msgstr "레코드 가져오기 옵션이 강조 표시되어 있는 활동 메뉴"
 
-#: ../../content/applications/essentials/export_import_data.rst:113
+#: ../../content/applications/essentials/export_import_data.rst:111
 msgid ""
-"After clicking :guilabel:`Import records`, Odoo reveals a separate page with"
-" templates that can be downloaded and populated with the company's own data."
-" Such templates can be imported in one click, since the data mapping is "
-"already done. To download a template click :guilabel:`Import Template for "
-"Customers` at the center of the page."
+"Click :icon:`fa-download`:guilabel:`Import Template for Customers` at the "
+"center of the page to download a :ref:`template "
+"<essentials/export_import_data/adapt-a-template>` and populate it with the "
+"company's own data. Such templates can be imported in one click since the "
+"data mapping is already preconfigured."
 msgstr ""
-":guilabel:`레코드 가져오기` 를 클릭하면 Odoo에서 템플릿이 별도 페이지로 열려서 회사 자체 데이터를 다운로드하여 입력됩니다."
-" 이 템플릿은 데이터 매핑이 이미 완료되어 있는 관계로 클릭 한번이면 가져오기를 할 수 있습니다. 템플릿을 다운로드하려면 페이지 중앙에 "
-"있는 :guilabel:`고객용 템플릿 가져오기` 를 클릭합니다."
+
+#: ../../content/applications/essentials/export_import_data.rst:116
+msgid ""
+"To upload the downloaded template or your own file, follow the next steps:"
+msgstr "다운로드한 템플릿 혹은 가지고 있는 파일을 업로드하려면 다음 단계에 따라 진행합니다."
+
+#: ../../content/applications/essentials/export_import_data.rst:118
+msgid "Click :guilabel:`Upload Data File` and select the desired file."
+msgstr ":guilabel:`데이터 파일 업로드` 를 클릭한 후 파일을 선택합니다."
 
 #: ../../content/applications/essentials/export_import_data.rst:119
 msgid ""
-"When importing a :abbr:`CSV (Comma-separated Values)` file, Odoo provides "
-":guilabel:`Formatting` options. These options do **not** appear when "
-"importing the proprietary Excel file type (`.xls`, `.xlsx`)."
-msgstr ""
-":abbr:`CSV (쉼표로 구분된 값)` 파일 가져오기를 할 때 Odoo에서 :guilabel:`포맷` 항목을 선택할 수 있습니다. "
-"이러한 선택 항목은 Excel 파일 전용 형식 (`.xls`, `.xlsx`)을 가져올 때는 나타나지 **않습니다**."
+"Adjust the :guilabel:`Formatting` options as needed (for CSV files only)."
+msgstr "필요한 경우 :guilabel:`포맷` 옵션을 조정합니다(CSV 파일에만 해당)."
 
-#: ../../content/applications/essentials/export_import_data.rst:0
-msgid "Formatting options presented when a CVS file is imported in Odoo."
-msgstr "Odoo에서 CVS 파일을 가져올 때 표시되는 지정 서식 옵션입니다."
+#: ../../content/applications/essentials/export_import_data.rst:120
+msgid ""
+"Ensure all data in the :guilabel:`File Column` is correctly mapped to the "
+"appropriate :guilabel:`Odoo Field` and free of errors."
+msgstr ""
+
+#: ../../content/applications/essentials/export_import_data.rst:122
+msgid ""
+"(Optional) Click :guilabel:`Load Data File` to reload the same file or "
+"upload a different one."
+msgstr "(선택 사항) :guilabel:`데이터 파일 로드` 를 클릭하여 같은 파일을 다시 로드하거나 다른 파일을 업로드합니다."
+
+#: ../../content/applications/essentials/export_import_data.rst:123
+msgid "Click :guilabel:`Test` to verify that the data is valid."
+msgstr ":guilabel:`테스트` 를 클릭한 후 데이터가 유효한지 확인합니다. "
+
+#: ../../content/applications/essentials/export_import_data.rst:124
+msgid "Click :guilabel:`Import`."
+msgstr ":guilabel:`가져오기` 를 클릭합니다."
 
 #: ../../content/applications/essentials/export_import_data.rst:127
 msgid ""
-"Make necessary adjustments to the *Formatting* options, and ensure all "
-"columns in the :guilabel:`Odoo field` and :guilabel:`File Column` are free "
-"of errors. Finally, click :guilabel:`Import` to import the data."
+"The :guilabel:`Formatting` options do **not** appear when importing the "
+"proprietary Excel file type (i.e., `.xls` or `.xlsx`)."
 msgstr ""
-"*서식 지정* 옵션을 필요에 맞추어 조정하고 :guilabel:`Odoo 필드` 및 :guilabel:`파일 열` 에 있는 모든 열에 "
-"오류가 없는지 확인하세요. 마지막으로 :guilabel:`가져오기` 를 클릭하여 데이터를 가져옵니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:132
+#: ../../content/applications/essentials/export_import_data.rst:133
 msgid "Adapt a template"
 msgstr "템플릿 적용하기"
 
-#: ../../content/applications/essentials/export_import_data.rst:134
+#: ../../content/applications/essentials/export_import_data.rst:135
 msgid ""
 "Import templates are provided in the import tool of the most common data to "
 "import (contacts, products, bank statements, etc.). Open them with any "
@@ -1820,21 +1834,21 @@ msgstr ""
 "가져오기 도구에서 가장 일반적으로 쓰는 데이터 (연락처, 품목, 은행명세서 등)에서 가져오기 템플릿을 사용할 수 있습니다. 스프레드시트 "
 "소프트웨어 (Microsoft Office, OpenOffice, Google 드라이브 등)로 열 수 있습니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:138
+#: ../../content/applications/essentials/export_import_data.rst:139
 msgid "Once the template is downloaded, proceed to follow these steps:"
 msgstr "템플릿을 다운로드한 후 다음 단계와 같이 진행합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:140
+#: ../../content/applications/essentials/export_import_data.rst:141
 msgid "Add, remove, and sort columns to best fit the data structure."
 msgstr "데이터 구조에 가장 잘 맞도록 열을 추가, 삭제 및 정렬합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:141
+#: ../../content/applications/essentials/export_import_data.rst:142
 msgid ""
 "It is strongly advised to **not** remove the :guilabel:`External ID` (ID) "
 "column (see why in the next section)."
 msgstr ":guilabel:`외부 ID`(ID) 열은 삭제하지 **않는** 것이 좋습니다 (다음 섹션에서 이유를 확인해 보세요)."
 
-#: ../../content/applications/essentials/export_import_data.rst:143
+#: ../../content/applications/essentials/export_import_data.rst:144
 msgid ""
 "Set a unique ID to every record by dragging down the ID sequencing in the "
 ":guilabel:`External ID` (ID) column."
@@ -1860,13 +1874,13 @@ msgstr ""
 msgid "Drop-down menu expanded in the initial import screen on Odoo."
 msgstr "Odoo의 초기 가져오기 화면에서 확장된 드롭다운 메뉴"
 
-#: ../../content/applications/essentials/export_import_data.rst:159
+#: ../../content/applications/essentials/export_import_data.rst:158
 msgid ""
 "Then, use this field's label in the import file to ensure future imports are"
 " successful."
 msgstr "그런 다음 가져오기 파일에서 나중에 이 필드의 제목으로  가져오기를 할 수 있습니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:162
+#: ../../content/applications/essentials/export_import_data.rst:161
 msgid ""
 "Another useful way to find out the proper column names to import is to "
 "export a sample file using the fields that should be imported. This way, if "
@@ -1875,11 +1889,11 @@ msgstr ""
 "가져오기를 할 알맞은 열 이름을 검색할 수 있는 또 다른 편리한 방법으로는 가져와야 하는 필드를 사용하여 예시용 파일을 내보내는 "
 "것입니다. 이렇게 하면 예시용 가져오기 템플릿이 없는 경우에도 이름이 정확할 수 있습니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:170
+#: ../../content/applications/essentials/export_import_data.rst:169
 msgid "Import from another application"
 msgstr "다른 애플리케이션에서 가져오기 "
 
-#: ../../content/applications/essentials/export_import_data.rst:172
+#: ../../content/applications/essentials/export_import_data.rst:171
 msgid ""
 "The :guilabel:`External ID` (ID) is a unique identifier for the line item. "
 "Feel free to use one from previous software to facilitate the transition to "
@@ -1888,12 +1902,12 @@ msgstr ""
 "**ID** (외부 ID)는 항목에 대한 고유한 식별 기호입니다. Odoo로 간편하게 전환할 수 있도록 이전에 사용하던 소프트웨어 ID를"
 " 사용해 보세요."
 
-#: ../../content/applications/essentials/export_import_data.rst:175
+#: ../../content/applications/essentials/export_import_data.rst:174
 msgid ""
 "Setting an ID is not mandatory when importing, but it helps in many cases:"
 msgstr "가져오기 실행 시 ID 설정이 필수는 아니지만, 설정해두면 유용하게 사용할 수 있습니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:177
+#: ../../content/applications/essentials/export_import_data.rst:176
 msgid ""
 ":ref:`Update imports <essentials/update-data>`: import the same file several"
 " times without creating duplicates."
@@ -1901,11 +1915,11 @@ msgstr ""
 ":ref:`가져오기 업데이트 <essentials/update-data>`: 파일을 중복 생성하지 않고 동일한 파일을 여러 번 "
 "가져옵니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:179
+#: ../../content/applications/essentials/export_import_data.rst:178
 msgid ":ref:`Import relation fields <export_import_data/relation-fields>`."
 msgstr ":ref:`관계 필드 가져오기 <export_import_data/relation-fields>`"
 
-#: ../../content/applications/essentials/export_import_data.rst:181
+#: ../../content/applications/essentials/export_import_data.rst:180
 msgid ""
 "To recreate relationships between different records, the unique identifier "
 "from the original application should be used to map it to the "
@@ -1914,7 +1928,7 @@ msgstr ""
 "서로 다른 레코드 사이의 관계를 다시 생성하려면 원래 있었던 애플리케이션의 고유 식별자를 사용하여 Odoo의 :guilabel:`외부 "
 "ID`(ID) 열에 매핑해야 합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:184
+#: ../../content/applications/essentials/export_import_data.rst:183
 msgid ""
 "When another record is imported that links to the first one, use **XXX/ID** "
 "(XXX/External ID) for the original unique identifier. This record can also "
@@ -1923,17 +1937,17 @@ msgstr ""
 "첫 번째 레코드에 연결되어 있는 다른 레코드를 가져오는 경우 원래 고유 식별자로 **XXX/ID** (XXX/외부 ID)를 사용합니다. "
 "이 레코드는 이름으로도 검색할 수 있습니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:188
+#: ../../content/applications/essentials/export_import_data.rst:187
 msgid ""
 "It should be noted that conflicts occur if two (or more) records have the "
 "same *External ID*."
 msgstr "*외부 ID* 가 동일한 레코드가 두 개 (또는 그 이상) 있는 경우에는 충돌이 발생한다는 점에 유의해야 합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:191
+#: ../../content/applications/essentials/export_import_data.rst:190
 msgid "Field missing to map column"
 msgstr "열 매핑에서 필드가 누락된 경우"
 
-#: ../../content/applications/essentials/export_import_data.rst:193
+#: ../../content/applications/essentials/export_import_data.rst:192
 msgid ""
 "Odoo heuristically tries to find the type of field for each column inside "
 "the imported file, based on the first ten lines of the files."
@@ -1941,13 +1955,13 @@ msgstr ""
 "Odoo에서는 시도를 통해서 발견하는 방법으로 각 열에 대한 필드 유형을 찾을 수 있도록 하며, 가져오기 한 파일에 있는 첫 10줄이 "
 "기준이 됩니다. "
 
-#: ../../content/applications/essentials/export_import_data.rst:196
+#: ../../content/applications/essentials/export_import_data.rst:195
 msgid ""
 "For example, if there is a column only containing numbers, only the fields "
 "with the *integer* type are presented as options."
 msgstr "예를 들어 열에 숫자만 있는 경우 유형이 *정수* 인 필드만 옵션으로 표시됩니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:199
+#: ../../content/applications/essentials/export_import_data.rst:198
 msgid ""
 "While this behavior might be beneficial in most cases, it is also possible "
 "that it could fail, or the column may be mapped to a field that is not "
@@ -1955,7 +1969,7 @@ msgid ""
 msgstr ""
 "이 동작은 대부분의 경우 유용하게 사용할 수 있으나 실패할 가능성이 있으며 열이 기본적으로 제안되지 않은 필드에 매핑될 수도 있습니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:202
+#: ../../content/applications/essentials/export_import_data.rst:201
 msgid ""
 "If this happens, check the :guilabel:`Show fields of relation fields "
 "(advanced) option`, then a complete list of fields becomes available for "
@@ -1968,11 +1982,11 @@ msgstr ""
 msgid "Searching for the field to match the tax column."
 msgstr "세금 열과 일치하는 필드를 검색하기"
 
-#: ../../content/applications/essentials/export_import_data.rst:210
+#: ../../content/applications/essentials/export_import_data.rst:208
 msgid "Change data import format"
 msgstr "데이터 가져오기 형식 변경하기"
 
-#: ../../content/applications/essentials/export_import_data.rst:213
+#: ../../content/applications/essentials/export_import_data.rst:211
 msgid ""
 "Odoo can automatically detect if a column is a date, and tries to guess the "
 "date format from a set of most commonly used date formats. While this "
@@ -1986,14 +2000,14 @@ msgstr ""
 "'01-03-2016' 과 같이 표시된 경우에는 날짜 형식 중에서 각각 어느 부분이 일과 월 표시 부분인지 가늠하기 어렵기 때문에 혼란을"
 " 야기할 수 있습니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:219
+#: ../../content/applications/essentials/export_import_data.rst:217
 msgid ""
 "When importing a :abbr:`CSV (Comma-separated Values)` file, Odoo provides "
 ":guilabel:`Formatting` options."
 msgstr ""
 ":abbr:`CSV (쉼표로 구분된 값)` 파일 가져오기를 할 때 Odoo의 :guilabel:`서식 지정` 옵션을 사용할 수 있습니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:222
+#: ../../content/applications/essentials/export_import_data.rst:220
 msgid ""
 "To view which date format Odoo has found from the file, check the "
 ":guilabel:`Date Format` that is shown when clicking on options under the "
@@ -2004,7 +2018,7 @@ msgstr ""
 ":guilabel:`날짜 형식` 을 확인합니다. 이 형식이 잘못된 경우에는 *ISO 8601* 으로 형식을 설정하면 원하는 대로 변경할 "
 "수 있습니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:227
+#: ../../content/applications/essentials/export_import_data.rst:225
 msgid ""
 "*ISO 8601* is an international standard, covering the worldwide exchange, "
 "along with the communication of date and time-related data. For example, the"
@@ -2014,7 +2028,7 @@ msgstr ""
 "*ISO 8601* 은 날짜 및 시간 관련 데이터의 통신과 함께 국제적인 데이터 교환을 다루는 국제 표준입니다. 예를 들어 날짜 형식은 "
 "`YYYY-MM-DD`여야 합니다. 따라서 1981년 7월 24일의 경우에는 `1981-07-24` 로 기록하여야 합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:232
+#: ../../content/applications/essentials/export_import_data.rst:230
 msgid ""
 "When importing Excel files (`.xls`, `.xlsx`), consider using *date cells* to"
 " store dates. This maintains locale date formats for display, regardless of "
@@ -2026,11 +2040,11 @@ msgstr ""
 "Odoo에서 날짜 형식에 관계없이 표시할 로케일 날짜 형식이 유지됩니다. :abbr:`CSV (쉼표로 구분된 값)` 파일을 가져올 때 "
 "Odoo의 :guilabel:`서식 지정` 섹션을 사용하여 가져올 날짜 형식 열을 선택합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:238
+#: ../../content/applications/essentials/export_import_data.rst:236
 msgid "Import numbers with currency signs"
 msgstr "통화 기호가 있는 숫자 가져오기"
 
-#: ../../content/applications/essentials/export_import_data.rst:240
+#: ../../content/applications/essentials/export_import_data.rst:238
 msgid ""
 "Odoo fully supports numbers with parenthesis to represent negative signs, as"
 " well as numbers with currency signs attached to them. Odoo also "
@@ -2042,7 +2056,7 @@ msgstr ""
 "Odoo에서는 천 단위나 소수 구분 기호를 자동으로 감지합니다. Odoo에서 인식되지 않는 통화 기호를 사용하는 경우에는 숫자로 인식되지"
 " 는 관계로 가져오기를 할 때 충돌할 수 있습니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:246
+#: ../../content/applications/essentials/export_import_data.rst:244
 msgid ""
 "When importing a :abbr:`CSV (Comma-separated Values)` file, the "
 ":guilabel:`Formatting` menu appears on the left-hand column. Under these "
@@ -2051,52 +2065,52 @@ msgstr ""
 ":abbr:`CSV (쉼표로 구분된 값)` 파일을 가져오면 왼쪽 열에 :guilabel:`서식 지정` 메뉴가 나타납니다. 여기에서 "
 ":guilabel:`천 단위 구분 기호` 를 변경할 수 있습니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:250
+#: ../../content/applications/essentials/export_import_data.rst:248
 msgid ""
 "Examples of supported numbers (using 'thirty-two thousand' as the figure):"
 msgstr "지원되는 숫자 예시 ('삼만 이천'을 숫자로 사용):"
 
-#: ../../content/applications/essentials/export_import_data.rst:252
+#: ../../content/applications/essentials/export_import_data.rst:250
 msgid "32.000,00"
 msgstr "32.000,00"
 
-#: ../../content/applications/essentials/export_import_data.rst:253
+#: ../../content/applications/essentials/export_import_data.rst:251
 msgid "32000,00"
 msgstr "32000,00"
 
-#: ../../content/applications/essentials/export_import_data.rst:254
+#: ../../content/applications/essentials/export_import_data.rst:252
 msgid "32,000.00"
 msgstr "32,000.00"
 
-#: ../../content/applications/essentials/export_import_data.rst:255
+#: ../../content/applications/essentials/export_import_data.rst:253
 msgid "-32000.00"
 msgstr "-32000.00"
 
-#: ../../content/applications/essentials/export_import_data.rst:256
+#: ../../content/applications/essentials/export_import_data.rst:254
 msgid "(32000.00)"
 msgstr "(32000.00)"
 
-#: ../../content/applications/essentials/export_import_data.rst:257
+#: ../../content/applications/essentials/export_import_data.rst:255
 msgid "$ 32.000,00"
 msgstr "$ 32.000,00"
 
-#: ../../content/applications/essentials/export_import_data.rst:258
+#: ../../content/applications/essentials/export_import_data.rst:256
 msgid "(32000.00 €)"
 msgstr "(32000.00 €)"
 
-#: ../../content/applications/essentials/export_import_data.rst:260
+#: ../../content/applications/essentials/export_import_data.rst:258
 msgid "Example that will not work:"
 msgstr "지원되지 않는 숫자 예시:"
 
-#: ../../content/applications/essentials/export_import_data.rst:262
+#: ../../content/applications/essentials/export_import_data.rst:260
 msgid "ABC 32.000,00"
 msgstr "ABC 32.000,00"
 
-#: ../../content/applications/essentials/export_import_data.rst:263
+#: ../../content/applications/essentials/export_import_data.rst:261
 msgid "$ (32.000,00)"
 msgstr "$ (32.000,00)"
 
-#: ../../content/applications/essentials/export_import_data.rst:266
+#: ../../content/applications/essentials/export_import_data.rst:264
 msgid ""
 "A :guilabel:`() (parenthesis)` around the number indicates that the number "
 "is a negative value. The currency symbol **must** be placed within the "
@@ -2105,11 +2119,11 @@ msgstr ""
 "숫자 주위에 있는 :guilabel:`() (괄호)` 는 숫자가 음수 값임을 나타냅니다. **반드시** 괄호 안에 통화 기호를 넣어야 "
 "Odoo에서 음수인 통화 값으로 인식할 수 있습니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:271
+#: ../../content/applications/essentials/export_import_data.rst:269
 msgid "Import preview table not displayed correctly"
 msgstr "가져오기 미리보기 테이블이 제대로 표시되지 않는 경우"
 
-#: ../../content/applications/essentials/export_import_data.rst:273
+#: ../../content/applications/essentials/export_import_data.rst:271
 msgid ""
 "By default, the import preview is set on commas as field separators, and "
 "quotation marks as text delimiters. If the :abbr:`CSV (Comma-separated "
@@ -2123,7 +2137,7 @@ msgstr ""
 "(:abbr:`CSV (쉼표로 구분된 값)` 파일을 선택한 후 :abbr:`CSV (쉼표로 구분된 값)` 파일 :guilabel:` "
 "가져오기`  표시줄 아래에 있음)."
 
-#: ../../content/applications/essentials/export_import_data.rst:279
+#: ../../content/applications/essentials/export_import_data.rst:277
 msgid ""
 "If the :abbr:`CSV (Comma-separated Values)` file has a tabulation as a "
 "separator, Odoo does **not** detect the separations. The file format options"
@@ -2134,11 +2148,11 @@ msgstr ""
 "스프레드시트 애플리케이션에서 파일 형식 옵션을 수정해야 합니다. 다음의 :ref:`CSV 파일 서식 변경 "
 "<export_import_data/change-csv>` 섹션을 참조하세요."
 
-#: ../../content/applications/essentials/export_import_data.rst:287
+#: ../../content/applications/essentials/export_import_data.rst:285
 msgid "Change CSV file format in spreadsheet application"
 msgstr "스프레드시트 애플리케이션에서 CSV 파일 형식 변경하기"
 
-#: ../../content/applications/essentials/export_import_data.rst:289
+#: ../../content/applications/essentials/export_import_data.rst:287
 msgid ""
 "When editing and saving :abbr:`CSV (Comma-separated Values)` files in "
 "spreadsheet applications, the computer's regional settings are applied for "
@@ -2152,7 +2166,7 @@ msgstr ""
 " 가지 수정 옵션이 있습니다 (*LibreOffice* 애플리케이션에서 :menuselection:`'다른 이름으로 저장' 대화 상자 "
 "-->'필터 설정 편집' 확인란에 표시 --> 저장`)."
 
-#: ../../content/applications/essentials/export_import_data.rst:295
+#: ../../content/applications/essentials/export_import_data.rst:293
 msgid ""
 "Microsoft Excel can modify the encoding when saving (:menuselection:`'Save "
 "As' dialog box --> 'Tools' drop-down menu --> Encoding tab`)."
@@ -2160,11 +2174,11 @@ msgstr ""
 "Microsoft Excel에서는 저장할 때 인코딩을 편집할 수 있습니다 (:menuselection:`'다른 이름으로 저장' 대화 상자"
 " --> '도구' 드롭다운 목록 클릭 --> 인코딩 탭`)."
 
-#: ../../content/applications/essentials/export_import_data.rst:299
+#: ../../content/applications/essentials/export_import_data.rst:297
 msgid "Difference between Database ID and External ID"
 msgstr "데이터베이스 ID와 외부 ID 간의 차이점"
 
-#: ../../content/applications/essentials/export_import_data.rst:301
+#: ../../content/applications/essentials/export_import_data.rst:299
 msgid ""
 "Some fields define a relationship with another object. For example, the "
 "country of a contact is a link to a record of the 'Country' object. When "
@@ -2175,51 +2189,51 @@ msgstr ""
 " 필드를 가져오려면 Odoo에서 서로 다른 레코드끼리 연결시키는 작업이 필요합니다. 필드 가져오기에서 Odoo에서는 세 가지 메커니즘을 "
 "사용하고 있습니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:306
+#: ../../content/applications/essentials/export_import_data.rst:304
 msgid "**Only one** mechanism should be used per field that is imported."
 msgstr "가져오기를 하는 필드당 메커니즘은 **하나만** 사용해야 합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:308
+#: ../../content/applications/essentials/export_import_data.rst:306
 msgid ""
 "For example, to reference the country of a contact, Odoo proposes three "
 "different fields to import:"
 msgstr "예를 들어, 연락처에 있는 국가를 참조로 하기 위해 Odoo에서는 3가지 다른 필드를 가져오는 것을 제안합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:310
+#: ../../content/applications/essentials/export_import_data.rst:308
 msgid ":guilabel:`Country`: the name or code of the country"
 msgstr ":guilabel:`국가`: 국가명 또는 국가 코드"
 
-#: ../../content/applications/essentials/export_import_data.rst:311
+#: ../../content/applications/essentials/export_import_data.rst:309
 msgid ""
 ":guilabel:`Country/Database ID`: the unique Odoo ID for a record, defined by"
 " the ID PostgreSQL column"
 msgstr ":guilabel:`국가/데이터베이스 ID`: 고유한 Odoo ID 레코드로, ID PostgreSQL 열에 정의"
 
-#: ../../content/applications/essentials/export_import_data.rst:313
+#: ../../content/applications/essentials/export_import_data.rst:311
 msgid ""
 ":guilabel:`Country/External ID`: the ID of this record referenced in another"
 " application (or the `.XML` file that imported it)"
 msgstr ":guilabel:`국가/외부 ID`: 다른 애플리케이션에서 참조하는 이 레코드의 ID (또는 가져온.XML 파일)"
 
-#: ../../content/applications/essentials/export_import_data.rst:316
+#: ../../content/applications/essentials/export_import_data.rst:314
 msgid ""
 "For the country of Belgium, for example, use one of these three ways to "
 "import:"
 msgstr "예를 들어 벨기에를 국가로 선택한 경우, 다음의 세 가지 방법 중 하나로 가져오기를 합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:318
+#: ../../content/applications/essentials/export_import_data.rst:316
 msgid ":guilabel:`Country`: `Belgium`"
 msgstr ":guilabel:`국가`: `벨기에`"
 
-#: ../../content/applications/essentials/export_import_data.rst:319
+#: ../../content/applications/essentials/export_import_data.rst:317
 msgid ":guilabel:`Country/Database ID`: `21`"
 msgstr ":guilabel:`국가/데이터베이스 ID`: `21`"
 
-#: ../../content/applications/essentials/export_import_data.rst:320
+#: ../../content/applications/essentials/export_import_data.rst:318
 msgid ":guilabel:`Country/External ID`: `base.be`"
 msgstr ":guilabel:`국가/외부 ID`: `base.be`"
 
-#: ../../content/applications/essentials/export_import_data.rst:322
+#: ../../content/applications/essentials/export_import_data.rst:320
 msgid ""
 "According to the company's need, use one of these three ways to reference "
 "records in relations. Here is an example when one or the other should be "
@@ -2228,7 +2242,7 @@ msgstr ""
 "회사의 필요 사항에 맞추어 세 가지 방법 중 하나를 사용하여 연결되어 있는 항목 간에 레코드를 참조합니다. 다음은 필요에 따라 두 가지 "
 "방법 중에서 하나를 사용하는 경우의 예시입니다:"
 
-#: ../../content/applications/essentials/export_import_data.rst:325
+#: ../../content/applications/essentials/export_import_data.rst:323
 msgid ""
 "Use :guilabel:`Country`: this is the easiest way when data comes from "
 ":abbr:`CSV (Comma-separated Values)` files that have been created manually."
@@ -2236,7 +2250,7 @@ msgstr ""
 ":guilabel:`국가` 사용: 직접 생성한 :abbr:`CSV (쉼표로 구분된 값)` 파일에서 데이터가 오는 경우 가장 쉽게 할 수 "
 "있는 방법입니다. "
 
-#: ../../content/applications/essentials/export_import_data.rst:327
+#: ../../content/applications/essentials/export_import_data.rst:325
 msgid ""
 "Use :guilabel:`Country/Database ID`: this should rarely be used. It is "
 "mostly used by developers as the main advantage is to never have conflicts "
@@ -2246,13 +2260,13 @@ msgstr ""
 ":guilabel:`국가/데이터베이스 ID` 사용: 거의 사용되지 않는 방법입니다. 가장 큰 장점은 충돌을 일으키지 않는다는 점으로 주로"
 " 개발자들이 사용합니다 (이름이 동일한 레코드가 여러 개 있더라도 항상 고유한 데이터베이스 ID가 부여되어 있음)."
 
-#: ../../content/applications/essentials/export_import_data.rst:330
+#: ../../content/applications/essentials/export_import_data.rst:328
 msgid ""
 "Use :guilabel:`Country/External ID`: use *External ID* when importing data "
 "from a third-party application."
 msgstr ":guilabel:`국가/외부 ID 사용`: *외부 ID* 를 사용하여 타사 애플리케이션에서 데이터를 가져옵니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:333
+#: ../../content/applications/essentials/export_import_data.rst:331
 msgid ""
 "When *External IDs* are used, import :abbr:`CSV (Comma-separated Values)` "
 "files with the :guilabel:`External ID` (ID) column defining the *External "
@@ -2266,7 +2280,7 @@ msgstr ""
 "수 있습니다. 다음의 두 가지 :abbr:`CSV (쉼표로 구분된 값)` 파일을 통해 품목 및 해당 카테고리에 대한 예시를 확인해 "
 "보세요."
 
-#: ../../content/applications/essentials/export_import_data.rst:338
+#: ../../content/applications/essentials/export_import_data.rst:336
 msgid ""
 ":download:`CSV file for categories "
 "<export_import_data/External_id_3rd_party_application_product_categories.csv>`"
@@ -2274,7 +2288,7 @@ msgstr ""
 ":download:`카테고리에 해당하는 CSV 파일 "
 "<export_import_data/External_id_3rd_party_application_product_categories.csv>`"
 
-#: ../../content/applications/essentials/export_import_data.rst:340
+#: ../../content/applications/essentials/export_import_data.rst:338
 msgid ""
 ":download:`CSV file for Products "
 "<export_import_data/External_id_3rd_party_application_products.csv>`"
@@ -2282,11 +2296,11 @@ msgstr ""
 ":download:`품목에 해당하는 CSV 파일 "
 "<export_import_data/External_id_3rd_party_application_products.csv>`"
 
-#: ../../content/applications/essentials/export_import_data.rst:346
+#: ../../content/applications/essentials/export_import_data.rst:344
 msgid "Import relation fields"
 msgstr "관련 항목 가져오기"
 
-#: ../../content/applications/essentials/export_import_data.rst:348
+#: ../../content/applications/essentials/export_import_data.rst:346
 msgid ""
 "An Odoo object is always related to many other objects (e.g. a product is "
 "linked to product categories, attributes, vendors, etc.). To import those "
@@ -2296,7 +2310,7 @@ msgstr ""
 "Odoo 개체 항목은 다른 많은 개체와 항상 연결되어 있습니다 (예: 품목이 품목 카테고리, 속성, 공급업체 등과 연결). 이러한 연결 "
 "항목을 가져오려면 먼저 관련된 개체의 레코드를 자체 목록 메뉴에서 가져와야 합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:352
+#: ../../content/applications/essentials/export_import_data.rst:350
 msgid ""
 "This can be achieved by using either the name of the related record, or its "
 "ID, depending on the circumstances. The ID is expected when two records have"
@@ -2306,11 +2320,11 @@ msgstr ""
 "이 작업은 상황에 따라 관련된 레코드의 이름이나 해당되는 ID를 사용합니다. 두 레코드 이름이 같은 경우에는 ID를 사용하도록 합니다. "
 "이런 경우 열 제목 끝에 `/ ID` 를 추가합니다 (예: 품목 속성의 경우: `품목 속성 / 속성 / ID`)."
 
-#: ../../content/applications/essentials/export_import_data.rst:357
+#: ../../content/applications/essentials/export_import_data.rst:355
 msgid "Options for multiple matches on fields"
 msgstr "여러 개의 일치 항목에 대한 필드 옵션"
 
-#: ../../content/applications/essentials/export_import_data.rst:359
+#: ../../content/applications/essentials/export_import_data.rst:357
 msgid ""
 "If, for example, there are two product categories with the child name "
 "`Sellable` (e.g. `Misc. Products/Sellable` & `Other Products/Sellable`), the"
@@ -2325,18 +2339,18 @@ msgstr ""
 "번째 '판매 가능' 카테고리 (`기타 품목/판매 가능`)에 연결되어 있으므로 Odoo에서는 데이터 가져오기를 하지 않는 것을 권장합니다."
 " Odoo에서는 대신 중복 값 중 하나를 수정하거나 품목 카테고리 계층 구조를 변경하는 것을 추천합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:366
+#: ../../content/applications/essentials/export_import_data.rst:364
 msgid ""
 "However, if the company does not wish to change the configuration of product"
 " categories, Odoo recommends making use of the *External ID* for this field,"
 " 'Category'."
 msgstr "다만 품목 카테고리 구성을 변경하지 않으려면 이 필드의 '카테고리'에 *외부 ID* 를 사용하는 것을 권장합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:370
+#: ../../content/applications/essentials/export_import_data.rst:368
 msgid "Import many2many relationship fields"
 msgstr "다대다 관계 필드 가져오기"
 
-#: ../../content/applications/essentials/export_import_data.rst:372
+#: ../../content/applications/essentials/export_import_data.rst:370
 msgid ""
 "The tags should be separated by a comma, without any spacing. For example, "
 "if a customer needs to be linked to both tags: `Manufacturer` and `Retailer`"
@@ -2346,18 +2360,18 @@ msgstr ""
 "태그는 띄어쓰기 없이 쉼표로 구분되어야 합니다. 예를 들어 고객을에 '제조업체' 및 '소매업체' 양쪽에 모두 태그하려면 "
 ":abbr:`CSV (쉼표로 구분된 값)` 파일의 같은 열에 `제조업체,소매업체` 를 인코딩합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:376
+#: ../../content/applications/essentials/export_import_data.rst:374
 msgid ""
 ":download:`CSV file for Manufacturer, Retailer "
 "<export_import_data/m2m_customers_tags.csv>`"
 msgstr ""
 ":download:`<export_import_data/m2m_customers_tags.csv> 제조업체, 소매업체용 CSV 파일`"
 
-#: ../../content/applications/essentials/export_import_data.rst:379
+#: ../../content/applications/essentials/export_import_data.rst:377
 msgid "Import one2many relationships"
 msgstr "일대다 관계 가져오기"
 
-#: ../../content/applications/essentials/export_import_data.rst:381
+#: ../../content/applications/essentials/export_import_data.rst:379
 msgid ""
 "If a company wants to import a sales order with several order lines, a "
 "specific row **must** be reserved in the :abbr:`CSV (Comma-separated "
@@ -2370,14 +2384,14 @@ msgstr ""
 "특정한 행을 지정해 두어야 합니다. 첫 번째 주문 내역은 주문 관련 정보와 같은 행에서 가져옵니다. 추가 내역에는 추가 행이 있어야 하며"
 " 주문 관련 필드에 아무 내용도 없어야 합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:386
+#: ../../content/applications/essentials/export_import_data.rst:384
 msgid ""
 "As an example, here is a :abbr:`CSV (Comma-separated Values)` file of some "
 "quotations that can be imported, based on demo data:"
 msgstr ""
 "예를 들어, 다음은 데모 데이터를 기반으로 가져올 수 있는 견적서에 대한 :abbr:`CSV (쉼표로 구분된 값)` 파일입니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:389
+#: ../../content/applications/essentials/export_import_data.rst:387
 msgid ""
 ":download:`File for some Quotations "
 "<export_import_data/purchase.order_functional_error_line_cant_adpat.csv>`"
@@ -2385,14 +2399,14 @@ msgstr ""
 ":download:`일부 견적용 파일 "
 "<export_import_data/purchase.order_functional_error_line_cant_adpat.csv>`"
 
-#: ../../content/applications/essentials/export_import_data.rst:392
+#: ../../content/applications/essentials/export_import_data.rst:390
 msgid ""
 "The following :abbr:`CSV (Comma-separated Values)` file shows how to import "
 "purchase orders with their respective purchase order lines:"
 msgstr ""
 "다음의 :abbr:`CSV (쉼표로 구분된 값)` 파일에서 구매발주서에 발주 항목이 있는 경우 가져오는 방법을 확인해 보세요."
 
-#: ../../content/applications/essentials/export_import_data.rst:395
+#: ../../content/applications/essentials/export_import_data.rst:393
 msgid ""
 ":download:`Purchase orders with their respective purchase order lines "
 "<export_import_data/o2m_purchase_order_lines.csv>`"
@@ -2400,24 +2414,101 @@ msgstr ""
 ":download: '관련된 발주 항목이 기재되어 있는 구매발주서 "
 "<export_import_data/o2m_purchase_order_lines.csv>`"
 
-#: ../../content/applications/essentials/export_import_data.rst:398
+#: ../../content/applications/essentials/export_import_data.rst:396
 msgid ""
 "The following :abbr:`CSV (Comma-separated Values)` file shows how to import "
 "customers and their respective contacts:"
 msgstr "다음 :abbr:`CSV(쉼표로 구분된 값)` 파일에서 고객 및 관련 연락처를 가져오는 방법을 확인할 수 있습니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:401
+#: ../../content/applications/essentials/export_import_data.rst:399
 msgid ""
 ":download:`Customers and their respective contacts "
 "<export_import_data/o2m_customers_contacts.csv>`"
 msgstr ""
 ":download:`고객 및 고객 연락처  <export_import_data/o2m_customers_contacts.csv>`"
 
+#: ../../content/applications/essentials/export_import_data.rst:403
+msgid "Import image files"
+msgstr "이미지 파일 가져오기"
+
 #: ../../content/applications/essentials/export_import_data.rst:405
+msgid ""
+"To import image files along with the :ref:`uploaded "
+"<essentials/export_import_data/get-started>` CSV or Excel file, follow the "
+"next steps:"
+msgstr ""
+
+#: ../../content/applications/essentials/export_import_data.rst:408
+msgid ""
+"Add the image file names to the relevant :guilabel:`Image` column in the "
+"data file."
+msgstr "데이터 파일에 있는 :guilabel:`이미지` 열에 이미지 파일 이름을 추가합니다."
+
+#: ../../content/applications/essentials/export_import_data.rst:409
+msgid ""
+":ref:`Upload the data file <essentials/export_import_data/get-started>` or "
+"reload it by clicking :guilabel:`Load Data File`."
+msgstr ""
+":ref:`데이터 파일 업로드<essentials/export_import_data/get-started>` 를 하거나 "
+":guilabel:`데이터 파일 로드` 를 클릭하여 다시 로드합니다."
+
+#: ../../content/applications/essentials/export_import_data.rst:411
+msgid ""
+"Click :guilabel:`Upload your files` under the :guilabel:`Files to import` "
+"section."
+msgstr ":guilabel:`파일 가져오기` 섹션에서 :guilabel:`파일 업로드` 를 클릭합니다."
+
+#: ../../content/applications/essentials/export_import_data.rst:412
+msgid ""
+"Select the relevant image files. The number of files selected appears next "
+"to the button."
+msgstr "관련된 이미지 파일을 선택합니다. 선택한 파일 수가 버튼 옆에 나타납니다."
+
+#: ../../content/applications/essentials/export_import_data.rst:413
+msgid "Click :guilabel:`Test` to verify that all data is valid."
+msgstr ":guilabel:`테스트` 를 클릭한 후 데이터가 유효한지 확인합니다. "
+
+#: ../../content/applications/essentials/export_import_data.rst:414
+msgid ""
+"Click :guilabel:`Import`. During the import process, Odoo performs a file "
+"check to automatically link the uploaded images to the imported data file. "
+"If there is no match, the data file is imported without any image."
+msgstr ""
+
+#: ../../content/applications/essentials/export_import_data.rst:419
+msgid ""
+"The :guilabel:`Files to import` section is enabled if your product template "
+"has an :guilabel:`Image` column with all fields populated."
+msgstr ""
+
+#: ../../content/applications/essentials/export_import_data.rst:421
+msgid ""
+"The image file names in the data file must correspond to the uploaded image "
+"files."
+msgstr "데이터 파일에 있는 이미지 파일명은 반드시 업로드한 이미지 파일과 일치해야 합니다."
+
+#: ../../content/applications/essentials/export_import_data.rst:422
+msgid ""
+"When importing a large number of images, you can specify the maximum batch "
+"size in megabytes and set a delay to prevent the system from becoming "
+"overloaded. To do so, :doc:`enable the developer mode "
+"<../general/developer_mode>` and fill in the :guilabel:`Max size per batch` "
+"and the :guilabel:`Delay after each batch` fields in the :guilabel:`Files to"
+" import` section. By default, the delay meets the RPC/API call limit defined"
+" in the `Odoo Cloud - Acceptable Use Policy "
+"<https://www.odoo.com/acceptable-use>`_."
+msgstr ""
+"대량으로 이미지 가져오기를 할 때, 최대 일괄 처리 크기를 메가바이트 단위로 지정하고 지연 시간을 설정하면 시스템에 과부하가 걸리지 "
+"않도록 방지할 수 있습니다. 이렇게 하려면 :doc:`개발자 모드 <../general/developer_mode>` 를 활성화하고 "
+":guilabel:`가져올 파일` 섹션에서 :guilabel:`배치당 최대 크기` 및 :guilabel:`각 배치 후 지연` 필드를 "
+"입력합니다. 기본적으로 지연 항목의 경우에는 `Odoo 클라우드 - 사용 제한 정책 "
+"<https://www.odoo.com/acceptable-use>`_ 에 정의된 RPC/API 호출 제한을 충족합니다."
+
+#: ../../content/applications/essentials/export_import_data.rst:430
 msgid "Import records several times"
 msgstr "레코드를 여러 번 가져오기"
 
-#: ../../content/applications/essentials/export_import_data.rst:407
+#: ../../content/applications/essentials/export_import_data.rst:432
 msgid ""
 "If an imported file contains one of the columns: :guilabel:`External ID` or "
 ":guilabel:`Database ID`, records that have already been imported are "
@@ -2429,24 +2520,24 @@ msgstr ""
 " 생성하는 대신 이미 가져온 레코드를 수정합니다. 이 기능은 가져오기를 하는 파일 간에 일부 수정 사항이 있는 경우에 동일한 "
 ":abbr:`CSV (쉼표로 구분된 값)` 파일을 여러 번 가져올 수 있기 때문에 대단히 편리한 기능입니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:412
+#: ../../content/applications/essentials/export_import_data.rst:437
 msgid ""
 "Odoo takes care of creating or modifying each record, depending if it is new"
 " or not."
 msgstr "Odoo에서는 각각의 레코드가 새 레코드인지 여부에 따라 생성하거나 수정합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:414
+#: ../../content/applications/essentials/export_import_data.rst:439
 msgid ""
 "This feature allows a company to use the *Import/Export tool* in Odoo to "
 "modify a batch of records in a spreadsheet application."
 msgstr ""
 "이 기능을 통해 Odoo의 *내보내기/가져오기 도구*를 활용하여 스프레드시트 애플리케이션에서 일괄 레코드를 수정할 수 있습니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:418
+#: ../../content/applications/essentials/export_import_data.rst:443
 msgid "Value not provided for a specific field"
 msgstr "특정 필드에 제공되지 않는 값"
 
-#: ../../content/applications/essentials/export_import_data.rst:420
+#: ../../content/applications/essentials/export_import_data.rst:445
 msgid ""
 "If all fields are not set in the CSV file, Odoo assigns the default value "
 "for every non-defined field. But, if fields are set with empty values in the"
@@ -2456,11 +2547,11 @@ msgstr ""
 "CSV 파일에 모든 필드가 설정되어 있지 않은 경우 Odoo에서는 정의되지 않은 필드에 기본값을 할당합니다. 그러나 :abbr:`CSV "
 "(쉼표로 구분된 값)` 파일에서 필드값이 비어있는 경우 Odoo는 기본값을 할당하는 대신 필드에 빈 값을 설정합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:425
+#: ../../content/applications/essentials/export_import_data.rst:450
 msgid "Export/import different tables from an SQL application to Odoo"
 msgstr "SQL 애플리케이션에서 Odoo로 다른 테이블 내보내기/가져오기"
 
-#: ../../content/applications/essentials/export_import_data.rst:427
+#: ../../content/applications/essentials/export_import_data.rst:452
 msgid ""
 "If data needs to be imported from different tables, relations need to be "
 "recreated between records belonging to different tables. For instance, if "
@@ -2470,7 +2561,7 @@ msgstr ""
 "다른 테이블에서 데이터를 가져와야 하는 경우, 다른 테이블에 있는 레코드 간에 다시 연결시키는 작업을 해야 합니다. 예를 들어, 회사및 "
 "개인 항목을 가져오는 경우, 각 개인 및 근무 회사 사이의 관계를 다시 연결시켜서 만들어야 합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:431
+#: ../../content/applications/essentials/export_import_data.rst:456
 msgid ""
 "To manage relations between tables, use the `External ID` facilities of "
 "Odoo. The `External ID` of a record is the unique identifier of this record "
@@ -2483,7 +2574,7 @@ msgstr ""
 "사용하는이 레코드의 고유 식별자입니다. `외부 ID`는 전체 객체의 모든 레코드 중에서 고유한 정보여야 합니다. 이 `외부 ID` 앞에 "
 "애플리케이션 또는 테이블의 이름을 접두사로 지정해놓는 것이 좋습니다 (예: '1' 대신 '회사_1', '사람_1')."
 
-#: ../../content/applications/essentials/export_import_data.rst:436
+#: ../../content/applications/essentials/export_import_data.rst:461
 msgid ""
 "As an example, suppose there is an SQL database with two tables that are to "
 "be imported: companies and people. Each person belongs to one company, so "
@@ -2492,7 +2583,7 @@ msgstr ""
 "예를 들어, 회사와 사람으로 두 개의 표가 구성되어 있는 SQL 데이터베이스 가져오기를 하는 것을 가정합니다. 각 개인은 하나의 회사에 "
 "속해 있으므로 개인과 근무 회사 간에 다시 연결을 만들어야 합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:440
+#: ../../content/applications/essentials/export_import_data.rst:465
 msgid ""
 "Test this example, with a :download:`sample of a PostgreSQL database "
 "<export_import_data/database_import_test.sql>`."
@@ -2500,19 +2591,19 @@ msgstr ""
 ":download:`PostgreSQL 데이터베이스 예제 "
 "<export_import_data/database_import_test.sql>` 를 사용하여 이 예시를 테스트합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:443
+#: ../../content/applications/essentials/export_import_data.rst:468
 msgid ""
 "First, export all companies and their *External ID*. In PSQL, write the "
 "following command:"
 msgstr "먼저 전체 회사 및 관련된 *외부 ID* 를 내보냅니다. PSQL에서 다음 명령을 생성합니다:"
 
-#: ../../content/applications/essentials/export_import_data.rst:449
+#: ../../content/applications/essentials/export_import_data.rst:474
 msgid ""
 "This SQL command creates the following :abbr:`CSV (Comma-separated Values)` "
 "file:"
 msgstr "이 SQL 명령어로 다음과 같은 :abbr:`CSV (쉼표로 구분된 값)` 파일을 생성합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:458
+#: ../../content/applications/essentials/export_import_data.rst:483
 msgid ""
 "To create the :abbr:`CSV (Comma-separated Values)` file for people linked to"
 " companies, use the following SQL command in PSQL:"
@@ -2520,11 +2611,11 @@ msgstr ""
 "회사에 연결되어 있는 개인에 대한 :abbr:`CSV (쉼표로 구분된 값)` 파일을 생성하려면 PSQL에서 다음 SQL 명령을 "
 "사용합니다:"
 
-#: ../../content/applications/essentials/export_import_data.rst:465
+#: ../../content/applications/essentials/export_import_data.rst:490
 msgid "It produces the following :abbr:`CSV (Comma-separated Values)` file:"
 msgstr "다음과 같이 :abbr:`CSV (쉼표로 구분된 값)` 파일이 생성됩니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:475
+#: ../../content/applications/essentials/export_import_data.rst:500
 msgid ""
 "In this file, Fabien and Laurence are working for the Bigees company "
 "(`company_1`), and Eric is working for the Organi company. The relation "
@@ -2538,7 +2629,7 @@ msgstr ""
 "*외부 ID* 접두사를 지정하여 개인과 회사 (원본 데이터베이스에서 동일한 ID 1 을 공유한 person_1과 company_1) 간의"
 " ID 충돌을 방지합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:481
+#: ../../content/applications/essentials/export_import_data.rst:506
 msgid ""
 "The two files produced are ready to be imported in Odoo without any "
 "modifications. After having imported these two :abbr:`CSV (Comma-separated "
@@ -2550,11 +2641,11 @@ msgstr ""
 "값)` 파일을 가져온 후에는 연락처 4건과 회사 3개가 생긴 것을 확인할 수 있습니다 (처음에 있는 연락처 2건은 첫 번째 회사에 "
 "연결). 먼저 회사를  가져온 다음 개인을 가져와야 한다는 점에 유의합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:489
+#: ../../content/applications/essentials/export_import_data.rst:514
 msgid "Update data in Odoo"
 msgstr "Odoo에서 데이터 업데이트하기"
 
-#: ../../content/applications/essentials/export_import_data.rst:491
+#: ../../content/applications/essentials/export_import_data.rst:516
 msgid ""
 "Existing data can be updated in bulk through a data import, as long as the "
 ":ref:`External ID <essentials/external-id>` remains consistent."
@@ -2562,11 +2653,11 @@ msgstr ""
 "데이터 가져오기로 기존 데이터는 대량으로 업데이트하려면 같은 :ref:`외부 ID <essentials/external-id>` 를 "
 "일관적으로 사용해야 합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:495
+#: ../../content/applications/essentials/export_import_data.rst:520
 msgid "Prepare data export"
 msgstr "데이터 내보내기 준비하기"
 
-#: ../../content/applications/essentials/export_import_data.rst:497
+#: ../../content/applications/essentials/export_import_data.rst:522
 msgid ""
 "To update data through an import, first navigate to the data to be updated, "
 "and select the |list| to activate list view. On the far-left side of the "
@@ -2577,7 +2668,7 @@ msgstr ""
 "왼쪽에 있는 업데이트할 레코드의 확인란에 표시합니다. 그런 다음 |활동| 을 클릭하고 드롭다운 메뉴에서 :icon:`fa-upload` "
 ":guilabel:`내보내기` 를 선택합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:502
+#: ../../content/applications/essentials/export_import_data.rst:527
 msgid ""
 "On the resulting :guilabel:`Export Data` pop-up window, tick the checkbox "
 "labeled, :guilabel:`I want to update data (import-compatible export)`. This "
@@ -2589,7 +2680,7 @@ msgstr ""
 "호환)` 라는 확인란에 표시합니다. 이렇게 하면 내보내기를 할 때 *외부 ID* 가 자동으로 포함됩니다. 또한 :guilabel:`내보낼"
 " 필드` 목록을 가져올 수 있는 항목에 **한해서만** 포함될 수 있도록 제한합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:508
+#: ../../content/applications/essentials/export_import_data.rst:533
 msgid ""
 "The :guilabel:`External ID` field does **not** appear in the "
 ":guilabel:`Fields to export` list unless it is manually added, but it is "
@@ -2601,7 +2692,7 @@ msgstr ""
 "내보내기에는 여전히 포함되어 있습니다. 다만 :guilabel:`데이터를 업데이트합니다 (가져오기 및 내보내기 호환)` 확인란에 표시되어"
 " 있으면 내보내기에 포함됩니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:512
+#: ../../content/applications/essentials/export_import_data.rst:537
 msgid ""
 "Select the required fields to be included in the export using the "
 ":ref:`options <export-data>` on the pop-up window, then click "
@@ -2610,11 +2701,11 @@ msgstr ""
 "팝업 창에서 :ref:`선택 항목 <export-data>` 을 사용하여 함께 내보낼 필수 항목을 선택한 다음 "
 ":guilabel:`내보내기` 를 클릭합니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:516
+#: ../../content/applications/essentials/export_import_data.rst:541
 msgid "Import updated data"
 msgstr "업데이트된 데이터 가져오기"
 
-#: ../../content/applications/essentials/export_import_data.rst:518
+#: ../../content/applications/essentials/export_import_data.rst:543
 msgid ""
 "After exporting, make any necessary changes to the data file. When the file "
 "is ready, it can be :ref:`imported <import-data>` by following the same "
@@ -2623,7 +2714,7 @@ msgstr ""
 "내보내기를 한 후에는 데이터 파일에 변경할 사항을 적용합니다. 파일이 준비되면 일반 데이터 가져오기와 동일한 프로세스를 따라 "
 ":ref:`가져오기 <import-data>` 를 할 수 있습니다."
 
-#: ../../content/applications/essentials/export_import_data.rst:522
+#: ../../content/applications/essentials/export_import_data.rst:547
 msgid ""
 "When updating data, it is extremely important that the *External ID* remain "
 "consistent, as this is how the system identifies a record. If an ID is "
@@ -3146,7 +3237,7 @@ msgstr ":kbd:`Ctrl` + :kbd:`H`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:41
 msgid "Discard changes"
-msgstr "변경 내용 삭제"
+msgstr "변경 내용 폐기"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:42
 msgid ":kbd:`Alt` + :kbd:`J`"

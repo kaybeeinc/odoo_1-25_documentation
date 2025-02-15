@@ -6,7 +6,7 @@
 # Translators:
 # Wil Odoo, 2024
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2024
-# Fernanda Alvarez, 2024
+# Fernanda Alvarez, 2025
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-31 16:01+0000\n"
 "PO-Revision-Date: 2024-10-08 06:34+0000\n"
-"Last-Translator: Fernanda Alvarez, 2024\n"
+"Last-Translator: Fernanda Alvarez, 2025\n"
 "Language-Team: Spanish (Latin America) (https://app.transifex.com/odoo/teams/41243/es_419/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19453,9 +19453,9 @@ msgid ""
 "package <fiscal_localizations/packages>`."
 msgstr ""
 "Al instalar la aplicación **Nómina**, los tipos de deducciones salariales "
-"preconfigurados por defecto están vinculados a una serie de reglas que a su "
-"vez están vinculadas a diferentes estructuras salariales y al :ref:`paquete "
-"de localización <fiscal_localizations/packages>` instalado."
+"preconfigurados de forma predeterminada están vinculados a una serie de "
+"reglas que a su vez están vinculadas a distintas estructuras salariales y al"
+" :ref:`paquete de localización <fiscal_localizations/packages>` instalado."
 
 #: ../../content/applications/hr/payroll/salary_attachments.rst:36
 msgid ""
@@ -19590,10 +19590,11 @@ msgid ""
 ":guilabel:`Total Amount` field is populated, this date is updated."
 msgstr ""
 ":guilabel:`Fecha de finalización estimada`: Este campo **no** se puede "
-"modificar y **solo** aparece después de llenar e campo :guilabel:`Importe "
-"mensual`. Este campo es la fecha estimada de cuándo se completará la "
-"deducción salarial, la fecha por defecto es la del día en curso. Después, "
-"cuando se llene el campo :guilabel:`Importe total`, la fecha se actualizará."
+"modificar y **solo** aparece después de completar el campo "
+":guilabel:`Importe mensual`. Este campo es la fecha estimada en que se "
+"completará la deducción salarial, la fecha predeterminada es la del día en "
+"curso. La fecha se actualizará luego de completar el campo "
+":guilabel:`Importe total`."
 
 #: ../../content/applications/hr/payroll/salary_attachments.rst:81
 msgid ""
@@ -21130,9 +21131,9 @@ msgid ""
 "enabled, the resumé appears on the right side of the applicant's card."
 msgstr ""
 "Active la opción :guilabel:`Mostrar el CV` para mostrar el currículum en la "
-"tarjeta del candidato por defecto, además de un enlace al documento. Cuando "
-"se active, el currículum aparecerá en el lado derecho de la tarjeta del "
-"postulante."
+"tarjeta del postulante de manera predeterminada, además de un enlace al "
+"documento. Al activarla, el currículum aparecerá del lado derecho de su "
+"respectiva tarjeta."
 
 #: ../../content/applications/hr/recruitment.rst:113
 msgid ""
@@ -23048,9 +23049,9 @@ msgid ""
 "step is to move the applicant to the :guilabel:`Contract Signed` stage. This"
 " stage is folded in the Kanban view, by default."
 msgstr ""
-"Una vez que el postulante haya aceptado la oferta y firmado e contrato, el "
-"siguiente paso es mover al postulante a la etapa :guilabel:`Contrato "
-"firmado`. Esta etapa se dobla en la vista de kanban por defecto."
+"Una vez que el postulante haya aceptado la oferta y firmado el contrato, el "
+"siguiente paso es moverlo a la etapa :guilabel:`Contrato firmado`. Esta "
+"etapa está plegada de forma predeterminada en la vista de kanban."
 
 #: ../../content/applications/hr/recruitment/offer_job_positions.rst:137
 msgid ""
@@ -25647,11 +25648,11 @@ msgid ""
 "number of days populating the y-axis, in a :icon:`fa-line-chart` "
 ":guilabel:`(Line Chart)`."
 msgstr ""
-"Para acceder al reporte, vaya a :menuselection:`la aplicación Reclutamiento "
-"--> Reportes --> Análisis del tiempo en la etapa`. Por defecto, el reporte "
-"muestra los datos de todos los puestos de trabajo, con las etapas en el eje "
-"x y el número de días en el eje y en un :icon:`fa-line-chart` "
-":guilabel:`(gráfico de líneas)`."
+"Vaya a :menuselection:`Reclutamiento --> Reportes --> Análisis del tiempo en"
+" la etapa` para acceder al reporte. Este muestra los datos de todos los "
+"puestos de trabajo de forma predeterminada en un :guilabel:`gráfico de "
+"líneas` :icon:`fa-line-chart`, con las etapas en el eje x y el número de "
+"días en el eje y."
 
 #: ../../content/applications/hr/recruitment/time_in_stage.rst:22
 msgid ""
@@ -25862,7 +25863,7 @@ msgstr ""
 
 #: ../../content/applications/hr/referrals.rst:28
 msgid "Onboarding"
-msgstr "Incorporación"
+msgstr "Integración"
 
 #: ../../content/applications/hr/referrals.rst:30
 msgid ""
@@ -26807,9 +26808,9 @@ msgid ""
 "<recruitment/modify-stages>` documentation to modify the points for each "
 "stage."
 msgstr ""
-"El total de puntos ganados por defecto por un referido que se contrata es de"
-" 85 puntos. Para modificar los puntos que se obtienen en cada etapa se "
-"realiza en la aplicación *Reclutamiento*. Consulte la documentación de "
+"El total de puntos ganados de forma predeterminada por la contratación de un"
+" referido es de 85 puntos. Vaya a la aplicación *Reclutamiento* para "
+"modificar los puntos obtenidos en cada etapa. Consulte la documentación de "
 ":ref:`Reclutamiento <recruitment/modify-stages>` para modificar los puntos "
 "de cada etapa."
 
@@ -29314,6 +29315,8 @@ msgid ""
 "Click :guilabel:`New` to allocate time off, and a blank "
 ":guilabel:`Allocation` form appears."
 msgstr ""
+"Haga clic en :guilabel:`Nuevo` para asignar tiempo personal. Aparecerá un "
+"formulario de :guilabel:`asignación` vacío."
 
 #: ../../content/applications/hr/time_off/allocations.rst:26
 msgid ""
@@ -29496,13 +29499,15 @@ msgstr ""
 
 #: ../../content/applications/hr/time_off/allocations.rst:87
 msgid "Multiple Allocations"
-msgstr ""
+msgstr "Varias asignaciones"
 
 #: ../../content/applications/hr/time_off/allocations.rst:89
 msgid ""
 "When allocating time off, it is common to allocate time to several employees"
 " at once. This is done using the :guilabel:`Multiple Requests` feature."
 msgstr ""
+"Es común asignar tiempo personal a varios empleados a la vez, para esto "
+"puede usar la función :guilabel:`Varias solicitudes`."
 
 #: ../../content/applications/hr/time_off/allocations.rst:92
 msgid ""
@@ -29512,6 +29517,11 @@ msgid ""
 "then click :icon:`fa-users` :guilabel:`Multiple Requests`. This reveals a "
 ":guilabel:`Multiple Requests` pop-up window."
 msgstr ""
+"Para asignar tiempo personal a varios empleados en una sola asignación, vaya"
+" a :menuselection:`Tiempo personal --> Gestión --> Asignaciones`. Haga clic "
+"en el icono :icon:`fa-gear` :guilabel:`(Acciones)` ubicado en la esquina "
+"superior izquierda y después en :icon:`fa-users` :guilabel:`Varias "
+"solicitudes`. Aparecerá una ventana emergente."
 
 #: ../../content/applications/hr/time_off/allocations.rst:97
 msgid ""
@@ -29519,11 +29529,15 @@ msgid ""
 "additional :guilabel:`Mode` field. The :guilabel:`Mode` field determines how"
 " multiple employees are selected."
 msgstr ""
+"Este formulario es idéntico al formulario de :guilabel:`asignación`, solo "
+"que incluye el campo :guilabel:`Modo`. Este determina cómo seleccionar "
+"varios empleados."
 
 #: ../../content/applications/hr/time_off/allocations.rst:100
 msgid ""
 "Using the drop-down menu, select one of the following :guilabel:`Modes`:"
 msgstr ""
+"Seleccione uno de los siguientes :guilabel:`modos` con el menú desplegable:"
 
 #: ../../content/applications/hr/time_off/allocations.rst:102
 msgid ""
@@ -29533,6 +29547,11 @@ msgid ""
 "employees to receive the allocation in the :guilabel:`Employees` field. "
 "There is no limit to the amount of employees that can be selected."
 msgstr ""
+":guilabel:`Por empleado`: Esta opción le permite seleccionar varios "
+"empleados que no están relacionados por departamento, empresa o etiquetas. "
+"Al seleccionarla aparecerá el campo :guilabel:`Empleados`. En este campo "
+"deberá elegir a los empleados que recibirán la asignación, puede seleccionar"
+" a todos los que desee."
 
 #: ../../content/applications/hr/time_off/allocations.rst:106
 msgid ""
@@ -29543,6 +29562,12 @@ msgid ""
 "field. When a company is selected, *all* employees within the company "
 "receive the allocation."
 msgstr ""
+":guilabel:`Por empresa`: Esta opción le permite seleccionar a todos los "
+"empleados dentro de una empresa en específico. Al seleccionarla aparecerá el"
+" campo :guilabel:`Empresa`. Seleccione la :guilabel:`empresa` en la que "
+"desea realizar la asignación. Solo puede elegir una :guilabel:`empresa` en "
+"el campo correspondiente. Al seleccionar una empresa, *todos* los empleados "
+"que pertenecen a ella reciben la asignación."
 
 #: ../../content/applications/hr/time_off/allocations.rst:110
 msgid ""
@@ -29553,6 +29578,13 @@ msgid ""
 ":guilabel:`Department` field. When a department is selected, *all* employees"
 " within the department receive the allocation."
 msgstr ""
+":guilabel:`Por departamento`: Esta opción le permite seleccionar a todos los"
+" empleados dentro de un departamento en específico. Al seleccionarla "
+"aparecerá el campo :guilabel:`Departamento`. Seleccione el "
+":guilabel:`departamento` en el que desea realizar la asignación. Solo puede "
+"elegir un :guilabel:`departamento` en el campo correspondiente. Al "
+"seleccionar uno, *todos* los empleados que pertenecen al mismo reciben la "
+"asignación."
 
 #: ../../content/applications/hr/time_off/allocations.rst:115
 msgid ""
@@ -29563,6 +29595,13 @@ msgid ""
 ":guilabel:`Employee Tag` field. When a tag is selected, *all* employees with"
 " that tag receive the allocation."
 msgstr ""
+":guilabel:`Por etiqueta de empleado`: Esta opción le permite seleccionar a "
+"todos los empleados que tengan una etiqueta específica. Al seleccionarla "
+"aparecerá el campo :guilabel:`Etiqueta de empleado`. Elija la "
+":guilabel:`etiqueta de empleado` deseada para seleccionar a todos los "
+"empleados con esa etiqueta. Solo puede asignar una etiqueta en el campo "
+":guilabel:`Etiqueta de empleado`. Al seleccionar una etiqueta, *todos* los "
+"empleados con esa etiqueta reciben la asignación."
 
 #: ../../content/applications/hr/time_off/allocations.rst:121
 msgid ""
@@ -29571,6 +29610,11 @@ msgid ""
 "Request', changes to the name of the selected :guilabel:`Time Off Type`, "
 "including the amount of days. Change the name of the allocation, if desired."
 msgstr ""
+"Seleccione el :guilabel:`tipo de tiempo personal` en el menú desplegable. "
+"Una vez que seleccione uno, el nombre predeterminado, 'Solicitud de "
+"Asignación', cambiará al nombre del :guilabel:`tipo de tiempo personal` "
+"seleccionado, incluyendo el número de días. Cambie el nombre de la "
+"asignación si así lo desea."
 
 #: ../../content/applications/hr/time_off/allocations.rst:126
 msgid ""
@@ -29578,12 +29622,17 @@ msgid ""
 "<time_off/allocation-form>`, then click :guilabel:`Create Allocations` when "
 "done."
 msgstr ""
+"Complete el resto del :ref:`formulario de Varias solicitudes "
+"<time_off/allocation-form>` y al terminar haga clic en :guilabel:`Crear "
+"asignaciones`."
 
 #: ../../content/applications/hr/time_off/allocations.rst-1
 msgid ""
 "An allocation request form filled out for sick time for all employees within the sales\n"
 "department."
 msgstr ""
+"Un formulario de solicitud de asignación completado para agregar permisos por enfermedad para todos los empleados del departamento de \n"
+"ventas."
 
 #: ../../content/applications/hr/time_off/allocations.rst:136
 msgid "Request allocation"
@@ -29652,6 +29701,11 @@ msgid ""
 "when requesting an allocation from the :guilabel:`My Allocations` view "
 "(:menuselection:`Time Off --> My Time --> My Allocations`)."
 msgstr ""
+":guilabel:`Período de validez`: La fecha actual completa este campo de "
+"manera predeterminada y **no** se puede modificar. Este campo **solo** "
+"aparece al solicitar una asignación desde la vista :guilabel:`Mis "
+"asignaciones` (:menuselection:`Tiempo personal --> Mi tiempo --> Mis "
+"asignaciones`)."
 
 #: ../../content/applications/hr/time_off/allocations.rst:159
 msgid ""

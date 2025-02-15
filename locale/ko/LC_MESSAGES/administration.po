@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-31 16:01+0000\n"
+"POT-Creation-Date: 2025-01-28 12:25+0000\n"
 "PO-Revision-Date: 2024-10-08 06:34+0000\n"
 "Last-Translator: Sarah Park, 2025\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
@@ -55,7 +55,7 @@ msgid ""
 ":doc:`Online <administration/odoo_online>` is the easiest way to use Odoo in"
 " production or to try it."
 msgstr ""
-":doc:`온라인 <administration/odoo_online>` 이 가장 쉽게 Odoo를 프로덕션에서 사용하거나 테스트하는 "
+":doc:`온라인 <administration/odoo_online>` 은 Odoo를 프로덕션에서 사용하거나 테스트하는 가장 편리한 "
 "방법입니다."
 
 #: ../../content/administration.rst:23
@@ -74,9 +74,9 @@ msgid ""
 "the same system. It is adequate to develop modules and can be used as a base"
 " for production deployment."
 msgstr ""
-":doc:`소스 설치 <administration/on_premise/source>` 를 하면 더욱 유연성을 더하게 되며, 예컨대 여러 "
-"가지 Odoo 버전을 동일한 시스템에서 실행할 수 있습니다. 모듈 개발을 하는 경우에 적합하며 프로덕션 배포용 베이스로 사용할 수 "
-"있습니다."
+":doc:`소스 설치 <administration/on_premise/source>` 를 하면 유연성 면에서 기능을 더욱 향상할 수 "
+"있으며, 예를 들어 동일한 시스템에서 여러 가지 Odoo 버전을 실행할 수 있게 됩니다. 이는 모듈 개발을 하기에 적합하며 프로덕션 "
+"배포용 베이스로 사용할 수 있습니다."
 
 #: ../../content/administration.rst:31
 msgid ""
@@ -531,9 +531,9 @@ msgid ""
 "data (e.g., sending emails to customers). Live access is removed and turned "
 "into a testing environment."
 msgstr ""
-"중립화된 데이터베이스는 여러 매개변수가 비활성화되어 있는 비프로덕션 데이터베이스입니다. 이를 통해 프로덕션 데이터에 영향을 미칠 수 있는"
-" 특정 자동화 프로세스 (예: 고객에게 이메일 보내기)가 실행될 위험 없이 테스트를 수행할 수 있습니다. 실시간 액세스가 되지 않으며 "
-"테스트 환경으로 전환됩니다."
+"중립화된 데이터베이스는 여러 개의 매개변수가 비활성화되어 있는 프로덕션 외의 데이터베이스를 의미합니다. 중립화를 통해 프로덕션 데이터에 "
+"영향을 미칠 수 있는 자동화 프로세스 (예: 고객에게 이메일 보내기)가 실행될 염려 없이 테스트를 수행할 수 있습니다. 실시간 액세스 "
+"기능이 제거되고 테스트 환경으로 전환됩니다."
 
 #: ../../content/administration/neutralized_database.rst:11
 msgid "**Any testing database created is a neutralized database:**"
@@ -593,7 +593,7 @@ msgstr ":abbr:`IAP (인앱 구매)` 토큰"
 
 #: ../../content/administration/neutralized_database.rst:32
 msgid "website visibility (prevent search engines from indexing your site)"
-msgstr "웹사이트 가시성 (검색 엔진에서 사이트 색인화 방지)"
+msgstr "웹사이트 공개 범위 (검색 엔진에서 사이트 색인 생성 방지)"
 
 #: ../../content/administration/neutralized_database.rst:35
 msgid ""
@@ -787,8 +787,9 @@ msgid ""
 "production or to test Odoo thoroughly, including customizations that don't "
 "require code."
 msgstr ""
-"`Odoo 온라인 <https://www.odoo.com/trial>`_ 에서는 Odoo가 개인 데이터베이스를 완벽하게 관리하고 "
-"호스팅합니다. 코드가 필요없는 커스터마이징 등 Odoo 전반에 걸쳐 장기적인 프로덕션 혹은 테스트에 사용할 수 있습니다."
+"`Odoo 온라인 <https://www.odoo.com/trial>`_ 은 Odoo에서 개인 데이터베이스를 완벽하게 관리하고 호스팅하는"
+" 서비스입니다. Odoo 전반에 걸쳐 장기적인 프로덕션 혹은 테스트에 사용할 수 있으며, 코드가 필요없는 커스터마이징 등을 활용할 수 "
+"있습니다."
 
 #: ../../content/administration/odoo_online.rst:10
 msgid "Odoo Online is incompatible with custom modules or the Odoo App Store."
@@ -1283,8 +1284,8 @@ msgid ""
 " be effective in the database. Always, make your tests in your staging "
 "databases."
 msgstr ""
-"특히 프로덕션 데이터베이스의 경우 더욱 **주의하세요**. 이 Odoo 서버 인스턴스를 실행 중에 수행하는 작업은 별도로 격리되지 "
-"않습니다. 변경 사항은 데이터베이스에 적용됩니다. 항상 스테이징 데이터베이스에서 테스트하시기 바랍니다."
+"특히 프로덕션 데이터베이스의 경우 **주의하세요**. 이 Odoo 서버 인스턴스를 실행 중에 수행하는 작업은 별도로 격리되지 않습니다. "
+"변경 사항은 데이터베이스에 적용됩니다. 항상 스테이징 데이터베이스에서 테스트하시기 바랍니다."
 
 #: ../../content/administration/odoo_sh/advanced/containers.rst:186
 msgid "Debugging in Odoo.sh"
@@ -1451,9 +1452,9 @@ msgid ""
 "address included as a query string parameter (`new`), along with the "
 "previous IP address as an additional parameter (`old`)."
 msgstr ""
-"**Odoo.sh에서 프로젝트 관리자에게 IP 주소가 변경되었다는 사실을 알립니다.** 또한 프로덕션 인스턴스의 IP 주소가 변경되면 "
-"HTTP `GET` 요청이 `/_odoo.sh/ip-change` 경로에서 수행되며, 여기에는 쿼리 문자열 매개변수 (`new`)로 "
-"되어있는 새로운 IP 주소와 추가 매개변수 (`old`)로 제공되는 이전 IP 주소가 포함되어 있습니다."
+"**Odoo.sh에서 IP 주소가 변경되었다는 사실을 프로젝트 관리자에게 알립니다.** 또한 프로덕션 인스턴스의 IP 주소가 변경되면 "
+"HTTP `GET` 요청이 `/_odoo.sh/ip-change` 경로에서 실행되어 새로운 IP 주소가 쿼리 문자열 매개변수 "
+"(`new`)가 표시되며 이전 IP 주소가 추가 매개변수 (`old`)와 같이 제공됩니다."
 
 #: ../../content/administration/odoo_sh/advanced/frequent_technical_questions.rst:43
 msgid ""
@@ -1511,8 +1512,8 @@ msgid ""
 "whether you want to pin the submodule to a specific revision and when you "
 "want to update to a newer revision."
 msgstr ""
-"또한 하위 모듈로 추가된 저장소의 브랜치를 선택할 수 있으며 원하는 버전을 제어할 수 있습니다. 하위 모듈을 특정 버전에 고정할지 여부 "
-"및 최신 버전으로 업데이트하는 시기는 사용자가 정할 수 있습니다."
+"또한 하위 모듈로 추가된 저장소에 브랜치를 선택할 수 있으며 원하는 버전으로 제어할 수 있습니다. 하위 모듈을 특정 버전으로 계속 둘 지"
+" 여부 및 최신 버전으로 업데이트하는 시기는 사용자가 지정할 수 있습니다."
 
 #: ../../content/administration/odoo_sh/advanced/submodules.rst:24
 msgid ""
@@ -1657,8 +1658,8 @@ msgstr ""
 "Git 하위 모듈에 대한 자세한 내용은 `git-scm.com 문서 <https://git-scm.com/book/en/v2/Git-"
 "Tools-Submodules>`_ 를 참조하세요. 예를 들어, 하위 모듈을 최신 버전으로 업데이트하려면 '업스트림 변경 사항 가져오기 "
 "<https://git-scm.com/book/en/v2/Git-Tools-"
-"Submodules#_pulling_in_upstream_changes_from_the_submodule_remote>`_ 에 있는 "
-"내용으로 진행합니다."
+"Submodules#_pulling_in_upstream_changes_from_the_submodule_remote>`_ 에 안내된 "
+"내용에 따라 진행합니다."
 
 #: ../../content/administration/odoo_sh/advanced/submodules.rst:107
 msgid "Ignore modules"
@@ -1723,7 +1724,7 @@ msgstr "이 브랜치는 프로덕션 데이터베이스가 실행되는 코드�
 msgid ""
 "When you push a new commit in this branch, your production server is updated"
 " with the code of the new revision and is then restarted."
-msgstr "이 브랜치에 새 커밋을 푸시할 경우, 프로덕션 서버에 있는 코드가 새로운 버전으로 업데이트된 다음 다시 시작됩니다."
+msgstr "이 브랜치에 새 커밋을 푸시하면 프로덕션 서버에 있는 새로 변경된 코드로 업데이트된 후 다시 시작됩니다."
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:36
 msgid ""
@@ -1754,8 +1755,9 @@ msgid ""
 "before the update. You still have access to the log of the failed update, so"
 " you can troubleshoot it."
 msgstr ""
-"커밋 변경 사항때문에 서버가 다시 시작되지 않거나 모듈 업데이트에 실패하는 경우, 서버는 자동으로 이전에 성공한 코드 수정 버전으로 "
-"되돌아가고 데이터베이스는 업데이트 전으로 롤백됩니다. 업데이트에 실패한 로그에도 계속 액세스할 수 있으므로 문제를 해결할 수 있습니다."
+"커밋 변경 사항 때문에 서버가 다시 시작되지 않거나 모듈 업데이트에 실패하는 경우, 서버는 자동으로 이전의 코드 수정 성공 버전으로 "
+"되돌아가고 데이터베이스는 업데이트 이전 상태로 롤백됩니다. 업데이트에 실패한 로그에도 계속 액세스할 수 있으므로 문제를 해결할 수 "
+"있습니다."
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:53
 msgid ""
@@ -1763,8 +1765,8 @@ msgid ""
 "database. The unit tests are not performed, as it would increase the "
 "unavailability time of the production database during the updates."
 msgstr ""
-"데모 데이터는 프로덕션 데이터베이스에서 사용되지 않으므로 로드되지 않습니다. 업데이트 중에 프로덕션 데이터베이스를 사용할 수 없는 시간이"
-" 늘어나므로 단위 테스트는 수행되지 않습니다."
+"데모 데이터는 로드되지 않으며, 프로덕션 데이터베이스에서 사용하는 용도가 아니기 때문입니다.단위 테스트를 하면 업데이트 중에 프로덕션 "
+"데이터베이스를 사용할 수 없는 시간이 늘어나게 되기 때문에 수행되지 않습니다."
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:57
 msgid ""
@@ -1788,8 +1790,8 @@ msgid ""
 "They will create databases that are neutralized duplicates of the production"
 " database."
 msgstr ""
-"스테이징 브랜치는 프로덕션 데이터를 사용하여 새로운 기능을 테스트하기 위한 것으로, 테스트 레코드가 있는 실제 프로덕션 데이터는 "
-"손상시키지 않습니다. 프로덕션 데이터베이스에 대해 중립화된 복사본을 데이터베이스로 생성합니다."
+"스테이징 브랜치는 프로덕션 데이터를 사용하여 새로운 기능을 테스트하기 위한 것으로, 테스트 레코드가 있는 실제 프로덕션 데이터에는 영향이"
+" 없습니다. 프로덕션 데이터베이스에 대해 중립화된 복사본을 데이터베이스로 생성합니다."
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:67
 msgid "The neutralization includes:"
@@ -1845,9 +1847,9 @@ msgid ""
 " Odoo supports to run the unit tests without the demo data, Odoo.sh will "
 "then consider running the tests on staging databases."
 msgstr ""
-"Odoo에서 단위 테스트는, 현재 프로덕션 데이터베이스에 로드가 되지 않은 데모 데이터에 의존하기 때문에 실행되지 않습니다. 앞으로 "
-"Odoo가 데모 데이터 없이 단위 테스트가 실행되도록 지원한다면 Odoo.sh는 스테이징 데이터베이스에서 테스트를 실행하는 것을 "
-"고려하겠습니다."
+"Odoo에서 단위 테스트는 실행되지 않으며, 현재 프로덕션 데이터베이스에 로드되지 않은 데모 데이터에서 실행되기 때문입니다. 향후 "
+"Odoo에서 데모 데이터 없이 단위 테스트 실행을 지원하게 되면 Odoo.sh 스테이징 데이터베이스에서 테스트를 실행하는 것을 고려하도록"
+" 하겠습니다."
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:88
 #: ../../content/administration/odoo_sh/getting_started/builds.rst:81
@@ -1876,10 +1878,10 @@ msgid ""
 "be run with custom tags in the :ref:`branch's settings <odoosh-"
 "gettingstarted-branches-tabs-settings>`."
 msgstr ""
-"이와 같은 브랜치 중 하나에 새 커밋을 푸시하면 처음부터 새로 생성되고 브랜치가 변경되어 새 서버가 시작됩니다. 데모 데이터를 블러와서 "
-"기본값으로 단위 테스트가 수행됩니다. 이를 통해 변경 사항 때문에 테스트한 기능이 손상되지 않았는지 확인합니다. 원하는 경우 테스트를 "
-"비활성화하거나 :ref:`브랜치 설정 <odoosh-gettingstarted-branches-tabs-settings>`에서 사용자 "
-"정의 태그를 사용하여 특정 테스트가 실행되도록 허용할 수 있습니다."
+"이와 같은 브랜치 중 하나에서 새로 커밋을 푸시하면 새로 서버가 시작되며 데이터베이스는 처음부터 새로 생성되고 브랜치가 변경됩니다. 데모"
+" 데이터를 불러와서 기본값으로 단위 테스트가 수행됩니다. 이를 통해 변경 사항으로 인해 테스트한 기능이 손상되지 않았는지 확인합니다. "
+"원하는 경우 테스트를 비활성화하거나 :ref:`브랜치 설정 <odoosh-gettingstarted-branches-tabs-"
+"settings>` 에서 사용자 지정 태그를 사용하여 특정 테스트가 실행되도록 할 수 있습니다."
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:101
 msgid ""
@@ -1942,8 +1944,8 @@ msgid ""
 "production branch as well. It just means you skip the validation of your "
 "changes with the production data through a staging branch."
 msgstr ""
-"과감하게 개발 브랜치를 프로덕션 브랜치에 병합할 수도 있습니다. 이는 스테이징 브랜치로 프로덕션 데이터에 대한 변경 사항 승인을 "
-"생략한다는 의미에 불과합니다."
+"과감하게 개발 브랜치를 프로덕션 브랜치에 병합하는 것도 가능합니다. 스테이징 브랜치를 통해 프로덕션 데이터에서 변경된 사항을 승인하는 "
+"과정이 생략된다는 의미입니다."
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:131
 msgid ""
@@ -1957,8 +1959,8 @@ msgid ""
 "to merge your branches. Odoo.sh will be notified when new revisions have "
 "been pushed in your branches."
 msgstr ""
-"물론 워크스테이션에서 직접 :code:`git merge`를 사용하여 브랜치를 병합할 수도 있습니다. 브랜치에 새로운 개정 사항이 "
-"푸시되면 Odoo.sh에서 알림을 받게 됩니다."
+"물론 워크스테이션에서 직접 :code:`git 병합` 으로 브랜치를 병합할 수도 있습니다. 브랜치에 새로운 변경 사항이 푸시되면 "
+"Odoo.sh에서 알림이 전송됩니다."
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:136
 msgid ""
@@ -2047,9 +2049,8 @@ msgid ""
 "and staging branches as the emails of your production database are really "
 "sent instead of being intercepted."
 msgstr ""
-"이 탭에는 메일 수집기가 포함되어 있습니다. 여기에서 데이터베이스에서 전송된 이메일에 대한 전반적인 내용을 확인할 수 있습니다. 메일 "
-"수집기는 개발 및 스테이징 브랜치에서 사용할 수 있으며 .프로덕션 데이터베이스의 이메일이 남겨져 있는 대신 실제로 전송될 수 있게 "
-"됩니다."
+"이 탭에서 메일 캐처를 확인할 수 있습니다. 여기에는 데이터베이스에서 전송한 이메일에 대해 전반적인 내용이 표시됩니다. 메일 캐처를 "
+"프로덕션 데이터베이스에서 사용하면 이메일을 캐치하지 않고 실제로 전송하게 되므로, 대신 개발 및 스테이징 브랜치에서 사용하도록 합니다."
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:184
 msgid "Shell"
@@ -2184,8 +2185,8 @@ msgid ""
 "weekly and 3 monthly backups. Each backup includes the database dump, the "
 "filestore (attachments, binary fields), logs and sessions."
 msgstr ""
-"Odoo.sh에서는 프로덕션 데이터베이스가 매일 백업됩니다. 매일 7회, 매주 4회, 매월 3회 백업이 진행됩니다. 백업에는 데이터베이스"
-" 덤프, 파일 저장소(첨부 파일, 바이너리 필드), 로그 및 세션을 포함하여 백업됩니다."
+"Odoo.sh에서는 프로덕션 데이터베이스가 매일 백업됩니다. 매일 7회, 매주 4회, 매월 3회 백업이 진행됩니다. 백업 시에는 "
+"데이터베이스 덤프, 파일 저장소(첨부 파일, 바이너리 필드), 로그 및 세션 등이 백업에 포함됩니다."
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:260
 msgid ""
@@ -2194,8 +2195,8 @@ msgid ""
 "staging branches, for testing purposes, or to manually recover data that has"
 " been deleted by accident from the production database."
 msgstr ""
-"스테이징 및 개발 데이터베이스는 백업되지 않습니다. 다만 스테이징 브랜치에서 테스트 목적으로 프로덕션 데이터베이스의 백업을 복원하거나 "
-"프로덕션 데이터베이스에서 실수로 삭제된 데이터는 수기로 복구할 수 있습니다."
+"스테이징 및 개발 데이터베이스는 백업이 되지 않습니다. 다만 테스트 목적으로 스테이징 브랜치에서 프로덕션 데이터베이스의 백업을 복원하거나"
+" 프로덕션 데이터베이스에서 실수로 데이터가 삭제된 경우에는 수동으로 복구할 수 있습니다."
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:264
 msgid ""
@@ -2240,10 +2241,11 @@ msgid ""
 "wrong (those manual backups are available for about one week). To avoid "
 "abuse, we limit manual backups to 5 per day."
 msgstr ""
-"앞서 언급한 수정 없이 코드만 변경하는 커밋을 병합하는 경우, Odoo.sh는 백업을 수행하지 않습니다. 이는 컨테이너나 데이터베이스가 "
-"수정되지 않아 플랫폼이 충분히 안전하다고 판단하기 때문입니다. 추가적인 예방 조치로, 예상치 못한 문제가 발생할 경우를 대비하여 프로덕션"
-" 소스에 중요한 변경 사항을 적용하기 전에 수동으로 백업을 생성할 수 있습니다. (이러한 수동 백업은 약 1주일 동안 액세스할 수 있음)"
-" 오용을 방지하기 위해 수동 백업은 하루에 5개로 제한합니다."
+"위에서 언급한 내용을 수정하지 않고 커밋에 있는 일부 코드만 변경하여 병합할 경우에는 Odoo.sh에서는 백업이 진행되지 않습니다. "
+"컨테이너나 데이터베이스에 수정된 내용이 없으므로 플랫폼이 충분히 안전하다고 간주하기 때문입니다. 물론 추가적인 예방 조치로 프로덕션 "
+"소스에 중요한 변경 사항을 적용하기 전에 백업을 수동으로 생성할 수 있으며, 이를 통해 예상치 못한 문제가 발생할 경우를 대비할 수 "
+"있습니다(이와 같은 수동 백업은 약 1주일 동안 액세스 가능). 잘못된 방식으로 사용되는 것을 방지하기 위해 수동 백업은 일 5회로 "
+"제한됩니다."
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:282
 msgid ""
@@ -2315,8 +2317,8 @@ msgstr ""
 "개발 브랜치 및 스테이징 브랜치의 경우, 새로운 커밋이 들어오면 브랜치의 동작을 변경할 수 있습니다. 기본적으로, 개발 브랜치에서는 새 "
 "빌드를 생성하고 스테이징 브랜치는 이전 빌드를 업데이트합니다(:ref:`프로덕션 단계 <stage_production>` 참조). 이 "
 "기능은 작업 중인 기능에 설정이나 환경설정을 해야 하는 경우에 유용하게 쓰일 수 있으며, 커밋할 때마다 직접 수동으로 다시 메뉴를 설정할"
-" 필요가 없습니다. 스테이징 브랜치에 새 빌드를 선택하면 커밋이 푸시될 때마다 프로덕션 빌드에서 새로 복사본이 생성됩니다. 스테이징에서 "
-"개발로 되돌아간 브랜치는 자동으로 '아무 것도 하지 않음' 으로 설정됩니다."
+" 필요가 없습니다. 스테이징 브랜치에 새 빌드를 선택하면 커밋이 푸시될 때마다 프로덕션 빌드에서 새로 복사본이 생성됩니다. 브랜치가 "
+"스테이징에서 개발로 되돌아가면 자동으로 '아무 것도 하지 않음' 으로 설정됩니다."
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:320
 msgid "**Modules installation**"
@@ -2359,8 +2361,8 @@ msgid ""
 "hour. This setting applies to development builds only. Staging builds "
 "duplicate the production build and the production build only installs base."
 msgstr ""
-"테스트를 활성화하게 되면 표준 Odoo 모듈 제품군의 경우 최대 1시간까지 소요될 수 있습니다. 개발 빌드에만 이 설정이 적용됩니다. "
-"스테이징 빌드는 프로덕션 빌드와 복제되고 프로덕션 빌드는 기본으로만 설치됩니다. "
+"테스트를 진행하게 되면 표준 Odoo 모듈 제품군의 경우 최대 1시간까지 소요될 수 있습니다. 이 설정은 개발 빌드에 한해서만 "
+"적용됩니다. 스테이징 빌드는 프로덕션 빌드를 복제하며 프로덕션 빌드는 기본만 설치됩니다. "
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:339
 msgid "**Test suite**"
@@ -2387,8 +2389,8 @@ msgid ""
 "you want to test upgraded code or develop features while your production "
 "database is in the process of being upgraded to a newer version."
 msgstr ""
-"개발 브랜치에 한해, 프로덕션 데이터베이스가 최신 버전으로 업그레이드되는 동안 업그레이드된 코드를 테스트하거나 기능을 개발하려는 경우에 "
-"Odoo 버전을 변경할 수 있습니다."
+"개발 브랜치에 한하여 Odoo 버전을 변경할 수 있으며, 프로덕션 데이터베이스를 최신 버전으로 업그레이드하는 동안 업그레이드된 코드를 "
+"테스트하거나 기능을 개발하는 것이 가능합니다."
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:350
 msgid ""
@@ -2412,8 +2414,8 @@ msgid ""
 " notified by mail when the expiration date approaches and if you don't take "
 "action afterwards, you will automatically be set to the latest revision."
 msgstr ""
-"날짜 목록에서 Odoo 소스를 선택하여 특정한 개정판에 핀고정하도록 선택할 수 있습니다. 개정판은 3개월 후에 만료됩니다. 만료일에 "
-"가까워지면 메일로 알림을 받게 되며 이후에도 아무 조치를 취하지 않을 경우 자동으로 최신 개정판으로 설정됩니다."
+"날짜 목록에서 Odoo 소스를 선택하여 특정한 변경 항목을 고정할 수 있습니다. 변경 버전은 3개월 후에 만료됩니다. 만료일에 가까워지면"
+" 메일로 알림을 받게 되며 이후에도 아무 조치를 취하지 않을 경우 최신 변경 버전으로 자동 설정됩니다."
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:359
 msgid "**Custom domains**"
@@ -2777,10 +2779,10 @@ msgid ""
 "test the well-behavior of the server, the database and the features with "
 "this revision."
 msgstr ""
-"Odoo.sh에서 빌드는 컨테이너화된 환경에서 프로젝트 저장소의 특정 버전에서 실행되는 Odoo 서버 (`odoo/odoo "
-"<https://github.com/odoo/odoo>`_ & `odoo/enterprise "
-"<https://github.com/odoo/enterprise>`_)에서 로드한 데이터베이스로 간주됩니다. 이 테스트의 목적은 새로운 "
-"버전의 서버, 데이터베이스 및 기능의 동작을 테스트하는 데 있습니다."
+"Odoo.sh에서 빌드는 Odoo 서버 (`odoo/odoo <https://github.com/odoo/odoo>`_ & "
+"`odoo/enterprise <https://github.com/odoo/enterprise>`_)에서 로드된 데이터베이스로 간주되며 "
+"컨테이너화된 환경에서 특정하게 변경된 프로젝트 저장소에서 실행됩니다. 이 테스트의 목적은 서버, 데이터베이스 및 기능이 이와 같은 변경 "
+"하에서 제대로 작동하는지 테스트하는 데 있습니다."
 
 #: ../../content/administration/odoo_sh/getting_started/builds.rst:20
 msgid ""
@@ -2829,9 +2831,9 @@ msgid ""
 "database on it. If no errors come up, the build is considered successful, "
 "and otherwise failed."
 msgstr ""
-"빌드에서 항상 기초부터 데이터베이스가 생성되는 것은 아닙니다. 예를 들어, 프로덕션 브랜치에 변경 사항을 적용할 때 생성된 빌드로는 "
-"새로운 개정판으로 서버가 시작되고 여기에 현재 프로덕션 데이터베이스를 로드하려고 시도합니다. 오류가 발생하지 않으면 빌드가 성공한 것으로"
-" 간주되고 그렇지 않으면 실패한 것으로 간주됩니다."
+"빌드에서 데이터베이스가 항상 처음부터 생성되는 것은 아닙니다. 예를 들어, 프로덕션 브랜치에 변경 사항을 푸시하는 경우에는 빌드 생성을 "
+"통해 새로운 변경 버전으로 서버를 시작하고 여기에 현재 진행 중인 프로덕션 데이터베이스를 로드하게 됩니다. 오류 발생 여부에 따라 빌드가"
+" 성공 혹은 실패로 간주됩니다."
 
 #: ../../content/administration/odoo_sh/getting_started/builds.rst:46
 msgid ""
@@ -2846,7 +2848,7 @@ msgstr ""
 msgid ""
 "From then, pushes on the production branch will create new builds that "
 "attempt to load the database using a server running with the new revision."
-msgstr "그런 다음 프로덕션 브랜치를 적용하면 새 개정판으로 실행되는 서버에서 데이터베이스를 로드하는 새로운 빌드가 생성됩니다."
+msgstr "이후에 프로덕션 브랜치에서 푸시하면 새로 변경된 실행 서버에서 데이터베이스를 로드하는 새로운 빌드가 생성됩니다."
 
 #: ../../content/administration/odoo_sh/getting_started/builds.rst:52
 msgid ""
@@ -2854,7 +2856,8 @@ msgid ""
 "database will now run with this build, along with the revision associated to"
 " this build."
 msgstr ""
-"빌드가 성공했거나, 경고는 있으나 오류가 없는 경우 프로덕션 데이터베이스는 이제 해당 빌드에 연결된 개정판과 함께 이 빌드로 실행됩니다."
+"빌드가 성공한 경우 혹은 경고는 있으나 오류가 없는 경우에는, 이제 프로덕션 데이터베이스가 해당 빌드에 연결된 변경 사항과 함께 이 "
+"빌드로 실행됩니다."
 
 #: ../../content/administration/odoo_sh/getting_started/builds.rst:55
 msgid ""
@@ -2862,8 +2865,8 @@ msgid ""
 "successful build is re-used to load the database, and therefore the database"
 " will run using a server running with the previous successful revision."
 msgstr ""
-"빌드에서 데이터베이스를 로드하거나 업데이트하는 데 실패하면 이전에 성공한 빌드로 다시 데이터베이스를 로드하므로 데이터베이스는 이전에 "
-"성공한 개정판으로 실행되는 서버에서 실행됩니다."
+"빌드에서 데이터베이스 로드 혹은 업데이트에 실패하면 이전에 실행에 성공한 빌드로 다시 데이터베이스가 로드되므로, 데이터베이스는 이전에 "
+"성공한 변경 버전이 실행되는 서버에서 실행됩니다."
 
 #: ../../content/administration/odoo_sh/getting_started/builds.rst:59
 msgid ""
@@ -2878,7 +2881,7 @@ msgstr ""
 msgid ""
 "Staging builds duplicate the production database, and try to load this "
 "duplicate with the revisions of the staging branches."
-msgstr "스테이징 브랜치는 프로덕션 데이터베이스를 복제하고 해당 복제본을 스테이징 브랜치의 개정판과 함께 로드하게 됩니다."
+msgstr "스테이징 빌드로 프로덕션 데이터베이스를 복제하고 해당 복제본을 스테이징 브랜치의 변경 사항과 함께 로드합니다."
 
 #: ../../content/administration/odoo_sh/getting_started/builds.rst:68
 msgid ""
@@ -2886,8 +2889,8 @@ msgid ""
 "uses a new copy of the production database. The databases are not re-used "
 "between builds of the same branch. This ensures:"
 msgstr ""
-"스테이징 브랜치에 새 개정판을 적용할 때마다 생성된 빌드는 프로덕션 데이터베이스의 새 복사본을 사용합니다. 데이터베이스는 동일한 브랜치에"
-" 있는 빌드 사이에는 재사용되지 않습니다. 이를 통해 다음과 같은 내용이 보장됩니다."
+"스테이징 브랜치에 새 변경 사항이 푸시될 때마다 새로운 프로덕션 데이터베이스 복사본을 사용하여 빌드가 생성됩니다. 데이터베이스는 같은 "
+"브랜치 빌드 간에는 재사용되지 않습니다. 이렇게 하면:"
 
 #: ../../content/administration/odoo_sh/getting_started/builds.rst:71
 msgid ""
@@ -2901,7 +2904,7 @@ msgid ""
 "you can then ask for a rebuild when you want to restart with a new copy of "
 "the production."
 msgstr ""
-"동일한 스테이징 데이터베이스에서 마음껏 작업을 수행할 수 있으며, 프로덕션의 새 복사본으로 다시 시작하려는 경우 다시 빌드를 요청할 수 "
+"동일한 스테이징 데이터베이스에서 얼마든지 작업을 수행할 수 있으며, 프로덕션의 새 복사본으로 다시 시작하려는 경우 재빌드를 요청할 수 "
 "있습니다."
 
 #: ../../content/administration/odoo_sh/getting_started/builds.rst:77
@@ -2910,8 +2913,8 @@ msgid ""
 "databases and do not apply them in the production, they will not be passed "
 "on the next build of the same staging branch."
 msgstr ""
-"그럼에도 불구하고 스테이징 데이터베이스에서 환경 설정을 변경한 후 프로덕션에 적용하지 않으면 동일한 스테이징 브랜치의 다음 빌드로 "
-"이전되지 않습니다."
+"그럼에도 불구하고 스테이징 데이터베이스에서 환경설정을 변경한 후 프로덕션에 적용하지 않으면 동일한 스테이징 브랜치의 다음 빌드로 이전되지"
+" 않습니다."
 
 #: ../../content/administration/odoo_sh/getting_started/builds.rst:83
 msgid ""
@@ -2963,9 +2966,9 @@ msgid ""
 "link is not available when there is already a build in progress for the "
 "branch."
 msgstr ""
-"각 브랜치에 대해 *연결* 링크를 사용하여 데이터베이스에 있는 마지막 빌드에 액세스하고 *Github* 링크를 사용하여 브랜치 코드로 "
-"이동할 수 있습니다. 프로덕션 브랜치가 아닌 다른 브랜치의 경우 *다시 빌드* 링크를 사용하여 브랜치의 최신 버전이 적용된 새 빌드를 "
-"생성할 수 있습니다. 브랜치에 대해 이미 빌드가 진행 중인 경우에는 마지막 링크는 사용할 수 없습니다."
+"각 브랜치에 *연결* 링크를 사용하여 최근 빌드에 있는 데이터베이스에 액세스한 후 *Github* 링크를 통해 브랜치 코드로 즉시 이동할"
+" 수 있습니다. 프로덕션 브랜치가 아닌 다른 브랜치의 경우에는 *재빌드* 링크를 사용하여 브랜치의 최신 변경 버전을 적용하여 새 빌드를 "
+"생성할 수 있습니다. 브랜치에 대해 이미 빌드가 진행 중인 경우에는 이와 같은 마지막 링크는 사용할 수 없습니다."
 
 #: ../../content/administration/odoo_sh/getting_started/builds.rst:110
 msgid ""
@@ -2975,8 +2978,8 @@ msgid ""
 "user using the *Connect as* button, in the dropdown menu of the *Connect* "
 "button."
 msgstr ""
-"각 빌드에 대해 Github 아이콘 버튼으로 개정 변경 사항에 액세스할 수 있습니다. 관리자로 빌드의 데이터베이스에 액세스하려면 *연결*"
-" 버튼을 사용합니다. 또한 *연결* 버튼 드롭다운 메뉴에 있는 *다음 계정으로 연결* 버튼을 사용하면 데이터베이스에 다른 사용자로 "
+"각각의 빌드는 Github 아이콘 버튼을 이용하여 변경된 사항에 액세스할 수 있습니다. 빌드 데이터베이스에 관리자로 액세스하려면 *연결*"
+" 버튼을 사용합니다. 또한 *연결* 버튼 드롭다운 메뉴에 있는 *다음 계정으로 연결* 버튼을 사용하면 다른 사용자로 데이터베이스에 "
 "액세스할 수 있습니다."
 
 #: ../../content/administration/odoo_sh/getting_started/builds.rst:122
@@ -3304,8 +3307,8 @@ msgid ""
 " the queue, processing mass mailings, or third-party services "
 "synchronization (Calendars, files hosting, ...)."
 msgstr ""
-"이는 새로 가져온 데이터베이스가 실행 중인 프로덕션에 영향을 미칠 수 있는 작업을 수행하지 못하도록 방지하기 위한 것이며, 이러한 "
-"작업에는 대기열에 남아 있는 메일 보내기, 대량 메일 처리 또는 타사 서비스 동기화 (캘린더, 파일 호스팅 등) 등이 있습니다. "
+"이는 새로 가져온 데이터베이스의 작업으로 인해 실행 중인 프로덕션이 영향을 받게 되는 상황을 방지하기 위한 것이며, 이러한 작업에는 "
+"대기열에 남아 있는 메일 전송, 대량 메일 처리 또는 타사 서비스 동기화(캘린더, 파일 호스팅 등) 등이 있습니다. "
 
 #: ../../content/administration/odoo_sh/getting_started/create.rst:190
 msgid ""
@@ -3315,9 +3318,9 @@ msgid ""
 "actions are located under :menuselection:`Settings --> Technical --> "
 "Automation --> Scheduled Actions`."
 msgstr ""
-"데이터베이스를 가져와서 프로덕션으로 만들 계획이라면 예약된 작업 중에서 필요한 작업을 활성화합니다. 원본 데이터베이스에 활성화되어 있는 "
-"내용을 확인한 후 가져온 데이터베이스에서도 동일한 작업을 활성화할 수 있습니다. 예약된 작업은 :menuselection:`설정 --> "
-"기술 --> 자동화 --> 예약된 작업` 아래에 위치해 있습니다."
+"가져온 데이터베이스를 프로덕션으로 만드려면 예약 작업 중에서 필요한 작업을 활성화합니다. 원본 데이터베이스에서 활성화된 작업을 확인한 후"
+" 가져온 데이터베이스에서도 동일한 작업을 활성화할 수 있습니다. 예약 작업은 :menuselection:`설정 --> 기술 --> 자동화"
+" --> 예약된 작업` 아래에서 확인할 수 있습니다."
 
 #: ../../content/administration/odoo_sh/getting_started/create.rst:196
 msgid "Register your subscription"
@@ -3668,7 +3671,7 @@ msgstr ""
 
 #: ../../content/administration/odoo_sh/getting_started/first_module.rst:230
 msgid "You can either:"
-msgstr "사용 가능한 옵션:"
+msgstr "다음 중 선택할 수 있습니다:"
 
 #: ../../content/administration/odoo_sh/getting_started/first_module.rst:232
 msgid ""
@@ -3714,7 +3717,7 @@ msgid ""
 " on demand."
 msgstr ""
 "모듈은 자동으로 설치되지 않으며 앱 메뉴를 통해 직접 설치해야 합니다. 실제로 스테이징 빌드의 목적은 변경 사항이 프로덕션에서 작동하는지"
-" 테스트하는 것이므로, 프로덕션에서 모듈이 자동으로 설치되지 않고 요청에 따라 설치되는 것이 더 바람직할 것입니다."
+" 테스트하는 것이므로, 프로덕션에서 모듈이 자동 설치되지 않고 요청에 따라 설치되는 것이 더 바람직합니다."
 
 #: ../../content/administration/odoo_sh/getting_started/first_module.rst:263
 msgid ""
@@ -3868,7 +3871,7 @@ msgstr "조회"
 msgid ""
 "The platform will detect the change of version and trigger the update of the"
 " module upon the new revision deployment."
-msgstr "플랫폼에서 버전이 변경된 것을 인식하고 새로운 버전을 배포할 때 모듈 업데이트가 진행되도록 합니다."
+msgstr "플랫폼에서 버전이 변경된 것을 인식하고 새로 변경된 내용을 배포할 때 모듈 업데이트가 진행되도록 합니다."
 
 #: ../../content/administration/odoo_sh/getting_started/first_module.rst:375
 msgid "Browse to your Git folder."
@@ -3903,9 +3906,9 @@ msgid ""
 "field will be directly available. Otherwise you can manually update the "
 "module within the apps list."
 msgstr ""
-"변경 사항을 테스트한 후에는 브랜치를 Odoo.sh 인터페이스의 프로덕션 브랜치로 끌어서 놓아 프로덕션 브랜치의 변경 사항을 병합할 수 "
-"있습니다. 매니페스트에서 모듈 버전을 늘리면 플랫폼이 자동으로 모듈 업데이트를 하여 새 필드를 직접 사용할 수 있습니다. 그렇지 않으면 "
-"앱 목록 내에서 모듈을 수동으로 업데이트할 수 있습니다."
+"변경 사항에 대한 테스트가 완료되면, Odoo.sh 인터페이스에 있는 프로덕션 브랜치에서 끌어다 놓는 방법으로 프로덕션 브랜치의 변경 "
+"사항을 병합할 수 있습니다. 매니페스트에서 모듈 버전을 늘리면 플랫폼에서 자동으로 모듈 업데이트가 진행되어 새로운 필드를 즉시 사용할 수"
+" 있습니다. 또는 앱 목록에서 모듈을 수동으로 업데이트하는 것도 가능합니다.."
 
 #: ../../content/administration/odoo_sh/getting_started/first_module.rst:426
 msgid "Use an external Python library"
@@ -4182,7 +4185,7 @@ msgstr ""
 
 #: ../../content/administration/odoo_sh/getting_started/online-editor.rst:116
 msgid "HEAD is the reference to the latest revision you committed,"
-msgstr "HEAD는 커밋한 최신 개정 버전의 참조입니다."
+msgstr "HEAD는 커밋한 최신 변경 버전의 참조 항목입니다."
 
 #: ../../content/administration/odoo_sh/getting_started/online-editor.rst:117
 msgid ""
@@ -4222,8 +4225,8 @@ msgid ""
 "rather than branches. In other words, this means you can have multiple "
 "builds on the same branch, but on different revisions."
 msgstr ""
-"Git 소스 폴더 *~/src/user* 는 브랜치가 아니라 분리된 리비전에서 체크아웃됩니다. 이는 빌드가 브랜치가 아닌 특정 리비전에서"
-" 작동하기 때문입니다. 즉, 여러 개의 빌드가 동일한 브랜치에 있으나 서로 다른 리비전에 있을 수 있다는 의미입니다."
+"Git 소스 폴더 *~/src/user* 는 브랜치가 아닌 별도의 변경 항목에서 체크아웃됩니다. 이는 브랜치가 아닌 특정 변경 항목에서 "
+"빌드가 작동하기 때문입니다. 즉, 동일한 브랜치에서 여러 개의 빌드를 서로 다른 버전으로 만들 수 있다는 의미입니다."
 
 #: ../../content/administration/odoo_sh/getting_started/online-editor.rst:141
 msgid ""
@@ -4234,8 +4237,8 @@ msgid ""
 " in an editor of a build using the latest revision of your branch."
 msgstr ""
 "변경 사항이 푸시되면 :ref:`브랜치 푸시 동작 <odoosh-gettingstarted-branches-tabs-settings>` "
-"에 따라 새 빌드가 생성될 수 있습니다. 생성된 새 빌드와 동일한 버전이 있는 경우에는 푸시한 편집기에서 계속 작업할 수 있으나 항상 "
-"브랜치는 최신 버전을 사용하는 빌드 편집기내에 있어야 합니다."
+"에 따라 새 빌드가 생성될 수 있습니다. 새로 생성된 빌드와 동일한 버전이 있는 경우에는 푸시한 편집기에서 계속 작업을 할 수 있으나 "
+"브랜치가 항상 최신 버전을 사용하는 빌드 편집기내에 있어야 합니다."
 
 #: ../../content/administration/odoo_sh/getting_started/online-editor.rst:148
 msgid "Consoles"
@@ -4282,9 +4285,9 @@ msgid ""
 "in your database as well. You therefore should use Odoo consoles carefully "
 "on production databases."
 msgstr ""
-"Odoo 콘솔에서는 트랜잭션이 자동으로 커밋됩니다. 이를 통해 예를 들어 레코드의 변경 사항이 데이터베이스에 효과적으로 적용된다는 것을 "
-"알 수 있습니다. 사용자 이름을 변경하면 데이터베이스에서도 사용자 이름이 변경됩니다. 따라서 프로덕션 데이터베이스에서는 Odoo 콘솔을 "
-"주의해서 사용해야 합니다."
+"Odoo 콘솔에서는 트랜잭션이 자동으로 커밋됩니다. 예를 들어 레코드 변경 사항이 데이터베이스에 제대로 적용되었는지 여부를 여기에서 "
+"파악할 수 있습니다. 사용자 이름을 변경하면 데이터베이스에서도 사용자 이름이 변경됩니다. 따라서 프로덕션 데이터베이스에서는 Odoo "
+"콘솔을 사용할 때 각별히 주의해야 합니다."
 
 #: ../../content/administration/odoo_sh/getting_started/online-editor.rst:174
 msgid ""
@@ -4361,8 +4364,8 @@ msgid ""
 "Testers can work with copies of production data but cannot access the "
 "production database through the Odoo.sh tooling."
 msgstr ""
-":guilabel:`테스터`: *스테이징* 및 *개발* 데이터베이스 및 해당 도구에 액세스할 수 있습니다. 이 역할은 사용자 승인 "
-"테스트를 진행하는 사용자에게 부여됩니다. 테스터가 프로덕션 데이터 복사본으로 작업하는 것은 가능하지만 Odoo.sh 도구를 통해서는 "
+":guilabel:`테스터`: *스테이징* 및 *개발* 데이터베이스 및 관련된 도구에 액세스할 수 있습니다. 사용자 승인 테스트를 "
+"진행하는 사용자에게 이 역할을 부여합니다. 테스터는 프로덕션 데이터 복사본을 활용하여 작업을 할 수 있으나 Odoo.sh 도구로는 "
 "프로덕션 데이터베이스에 액세스할 수 없습니다."
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:44
@@ -4373,7 +4376,7 @@ msgid ""
 "Odoo.sh tooling."
 msgstr ""
 ":guilabel:`개발자`: *개발* 데이터베이스 및 관련 도구에만 액세스할 수 있습니다. 이 역할은 코드 수정을 하는 개발자를 위한 "
-"역할이나 Odoo.sh 도구로 프로덕션 및 스테이징 데이터베이스에 액세스를 하는 것은 허용되지 않습니다."
+"역할이지만 Odoo.sh 도구를 통해 프로덕션 및 스테이징 데이터베이스에 액세스하는 것은 허용되지 않습니다."
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:54
 msgid "Developer"
@@ -4439,16 +4442,15 @@ msgstr "관리자"
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:181
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:186
 #: ../../content/administration/supported_versions.rst:35
-#: ../../content/administration/supported_versions.rst:36
-#: ../../content/administration/supported_versions.rst:37
 #: ../../content/administration/supported_versions.rst:41
-#: ../../content/administration/supported_versions.rst:47
-#: ../../content/administration/supported_versions.rst:53
-#: ../../content/administration/supported_versions.rst:54
-#: ../../content/administration/supported_versions.rst:55
+#: ../../content/administration/supported_versions.rst:42
+#: ../../content/administration/supported_versions.rst:43
 #: ../../content/administration/supported_versions.rst:59
 #: ../../content/administration/supported_versions.rst:60
 #: ../../content/administration/supported_versions.rst:61
+#: ../../content/administration/supported_versions.rst:65
+#: ../../content/administration/supported_versions.rst:66
+#: ../../content/administration/supported_versions.rst:67
 msgid "|green|"
 msgstr "|green|"
 
@@ -4534,7 +4536,7 @@ msgstr ""
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:232
 msgid "The commit statuses pushed to GitHub can have the following contexts:"
-msgstr ""
+msgstr "GitHub에 푸시된 커밋 상태의 컨텍스트는 다음과 같습니다."
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:234
 msgid ":guilabel:`ci/odoo.sh (dev)`: status of a development build"
@@ -4589,8 +4591,8 @@ msgid ""
 "for Odoo.sh, so the remote Git server allows our platform to download the "
 "revisions of this private repository."
 msgstr ""
-"비공개 저장소의 경우에는 해당 브랜치 및 개정판을 다운로드를 공개하지 않습니다. 따라서 원격 Git 서버를 통해 플랫폼이 비공개 저장소 "
-"개정판을 다운로드할 수 있도록 Odoo.sh에 대한 배포 키를 설정해야 합니다."
+"비공개 저장소의 경우에는 브랜치 및 변경 버전 다운로드를 일반에 허용하지 않습니다. 따라서 Odoo.sh에 대한 배포 키를 설정해야 원격"
+" Git 서버를 통해 플랫폼에서 비공개 저장소 개정판을 다운로드할 수 있습니다."
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:267
 msgid ""
@@ -4783,9 +4785,9 @@ msgid ""
 " by checking the neutralize box when prompted, which executes all "
 ":file:`neutralize.sql` scripts for every installed module."
 msgstr ""
-"서버의 데이터베이스 관리자 (`<odoo-server>/web/database/manager`)에 액세스하여 데이터베이스를 복사합니다. "
-"일반적으로 프로덕션 데이터베이스를 중립화된 테스트 데이터베이스에 복사하게 됩니다. 메시지가 표시되면 중립화 상자를 선택하면 되고, 설치된"
-" 모든 모듈에 대해 모든 :file:`neutralize.sql` 스크립트가 실행됩니다."
+"서버의 데이터베이스 관리자 (`<odoo-server>/web/database/manager`)로 액세스하여 데이터베이스를 복사합니다. "
+"일반적으로 프로덕션 데이터베이스를 중립화된 테스트 데이터베이스에 복제하는 작업을 진행합니다. 복제하려면 메시지가 표시된 후 중립화 상자를"
+" 선택하고, 모든 설치 모듈에 대해 모든 :file:`neutralize.sql` 스크립트가 실행됩니다."
 
 #: ../../content/administration/on_premise.rst:27
 msgid "Common error messages and solutions"
@@ -5111,7 +5113,7 @@ msgid ""
 "the internet."
 msgstr ""
 "이 문서에서는 프로덕션 또는 인터넷 연결 서버에서 Odoo를 설정하는 기본 단계에 대해 설명합니다. :doc:`설치 "
-"<../on_premise>` 대로 진행하며, 일반적으로 인터넷에 노출되지 않는 개발 시스템에서는 필요하지 않습니다."
+"<../on_premise>` 단계에 따라 진행하며, 인터넷에 노출되지 않는 개발 시스템에서는 일반적으로 필요하지 않습니다."
 
 #: ../../content/administration/on_premise/deploy.rst:10
 msgid ""
@@ -5174,8 +5176,8 @@ msgid ""
 "``website`` is used, dbfilter **must** be set, otherwise a number of "
 "features will not work correctly."
 msgstr ""
-"프로덕션 중에 서버에서 여러 데이터베이스를 호스팅하는 경우, 특히 '웹사이트'를 사용하는 경우에는 반드시 dbfilter를 **설정해야 "
-"하며, 그렇지 않으면 여러 기능이 제대로 작동하지 않습니다."
+"프로덕션 중에 서버에서 여러 데이터베이스를 호스팅하는 경우, 특히 '웹사이트' 를 사용하는 경우에는 **반드시** dbfilter를 "
+"설정해야 하며, 그렇지 않으면 여러 가지 기능이 제대로 작동하지 않습니다."
 
 #: ../../content/administration/on_premise/deploy.rst:42
 msgid "Configuration samples"
@@ -5433,10 +5435,11 @@ msgid ""
 "spawned too. A configurable process reaper monitors resource usage and can "
 "kill/restart failed workers."
 msgstr ""
-"**멀티프로세싱** 서버는 주로 프로덕션에 사용되는 전면적인 서버입니다. 이 서버는 리소스 사용에 대한 동일한 파이썬 제한 (GIL)의 "
-"적용을 받지 않으므로 하드웨어를 최대한 활용할 수 있습니다. 서버가 시작되면 작업자 풀이 생성됩니다. 새로운 HTTP 요청은 작업자가 "
-"처리할 준비가 될 때까지 OS에서 대기열에 대기합니다. 라이브 채팅용으로 추가 이벤트 기반 HTTP 작업자가 대체 포트에 스폰됩니다. "
-"추가로 크론 워커도 스폰됩니다. 구성할 수 있는 프로세스 리퍼는 리소스 사용량을 모니터링하고 실패한 워커를 종료/재시작할 수 있습니다."
+"**멀티 프로세싱** 서버는 주로 프로덕션에서 집중적으로 사용되는 서버입니다. 이 서버는 리소스 사용에 있어서 파이썬 제한(GIL)이 "
+"동일하게 적용되지 않으므로 하드웨어를 최대한 활용할 수 있습니다. 서버가 시작되면 작업자 풀이 생성됩니다. 새 HTTP 요청은 작업자가 "
+"처리할 준비가 될 때까지 OS에 있는 대기열에 대기합니다. 실시간 채팅용으로 추가 이벤트 기반의 HTTP 작업자가 대체 포트에 "
+"생성됩니다. 추가로 크론 워커 역시 생성됩니다. 프로세스 리퍼를 설정하여 리소스 사용량을 모니터링하고 작업자가 실패할 경우 종료/재시작할"
+" 수 있습니다."
 
 #: ../../content/administration/on_premise/deploy.rst:201
 msgid ""
@@ -6192,9 +6195,10 @@ msgid ""
 "production, and may even expose dangerous features to attackers. It is also "
 "not designed to handle large databases, and may trigger memory limits."
 msgstr ""
-"인터넷을 사용하는 전체 시스템에서 데이터베이스 관리자 비활성화를 실행할 것을 강력히 권장합니다! 데이터베이스 관리자는 데이터베이스를 쉽게"
-" 생성하고 관리할 수 있는 개발/데모 도구입니다. 프로덕션 환경에서 사용하도록 설계되지 않았으며, 공격자에게 위험한 기능을 노출시킬 수도"
-" 있습니다. 또한 대용량 데이터베이스를 처리하도록 설계되지 않았으며 메모리 제한을 유발할 수 있습니다."
+"시스템에 인터넷이 연결되어 있는 경우에는 전체 시스템에서 데이터베이스 관리자를 비활성화하는 것을 강력 권장합니다! 데이터베이스 관리자는 "
+"일종의 개발/데모 도구로 데이터베이스를 쉽게 생성하고 관리할 수 있도록 제작되었습니다. 프로덕션 환경에서 실행하도록 설계되지 않았으며, "
+"공격받을 경우 위험한 기능이 노출될 수도 있습니다. 또한 대량의 데이터베이스를 처리하도록 설계되지 않은 관계로 메모리에 제한을 받게 될 "
+"수 있습니다.."
 
 #: ../../content/administration/on_premise/deploy.rst:721
 msgid ""
@@ -6967,8 +6971,8 @@ msgid ""
 "a number of limitations and risks associated with deploying Odoo on a "
 "Windows platform."
 msgstr ""
-"Windows 패키지를 제공하여 편리하게 단일 사용자용 로컬 인스턴스를 테스트하거나 실행할 수 있으나, 프로덕션 배포는 권장하지 않으며 "
-"배포할 경우 Windows 플랫폼에서 Odoo를 배포할 경우 여러 가지 관련된 제한 및 리스크가 발생할 수 있습니다."
+"Windows 패키지는 단일 사용자용 로컬 인스턴스를 테스트하거나 실행할 때 편리하게 사용할 수 있으나, 프로덕션 배포는 권장하지 않으며"
+" Windows 플랫폼에서 Odoo를 배포할 경우 여러 가지 관련된 제한 사항 및 리스크가 발생할 수 있습니다."
 
 #: ../../content/administration/on_premise/packages.rst:155
 msgid ""
@@ -7605,9 +7609,9 @@ msgid ""
 "contents of your Odoo database, and can be undone by reinstalling the "
 "previous revision of the source code."
 msgstr ""
-"현재 사용 중인 Odoo 에디션에 대한 소스 코드의 최신 버전을 얻는 프로세스를 의미합니다. 예를 들어, Odoo 엔터프라이즈 13.0을"
-" 최신 버전으로 업데이트하는 것을 뜻합니다. 이 작업때문에 Odoo 데이터베이스 내용이 직접 변경되지는 않으며, 이전 버전의 소스 코드를"
-" 재설치하여 실행 취소할 수 있습니다."
+"현재 사용 중인 Odoo 에디션에 대해 최신 버전으로 소스 코드를 받는 프로세스입니다. 예를 들어, Odoo 엔터프라이즈 13.0을 최신"
+" 버전으로 업데이트하는 것을 의미합니다. 이와 같이 작업하더라도 Odoo 데이터베이스 내용이 직접 변경되지는 않으며, 이전 버전의 소스 "
+"코드를 재설치하면 실행 취소를 할 수 있습니다."
 
 #: ../../content/administration/on_premise/update.rst:35
 msgid "Upgrading (an Odoo database)"
@@ -7831,7 +7835,7 @@ msgstr ""
 msgid ""
 "Alternatively, if you prefer to simply discard the conflicting changes and "
 "restore the official version, you can use the following command::"
-msgstr "또는 변경 사항이 충돌할 경우 간단히 삭제한 후 공식 버전을 복원하려는 경우에는 다음 명령어를 사용할 수 있습니다."
+msgstr "또는 충돌이 발생한 변경 사항을 폐기한 다음 공식 버전으로 복원하려는 경우에는, 다음 명령어를 사용하세요."
 
 #: ../../content/administration/on_premise/update.rst:145
 msgid ""
@@ -7905,123 +7909,137 @@ msgid "End of support"
 msgstr "지원 종료일"
 
 #: ../../content/administration/supported_versions.rst:34
-msgid "**Odoo 18.0**"
-msgstr "**Odoo 18.0**"
+msgid "Odoo SaaS 18.1"
+msgstr "Odoo SaaS 18.1"
 
-#: ../../content/administration/supported_versions.rst:38
-#: ../../content/administration/supported_versions.rst:69
-msgid "October 2024"
-msgstr "2024년 10월"
-
-#: ../../content/administration/supported_versions.rst:39
-msgid "October 2027 (planned)"
-msgstr "2027년 10월 (예정)"
-
-#: ../../content/administration/supported_versions.rst:40
-msgid "Odoo SaaS 17.4"
-msgstr "Odoo SaaS 17.4"
-
-#: ../../content/administration/supported_versions.rst:42
-#: ../../content/administration/supported_versions.rst:43
+#: ../../content/administration/supported_versions.rst:36
+#: ../../content/administration/supported_versions.rst:37
 #: ../../content/administration/supported_versions.rst:48
 #: ../../content/administration/supported_versions.rst:49
+#: ../../content/administration/supported_versions.rst:54
+#: ../../content/administration/supported_versions.rst:55
 msgid "N/A"
 msgstr "N/A"
 
+#: ../../content/administration/supported_versions.rst:38
+msgid "January 2025"
+msgstr "2025년 1월"
+
+#: ../../content/administration/supported_versions.rst:40
+msgid "**Odoo 18.0**"
+msgstr "**Odoo 18.0**"
+
 #: ../../content/administration/supported_versions.rst:44
-msgid "July 2024"
-msgstr "2024년 7월"
+#: ../../content/administration/supported_versions.rst:51
+#: ../../content/administration/supported_versions.rst:57
+#: ../../content/administration/supported_versions.rst:75
+msgid "October 2024"
+msgstr "2024년 10월"
+
+#: ../../content/administration/supported_versions.rst:45
+msgid "October 2027 (planned)"
+msgstr "2027년 10월 (예정)"
 
 #: ../../content/administration/supported_versions.rst:46
-msgid "Odoo SaaS 17.2"
-msgstr "Odoo SaaS 17.2"
+msgid "Odoo SaaS 17.4"
+msgstr "Odoo SaaS 17.4"
 
-#: ../../content/administration/supported_versions.rst:50
-msgid "April 2024"
-msgstr "2024년 4월"
-
-#: ../../content/administration/supported_versions.rst:52
-msgid "**Odoo 17.0**"
-msgstr "**Odoo 17.0**"
-
-#: ../../content/administration/supported_versions.rst:56
-#: ../../content/administration/supported_versions.rst:75
-msgid "November 2023"
-msgstr "2023년 11월"
-
-#: ../../content/administration/supported_versions.rst:57
-msgid "October 2026 (planned)"
-msgstr "2026년 10월 (예정)"
-
-#: ../../content/administration/supported_versions.rst:58
-msgid "**Odoo 16.0**"
-msgstr "**Odoo 16.0**"
-
-#: ../../content/administration/supported_versions.rst:62
-msgid "October 2022"
-msgstr "2022년 10월"
-
-#: ../../content/administration/supported_versions.rst:63
-msgid "October 2025 (planned)"
-msgstr "2025년 10월 (예정)"
-
-#: ../../content/administration/supported_versions.rst:64
-msgid "**Odoo 15.0**"
-msgstr "**Odoo 15.0**"
-
-#: ../../content/administration/supported_versions.rst:65
-#: ../../content/administration/supported_versions.rst:66
-#: ../../content/administration/supported_versions.rst:67
+#: ../../content/administration/supported_versions.rst:47
+#: ../../content/administration/supported_versions.rst:53
 #: ../../content/administration/supported_versions.rst:71
 #: ../../content/administration/supported_versions.rst:72
 #: ../../content/administration/supported_versions.rst:73
 #: ../../content/administration/supported_versions.rst:77
 #: ../../content/administration/supported_versions.rst:78
 #: ../../content/administration/supported_versions.rst:79
+#: ../../content/administration/supported_versions.rst:83
+#: ../../content/administration/supported_versions.rst:84
+#: ../../content/administration/supported_versions.rst:85
 msgid "|red|"
 msgstr "|red|"
 
+#: ../../content/administration/supported_versions.rst:50
+msgid "July 2024"
+msgstr "2024년 7월"
+
+#: ../../content/administration/supported_versions.rst:52
+msgid "Odoo SaaS 17.2"
+msgstr "Odoo SaaS 17.2"
+
+#: ../../content/administration/supported_versions.rst:56
+msgid "April 2024"
+msgstr "2024년 4월"
+
+#: ../../content/administration/supported_versions.rst:58
+msgid "**Odoo 17.0**"
+msgstr "**Odoo 17.0**"
+
+#: ../../content/administration/supported_versions.rst:62
+#: ../../content/administration/supported_versions.rst:81
+msgid "November 2023"
+msgstr "2023년 11월"
+
+#: ../../content/administration/supported_versions.rst:63
+msgid "October 2026 (planned)"
+msgstr "2026년 10월 (예정)"
+
+#: ../../content/administration/supported_versions.rst:64
+msgid "**Odoo 16.0**"
+msgstr "**Odoo 16.0**"
+
 #: ../../content/administration/supported_versions.rst:68
+msgid "October 2022"
+msgstr "2022년 10월"
+
+#: ../../content/administration/supported_versions.rst:69
+msgid "October 2025 (planned)"
+msgstr "2025년 10월 (예정)"
+
+#: ../../content/administration/supported_versions.rst:70
+msgid "**Odoo 15.0**"
+msgstr "**Odoo 15.0**"
+
+#: ../../content/administration/supported_versions.rst:74
 msgid "October 2021"
 msgstr "2021년 10월"
 
-#: ../../content/administration/supported_versions.rst:70
+#: ../../content/administration/supported_versions.rst:76
 msgid "**Odoo 14.0**"
 msgstr "**Odoo 14.0**"
 
-#: ../../content/administration/supported_versions.rst:74
+#: ../../content/administration/supported_versions.rst:80
 msgid "October 2020"
 msgstr "2020년 10월"
 
-#: ../../content/administration/supported_versions.rst:76
+#: ../../content/administration/supported_versions.rst:82
 msgid "Older versions"
 msgstr "구 버전"
 
-#: ../../content/administration/supported_versions.rst:80
+#: ../../content/administration/supported_versions.rst:86
 msgid "Before 2020"
 msgstr "2020년 이전"
 
-#: ../../content/administration/supported_versions.rst:81
+#: ../../content/administration/supported_versions.rst:87
 msgid "Before 2023"
 msgstr "2023년 이전"
 
-#: ../../content/administration/supported_versions.rst:83
+#: ../../content/administration/supported_versions.rst:89
 msgid "Legend"
 msgstr "구분"
 
-#: ../../content/administration/supported_versions.rst:85
+#: ../../content/administration/supported_versions.rst:91
 msgid "|green| Supported version"
 msgstr "|green| 지원되는 버전"
 
-#: ../../content/administration/supported_versions.rst:87
+#: ../../content/administration/supported_versions.rst:93
 msgid "|red| End-of-support"
 msgstr "|red| 지원 종료"
 
-#: ../../content/administration/supported_versions.rst:89
+#: ../../content/administration/supported_versions.rst:95
 msgid "N/A Never released for this platform"
 msgstr "N/A 해당 플랫폼 미출시"
 
-#: ../../content/administration/supported_versions.rst:92
+#: ../../content/administration/supported_versions.rst:98
 msgid ""
 "Even though we don't support older versions, you can always `upgrade from "
 "any version <https://upgrade.odoo.com/>`_."
@@ -8332,7 +8350,7 @@ msgstr "Odoo.sh 프로젝트 및 탭"
 msgid ""
 "The **latest production daily automatic backup** is then sent to the Upgrade"
 " platform."
-msgstr "**최신 프로덕션 일일 자동 백업** 이 그런 다음 업그레이드 플랫폼으로 전송됩니다."
+msgstr "그런 다음 **최신 프로덕션 일일 자동 백업** 이 업그레이드 플랫폼으로 전송됩니다."
 
 #: ../../content/administration/upgrade.rst:148
 msgid ""
@@ -8473,9 +8491,9 @@ msgid ""
 "etc.). This is the folder that should be merged with the production "
 "filestore in order to get the full upgraded filestore."
 msgstr ""
-"`파일 저장소' 폴더에는 데이터베이스 내부 레코드에서 첨부 파일로 추출된 파일 (있는 경우)과 대상 Odoo 버전의 새로운 표준 Odoo"
-" 파일 (예: 새 이미지, 아이콘, 결제대행업체 로고 등)을 보관합니다. 파일 저장소를 완전히 업그레이드하려면 프로덕션 파일 저장소와 "
-"폴더를 병합해야 합니다."
+"`filestore' 폴더에는 데이터베이스 내 레코드에서 첨부 파일로 추출된 파일 (있는 경우) 및 대상으로 하는 Odoo 버전의 새로운"
+" Odoo 표준 파일 (예: 새 이미지, 아이콘, 결제대행업체 로고 등)을 보관되어 있습니다. 프로덕션 파일스토어와 병합해야 파일스토어를"
+" 완전히 업그레이드할 수 있습니다."
 
 #: ../../content/administration/upgrade.rst:218
 msgid ""
@@ -8608,7 +8626,7 @@ msgstr "이 제품 (재고 관리 앱)을 수신 확인 중입니다."
 msgid ""
 "Checking if the route to receive this product is the same in your production"
 " database (Inventory app)."
-msgstr "이 제품을 수신하는 경로가 프로덕션 데이터베이스 (재고 관리 앱)와 동일한지 확인 중입니다."
+msgstr "이 제품을 수신하는 경로가 프로덕션 데이터베이스(재고 관리 앱)와 동일한지 확인 중입니다."
 
 #: ../../content/administration/upgrade.rst:271
 msgid "Selling this product (Sales app) to a random customer."
@@ -8674,10 +8692,9 @@ msgid ""
 "to report any problem encountered during the testing to fix it before "
 "upgrading your production database."
 msgstr ""
-"업그레이드된 테스트 데이터베이스를 테스트하는 동안 문제가 발생하면 `지원 페이지에서 \"향후 업그레이드와 관련된 문제 (업그레이드를 "
-"테스트하고 있습니다)\" <https://www.odoo.com/help?stage=migration>`_ 를 선택하여 Odoo에 지원 "
-"요청을 할 수 있습니다. 어떤 경우든 프로덕션 데이터베이스를 업그레이드하기 전에 테스트를 하는 동안 발생한 문제를 보고하여 해결하는 것이"
-" 중요합니다."
+"업그레이드 버전으로 테스트 데이터베이스를 테스트하는 동안 문제가 발생할 경우, `고객 지원 페이지에서 \"향후 업그레이드와 관련된 문제 "
+"(업그레이드 테스트 중)\" 선택 <https://www.odoo.com/help?stage=migration>`_ 하여 Odoo로 지원"
+" 요청을 할 수 있습니다. 언제든 테스트 중 발생한 문제를 보고하여 프로덕션 데이터베이스를 업그레이드하기 전에 해결할 수 있도록 하세요."
 
 #: ../../content/administration/upgrade.rst:293
 msgid ""
@@ -8749,9 +8766,9 @@ msgid ""
 "takes a long time to finish. **Fully rehearsing the upgrade process the day "
 "before upgrading the production database is also recommended.**"
 msgstr ""
-"표준 업그레이드 스크립트 및 데이터베이스가 계속하여 발전하고 있으므로 업그레이드 프로세스가 성공적으로 완료될 수 있도록, 특히 완료하는 "
-"데 시간이 오래 걸리는 경우에는 업그레이드된 테스트 데이터베이스를 자주 요청하는 것이 좋습니다. **프로덕션 데이터베이스를 업그레이드하기"
-" 전날 업그레이드 프로세스를 충분히 테스트해보는 것도 좋습니다.**"
+"표준 업그레이드 스크립트와 데이터베이스는 지속적으로 발전하고 있으므로, 업그레이드 프로세스가 성공적으로 완료될 수 있도록 업그레이드 "
+"버전의 테스트 데이터베이스를 자주 요청하는 것을 권장하며 특히 완료할 때까지 시간이 오래 걸리는 경우는 더욱 그렇습니다. **프로덕션 "
+"데이터베이스 업그레이드 실행 전날에 업그레이드 프로세스를 충분히 테스트해보는 것 역시 권장 사항입니다.**"
 
 #: ../../content/administration/upgrade.rst:326
 msgid "Going into production without first testing may lead to:"
@@ -8836,9 +8853,9 @@ msgid ""
 "how to upgrade your custom modules can be found on "
 ":doc:`/developer/howtos/upgrade_custom_db`."
 msgstr ""
-"전체 업그레이드 프로세스를 완료하려면 커스텀 모듈의 업데이트가 성공해야 합니다. 프로덕션 환경에서 시도하기 전에 스테이지 업그레이드의 "
-"상태가 :guilabel:`성공`인지 확인하세요. 사용자 정의 모델을 업그레이드하는 자세한 방법은 "
-":doc:`/developer/howtos/upgrade_custom_db`에서 확인하실 수 있습니다."
+"전체 업그레이드 프로세스를 완료하려면 반드시 사용자 지정 모듈이 성공적으로 업데이트되어야 합니다. 프로덕션 환경에서 실행하기 전에 "
+"스테이징 업그레이드의 상태가 :guilabel:`성공` 으로 되어 있는지 확인하세요. 사용자 지정 모델을 업그레이드하는 방법은 "
+":doc:`/developer/howtos/upgrade_custom_db` 에서 자세히 확인할 수 있습니다."
 
 #: ../../content/administration/upgrade.rst:373
 msgid ""
@@ -8894,8 +8911,8 @@ msgid ""
 "Odoo is **free**, including any support required to rectify potential "
 "discrepancies in the upgraded database."
 msgstr ""
-"Odoo 엔터프라이즈를 사용하면 Odoo 데이터베이스를 최신 버전으로 **무료** 이며, 업그레이드 데이터베이스에서 가능한 모든 불일치 "
-"사항을 수정하도록 지원하는 것까지 포함됩니다."
+"Odoo 엔터프라이즈를 사용할 경우 Odoo 데이터베이스를 최신 버전으로 **무료** 업그레이드를 할 수 있으며, 업그레이드 "
+"데이터베이스에서 불일치 사항이 발생할 경우 언제든 수정할 수 있도록 지원합니다."
 
 #: ../../content/administration/upgrade.rst:404
 msgid ""

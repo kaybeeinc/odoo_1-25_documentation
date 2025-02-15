@@ -43,7 +43,7 @@ Before closing a fiscal year, ensure first everything is accurate and up-to-date
 - Validate all :doc:`expenses <../../expenses>`, ensuring their accuracy.
 - Corroborate that all :doc:`received payments <../payments>` have been encoded and recorded
   accurately.
-- Close all :ref:`suspense accounts <bank_accounts/suspense>`.
+- Close all :ref:`suspense accounts <accounting/bank/suspense>`.
 - Book all :doc:`depreciation <../vendor_bills/assets>` and :doc:`deferred revenue
   <../customer_invoices/deferred_revenues>` entries.
 
@@ -62,7 +62,7 @@ Then, to close the fiscal year:
     <accounting/reporting/aged-payable>` reports.
   - Audit all accounts, being sure to fully understand all transactions and their nature, making
     sure to include loans and fixed assets.
-  - Optionally, run :ref:`payments matching <accounting/payments/matching>` to validate any open
+  - Optionally, :ref:`match payments <accounting/payments/auto-reconcile-tool>` to validate any open
     vendor bills and customer invoices with their payments. While this step is optional, it could
     assist the year-end closing process if all outstanding payments and invoices are reconciled,
     potentially finding errors or mistakes in the system.

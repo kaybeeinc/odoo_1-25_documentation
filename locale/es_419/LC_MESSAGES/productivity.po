@@ -625,9 +625,9 @@ msgid ""
 "the **Settings** app. To change the timezone, select the desired option from"
 " the drop-down menu."
 msgstr ""
-":guilabel:`Zona horaria`: por defecto, será la zona horaria de la empresa "
-"que se haya seleccionado en la aplicación **Ajustes**. Para cambiarla, "
-"seleccione la opción deseada del menú desplegable."
+":guilabel:`Zona horaria`: De forma predeterminada, es la zona horaria de la "
+"empresa que se haya seleccionado en la aplicación **Ajustes**. Para "
+"cambiarla, seleccione la opción deseada del menú desplegable."
 
 #: ../../content/applications/productivity/calendar.rst:228
 msgid ""
@@ -3351,11 +3351,11 @@ msgid ""
 "with an `@` mention (from the chatter of a record), or a notification is "
 "sent for a record the user follows."
 msgstr ""
-"Por defecto, el campo :guilabel:`Notificación` está configurado como "
-":guilabel:`Manejar por correo electrónico`. Con este ajuste, Odoo envía un "
-"correo de notificación cada vez que un mensaje se envíe al chatter de un "
-"registro, se envía una nota con una mención `@` (en el chatter del "
-"registro), o una notificación se envía para un registro que el usuario siga."
+"El campo :guilabel:`Notificación` está configurado con :guilabel:`Gestionar "
+"por correo electrónico` de forma predeterminada. Odoo envía un correo de "
+"notificación cada vez que reciba un mensaje en el chatter de un registro, "
+"una nota con una mención `@` (en el chatter del registro) o una notificación"
+" en el registro que el usuario sigue."
 
 #: ../../content/applications/productivity/discuss.rst:149
 msgid ""
@@ -3585,9 +3585,9 @@ msgid ""
 "creates them. To make a canned response available for others to use, they "
 "need to be shared."
 msgstr ""
-"Las respuestas predefinidas, por defecto, estarán disponibles **solo** para "
-"el usuario que las cree. Para que las respuestas predefinidas estén "
-"disponibles para otros usuarios, primero deben compartirse."
+"De forma predeterminada, las respuestas predefinidas **solo** estarán "
+"disponibles para el usuario que las cree. Para que otros usuarios puedan "
+"usar estas respuestas, primero deben compartirse."
 
 #: ../../content/applications/productivity/discuss/canned_responses.rst:80
 msgid ""
@@ -5721,15 +5721,15 @@ msgid ""
 "one site, select the :guilabel:`Website` you want so the right domain name "
 "is reflected in the URL."
 msgstr ""
-"En la ventana emergente, puede :guilabel:`nombrar` el enlace para compartir,"
-" configurar una fecha de validez en el campo :guilabel:`válido hasta`. Si "
-"tiene más de un sitio web, seleccione el :guilabel:`sitio web` que desea "
-"para que el nombre de dominio correcto se vea en el URL."
+"En la ventana emergente puede :guilabel:`nombrar` el enlace para compartir y"
+" configurar una fecha de validez en el campo :guilabel:`Válido hasta`. Si "
+"tiene más de un :guilabel:`sitio web`, seleccione el que desea para que el "
+"nombre de dominio correcto se refleje en la URL."
 
 #: ../../content/applications/productivity/documents.rst:226
 msgid "Click :guilabel:`Copy Link & Close` to copy the URL to your clipboard."
 msgstr ""
-"Haga clic en :guilabel:`Copiar enlace y cerrar` para copiar el URL a su "
+"Haga clic en :guilabel:`Copiar enlace y cerrar` para copiar la URL a su "
 "portapapeles."
 
 #: ../../content/applications/productivity/documents.rst:229
@@ -5845,10 +5845,10 @@ msgid ""
 "to a workspace, but you can select another user. You can also set a "
 ":guilabel:`Contact`, usually an external person, such as a partner."
 msgstr ""
-"Por defecto, el :guilabel:`dueño del documento` es la persona que sube el "
-"archivo al espacio de trabajo, pero puede seleccionar a otro usuario si lo "
-"desea. También puede configurar un :guilabel:`Contacto`, normalmente un "
-"tercero, como un cliente."
+"El :guilabel:`propietario del documento` es la persona que sube el archivo "
+"al espacio de trabajo de forma predeterminada, pero puede seleccionar a otro"
+" usuario. También puede configurar un :guilabel:`contacto`, que por lo "
+"general es una persona externa."
 
 #: ../../content/applications/productivity/documents.rst:273
 msgid ""
@@ -6445,7 +6445,7 @@ msgstr "Buscar en la base de datos de **Unsplash**."
 
 #: ../../content/applications/productivity/knowledge/articles_editing.rst:72
 msgid "Enter a picture's **URL**."
-msgstr "Agregar el **URL** de una imagen."
+msgstr "Agregar la **URL** de una imagen."
 
 #: ../../content/applications/productivity/knowledge/articles_editing.rst:73
 msgid "**Upload** an image from a computer."
@@ -19483,7 +19483,7 @@ msgstr ":guilabel:`Reporte`: obtenga un reporte sobre la cola."
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:137
 msgid ":guilabel:`Delete`: delete the queue."
-msgstr ":guilabel:`Borrar`: borrar la cola."
+msgstr ":guilabel:`Eliminar`: Elimina la cola."
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:138
 msgid ":guilabel:`Edit`: make changes to the settings of the queue."

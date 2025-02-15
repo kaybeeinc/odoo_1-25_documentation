@@ -81,6 +81,8 @@ Peruvian localization.
    - `App Tour - Localización de Peru <https://youtu.be/Ic3mGovkf8Y>`_
    - `Smart Tutorial - Localización de Peru (videos for workflows and configurations)
      <https://www.odoo.com/slides/smart-tutorial-localizacion-de-peru-133>`_
+   - :doc:`Documentation on e-invoicing's legality and compliance in Peru
+     <../accounting/customer_invoices/electronic_invoicing/peru>`
 
 Configuration
 =============
@@ -921,7 +923,7 @@ Configuration
 After configuring the Peruvian :ref:`electronic invoicing <peru-accounting-settings>` flow, complete
 the following configurations for the **eCommerce** flow:
 
-- :ref:`Client account registration <checkout-sign>`;
+- :ref:`Client account registration <ecommerce/checkout/policy>`;
 - :ref:`Automatic invoice <handling/legal>`;
 - :doc:`../../websites/ecommerce/products`: Set the :guilabel:`Invoicing Policy` to
   :guilabel:`Ordered quantities` and define the desired :guilabel:`Customer taxes`.

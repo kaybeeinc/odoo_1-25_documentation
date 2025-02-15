@@ -8,17 +8,17 @@
 # Tâm Doãn Bắc, 2024
 # Võ Văn Khoa, 2024
 # Martin Trigaux, 2024
-# Thi Huong Nguyen, 2024
 # Wil Odoo, 2025
+# Thi Huong Nguyen, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-31 16:01+0000\n"
+"POT-Creation-Date: 2025-01-28 12:25+0000\n"
 "PO-Revision-Date: 2024-10-08 06:34+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Thi Huong Nguyen, 2025\n"
 "Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -95,7 +95,7 @@ msgstr ""
 
 #: ../../content/applications/websites/blog.rst:39
 msgid "Using tags"
-msgstr ""
+msgstr "Sử dụng thẻ"
 
 #: ../../content/applications/websites/blog.rst:41
 msgid ""
@@ -337,7 +337,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/checkout_payment_shipping.rst:5
-msgid "Checkout, payment, and shipping"
+msgid "Checkout, payment, and delivery"
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:3
@@ -821,16 +821,16 @@ msgid "Enter gift card code to process checkout"
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:3
-msgid "Shipping"
-msgstr "Vận chuyển"
+msgid "Delivery"
+msgstr "Giao hàng"
 
 #: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:5
 msgid ""
-"Odoo eCommerce allows you to configure various shipping methods, enabling "
-"customers to choose their preferred option at checkout. These methods "
-"include :ref:`external providers <ecommerce/shipping/external-provider>`, "
-":ref:`custom options <ecommerce/shipping/custom-method>` such as flat-rate "
-"or free shipping, local carriers via :doc:`Sendcloud "
+"Odoo eCommerce allows you to configure various delivery methods, enabling "
+"customers to choose their preferred option at :doc:`checkout <checkout>`. "
+"These methods include :ref:`external providers <ecommerce/shipping/external-"
+"provider>`, :ref:`custom options <ecommerce/shipping/custom-method>` such as"
+" flat-rate or free shipping, local carriers via :doc:`Sendcloud "
 "<../../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/sendcloud_shipping>`"
 " or :ref:`Based on Rules <inventory/shipping/rules>`, and :ref:`in-store "
 "pickup <ecommerce/shipping/instore-pickup>`."
@@ -859,15 +859,15 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:27
 msgid ""
-"To enable a third-party shipping provider, go to :menuselection:`Website -->"
-" Configuration --> Settings`, scroll to the :guilabel:`Shipping` section, "
-"select the desired shipping provider(s), and :guilabel:`Save`."
+"To enable a third-party delivery provider, go to :menuselection:`Website -->"
+" Configuration --> Settings`, scroll to the :guilabel:`Delivery` section, "
+"select the desired delivery provider(s), and :guilabel:`Save`."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:31
 msgid ""
-"Go to :menuselection:`Website --> Configuration --> Shipping Methods` and "
-"select the shipping method in the list to :ref:`configure it "
+"Go to :menuselection:`Website --> Configuration --> Delivery Methods` and "
+"select the delivery method in the list to :ref:`configure it "
 "<inventory/shipping_receiving/configure-delivery-method>`."
 msgstr ""
 
@@ -880,10 +880,10 @@ msgstr ""
 #: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:39
 msgid ""
 "The field used to define additional fees **must** be filled **in your third-"
-"party shipping provider account**, even if you do not plan to charge "
+"party delivery provider account**, even if you do not plan to charge "
 "customers any additional fee. If you do not want to apply a fee, enter `0`. "
 "If the field is left empty, the delivery price cannot be calculated, and an "
-"error message prompts the customer to select an alternative shipping method."
+"error message prompts the customer to select an alternative delivery method."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:45
@@ -916,16 +916,16 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:65
-msgid "Custom shipping method"
+msgid "Custom delivery method"
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:67
-msgid "Custom shipping methods must be created, for example:"
+msgid "Custom delivery methods must be created, for example:"
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:69
 msgid ""
-"to integrate shipping carriers through :doc:`Sendcloud "
+"to integrate delivery carriers through :doc:`Sendcloud "
 "<../../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/sendcloud_shipping>`;"
 msgstr ""
 
@@ -943,8 +943,8 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:76
 msgid ""
-"To create a custom shipping method, go to :menuselection:`Website --> "
-"Configuration --> Shipping Methods`, click :guilabel:`New` and fill in the "
+"To create a custom delivery method, go to :menuselection:`Website --> "
+"Configuration --> Delivery Methods`, click :guilabel:`New`, and fill in the "
 ":ref:`fields <inventory/shipping_receiving/shipping-methods-details>`."
 msgstr ""
 
@@ -952,65 +952,117 @@ msgstr ""
 msgid ""
 "In the :guilabel:`Provider` field, select :ref:`Based on Rules "
 "<inventory/shipping/rules>`, :ref:`Fixed Price <inventory/shipping/fixed>`, "
-"or :ref:`Pickup in store <inventory/shipping/pickup>` if the shiping method "
-"does not involve any specific provider."
+"or :ref:`Pickup in store <inventory/shipping/pickup>` if the shipping method"
+" does not involve any specific provider."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:85
 msgid ""
 "Upon :ref:`configuring <inventory/shipping_receiving/configure-delivery-"
-"method>` a shipping method, you can:"
+"method>` a delivery method, you can:"
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:88
 msgid ""
-"restrict it :doc:`to a specific website "
-"<../../website/configuration/multi_website>` by selecting it in "
+"Restrict it :doc:`to a specific website "
+"<../../website/configuration/multi_website>` by selecting it in the "
 ":guilabel:`Website` field;"
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:90
 msgid ""
-"use the :guilabel:`Destination availability` tab to filter the delivery "
-"carriers displayed based on the customer's area;"
+"Click the :guilabel:`Test Environment` smart button to switch to the "
+":guilabel:`Production Environment`. Then, click :guilabel:`Unpublished` to "
+":guilabel:`Publish` the delivery method and make it available to website "
+"visitors;"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:92
+#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:93
 msgid ""
-"click the :guilabel:`Test Environment` smart button to switch to the "
-":guilabel:`Production Environment`, then click :guilabel:`Unpublished` to "
-":guilabel:`Publish` the shipping method and make it available to website "
-"visitors."
+"Use the :guilabel:`Availability` tab to define :ref:`conditions "
+"<inventory/shipping_receiving/availability>` for the delivery method based "
+"on the order’s content or destination."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:99
-msgid "In-store pickup"
-msgstr ""
+#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:100
+msgid "Click & Collect"
+msgstr "Đặt & Nhận hàng"
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:101
+#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:102
 msgid ""
-"To allow customers to reserve products online and pay for/collect them in "
-"person at the store, go to :menuselection:`Website --> Configuration --> "
-"Settings`, scroll to the :guilabel:`Shipping` section, enable :guilabel:`On "
-"Site Payments & Picking`, and :guilabel:`Save`."
+"To allow customers to reserve products online and pay for/collect them in-"
+"store, follow these steps:"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:104
+#: ../../content/applications/websites/ecommerce/products.rst:252
+#: ../../content/applications/websites/website/configuration/multi_website.rst:26
+#: ../../content/applications/websites/website/configuration/multi_website.rst:136
+msgid "Go to :menuselection:`Website --> Configuration --> Settings`."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:105
 msgid ""
-"Then, click :guilabel:`Customize Pickup Sites`, select the shipping method "
-"or click :guilabel:`New` to create a new one and :ref:`configure "
-"<inventory/shipping_receiving/configure-delivery-method>` the fields. Make "
-"sure the :guilabel:`Provider` field is set to :guilabel:`Pickup in store`."
+"Scroll to the :guilabel:`Delivery` section, enable :guilabel:`Click & "
+"Collect`, and :guilabel:`Save`."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:107
+msgid ""
+"Click :icon:`fa-arrow-right` :guilabel:`Configure Pickup Locations` to "
+":ref:`configure <inventory/shipping_receiving/configure-delivery-method>` "
+"the delivery method and ensure the :guilabel:`Provider` field is set to "
+":guilabel:`Pick up in store`."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:110
+msgid ""
+"In the :guilabel:`Stores` tab, click :guilabel:`Add a line` and select the "
+"warehouse(s) where customers can collect their orders."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:112
+msgid ""
+"Once your setup is complete, click the :guilabel:`Unpublish` button to "
+"change the status to :guilabel:`Publish` and make the delivery method "
+"available to customers."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:116
+msgid ""
+"When the product is in stock, a location selector is displayed on the "
+":doc:`product <../products>` and :doc:`checkout <checkout>` pages. Customers"
+" cannot select a pickup location if the product is out of stock at that "
+"location. The :ref:`Continue selling <ecommerce/products/stock-management>` "
+"option for out-of-stock products is not supported."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:120
+msgid ""
+"If the :ref:`Show Available Qty <ecommerce/products/stock-management>` "
+"option is enabled for a product, customers can view the stock quantity "
+"available for each warehouse in the location selector on the product page."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:123
+msgid ""
+"Each warehouse must have a **complete address** to ensure its location is "
+"accurately displayed to customers. Incomplete addresses prevent the "
+"warehouse from being shown."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:125
+msgid "The Click & Collect option is not available for services."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/ecommerce_management.rst:5
 msgid "eCommerce management"
-msgstr ""
+msgstr "Quản lý Thương mại điện tử"
 
 #: ../../content/applications/websites/ecommerce/ecommerce_management/customer_accounts.rst:3
 #: ../../content/applications/websites/website/configuration/multi_website.rst:124
 msgid "Customer accounts"
-msgstr ""
+msgstr "Tài khoản khách hàng"
 
 #: ../../content/applications/websites/ecommerce/ecommerce_management/customer_accounts.rst:5
 msgid ""
@@ -1041,7 +1093,7 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/ecommerce_management/customer_accounts.rst:27
 msgid "Access restriction"
-msgstr ""
+msgstr "Hạn chế quyền truy cập"
 
 #: ../../content/applications/websites/ecommerce/ecommerce_management/customer_accounts.rst:29
 msgid ""
@@ -1130,7 +1182,7 @@ msgstr ":doc:`../../livechat/responses`"
 
 #: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:42
 msgid "Contact forms"
-msgstr ""
+msgstr "Biểu mẫu liên hệ"
 
 #: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:45
 msgid "Helpdesk"
@@ -1283,7 +1335,7 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:15
 msgid "Sales orders"
-msgstr ""
+msgstr "Đơn bán hàng"
 
 #: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:18
 msgid "Order and payment status"
@@ -1334,7 +1386,7 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:45
 msgid "Abandoned cart"
-msgstr ""
+msgstr "Giỏ hàng bỏ dở"
 
 #: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:47
 msgid ""
@@ -1347,6 +1399,13 @@ msgid ""
 "can set the **time-lapse** after which the email is sent and customize the "
 "**email template** used."
 msgstr ""
+"**Giỏ hàng bỏ dở** là đơn hàng mà khách hàng **chưa hoàn tất** quy trình xác"
+" nhận thanh toán. Đối với những đơn hàng này, có thể tự động gửi **nhắc nhở "
+"qua email** cho khách hàng. Để bật tính năng đó, đi đến "
+":menuselection:`Trang web --> Cấu hình --> Cài đặt` và trong phần "
+":guilabel:`Email & marketing`, hãy bật :guilabel:`Tự động gửi email thanh "
+"toán bỏ dở`. Sau khi bật, bạn có thể cài đặt **khoảng thời gian** mà sau đó "
+"email được gửi đi và tùy chỉnh **mẫu email** được sử dụng."
 
 #: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:55
 msgid ""
@@ -1357,7 +1416,7 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:61
 msgid "Delivery orders"
-msgstr ""
+msgstr "Phiếu xuất kho"
 
 #: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:64
 msgid "Delivery flow"
@@ -1497,7 +1556,7 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/ecommerce_management/performance.rst:22
 msgid ":guilabel:`Qty Invoiced`;"
-msgstr ""
+msgstr ":guilabel:`SL đã lập hóa đơn`"
 
 #: ../../content/applications/websites/ecommerce/ecommerce_management/performance.rst:23
 msgid ":guilabel:`Untaxed Total`;"
@@ -1582,7 +1641,7 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:42
 msgid "Import products"
-msgstr ""
+msgstr "Nhập sản phẩm"
 
 #: ../../content/applications/websites/ecommerce/products.rst:44
 msgid ""
@@ -2008,12 +2067,6 @@ msgstr ""
 msgid "To configure product variants for a product:"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:252
-#: ../../content/applications/websites/website/configuration/multi_website.rst:26
-#: ../../content/applications/websites/website/configuration/multi_website.rst:136
-msgid "Go to :menuselection:`Website --> Configuration --> Settings`."
-msgstr ""
-
 #: ../../content/applications/websites/ecommerce/products.rst:253
 msgid ""
 "Scroll down to the :guilabel:`Shop - Products` section and enable the "
@@ -2188,7 +2241,7 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:355
 msgid "Stock management"
-msgstr ""
+msgstr "Quản lý tồn kho"
 
 #: ../../content/applications/websites/ecommerce/products.rst:357
 msgid ""
@@ -2225,6 +2278,8 @@ msgid ""
 ":doc:`Warehouse "
 "<../../inventory_and_mrp/inventory/warehouses_storage/inventory_management/warehouses>`."
 msgstr ""
+":doc:`Kho hàng "
+"<../../inventory_and_mrp/inventory/warehouses_storage/inventory_management/warehouses>`."
 
 #: ../../content/applications/websites/ecommerce/products.rst:372
 msgid ""
@@ -2243,7 +2298,7 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:381
 msgid "Product comparison"
-msgstr ""
+msgstr "So sánh sản phẩm"
 
 #: ../../content/applications/websites/ecommerce/products.rst:383
 msgid ""
@@ -2440,6 +2495,14 @@ msgid ""
 "products in :menuselection:`Website --> eCommerce --> Products` and drag-"
 "and-dropping the products within the list."
 msgstr ""
+"Ngoài ra, bạn có thể **chỉnh sửa thủ công** thứ tự sản phẩm trong danh mục "
+"bằng cách vào **trang cửa hàng chính** và nhấp vào sản phẩm. Trong phần "
+":guilabel:`Sản phẩm` của phần :guilabel:`Tùy chỉnh`, bạn có thể sắp xếp lại "
+"thứ tự bằng cách nhấp vào các mũi tên. `<<` `>>` di chuyển sản phẩm **xa** "
+"sang phải hoặc trái, và `<` `>` di chuyển sản phẩm theo **một** hàng sang "
+"phải hoặc trái. Bạn cũng có thể thay đổi thứ tự sản phẩm trong danh mục tại "
+":menuselection:`Trang web --> Thương mại điện tử --> Sản phẩm` và kéo thả "
+"các sản phẩm trong danh sách."
 
 #: ../../content/applications/websites/ecommerce/products/catalog.rst-1
 msgid "Product rearrangement in the catalog"
@@ -2503,7 +2566,7 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products/catalog.rst:140
 msgid "Sold out;"
-msgstr ""
+msgstr "Hết hàng;"
 
 #: ../../content/applications/websites/ecommerce/products/catalog.rst:141
 msgid "Out of stock;"
@@ -2534,7 +2597,7 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products/catalog.rst:158
 msgid "Additional features"
-msgstr ""
+msgstr "Tính năng bổ sung"
 
 #: ../../content/applications/websites/ecommerce/products/catalog.rst:160
 msgid ""
@@ -2632,7 +2695,7 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:21
 msgid "Optional products"
-msgstr ""
+msgstr "Sản phẩm gốc"
 
 #: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:23
 msgid ""
@@ -2716,7 +2779,7 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products/price_management.rst:3
 msgid "Price management"
-msgstr ""
+msgstr "Quản lý giá"
 
 #: ../../content/applications/websites/ecommerce/products/price_management.rst:5
 msgid ""
@@ -2730,7 +2793,7 @@ msgstr "Thuế"
 
 #: ../../content/applications/websites/ecommerce/products/price_management.rst:12
 msgid "Tax configuration"
-msgstr ""
+msgstr "Cấu hình thuế"
 
 #: ../../content/applications/websites/ecommerce/products/price_management.rst:14
 msgid ""
@@ -2754,7 +2817,7 @@ msgstr ":doc:`/applications/finance/accounting/taxes/fiscal_positions`"
 
 #: ../../content/applications/websites/ecommerce/products/price_management.rst:26
 msgid "Tax display"
-msgstr ""
+msgstr "Hiển thị thuế"
 
 #: ../../content/applications/websites/ecommerce/products/price_management.rst:28
 msgid ""
@@ -2857,6 +2920,13 @@ msgid ""
 "configured per website. If no custom pricelists are added, Odoo defaults to "
 "the **Public Pricelist** for all websites."
 msgstr ""
+"Bảng giá là công cụ chính để quản lý giá trên cửa hàng Thương mại điện tử "
+"của bạn. Chúng cho phép bạn xác định giá cụ thể cho từng trang web - khác "
+"với giá trên mẫu sản phẩm - dựa trên **nhóm quốc gia**, **tiền tệ**, **số "
+"lượng tối thiểu**, **thời gian** hoặc **biến thể**. Bạn có thể tạo nhiều "
+"bảng giá tùy theo nhu cầu, nhưng bắt buộc phải có ít nhất một bảng giá được "
+"cấu hình cho mỗi trang web. Nếu không thêm bảng giá tùy chỉnh nào, Odoo sẽ "
+"mặc định sử dụng **Bảng giá công khai** cho tất cả các trang web."
 
 #: ../../content/applications/websites/ecommerce/products/price_management.rst:93
 #: ../../content/applications/websites/ecommerce/products/price_management.rst:121
@@ -2889,7 +2959,7 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products/price_management.rst:110
 msgid "Foreign currency"
-msgstr ""
+msgstr "Ngoại tệ"
 
 #: ../../content/applications/websites/ecommerce/products/price_management.rst:112
 msgid ""
@@ -3011,7 +3081,7 @@ msgstr ""
 #: ../../content/applications/websites/elearning.rst:55
 #: ../../content/applications/websites/elearning.rst:204
 msgid "Description tab"
-msgstr ""
+msgstr "Tab mô tả"
 
 #: ../../content/applications/websites/elearning.rst:57
 msgid ""
@@ -3084,7 +3154,7 @@ msgstr ""
 
 #: ../../content/applications/websites/elearning.rst:104
 msgid "Access rights"
-msgstr ""
+msgstr "Quyền truy cập"
 
 #: ../../content/applications/websites/elearning.rst:106
 msgid ""
@@ -3313,7 +3383,7 @@ msgstr ""
 
 #: ../../content/applications/websites/elearning.rst:222
 msgid "Quiz tab"
-msgstr ""
+msgstr "Tab quiz"
 
 #: ../../content/applications/websites/elearning.rst:224
 msgid ""
@@ -3333,6 +3403,14 @@ msgid ""
 "field to display additional information when the answer is chosen by the "
 "participant."
 msgstr ""
+"Phần :guilabel:`Điểm thưởng` cho phép bạn đưa ra một số điểm karma cụ thể "
+"tùy vào số lần cần để trả lời đúng câu hỏi. Sau đó, tạo câu hỏi và các câu "
+"trả lời có thể bằng cách nhấp vào :guilabel:`Thêm một dòng`. Một cửa sổ mới "
+"sẽ bật lên, thêm câu hỏi bằng cách điền vào :guilabel:`Tên câu hỏi` và thêm "
+"nhiều câu trả lời bằng cách nhấp vào :guilabel:`Thêm một dòng`. Chọn "
+":guilabel:`Là câu trả lời đúng` để đánh dấu một hoặc nhiều câu trả lời là "
+"đúng. Bạn cũng có thể điền vào trường :guilabel:`Bình luận` để hiển thị "
+"thông tin bổ sung khi người tham gia chọn câu trả lời."
 
 #: ../../content/applications/websites/elearning.rst:237
 msgid "Content Tags"
@@ -3460,7 +3538,7 @@ msgstr ""
 
 #: ../../content/applications/websites/forum.rst:48
 msgid "Karma points"
-msgstr ""
+msgstr "Điểm karma"
 
 #: ../../content/applications/websites/forum.rst:50
 msgid ""
@@ -5504,6 +5582,13 @@ msgid ""
 "white. Click the checkbox a second time to activate the :guilabel:`Is "
 "Published` box. The webpage is now published."
 msgstr ""
+"Để đăng trang `trò chuyện trực tiếp`, hãy quay lại danh sách các trang của "
+"trang web bằng cách đi đến :menuselection:`Trang web --> Nội dung --> "
+"Trang`. Nhấp vào hộp kiểm bên trái `trò chuyện trực tiếp` trong danh sách "
+"các trang để chọn trang và tô sáng dòng. Sau đó, nhấp vào hộp kiểm bên dưới "
+"cột có nhãn :guilabel:`Được đăng`. Trường có hộp kiểm được tô sáng màu "
+"trắng. Nhấp vào hộp kiểm lần thứ hai để kích hoạt hộp :guilabel:`Được đăng`."
+" Giờ đây, trang đã được đăng"
 
 #: ../../content/applications/websites/livechat/ratings.rst-1
 msgid ""
@@ -6467,6 +6552,15 @@ msgid ""
 "address should be the full Odoo database :abbr:`URL (Uniform Resource "
 "Locator)`."
 msgstr ""
+"Trên trang chủ KeyCDN, hãy bắt đầu bằng cách đi đến mục menu "
+":menuselection:`Vùng` ở bên trái. Trên biểu mẫu, hãy cung cấp giá trị cho "
+":guilabel:`Tên vùng`, giá trị này sẽ xuất hiện như một phần trong :abbr:`URL"
+" (Định vị tài nguyên thống nhất)` của :abbr:`CDN (Mạng phân phối nội dung)`."
+" Sau đó, đặt :guilabel:`Trạng thái vùng` thành :guilabel:`hoạt động` để kích"
+" hoạt vùng. Đối với :guilabel:`Loại vùng`, hãy đặt giá trị thành "
+":guilabel:`Pull`, và cuối cùng, bên dưới :guilabel:`Cài đặt pull`, hãy nhập "
+":guilabel:`URL gốc`— địa chỉ này phải là :abbr:`URL (Định vị tài nguyên "
+"thống nhất)` đầy đủ của cơ sở dữ liệu Odoo."
 
 #: ../../content/applications/websites/website/configuration/cdn.rst:28
 msgid ""
@@ -6693,7 +6787,7 @@ msgstr ""
 
 #: ../../content/applications/websites/website/configuration/cookies_bar.rst:57
 msgid ":doc:`Pages <../pages>`"
-msgstr ""
+msgstr ":doc:`Trang <../pages>`"
 
 #: ../../content/applications/websites/website/configuration/domain_names.rst:3
 msgid "Domain names"
@@ -6815,7 +6909,7 @@ msgstr ""
 
 #: ../../content/applications/websites/website/configuration/domain_names.rst:71
 msgid "DNS records"
-msgstr ""
+msgstr "Bản ghi DNS"
 
 #: ../../content/applications/websites/website/configuration/domain_names.rst:73
 msgid ""
@@ -7725,6 +7819,14 @@ msgid ""
 "the :guilabel:`Sales` tab. For forums, go to :menuselection:`Configuration "
 "--> Forums`, then select the forum."
 msgstr ""
+"Theo mặc định, các trang, sản phẩm, sự kiện,... được tạo từ frontend (sử "
+"dụng nút :guilabel: `+Mới`) chỉ khả dụng trên trang web mà nó được tạo. Tuy "
+"nhiên, các bản ghi được tạo từ backend sẽ khả dụng trên tất cả các trang web"
+" theo mặc định. Tính khả dụng của nội dung có thể được thay đổi trong "
+"backend, tại trường :guilabel: `Trang web`. Ví dụ, đối với sản phẩm, đi đến "
+":menuselection: `Thương mại điện tử --> Sản phẩm`, sau đó chọn sản phẩm và "
+"đi đến tab :guilabel: `Bán hàng`. Đối với diễn đàn, hãy vào :menuselection: "
+"`Cấu hình --> Diễn đàn`, sau đó chọn diễn đàn."
 
 #: ../../content/applications/websites/website/configuration/multi_website.rst-1
 msgid "Website field in Forum form"
@@ -7905,7 +8007,7 @@ msgstr ""
 
 #: ../../content/applications/websites/website/configuration/spam_protection.rst:28
 msgid "On Cloudflare"
-msgstr ""
+msgstr "Trên Cloudflare"
 
 #: ../../content/applications/websites/website/configuration/spam_protection.rst:30
 msgid ""
@@ -7966,7 +8068,7 @@ msgstr ""
 #: ../../content/applications/websites/website/configuration/spam_protection.rst:55
 #: ../../content/applications/websites/website/pages.rst:28
 msgid "Click :guilabel:`Create`."
-msgstr ""
+msgstr "Nhấp :guilabel:`Tạo`."
 
 #: ../../content/applications/websites/website/configuration/spam_protection.rst-1
 msgid "Adding a website to Cloudflare Turnstile"
@@ -7981,7 +8083,7 @@ msgstr ""
 #: ../../content/applications/websites/website/configuration/spam_protection.rst:64
 #: ../../content/applications/websites/website/configuration/spam_protection.rst:111
 msgid "On Odoo"
-msgstr ""
+msgstr "Trên Odoo"
 
 #: ../../content/applications/websites/website/configuration/spam_protection.rst:66
 msgid ""
@@ -8006,7 +8108,7 @@ msgstr ""
 #: ../../content/applications/websites/website/configuration/spam_protection.rst:128
 #: ../../content/applications/websites/website/configuration/translate.rst:61
 msgid "Click :guilabel:`Save`."
-msgstr ""
+msgstr "Nhấp :guilabel:`Lưu`."
 
 #: ../../content/applications/websites/website/configuration/spam_protection.rst:75
 msgid ""
@@ -8066,7 +8168,7 @@ msgstr ""
 
 #: ../../content/applications/websites/website/configuration/spam_protection.rst:102
 msgid "Click :guilabel:`Submit`."
-msgstr ""
+msgstr "Nhấp :guilabel:`Gửi`."
 
 #: ../../content/applications/websites/website/configuration/spam_protection.rst-1
 msgid "reCAPTCHA website registration example"
@@ -8219,7 +8321,7 @@ msgstr ""
 
 #: ../../content/applications/websites/website/configuration/translate.rst:47
 msgid "Language selector"
-msgstr ""
+msgstr "Bộ chọn ngôn ngữ"
 
 #: ../../content/applications/websites/website/configuration/translate.rst:49
 msgid ""
@@ -8614,7 +8716,7 @@ msgstr ""
 
 #: ../../content/applications/websites/website/pages.rst:19
 msgid "Page creation"
-msgstr ""
+msgstr "Tạo trang"
 
 #: ../../content/applications/websites/website/pages.rst:21
 msgid ""
@@ -8657,11 +8759,11 @@ msgstr ""
 
 #: ../../content/applications/websites/website/pages.rst:37
 msgid "Page management"
-msgstr ""
+msgstr "Quản lý trang"
 
 #: ../../content/applications/websites/website/pages.rst:42
 msgid "Publishing/unpublishing pages"
-msgstr ""
+msgstr "Đăng/huỷ đăng trang"
 
 #: ../../content/applications/websites/website/pages.rst:44
 msgid ""
@@ -8831,7 +8933,7 @@ msgstr ""
 
 #: ../../content/applications/websites/website/pages.rst:123
 msgid "Deleting pages"
-msgstr ""
+msgstr "Xoá trang"
 
 #: ../../content/applications/websites/website/pages.rst:125
 msgid "To delete a page, proceed as follows:"
@@ -8852,6 +8954,13 @@ msgid ""
 "open it in a new window. Alternatively, you can set up a :ref:`redirection "
 "<website/URL-redirection>` for the deleted page."
 msgstr ""
+"Một cửa sổ bật lên sẽ xuất hiện trên màn hình với tất cả liên kết tham chiếu"
+" đến trang bạn muốn xóa, được sắp xếp theo danh mục. Để đảm bảo khách truy "
+"cập trang web không truy cập vào trang lỗi 404, bạn phải cập nhật tất cả "
+"liên kết trên trang web tham chiếu đến trang đó. Để thực hiện việc này, hãy "
+"mở rộng một danh mục, sau đó nhấp vào liên kết để mở liên kết đó trong một "
+"cửa sổ mới. Ngoài ra, bạn có thể thiết lập :ref:`chuyển hướng <website/URL-"
+"redirection>` cho trang đã xóa."
 
 #: ../../content/applications/websites/website/pages.rst:134
 msgid ""
@@ -9007,7 +9116,7 @@ msgstr ""
 
 #: ../../content/applications/websites/website/pages/menus.rst:12
 msgid "Menu editor"
-msgstr ""
+msgstr "Trình chỉnh sửa menu"
 
 #: ../../content/applications/websites/website/pages/menus.rst:14
 msgid ""
@@ -9091,6 +9200,13 @@ msgid ""
 "than regular drop-down menus, for example, through layout, typography, and "
 "icons."
 msgstr ""
+"Menu chính tương tự như menu thả xuống, nhưng thay vì danh sách tiểu menu "
+"đơn giản, chúng lại hiển thị một bảng chia thành các nhóm tùy chọn điều "
+"hướng. Do đó, chúng phù hợp với các trang web có lượng nội dung lớn, vì "
+"chúng có thể giúp đưa tất cả trang trên trang web của bạn vào menu trong khi"
+" vẫn cho phép tất cả mục menu hiển thị cùng một lúc. Menu chính cũng có thể "
+"được cấu trúc trực quan hơn so với menu thả xuống thông thường, ví dụ, thông"
+" qua bố cục, kiểu chữ và biểu tượng."
 
 #: ../../content/applications/websites/website/pages/menus.rst-1
 msgid "Mega menu in the navigation bar."
@@ -9794,7 +9910,7 @@ msgstr ""
 
 #: ../../content/applications/websites/website/reporting/link_tracker.rst:3
 msgid "Link tracker"
-msgstr ""
+msgstr "Trình theo dõi liên kết"
 
 #: ../../content/applications/websites/website/reporting/link_tracker.rst:5
 msgid ""
@@ -9930,7 +10046,7 @@ msgstr ""
 
 #: ../../content/applications/websites/website/web_design/building_blocks.rst:5
 msgid "Building blocks"
-msgstr ""
+msgstr "Khối dựng"
 
 #: ../../content/applications/websites/website/web_design/building_blocks.rst:7
 msgid ""
@@ -10429,7 +10545,7 @@ msgstr ""
 
 #: ../../content/applications/websites/website/web_design/building_blocks/inner_content.rst:18
 msgid "Social media"
-msgstr ""
+msgstr "Mạng xã hội"
 
 #: ../../content/applications/websites/website/web_design/building_blocks/inner_content.rst:20
 msgid ""
@@ -10534,7 +10650,7 @@ msgstr ""
 
 #: ../../content/applications/websites/website/web_design/themes.rst:3
 msgid "Website themes"
-msgstr ""
+msgstr "Chủ đề trang web"
 
 #: ../../content/applications/websites/website/web_design/themes.rst:5
 msgid ""

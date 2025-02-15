@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-02 16:24+0000\n"
+"POT-Creation-Date: 2025-01-28 12:25+0000\n"
 "PO-Revision-Date: 2024-10-08 06:34+0000\n"
 "Last-Translator: Thi Huong Nguyen, 2025\n"
 "Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../content/applications/essentials.rst:3
 msgid "Odoo essentials"
-msgstr "Thao tác thiết yếu của Odoo"
+msgstr "Tính năng thiết yếu của Odoo"
 
 #: ../../content/applications/essentials/activities.rst:3
 msgid "Activities"
@@ -1801,16 +1801,16 @@ msgid ""
 "then :guilabel:`Export`."
 msgstr ""
 "Với Odoo, giá trị có thể được xuất từ ​​bất kỳ trường nào trong bất kỳ bản "
-"ghi nào. Để thực hiện, hãy kích hoạt chế độ xem danh sách (|danh sách|), "
-"trên các mục cần xuất, sau đó chọn những bản ghi cần xuất. Để chọn một bản "
-"ghi, đánh dấu vào hộp kiểm bên cạnh bản ghi tương ứng. Cuối cùng, nhấp vào "
-"|tác vụ|, sau đó :guilabel:`Xuất`."
+"ghi nào. Để thực hiện, hãy kích hoạt chế độ xem danh sách (|list|), trên các"
+" mục cần xuất, sau đó chọn những bản ghi cần xuất. Để chọn một bản ghi, đánh"
+" dấu vào hộp kiểm bên cạnh bản ghi tương ứng. Cuối cùng, nhấp vào |actions|,"
+" sau đó :guilabel:`Xuất`."
 
 #: ../../content/applications/essentials/export_import_data.rst-1
 msgid "View of the different things to enable/click to export data."
 msgstr "Chế độ xem những mục khác nhau cần bật/nhấp để xuất dữ liệu."
 
-#: ../../content/applications/essentials/export_import_data.rst:34
+#: ../../content/applications/essentials/export_import_data.rst:33
 msgid ""
 "When clicking on :guilabel:`Export`, an :guilabel:`Export Data` pop-over "
 "window appears, with several options for the data to export:"
@@ -1819,10 +1819,10 @@ msgstr ""
 "lên với một số tùy chọn để xuất dữ liệu:"
 
 #: ../../content/applications/essentials/export_import_data.rst-1
-msgid "Overview of options to consider when exporting data in Odoo.."
-msgstr "Tổng quan về các tùy chọn cần cân nhắc khi xuất dữ liệu trong Odoo."
+msgid "Overview of options to consider when exporting data in Odoo."
+msgstr ""
 
-#: ../../content/applications/essentials/export_import_data.rst:41
+#: ../../content/applications/essentials/export_import_data.rst:39
 msgid ""
 "With the :guilabel:`I want to update data (import-compatable export)` option"
 " ticked, the system only shows the fields that can be imported. This is "
@@ -1838,7 +1838,7 @@ msgstr ""
 "chọn, bạn sẽ có nhiều tùy chọn trường hơn vì tất cả các trường sẽ hiển thị "
 "mà không chỉ các trường có thể nhập."
 
-#: ../../content/applications/essentials/export_import_data.rst:46
+#: ../../content/applications/essentials/export_import_data.rst:44
 msgid ""
 "When exporting, there is the option to export in two formats: `.csv` and "
 "`.xls`. With `.csv`, items are separated by a comma, while `.xls` holds "
@@ -1849,7 +1849,7 @@ msgstr ""
 " các mục được phân tách bằng dấu phẩy, trong khi `.xls` chứa thông tin về "
 "tất cả bảng tính trong một tệp, bao gồm cả nội dung và định dạng."
 
-#: ../../content/applications/essentials/export_import_data.rst:49
+#: ../../content/applications/essentials/export_import_data.rst:47
 msgid ""
 "These are the items that can be exported. Use the :guilabel:`> (right "
 "arrow)` icon to display more sub-field options. Use the :guilabel:`Search` "
@@ -1863,7 +1863,7 @@ msgstr ""
 ":guilabel:`Tìm kiếm` hiệu quả hơn, hãy nhấp vào tất cả :guilabel:`> (mũi tên"
 " hướng sang phải)` để hiển thị tất cả các trường."
 
-#: ../../content/applications/essentials/export_import_data.rst:53
+#: ../../content/applications/essentials/export_import_data.rst:51
 msgid ""
 "The :guilabel:`+ (plus sign)` icon button is present to add fields to the "
 ":guilabel:`Fields to export` list."
@@ -1871,7 +1871,7 @@ msgstr ""
 "Nút biểu tượng :guilabel:`+ (dấu cộng)` có tác dụng thêm các trường vào danh"
 " sách :guilabel:`Trường cần xuất`."
 
-#: ../../content/applications/essentials/export_import_data.rst:55
+#: ../../content/applications/essentials/export_import_data.rst:53
 msgid ""
 "The :guilabel:`↕️ (up-down arrow)` to the left of the selected fields can be"
 " used to move the fields up and down, to change the order in which they are "
@@ -1883,7 +1883,7 @@ msgstr ""
 " hiển thị của chúng trong tệp đã xuất. Kéo và thả bằng biểu tượng "
 ":guilabel:`↕️ (mũi tên lên-xuống)`."
 
-#: ../../content/applications/essentials/export_import_data.rst:58
+#: ../../content/applications/essentials/export_import_data.rst:56
 msgid ""
 "The :guilabel:`🗑️ (trash can)` icon is used to remove fields. Click on the "
 ":guilabel:`🗑️ (trash can)` icon to remove the field."
@@ -1891,7 +1891,7 @@ msgstr ""
 "Biểu tượng :guilabel:`🗑️ (thùng rác)` được sử dụng để xóa các trường. Nhấp "
 "vào biểu tượng :guilabel:`🗑️ (thùng rác)` để xóa trường."
 
-#: ../../content/applications/essentials/export_import_data.rst:60
+#: ../../content/applications/essentials/export_import_data.rst:58
 msgid ""
 "For recurring reports, it is helpful to save export presets. Select all the "
 "needed fields, and click on the template drop-down menu. Once there, click "
@@ -1907,7 +1907,7 @@ msgstr ""
 "cần xuất cùng một danh sách, hãy chọn mẫu liên quan đã lưu trước đó từ menu "
 "thả xuống."
 
-#: ../../content/applications/essentials/export_import_data.rst:67
+#: ../../content/applications/essentials/export_import_data.rst:65
 msgid ""
 "It is helpful to know the field's external identifier. For example, "
 ":guilabel:`Related Company` in the export user interface is equal to "
@@ -1919,11 +1919,11 @@ msgstr ""
 " liên quan` trong giao diện người dùng xuất dữ liệu tương ứng với "
 "*parent_id* (ID ngoài)."
 
-#: ../../content/applications/essentials/export_import_data.rst:74
+#: ../../content/applications/essentials/export_import_data.rst:72
 msgid "Import data into Odoo"
 msgstr "Nhập dữ liệu từ Odoo"
 
-#: ../../content/applications/essentials/export_import_data.rst:76
+#: ../../content/applications/essentials/export_import_data.rst:74
 msgid ""
 "Importing data into Odoo is extremely helpful during implementation, or in "
 "times where data needs to be :ref:`updated in bulk <essentials/update-"
@@ -1935,7 +1935,7 @@ msgstr ""
 "<essentials/update-data>`. Tài liệu sau đây trình bày cách nhập dữ liệu vào "
 "cơ sở dữ liệu Odoo."
 
-#: ../../content/applications/essentials/export_import_data.rst:81
+#: ../../content/applications/essentials/export_import_data.rst:79
 msgid ""
 "Imports are permanent and **cannot** be undone. However, it is possible to "
 "use filters (`created on` or `last modified`) to identify records changed or"
@@ -1946,7 +1946,7 @@ msgstr ""
 "cuối`) để xác định các bản ghi đã thay đổi hoặc được tạo bởi lần nhập dữ "
 "liệu."
 
-#: ../../content/applications/essentials/export_import_data.rst:85
+#: ../../content/applications/essentials/export_import_data.rst:83
 msgid ""
 "Activating :ref:`developer mode <developer-mode>` changes the visible import"
 " settings in the left menu. Doing so reveals an :menuselection:`Advanced` "
@@ -1963,7 +1963,7 @@ msgstr ""
 msgid "Advanced import options when developer mode is activated."
 msgstr "Tùy chọn nhập nâng cao khi chế độ lập trình được kích hoạt."
 
-#: ../../content/applications/essentials/export_import_data.rst:93
+#: ../../content/applications/essentials/export_import_data.rst:90
 msgid ""
 "If the model uses openchatter, the :guilabel:`Track history during import` "
 "option sets up subscriptions and sends notifications during the import, but "
@@ -1973,7 +1973,7 @@ msgstr ""
 "quá trình nhập` sẽ thiết lập đăng ký và gửi thông báo trong quá trình nhập, "
 "nhưng sẽ kéo dài thời gian nhập."
 
-#: ../../content/applications/essentials/export_import_data.rst:96
+#: ../../content/applications/essentials/export_import_data.rst:93
 msgid ""
 "Should the :guilabel:`Allow matching with subfields` option be selected, "
 "then all subfields within a field are used to match under the "
@@ -1983,11 +1983,11 @@ msgstr ""
 "trường con trong một trường sẽ được sử dụng để khớp với :guilabel:`Trường "
 "Odoo` khi nhập."
 
-#: ../../content/applications/essentials/export_import_data.rst:100
+#: ../../content/applications/essentials/export_import_data.rst:99
 msgid "Get started"
 msgstr "Bắt đầu"
 
-#: ../../content/applications/essentials/export_import_data.rst:102
+#: ../../content/applications/essentials/export_import_data.rst:101
 msgid ""
 "Data can be imported on any Odoo business object using either Excel "
 "(`.xlsx`) or :abbr:`CSV (Comma-separated Values)` (`.csv`) formats. This "
@@ -1998,61 +1998,71 @@ msgstr ""
 " (`.csv`). Bao gồm: liên hệ, sản phẩm, sao kê ngân hàng, bút toán và đơn "
 "hàng."
 
-#: ../../content/applications/essentials/export_import_data.rst:106
+#: ../../content/applications/essentials/export_import_data.rst:105
 msgid ""
 "Open the view of the object to which the data should be imported/populated, "
-"and click on :menuselection:`⚙️ (Action) --> Import records`."
+"click the :icon:`fa-cog` (:guilabel:`gear`) icon and select "
+":guilabel:`Import records`."
 msgstr ""
-"Mở chế độ xem của đối tượng mà dữ liệu cần được nhập/điền vào và nhấp "
-":menuselection: `⚙️ (Tác vụ) --> Nhập bản ghi`."
 
 #: ../../content/applications/essentials/export_import_data.rst-1
 msgid "Action menu revealed with the import records option highlighted."
 msgstr "Menu hành động được hiển thị với tùy chọn nhập bản ghi được tô sáng."
 
-#: ../../content/applications/essentials/export_import_data.rst:113
+#: ../../content/applications/essentials/export_import_data.rst:111
 msgid ""
-"After clicking :guilabel:`Import records`, Odoo reveals a separate page with"
-" templates that can be downloaded and populated with the company's own data."
-" Such templates can be imported in one click, since the data mapping is "
-"already done. To download a template click :guilabel:`Import Template for "
-"Customers` at the center of the page."
+"Click :icon:`fa-download`:guilabel:`Import Template for Customers` at the "
+"center of the page to download a :ref:`template "
+"<essentials/export_import_data/adapt-a-template>` and populate it with the "
+"company's own data. Such templates can be imported in one click since the "
+"data mapping is already preconfigured."
 msgstr ""
-"Sau khi nhấp vào :guilabel:`Nhập bản ghi`, Odoo sẽ hiển thị một trang riêng "
-"chứa các mẫu có thể tải xuống và điền vào bằng dữ liệu của công ty. Bạn có "
-"thể nhập các mẫu đó chỉ bằng một cú nhấp chuột, vì quá trình mapping dữ liệu"
-" đã được thực hiện. Để tải xuống một mẫu, hãy nhấp vào :guilabel:`Mẫu nhập "
-"cho khách hàng` ở giữa trang."
+
+#: ../../content/applications/essentials/export_import_data.rst:116
+msgid ""
+"To upload the downloaded template or your own file, follow the next steps:"
+msgstr ""
+
+#: ../../content/applications/essentials/export_import_data.rst:118
+msgid "Click :guilabel:`Upload Data File` and select the desired file."
+msgstr ""
 
 #: ../../content/applications/essentials/export_import_data.rst:119
 msgid ""
-"When importing a :abbr:`CSV (Comma-separated Values)` file, Odoo provides "
-":guilabel:`Formatting` options. These options do **not** appear when "
-"importing the proprietary Excel file type (`.xls`, `.xlsx`)."
+"Adjust the :guilabel:`Formatting` options as needed (for CSV files only)."
 msgstr ""
-"Khi nhập tệp :abbr:`CSV (Giá trị phân cách bằng dấu phẩy)`, Odoo cung cấp "
-"tùy chọn :guilabel:`Định dạng`. Các tùy chọn này **không** xuất hiện khi "
-"nhập loại tệp Excel riêng (`.xls`, `.xlsx`)."
 
-#: ../../content/applications/essentials/export_import_data.rst:0
-msgid "Formatting options presented when a CVS file is imported in Odoo."
-msgstr "Các tùy chọn định dạng được hiển thị khi tệp CVS được nhập vào Odoo."
+#: ../../content/applications/essentials/export_import_data.rst:120
+msgid ""
+"Ensure all data in the :guilabel:`File Column` is correctly mapped to the "
+"appropriate :guilabel:`Odoo Field` and free of errors."
+msgstr ""
+
+#: ../../content/applications/essentials/export_import_data.rst:122
+msgid ""
+"(Optional) Click :guilabel:`Load Data File` to reload the same file or "
+"upload a different one."
+msgstr ""
+
+#: ../../content/applications/essentials/export_import_data.rst:123
+msgid "Click :guilabel:`Test` to verify that the data is valid."
+msgstr ""
+
+#: ../../content/applications/essentials/export_import_data.rst:124
+msgid "Click :guilabel:`Import`."
+msgstr ""
 
 #: ../../content/applications/essentials/export_import_data.rst:127
 msgid ""
-"Make necessary adjustments to the *Formatting* options, and ensure all "
-"columns in the :guilabel:`Odoo field` and :guilabel:`File Column` are free "
-"of errors. Finally, click :guilabel:`Import` to import the data."
+"The :guilabel:`Formatting` options do **not** appear when importing the "
+"proprietary Excel file type (i.e., `.xls` or `.xlsx`)."
 msgstr ""
-"Thực hiện những điều chỉnh cần thiết cho các tùy chọn *Định dạng* và đảm bảo"
-" tất cả các cột trong :guilabel:`Trường Odoo` và :guilabel:`Cột tệp` không "
-"có lỗi. Cuối cùng, nhấp vào :guilabel:`Nhập` để nhập dữ liệu."
 
-#: ../../content/applications/essentials/export_import_data.rst:132
+#: ../../content/applications/essentials/export_import_data.rst:133
 msgid "Adapt a template"
 msgstr "Điều chỉnh mẫu"
 
-#: ../../content/applications/essentials/export_import_data.rst:134
+#: ../../content/applications/essentials/export_import_data.rst:135
 msgid ""
 "Import templates are provided in the import tool of the most common data to "
 "import (contacts, products, bank statements, etc.). Open them with any "
@@ -2064,16 +2074,16 @@ msgstr ""
 "bất kỳ phần mềm bảng tính nào (*Microsoft Office*, *OpenOffice*, *Google "
 "Drive*,...)."
 
-#: ../../content/applications/essentials/export_import_data.rst:138
+#: ../../content/applications/essentials/export_import_data.rst:139
 msgid "Once the template is downloaded, proceed to follow these steps:"
 msgstr "Sau khi tải mẫu xuống, hãy làm theo các bước sau:"
 
-#: ../../content/applications/essentials/export_import_data.rst:140
+#: ../../content/applications/essentials/export_import_data.rst:141
 msgid "Add, remove, and sort columns to best fit the data structure."
 msgstr ""
 "Thêm, xóa và sắp xếp các cột sao cho phù hợp nhất với cấu trúc dữ liệu."
 
-#: ../../content/applications/essentials/export_import_data.rst:141
+#: ../../content/applications/essentials/export_import_data.rst:142
 msgid ""
 "It is strongly advised to **not** remove the :guilabel:`External ID` (ID) "
 "column (see why in the next section)."
@@ -2081,7 +2091,7 @@ msgstr ""
 "Chúng tôi khuyên bạn **không** nên xóa cột :guilabel:`ID ngoài` (ID) (xem lý"
 " do trong phần tiếp theo)."
 
-#: ../../content/applications/essentials/export_import_data.rst:143
+#: ../../content/applications/essentials/export_import_data.rst:144
 msgid ""
 "Set a unique ID to every record by dragging down the ID sequencing in the "
 ":guilabel:`External ID` (ID) column."
@@ -2111,7 +2121,7 @@ msgstr ""
 msgid "Drop-down menu expanded in the initial import screen on Odoo."
 msgstr "Menu thả xuống được mở rộng trong màn hình nhập ban đầu trên Odoo."
 
-#: ../../content/applications/essentials/export_import_data.rst:159
+#: ../../content/applications/essentials/export_import_data.rst:158
 msgid ""
 "Then, use this field's label in the import file to ensure future imports are"
 " successful."
@@ -2119,7 +2129,7 @@ msgstr ""
 "Sau đó, sử dụng nhãn của trường này trong tệp nhập để đảm bảo các lần nhập "
 "trong tương lai thành công."
 
-#: ../../content/applications/essentials/export_import_data.rst:162
+#: ../../content/applications/essentials/export_import_data.rst:161
 msgid ""
 "Another useful way to find out the proper column names to import is to "
 "export a sample file using the fields that should be imported. This way, if "
@@ -2129,11 +2139,11 @@ msgstr ""
 "bằng các trường cần nhập. Theo cách này, nếu không có mẫu nhập mẫu, tên sẽ "
 "chính xác."
 
-#: ../../content/applications/essentials/export_import_data.rst:170
+#: ../../content/applications/essentials/export_import_data.rst:169
 msgid "Import from another application"
 msgstr "Nhập từ một ứng dụng khác"
 
-#: ../../content/applications/essentials/export_import_data.rst:172
+#: ../../content/applications/essentials/export_import_data.rst:171
 msgid ""
 "The :guilabel:`External ID` (ID) is a unique identifier for the line item. "
 "Feel free to use one from previous software to facilitate the transition to "
@@ -2142,14 +2152,14 @@ msgstr ""
 ":guilabel:`ID ngoài` (ID) là mã định danh duy nhất cho mục hàng. Bạn có thể "
 "sử dụng mã định danh từ phần mềm trước đó để dễ dàng chuyển sang Odoo."
 
-#: ../../content/applications/essentials/export_import_data.rst:175
+#: ../../content/applications/essentials/export_import_data.rst:174
 msgid ""
 "Setting an ID is not mandatory when importing, but it helps in many cases:"
 msgstr ""
 "Việc thiết lập ID không bắt buộc khi nhập, nhưng sẽ hữu ích trong nhiều "
 "trường hợp:"
 
-#: ../../content/applications/essentials/export_import_data.rst:177
+#: ../../content/applications/essentials/export_import_data.rst:176
 msgid ""
 ":ref:`Update imports <essentials/update-data>`: import the same file several"
 " times without creating duplicates."
@@ -2157,11 +2167,11 @@ msgstr ""
 ":ref:`Cập nhật tệp nhập <essentials/update-data>`: nhập cùng một tệp nhiều "
 "lần mà không tạo bản sao."
 
-#: ../../content/applications/essentials/export_import_data.rst:179
+#: ../../content/applications/essentials/export_import_data.rst:178
 msgid ":ref:`Import relation fields <export_import_data/relation-fields>`."
 msgstr ":ref:`Nhập trường quan hệ <export_import_data/relation-fields>`."
 
-#: ../../content/applications/essentials/export_import_data.rst:181
+#: ../../content/applications/essentials/export_import_data.rst:180
 msgid ""
 "To recreate relationships between different records, the unique identifier "
 "from the original application should be used to map it to the "
@@ -2170,7 +2180,7 @@ msgstr ""
 "Để tạo lại mối quan hệ giữa các bản ghi khác nhau, cần sử dụng ID duy nhất "
 "từ ​​ứng dụng gốc để map tới cột :guilabel:`ID ngoài` (ID) trong Odoo."
 
-#: ../../content/applications/essentials/export_import_data.rst:184
+#: ../../content/applications/essentials/export_import_data.rst:183
 msgid ""
 "When another record is imported that links to the first one, use **XXX/ID** "
 "(XXX/External ID) for the original unique identifier. This record can also "
@@ -2180,7 +2190,7 @@ msgstr ""
 " **XXX/ID** (XXX/ID ngoài) cho ID duy nhất ban đầu. Bản ghi này cũng có thể "
 "được tìm bằng tên."
 
-#: ../../content/applications/essentials/export_import_data.rst:188
+#: ../../content/applications/essentials/export_import_data.rst:187
 msgid ""
 "It should be noted that conflicts occur if two (or more) records have the "
 "same *External ID*."
@@ -2188,11 +2198,11 @@ msgstr ""
 "Cần lưu ý rằng xung đột sẽ xảy ra nếu hai (hoặc nhiều) bản ghi có cùng *ID "
 "ngoài*."
 
-#: ../../content/applications/essentials/export_import_data.rst:191
+#: ../../content/applications/essentials/export_import_data.rst:190
 msgid "Field missing to map column"
 msgstr "Thiếu trường để map cột"
 
-#: ../../content/applications/essentials/export_import_data.rst:193
+#: ../../content/applications/essentials/export_import_data.rst:192
 msgid ""
 "Odoo heuristically tries to find the type of field for each column inside "
 "the imported file, based on the first ten lines of the files."
@@ -2200,7 +2210,7 @@ msgstr ""
 "Odoo sẽ cố gắng tìm loại trường cho mỗi cột bên trong tệp được nhập dựa trên"
 " mười dòng đầu tiên của tệp."
 
-#: ../../content/applications/essentials/export_import_data.rst:196
+#: ../../content/applications/essentials/export_import_data.rst:195
 msgid ""
 "For example, if there is a column only containing numbers, only the fields "
 "with the *integer* type are presented as options."
@@ -2208,7 +2218,7 @@ msgstr ""
 "Ví dụ, nếu có một cột chỉ chứa số, thì chỉ những trường thuộc loại *số "
 "nguyên* mới được hiển thị dưới dạng tùy chọn."
 
-#: ../../content/applications/essentials/export_import_data.rst:199
+#: ../../content/applications/essentials/export_import_data.rst:198
 msgid ""
 "While this behavior might be beneficial in most cases, it is also possible "
 "that it could fail, or the column may be mapped to a field that is not "
@@ -2218,7 +2228,7 @@ msgstr ""
 "có khả năng nó sẽ không thành công hoặc cột có thể được map tới một trường "
 "không được đề xuất theo mặc định."
 
-#: ../../content/applications/essentials/export_import_data.rst:202
+#: ../../content/applications/essentials/export_import_data.rst:201
 msgid ""
 "If this happens, check the :guilabel:`Show fields of relation fields "
 "(advanced) option`, then a complete list of fields becomes available for "
@@ -2232,11 +2242,11 @@ msgstr ""
 msgid "Searching for the field to match the tax column."
 msgstr "Đang tìm kiếm trường phù hợp với cột thuế."
 
-#: ../../content/applications/essentials/export_import_data.rst:210
+#: ../../content/applications/essentials/export_import_data.rst:208
 msgid "Change data import format"
 msgstr "Thay đổi định dạng nhập dữ liệu"
 
-#: ../../content/applications/essentials/export_import_data.rst:213
+#: ../../content/applications/essentials/export_import_data.rst:211
 msgid ""
 "Odoo can automatically detect if a column is a date, and tries to guess the "
 "date format from a set of most commonly used date formats. While this "
@@ -2253,7 +2263,7 @@ msgstr ""
 "định dạng ngày là ngày và phần nào là tháng trong một ngày, chẳng hạn như "
 "`01-03-2016`."
 
-#: ../../content/applications/essentials/export_import_data.rst:219
+#: ../../content/applications/essentials/export_import_data.rst:217
 msgid ""
 "When importing a :abbr:`CSV (Comma-separated Values)` file, Odoo provides "
 ":guilabel:`Formatting` options."
@@ -2261,7 +2271,7 @@ msgstr ""
 "Khi nhập tệp :abbr:`CSV (Giá trị phân tách bằng dấu phẩy)`, Odoo cung cấp "
 "tùy chọn :guilabel:`Định dạng`."
 
-#: ../../content/applications/essentials/export_import_data.rst:222
+#: ../../content/applications/essentials/export_import_data.rst:220
 msgid ""
 "To view which date format Odoo has found from the file, check the "
 ":guilabel:`Date Format` that is shown when clicking on options under the "
@@ -2273,7 +2283,7 @@ msgstr ""
 " định dạng này không đúng, hãy thay đổi thành định dạng ưa thích bằng cách "
 "sử dụng *ISO 8601* để xác định định dạng."
 
-#: ../../content/applications/essentials/export_import_data.rst:227
+#: ../../content/applications/essentials/export_import_data.rst:225
 msgid ""
 "*ISO 8601* is an international standard, covering the worldwide exchange, "
 "along with the communication of date and time-related data. For example, the"
@@ -2285,7 +2295,7 @@ msgstr ""
 " dụ, khi định dạng ngày tháng là `YYYY-MM-DD; trong trường hợp ngày 24 tháng"
 " 7 năm 1981, nó phải được viết là `1981-07-24`."
 
-#: ../../content/applications/essentials/export_import_data.rst:232
+#: ../../content/applications/essentials/export_import_data.rst:230
 msgid ""
 "When importing Excel files (`.xls`, `.xlsx`), consider using *date cells* to"
 " store dates. This maintains locale date formats for display, regardless of "
@@ -2300,11 +2310,11 @@ msgstr ""
 ":guilabel:`Định dạng` của Odoo để chọn các cột định dạng ngày tháng cần "
 "nhập."
 
-#: ../../content/applications/essentials/export_import_data.rst:238
+#: ../../content/applications/essentials/export_import_data.rst:236
 msgid "Import numbers with currency signs"
 msgstr "Nhập số kèm ký hiệu tiền tệ"
 
-#: ../../content/applications/essentials/export_import_data.rst:240
+#: ../../content/applications/essentials/export_import_data.rst:238
 msgid ""
 "Odoo fully supports numbers with parenthesis to represent negative signs, as"
 " well as numbers with currency signs attached to them. Odoo also "
@@ -2318,7 +2328,7 @@ msgstr ""
 "không thể xác định, thì ký hiệu đó có thể không được nhận dạng là số và quá "
 "trình nhập sẽ bị lỗi."
 
-#: ../../content/applications/essentials/export_import_data.rst:246
+#: ../../content/applications/essentials/export_import_data.rst:244
 msgid ""
 "When importing a :abbr:`CSV (Comma-separated Values)` file, the "
 ":guilabel:`Formatting` menu appears on the left-hand column. Under these "
@@ -2328,52 +2338,52 @@ msgstr ""
 ":guilabel:`Định dạng` sẽ xuất hiện ở cột bên trái. Trong các tùy chọn này, "
 "có thể thay đổi :guilabel:`Dấu phân cách hàng nghìn`."
 
-#: ../../content/applications/essentials/export_import_data.rst:250
+#: ../../content/applications/essentials/export_import_data.rst:248
 msgid ""
 "Examples of supported numbers (using 'thirty-two thousand' as the figure):"
 msgstr "Ví dụ về các số được hỗ trợ (sử dụng 'ba mươi hai nghìn' làm con số):"
 
-#: ../../content/applications/essentials/export_import_data.rst:252
+#: ../../content/applications/essentials/export_import_data.rst:250
 msgid "32.000,00"
 msgstr "32.000,00"
 
-#: ../../content/applications/essentials/export_import_data.rst:253
+#: ../../content/applications/essentials/export_import_data.rst:251
 msgid "32000,00"
 msgstr "32000,00"
 
-#: ../../content/applications/essentials/export_import_data.rst:254
+#: ../../content/applications/essentials/export_import_data.rst:252
 msgid "32,000.00"
 msgstr "32,000.00"
 
-#: ../../content/applications/essentials/export_import_data.rst:255
+#: ../../content/applications/essentials/export_import_data.rst:253
 msgid "-32000.00"
 msgstr "-32000.00"
 
-#: ../../content/applications/essentials/export_import_data.rst:256
+#: ../../content/applications/essentials/export_import_data.rst:254
 msgid "(32000.00)"
 msgstr "(32000.00)"
 
-#: ../../content/applications/essentials/export_import_data.rst:257
+#: ../../content/applications/essentials/export_import_data.rst:255
 msgid "$ 32.000,00"
 msgstr "$ 32.000,00"
 
-#: ../../content/applications/essentials/export_import_data.rst:258
+#: ../../content/applications/essentials/export_import_data.rst:256
 msgid "(32000.00 €)"
 msgstr "(32000.00 €)"
 
-#: ../../content/applications/essentials/export_import_data.rst:260
+#: ../../content/applications/essentials/export_import_data.rst:258
 msgid "Example that will not work:"
 msgstr "Ví dụ về dữ liệu không được hỗ trợ"
 
-#: ../../content/applications/essentials/export_import_data.rst:262
+#: ../../content/applications/essentials/export_import_data.rst:260
 msgid "ABC 32.000,00"
 msgstr "ABC 32.000,00"
 
-#: ../../content/applications/essentials/export_import_data.rst:263
+#: ../../content/applications/essentials/export_import_data.rst:261
 msgid "$ (32.000,00)"
 msgstr "$ (32.000,00)"
 
-#: ../../content/applications/essentials/export_import_data.rst:266
+#: ../../content/applications/essentials/export_import_data.rst:264
 msgid ""
 "A :guilabel:`() (parenthesis)` around the number indicates that the number "
 "is a negative value. The currency symbol **must** be placed within the "
@@ -2383,11 +2393,11 @@ msgstr ""
 "âm. Ký hiệu tiền tệ **phải** được đặt trong dấu ngoặc đơn để Odoo nhận dạng "
 "đó là giá trị tiền tệ âm."
 
-#: ../../content/applications/essentials/export_import_data.rst:271
+#: ../../content/applications/essentials/export_import_data.rst:269
 msgid "Import preview table not displayed correctly"
 msgstr "Bảng xem trước nhập dữ liệu không hiển thị đúng"
 
-#: ../../content/applications/essentials/export_import_data.rst:273
+#: ../../content/applications/essentials/export_import_data.rst:271
 msgid ""
 "By default, the import preview is set on commas as field separators, and "
 "quotation marks as text delimiters. If the :abbr:`CSV (Comma-separated "
@@ -2403,7 +2413,7 @@ msgstr ""
 "trị phân cách bằng dấu phẩy)` :guilabel:`Nhập` sau khi chọn tệp :abbr:`CSV "
 "(Giá trị phân cách bằng dấu phẩy)`)."
 
-#: ../../content/applications/essentials/export_import_data.rst:279
+#: ../../content/applications/essentials/export_import_data.rst:277
 msgid ""
 "If the :abbr:`CSV (Comma-separated Values)` file has a tabulation as a "
 "separator, Odoo does **not** detect the separations. The file format options"
@@ -2415,11 +2425,11 @@ msgstr ""
 "tệp cần được sửa đổi trong ứng dụng bảng tính. Xem phần :ref:`Thay đổi định "
 "dạng tệp CSV <export_import_data/change-csv>` sau."
 
-#: ../../content/applications/essentials/export_import_data.rst:287
+#: ../../content/applications/essentials/export_import_data.rst:285
 msgid "Change CSV file format in spreadsheet application"
 msgstr "Thay đổi định dạng tệp CSV trong ứng dụng bảng tính"
 
-#: ../../content/applications/essentials/export_import_data.rst:289
+#: ../../content/applications/essentials/export_import_data.rst:287
 msgid ""
 "When editing and saving :abbr:`CSV (Comma-separated Values)` files in "
 "spreadsheet applications, the computer's regional settings are applied for "
@@ -2435,7 +2445,7 @@ msgstr ""
 " đi đến hộp thoại :menuselection:`'Lưu dưới dạng' --> Chọn ô 'Chỉnh sửa cài "
 "đặt bộ lọc' --> Lưu`)."
 
-#: ../../content/applications/essentials/export_import_data.rst:295
+#: ../../content/applications/essentials/export_import_data.rst:293
 msgid ""
 "Microsoft Excel can modify the encoding when saving (:menuselection:`'Save "
 "As' dialog box --> 'Tools' drop-down menu --> Encoding tab`)."
@@ -2444,11 +2454,11 @@ msgstr ""
 ":menuselection:`'Lưu dưới dạng' --> menu 'Công cụ' thả xuống --> tab Mã "
 "hóa`)."
 
-#: ../../content/applications/essentials/export_import_data.rst:299
+#: ../../content/applications/essentials/export_import_data.rst:297
 msgid "Difference between Database ID and External ID"
 msgstr "Sự khác biệt giữa ID cơ sở dữ liệu và ID ngoài"
 
-#: ../../content/applications/essentials/export_import_data.rst:301
+#: ../../content/applications/essentials/export_import_data.rst:299
 msgid ""
 "Some fields define a relationship with another object. For example, the "
 "country of a contact is a link to a record of the 'Country' object. When "
@@ -2460,11 +2470,11 @@ msgstr ""
 "trường này được nhập, Odoo phải tạo lại liên kết giữa các bản ghi khác nhau."
 " Để hỗ trợ nhập các trường như vậy, Odoo cung cấp ba cơ chế."
 
-#: ../../content/applications/essentials/export_import_data.rst:306
+#: ../../content/applications/essentials/export_import_data.rst:304
 msgid "**Only one** mechanism should be used per field that is imported."
 msgstr "Chỉ nên sử dụng **một** cơ chế cho mỗi trường được nhập."
 
-#: ../../content/applications/essentials/export_import_data.rst:308
+#: ../../content/applications/essentials/export_import_data.rst:306
 msgid ""
 "For example, to reference the country of a contact, Odoo proposes three "
 "different fields to import:"
@@ -2472,11 +2482,11 @@ msgstr ""
 "Ví dụ, để tham chiếu quốc gia của một liên hệ, Odoo đề xuất ba trường khác "
 "nhau để nhập:"
 
-#: ../../content/applications/essentials/export_import_data.rst:310
+#: ../../content/applications/essentials/export_import_data.rst:308
 msgid ":guilabel:`Country`: the name or code of the country"
 msgstr ":guilabel:`Quốc gia`: tên hoặc mã của quốc gia"
 
-#: ../../content/applications/essentials/export_import_data.rst:311
+#: ../../content/applications/essentials/export_import_data.rst:309
 msgid ""
 ":guilabel:`Country/Database ID`: the unique Odoo ID for a record, defined by"
 " the ID PostgreSQL column"
@@ -2484,7 +2494,7 @@ msgstr ""
 ":guilabel:`ID quốc gia/cơ sở dữ liệu`: ID Odoo duy nhất cho một bản ghi, "
 "được xác định bởi cột ID PostgreSQL"
 
-#: ../../content/applications/essentials/export_import_data.rst:313
+#: ../../content/applications/essentials/export_import_data.rst:311
 msgid ""
 ":guilabel:`Country/External ID`: the ID of this record referenced in another"
 " application (or the `.XML` file that imported it)"
@@ -2492,52 +2502,63 @@ msgstr ""
 ":guilabel:`ID quốc gia/ngoài`: ID của bản ghi này được tham chiếu trong ứng "
 "dụng khác (hoặc tệp `.XML` đã nhập nó)"
 
-#: ../../content/applications/essentials/export_import_data.rst:316
+#: ../../content/applications/essentials/export_import_data.rst:314
 msgid ""
 "For the country of Belgium, for example, use one of these three ways to "
 "import:"
 msgstr "Ví dụ, khi quốc gia là Bỉ, hãy sử dụng một trong ba cách sau để nhập:"
 
-#: ../../content/applications/essentials/export_import_data.rst:318
+#: ../../content/applications/essentials/export_import_data.rst:316
 msgid ":guilabel:`Country`: `Belgium`"
 msgstr ":guilabel:`Quốc gia`: `Bỉ`"
 
-#: ../../content/applications/essentials/export_import_data.rst:319
+#: ../../content/applications/essentials/export_import_data.rst:317
 msgid ":guilabel:`Country/Database ID`: `21`"
 msgstr ":guilabel:`ID quốc gia/cơ sở dữ liệu`: `21`"
 
-#: ../../content/applications/essentials/export_import_data.rst:320
+#: ../../content/applications/essentials/export_import_data.rst:318
 msgid ":guilabel:`Country/External ID`: `base.be`"
-msgstr ":guilabel:`ID ngoài/quốc gia`: `base.be`"
+msgstr ":guilabel:`ID quốc gia/ngoài`: `base.be`"
 
-#: ../../content/applications/essentials/export_import_data.rst:322
+#: ../../content/applications/essentials/export_import_data.rst:320
 msgid ""
 "According to the company's need, use one of these three ways to reference "
 "records in relations. Here is an example when one or the other should be "
 "used, according to the need:"
 msgstr ""
+"Theo nhu cầu của công ty, hãy sử dụng một trong ba cách sau để tham chiếu hồ"
+" sơ trong quan hệ. Sau đây là ví dụ khi nào nên sử dụng cách nào, tùy theo "
+"nhu cầu:"
 
-#: ../../content/applications/essentials/export_import_data.rst:325
+#: ../../content/applications/essentials/export_import_data.rst:323
 msgid ""
 "Use :guilabel:`Country`: this is the easiest way when data comes from "
 ":abbr:`CSV (Comma-separated Values)` files that have been created manually."
 msgstr ""
+"Sử dụng :guilabel:`Quốc gia`: đây là cách dễ nhất khi dữ liệu đến từ các tệp"
+" :abbr:`CSV (Giá trị phân tách bằng dấu phẩy)` được tạo thủ công."
 
-#: ../../content/applications/essentials/export_import_data.rst:327
+#: ../../content/applications/essentials/export_import_data.rst:325
 msgid ""
 "Use :guilabel:`Country/Database ID`: this should rarely be used. It is "
 "mostly used by developers as the main advantage is to never have conflicts "
 "(there may be several records with the same name, but they always have a "
 "unique Database ID)"
 msgstr ""
+"Sử dụng :guilabel:`ID quốc gia/cơ sở dữ liệu`: cách này hiếm khi được sử "
+"dụng. Nó chủ yếu được các lập trình viên sử dụng vì lợi thế chính là không "
+"bao giờ có xung đột (có thể có một số bản ghi có cùng tên, nhưng chúng luôn "
+"có một ID cơ sở dữ liệu duy nhất)"
 
-#: ../../content/applications/essentials/export_import_data.rst:330
+#: ../../content/applications/essentials/export_import_data.rst:328
 msgid ""
 "Use :guilabel:`Country/External ID`: use *External ID* when importing data "
 "from a third-party application."
 msgstr ""
+"Sử dụng :guilabel:`ID quốc gia/ngoài`: sử dụng *ID ngoài* khi nhập dữ liệu "
+"từ ứng dụng của bên thứ ba."
 
-#: ../../content/applications/essentials/export_import_data.rst:333
+#: ../../content/applications/essentials/export_import_data.rst:331
 msgid ""
 "When *External IDs* are used, import :abbr:`CSV (Comma-separated Values)` "
 "files with the :guilabel:`External ID` (ID) column defining the *External "
@@ -2546,8 +2567,13 @@ msgid ""
 "(Comma-separated Values)` files provide an example for products and their "
 "categories."
 msgstr ""
+"Khi sử dụng *ID ngoài*, hãy nhập các tệp :abbr:`CSV (Giá trị phân tách bằng "
+"dấu phẩy)` với cột :guilabel:`ID ngoài` (ID) xác định *ID ngoài* của mỗi bản"
+" ghi được nhập. Sau đó, có thể tham chiếu đến bản ghi đó bằng các cột, như "
+"`Trường/ID ngoài`. Hai tệp :abbr:`CSV (Giá trị phân tách bằng dấu phẩy)` sau"
+" đây cung cấp ví dụ về các sản phẩm và danh mục của chúng."
 
-#: ../../content/applications/essentials/export_import_data.rst:338
+#: ../../content/applications/essentials/export_import_data.rst:336
 msgid ""
 ":download:`CSV file for categories "
 "<export_import_data/External_id_3rd_party_application_product_categories.csv>`"
@@ -2555,7 +2581,7 @@ msgstr ""
 ":download:`Tệp CSV cho danh mục "
 "<export_import_data/External_id_3rd_party_application_product_categories.csv>`"
 
-#: ../../content/applications/essentials/export_import_data.rst:340
+#: ../../content/applications/essentials/export_import_data.rst:338
 msgid ""
 ":download:`CSV file for Products "
 "<export_import_data/External_id_3rd_party_application_products.csv>`"
@@ -2563,31 +2589,39 @@ msgstr ""
 ":download:`Tệp CSV cho Sản phẩm "
 "<export_import_data/External_id_3rd_party_application_products.csv>`"
 
-#: ../../content/applications/essentials/export_import_data.rst:346
+#: ../../content/applications/essentials/export_import_data.rst:344
 msgid "Import relation fields"
 msgstr "Nhập trường quan hệ"
 
-#: ../../content/applications/essentials/export_import_data.rst:348
+#: ../../content/applications/essentials/export_import_data.rst:346
 msgid ""
 "An Odoo object is always related to many other objects (e.g. a product is "
 "linked to product categories, attributes, vendors, etc.). To import those "
 "relations, the records of the related object need to be imported first, from"
 " their own list menu."
 msgstr ""
+"Một đối tượng Odoo luôn liên quan đến nhiều đối tượng khác (VD: một sản phẩm"
+" được liên kết với danh mục sản phẩm, thuộc tính, nhà cung cấp,...). Để nhập"
+" các mối quan hệ đó, trước tiên cần nhập các bản ghi của đối tượng liên quan"
+" từ menu danh sách của riêng chúng."
 
-#: ../../content/applications/essentials/export_import_data.rst:352
+#: ../../content/applications/essentials/export_import_data.rst:350
 msgid ""
 "This can be achieved by using either the name of the related record, or its "
 "ID, depending on the circumstances. The ID is expected when two records have"
 " the same name. In such a case add `/ ID` at the end of the column title "
 "(e.g. for product attributes: `Product Attributes / Attribute / ID`)."
 msgstr ""
+"Điều này có thể đạt được bằng cách sử dụng tên của bản ghi liên quan hoặc ID"
+" của bản ghi đó, tùy từng trường hợp. ID được sử dụng khi hai bản ghi có "
+"cùng tên. Khi đó, hãy thêm `/ID` vào cuối tiêu đề cột (VD: đối với thuộc "
+"tính sản phẩm: `Thuộc tính sản phẩm/Thuộc tính/ID`)."
+
+#: ../../content/applications/essentials/export_import_data.rst:355
+msgid "Options for multiple matches on fields"
+msgstr "Tùy chọn cho nhiều kết quả khớp trên các trường"
 
 #: ../../content/applications/essentials/export_import_data.rst:357
-msgid "Options for multiple matches on fields"
-msgstr ""
-
-#: ../../content/applications/essentials/export_import_data.rst:359
 msgid ""
 "If, for example, there are two product categories with the child name "
 "`Sellable` (e.g. `Misc. Products/Sellable` & `Other Products/Sellable`), the"
@@ -2597,27 +2631,40 @@ msgid ""
 "Products/Sellable`). Odoo, instead, recommends modifying one of the "
 "duplicate's values, or the product category hierarchy."
 msgstr ""
+"Ví dụ, nếu có hai danh mục sản phẩm có tên thành phần là `Có thể bán` (ví "
+"dụ: `Sản phẩm hỗn hợp/Có thể bán` & `Sản phẩm khác/Có thể bán`), thì quá "
+"trình xác thực sẽ dừng lại, nhưng dữ liệu vẫn có thể được nhập. Tuy nhiên, "
+"Odoo khuyến nghị không nhập dữ liệu vì tất cả sẽ được liên kết với danh mục "
+"`Có thể bán` đầu tiên được tìm thấy trong danh sách *Danh mục sản phẩm* "
+"(`Sản phẩm hỗn hợp/Có thể bán`). Thay vào đó, bạn nên sửa đổi một trong các "
+"giá trị trùng lặp hoặc phân cấp danh mục sản phẩm."
 
-#: ../../content/applications/essentials/export_import_data.rst:366
+#: ../../content/applications/essentials/export_import_data.rst:364
 msgid ""
 "However, if the company does not wish to change the configuration of product"
 " categories, Odoo recommends making use of the *External ID* for this field,"
 " 'Category'."
 msgstr ""
+"Tuy nhiên, nếu công ty không muốn thay đổi cấu hình danh mục sản phẩm, Odoo "
+"khuyên bạn nên sử dụng *ID ngoài* cho trường 'Danh mục' này."
 
-#: ../../content/applications/essentials/export_import_data.rst:370
+#: ../../content/applications/essentials/export_import_data.rst:368
 msgid "Import many2many relationship fields"
 msgstr "Nhập trường quan hệ many2many"
 
-#: ../../content/applications/essentials/export_import_data.rst:372
+#: ../../content/applications/essentials/export_import_data.rst:370
 msgid ""
 "The tags should be separated by a comma, without any spacing. For example, "
 "if a customer needs to be linked to both tags: `Manufacturer` and `Retailer`"
 " then 'Manufacturer,Retailer' needs to be encoded in the same column of the "
 ":abbr:`CSV (Comma-separated Values)` file."
 msgstr ""
+"Các thẻ phải được phân tách bằng dấu phẩy, không có khoảng cách. Ví dụ, nếu "
+"khách hàng cần được liên kết đến cả hai thẻ: `Nhà sản xuất` và `Nhà bán lẻ` "
+"thì `Nhà sản xuất,Nhà bán lẻ' cần được mã hóa trong cùng một cột của tệp "
+":abbr:`CSV (Giá trị phân tách bằng dấy phẩy)`."
 
-#: ../../content/applications/essentials/export_import_data.rst:376
+#: ../../content/applications/essentials/export_import_data.rst:374
 msgid ""
 ":download:`CSV file for Manufacturer, Retailer "
 "<export_import_data/m2m_customers_tags.csv>`"
@@ -2625,11 +2672,11 @@ msgstr ""
 ":download:`Tệp CSV cho Nhà sản xuất, Nhà bán lẻ "
 "<export_import_data/m2m_customers_tags.csv>`"
 
-#: ../../content/applications/essentials/export_import_data.rst:379
+#: ../../content/applications/essentials/export_import_data.rst:377
 msgid "Import one2many relationships"
 msgstr "Nhập quan hệ one2many"
 
-#: ../../content/applications/essentials/export_import_data.rst:381
+#: ../../content/applications/essentials/export_import_data.rst:379
 msgid ""
 "If a company wants to import a sales order with several order lines, a "
 "specific row **must** be reserved in the :abbr:`CSV (Comma-separated "
@@ -2638,14 +2685,21 @@ msgid ""
 "additional row that does not have any information in the fields relative to "
 "the order."
 msgstr ""
+"Nếu một công ty muốn nhập đơn bán hàng có nhiều dòng, thì **phải** dành "
+"riêng một hàng cụ thể trong tệp :abbr:`CSV (Giá trị phân tách bằng dấu "
+"phẩy)` cho mỗi dòng đơn hàng. Dòng đầu tiên được nhập vào cùng một hàng với "
+"thông tin liên quan đến đơn hàng. Mọi dòng bổ sung cũng cần một hàng bổ sung"
+" không chứa bất kỳ thông tin nào trong các trường liên quan đến đơn hàng."
 
-#: ../../content/applications/essentials/export_import_data.rst:386
+#: ../../content/applications/essentials/export_import_data.rst:384
 msgid ""
 "As an example, here is a :abbr:`CSV (Comma-separated Values)` file of some "
 "quotations that can be imported, based on demo data:"
 msgstr ""
+"Ví dụ, đây là tệp :abbr:`CSV (Giá trị phân tách bằng dấu phẩy)` chứa một số "
+"báo giá có thể được nhập dựa trên dữ liệu demo:"
 
-#: ../../content/applications/essentials/export_import_data.rst:389
+#: ../../content/applications/essentials/export_import_data.rst:387
 msgid ""
 ":download:`File for some Quotations "
 "<export_import_data/purchase.order_functional_error_line_cant_adpat.csv>`"
@@ -2653,25 +2707,31 @@ msgstr ""
 ":download:`Tệp cho một số Báo giá "
 "<export_import_data/purchase.order_functional_error_line_cant_adpat.csv>`"
 
-#: ../../content/applications/essentials/export_import_data.rst:392
+#: ../../content/applications/essentials/export_import_data.rst:390
 msgid ""
 "The following :abbr:`CSV (Comma-separated Values)` file shows how to import "
 "purchase orders with their respective purchase order lines:"
 msgstr ""
+"Tệp :abbr:`CSV (Giá trị phân tách bằng dấu phẩy)` sau đây hiển thị cách nhập"
+" đơn mua hàng với các dòng đơn mua hàng tương ứng:"
 
-#: ../../content/applications/essentials/export_import_data.rst:395
+#: ../../content/applications/essentials/export_import_data.rst:393
 msgid ""
 ":download:`Purchase orders with their respective purchase order lines "
 "<export_import_data/o2m_purchase_order_lines.csv>`"
 msgstr ""
+":download:`Đơn mua hàng với các dòng đơn mua hàng tương ứng "
+"<export_import_data/o2m_purchase_order_lines.csv>`"
 
-#: ../../content/applications/essentials/export_import_data.rst:398
+#: ../../content/applications/essentials/export_import_data.rst:396
 msgid ""
 "The following :abbr:`CSV (Comma-separated Values)` file shows how to import "
 "customers and their respective contacts:"
 msgstr ""
+"Tệp :abbr:`CSV (Giá trị phân tách bằng dấu phẩy)` sau đây hiển thị cách nhập"
+" khách hàng và thông tin liên hệ tương ứng của họ:"
 
-#: ../../content/applications/essentials/export_import_data.rst:401
+#: ../../content/applications/essentials/export_import_data.rst:399
 msgid ""
 ":download:`Customers and their respective contacts "
 "<export_import_data/o2m_customers_contacts.csv>`"
@@ -2679,11 +2739,89 @@ msgstr ""
 ":download:`Khách hàng và các liên hệ tương ứng của họ "
 "<export_import_data/o2m_customers_contacts.csv>`"
 
+#: ../../content/applications/essentials/export_import_data.rst:403
+msgid "Import image files"
+msgstr ""
+
 #: ../../content/applications/essentials/export_import_data.rst:405
+msgid ""
+"To import image files along with the :ref:`uploaded "
+"<essentials/export_import_data/get-started>` CSV or Excel file, follow the "
+"next steps:"
+msgstr ""
+
+#: ../../content/applications/essentials/export_import_data.rst:408
+msgid ""
+"Add the image file names to the relevant :guilabel:`Image` column in the "
+"data file."
+msgstr ""
+
+#: ../../content/applications/essentials/export_import_data.rst:409
+msgid ""
+":ref:`Upload the data file <essentials/export_import_data/get-started>` or "
+"reload it by clicking :guilabel:`Load Data File`."
+msgstr ""
+
+#: ../../content/applications/essentials/export_import_data.rst:411
+msgid ""
+"Click :guilabel:`Upload your files` under the :guilabel:`Files to import` "
+"section."
+msgstr ""
+
+#: ../../content/applications/essentials/export_import_data.rst:412
+msgid ""
+"Select the relevant image files. The number of files selected appears next "
+"to the button."
+msgstr ""
+
+#: ../../content/applications/essentials/export_import_data.rst:413
+msgid "Click :guilabel:`Test` to verify that all data is valid."
+msgstr ""
+
+#: ../../content/applications/essentials/export_import_data.rst:414
+msgid ""
+"Click :guilabel:`Import`. During the import process, Odoo performs a file "
+"check to automatically link the uploaded images to the imported data file. "
+"If there is no match, the data file is imported without any image."
+msgstr ""
+
+#: ../../content/applications/essentials/export_import_data.rst:419
+msgid ""
+"The :guilabel:`Files to import` section is enabled if your product template "
+"has an :guilabel:`Image` column with all fields populated."
+msgstr ""
+
+#: ../../content/applications/essentials/export_import_data.rst:421
+msgid ""
+"The image file names in the data file must correspond to the uploaded image "
+"files."
+msgstr ""
+
+#: ../../content/applications/essentials/export_import_data.rst:422
+msgid ""
+"When importing a large number of images, you can specify the maximum batch "
+"size in megabytes and set a delay to prevent the system from becoming "
+"overloaded. To do so, :doc:`enable the developer mode "
+"<../general/developer_mode>` and fill in the :guilabel:`Max size per batch` "
+"and the :guilabel:`Delay after each batch` fields in the :guilabel:`Files to"
+" import` section. By default, the delay meets the RPC/API call limit defined"
+" in the `Odoo Cloud - Acceptable Use Policy "
+"<https://www.odoo.com/acceptable-use>`_."
+msgstr ""
+"Khi nhập một số lượng lớn hình ảnh, bạn có thể chỉ định kích thước tối đa "
+"cho loạt tính bằng megabyte và đặt độ trễ để tránh hệ thống bị quá tải. Để "
+"thực hiện, :doc:`bật chế độ lập trình viên <../general/developer_mode>` và "
+"điền vào các trường :guilabel:`Kích thước tối đa cho mỗi loạt` và "
+":guilabel:`Độ trễ sau mỗi loạt` trong phần :guilabel:`Tệp cần nhập`. Theo "
+"mặc định, độ trễ đáp ứng giới hạn lệnh gọi RPC/API được xác định trong `Odoo"
+" Đám mây - Chính sách Sử dụng được Chấp nhận "
+"<https://www.odoo.com/acceptable-use>`_."
+
+#: ../../content/applications/essentials/export_import_data.rst:430
 msgid "Import records several times"
 msgstr "Nhập bản ghi nhiều lần"
 
-#: ../../content/applications/essentials/export_import_data.rst:407
+#: ../../content/applications/essentials/export_import_data.rst:432
 msgid ""
 "If an imported file contains one of the columns: :guilabel:`External ID` or "
 ":guilabel:`Database ID`, records that have already been imported are "
@@ -2691,44 +2829,62 @@ msgid ""
 "users to import the same :abbr:`CSV (Comma-separated Values)` file several "
 "times, while having made some changes in between two imports."
 msgstr ""
+"Nếu tệp được nhập có chứa một trong các cột: :guilabel:`ID ngoài` hoặc "
+":guilabel:`ID cơ sở dữ liệu`, thì các bản ghi đã được nhập sẽ được sửa đổi, "
+"thay vì được tạo. Điều này cực kỳ hữu ích vì nó cho phép người dùng nhập "
+"cùng một tệp :abbr:`CSV (Giá trị phân tách bằng dấu phẩy)` nhiều lần, trong "
+"khi đã thực hiện một số thay đổi giữa hai lần nhập."
 
-#: ../../content/applications/essentials/export_import_data.rst:412
+#: ../../content/applications/essentials/export_import_data.rst:437
 msgid ""
 "Odoo takes care of creating or modifying each record, depending if it is new"
 " or not."
 msgstr ""
+"Odoo sẽ xử lý việc tạo hoặc sửa đổi từng bản ghi, tùy thuộc vào việc bản ghi"
+" đó có mới hay không."
 
-#: ../../content/applications/essentials/export_import_data.rst:414
+#: ../../content/applications/essentials/export_import_data.rst:439
 msgid ""
 "This feature allows a company to use the *Import/Export tool* in Odoo to "
 "modify a batch of records in a spreadsheet application."
 msgstr ""
+"Tính năng này cho phép công ty sử dụng *Công cụ nhập/xuất* trong Odoo để sửa"
+" đổi hàng loạt bản ghi trong ứng dụng bảng tính."
 
-#: ../../content/applications/essentials/export_import_data.rst:418
+#: ../../content/applications/essentials/export_import_data.rst:443
 msgid "Value not provided for a specific field"
-msgstr ""
+msgstr "Giá trị không được cung cấp cho một trường cụ thể"
 
-#: ../../content/applications/essentials/export_import_data.rst:420
+#: ../../content/applications/essentials/export_import_data.rst:445
 msgid ""
 "If all fields are not set in the CSV file, Odoo assigns the default value "
 "for every non-defined field. But, if fields are set with empty values in the"
 " :abbr:`CSV (Comma-separated Values)` file, Odoo sets the empty value in the"
 " field, instead of assigning the default value."
 msgstr ""
+"Nếu tất cả các trường không được thiết lập trong tệp CSV, Odoo sẽ gán giá "
+"trị mặc định cho mọi trường không được xác định. Nhưng nếu các trường được "
+"thiết lập với giá trị trống trong tệp :abbr:`CSV (Giá trị phân tách bằng dấu"
+" phẩy)`, Odoo sẽ thiết lập giá trị trống trong trường, thay vì gán giá trị "
+"mặc định."
 
-#: ../../content/applications/essentials/export_import_data.rst:425
+#: ../../content/applications/essentials/export_import_data.rst:450
 msgid "Export/import different tables from an SQL application to Odoo"
-msgstr ""
+msgstr "Xuất/nhập các bảng khác nhau từ ứng dụng SQL vào Odoo"
 
-#: ../../content/applications/essentials/export_import_data.rst:427
+#: ../../content/applications/essentials/export_import_data.rst:452
 msgid ""
 "If data needs to be imported from different tables, relations need to be "
 "recreated between records belonging to different tables. For instance, if "
 "companies and people are imported, the link between each person and the "
 "company they work for needs to be recreated."
 msgstr ""
+"Nếu dữ liệu cần được nhập từ các bảng khác nhau, cần phải tạo lại các mối "
+"quan hệ giữa những bản ghi thuộc về các bảng khác nhau. Ví dụ, nếu cần nhập "
+"công ty và người, thì bạn cần phải tạo lại liên kết giữa mỗi người và công "
+"ty mà họ làm việc."
 
-#: ../../content/applications/essentials/export_import_data.rst:431
+#: ../../content/applications/essentials/export_import_data.rst:456
 msgid ""
 "To manage relations between tables, use the `External ID` facilities of "
 "Odoo. The `External ID` of a record is the unique identifier of this record "
@@ -2737,43 +2893,59 @@ msgid ""
 "name of the application or table. (like, 'company_1', 'person_1' - instead "
 "of '1')"
 msgstr ""
+"Để quản lý mối quan hệ giữa các bảng, hãy sử dụng tiện ích `ID ngoài` của "
+"Odoo. `ID ngoài` của một bản ghi là mã định danh duy nhất của bản ghi này "
+"trong một ứng dụng khác. `ID ngoài` không được trùng lặp trên tất cả bản ghi"
+" của mọi đối tượng. Một phương pháp hữu ích là thêm tiền tố `ID ngoài` này "
+"bằng tên của ứng dụng hoặc bảng (như, 'company_1', 'person_1' - thay vì "
+"'1')."
 
-#: ../../content/applications/essentials/export_import_data.rst:436
+#: ../../content/applications/essentials/export_import_data.rst:461
 msgid ""
 "As an example, suppose there is an SQL database with two tables that are to "
 "be imported: companies and people. Each person belongs to one company, so "
 "the link between a person and the company they work for must be recreated."
 msgstr ""
+"Ví dụ, giả sử có một cơ sở dữ liệu SQL với hai bảng cần nhập: công ty và "
+"người. Mỗi người thuộc về một công ty, thì liên kết giữa một người và công "
+"ty mà họ làm việc phải được tạo lại."
 
-#: ../../content/applications/essentials/export_import_data.rst:440
+#: ../../content/applications/essentials/export_import_data.rst:465
 msgid ""
 "Test this example, with a :download:`sample of a PostgreSQL database "
 "<export_import_data/database_import_test.sql>`."
 msgstr ""
+"Hãy kiểm thử ví dụ này bằng :download:`mẫu cơ sở dữ liệu PostgreSQL "
+"<export_import_data/database_import_test.sql>`."
 
-#: ../../content/applications/essentials/export_import_data.rst:443
+#: ../../content/applications/essentials/export_import_data.rst:468
 msgid ""
 "First, export all companies and their *External ID*. In PSQL, write the "
 "following command:"
 msgstr ""
+"Đầu tiên, xuất tất cả công ty và *ID ngoài* của chúng. Trong PSQL, hãy viết "
+"lệnh sau:"
 
-#: ../../content/applications/essentials/export_import_data.rst:449
+#: ../../content/applications/essentials/export_import_data.rst:474
 msgid ""
 "This SQL command creates the following :abbr:`CSV (Comma-separated Values)` "
 "file:"
 msgstr ""
+"Lệnh SQL này tạo ra tệp :abbr:`CSV (Giá trị phân tách bằng dấu phẩy)` sau:"
 
-#: ../../content/applications/essentials/export_import_data.rst:458
+#: ../../content/applications/essentials/export_import_data.rst:483
 msgid ""
 "To create the :abbr:`CSV (Comma-separated Values)` file for people linked to"
 " companies, use the following SQL command in PSQL:"
 msgstr ""
+"Để tạo tệp :abbr:`CSV (Giá trị phân tách bằng dấu phẩy)` cho những người "
+"được liên kết với công ty, hãy sử dụng lệnh SQL sau trong PSQL:"
 
-#: ../../content/applications/essentials/export_import_data.rst:465
+#: ../../content/applications/essentials/export_import_data.rst:490
 msgid "It produces the following :abbr:`CSV (Comma-separated Values)` file:"
-msgstr ""
+msgstr "Nó tạo ra tệp :abbr:`CSV (Giá trị phân tách bằng dấu phẩy)` sau:"
 
-#: ../../content/applications/essentials/export_import_data.rst:475
+#: ../../content/applications/essentials/export_import_data.rst:500
 msgid ""
 "In this file, Fabien and Laurence are working for the Bigees company "
 "(`company_1`), and Eric is working for the Organi company. The relation "
@@ -2782,8 +2954,14 @@ msgid ""
 " conflict of ID between people and companies (`person_1` and `company_1`, "
 "who shared the same ID 1 in the original database)."
 msgstr ""
+"Trong tệp này, Fabien và Laurence đang làm việc cho công ty Bigees "
+"(`company_1`), và Eric đang làm việc cho công ty Organi. Mối quan hệ giữa "
+"mọi người và công ty được thực hiện bằng cách sử dụng *ID ngoài* của các "
+"công ty. *ID ngoài* được thêm tiền tố là tên của bảng để tránh xung đột ID "
+"giữa người và công ty (`person_1` và `company_1`, những người có cùng một ID"
+" 1 trong cơ sở dữ liệu gốc)."
 
-#: ../../content/applications/essentials/export_import_data.rst:481
+#: ../../content/applications/essentials/export_import_data.rst:506
 msgid ""
 "The two files produced are ready to be imported in Odoo without any "
 "modifications. After having imported these two :abbr:`CSV (Comma-separated "
@@ -2791,30 +2969,41 @@ msgid ""
 "contacts are linked to the first company). Keep in mind to first import the "
 "companies, and then the people."
 msgstr ""
+"Hai tệp được tạo ra đã sẵn sàng để nhập vào Odoo mà không cần bất kỳ sửa đổi"
+" nào. Sau khi nhập hai tệp :abbr:`CSV (Giá trị phân tách bằng dấu phẩy)` "
+"này, có bốn liên hệ và ba công ty (hai liên hệ đầu tiên được liên kết với "
+"công ty đầu tiên). Hãy nhớ nhập công ty trước, sau đó đến người."
 
-#: ../../content/applications/essentials/export_import_data.rst:489
+#: ../../content/applications/essentials/export_import_data.rst:514
 msgid "Update data in Odoo"
 msgstr "Cập nhật dữ liệu trong Odoo"
 
-#: ../../content/applications/essentials/export_import_data.rst:491
+#: ../../content/applications/essentials/export_import_data.rst:516
 msgid ""
 "Existing data can be updated in bulk through a data import, as long as the "
 ":ref:`External ID <essentials/external-id>` remains consistent."
 msgstr ""
+"Dữ liệu hiện có có thể được cập nhật hàng loạt thông qua quá trình nhập dữ "
+"liệu, miễn là :ref:`ID ngoài <essentials/external-id>` vẫn nhất quán."
 
-#: ../../content/applications/essentials/export_import_data.rst:495
+#: ../../content/applications/essentials/export_import_data.rst:520
 msgid "Prepare data export"
 msgstr "Chuẩn bị xuất dữ liệu"
 
-#: ../../content/applications/essentials/export_import_data.rst:497
+#: ../../content/applications/essentials/export_import_data.rst:522
 msgid ""
 "To update data through an import, first navigate to the data to be updated, "
 "and select the |list| to activate list view. On the far-left side of the "
 "list, tick the checkbox for any record to be updated. Then, click |actions|,"
 " and select :icon:`fa-upload` :guilabel:`Export` from the drop-down menu."
 msgstr ""
+"Để cập nhật dữ liệu thông qua quá trình nhập, trước tiên hãy điều hướng đến "
+"dữ liệu cần cập nhật và chọn |list| để kích hoạt chế độ xem danh sách. Ở "
+"phía bên trái của danh sách, đánh dấu vào hộp kiểm cho bản ghi cần cập nhật."
+" Sau đó, nhấp vào |actions| và chọn :icon:`fa-upload` :guilabel:`Xuất` từ "
+"menu thả xuống."
 
-#: ../../content/applications/essentials/export_import_data.rst:502
+#: ../../content/applications/essentials/export_import_data.rst:527
 msgid ""
 "On the resulting :guilabel:`Export Data` pop-up window, tick the checkbox "
 "labeled, :guilabel:`I want to update data (import-compatible export)`. This "
@@ -2822,8 +3011,13 @@ msgid ""
 "limits the :guilabel:`Fields to export` list to **only** include fields that"
 " are able to be imported."
 msgstr ""
+"Trên cửa sổ :guilabel:`Xuất dữ liệu` bật lên, đánh dấu vào hộp kiểm có nhãn,"
+" :guilabel:`Tôi muốn cập nhật dữ liệu (xuất tương thích nhập)`. Thao tác này"
+" tự động bao gồm *ID ngoài* trong quá trình xuất. Ngoài ra, nó giới hạn danh"
+" sách :guilabel:`Trường cần xuất` thành **chỉ** bao gồm các trường có thể "
+"nhập."
 
-#: ../../content/applications/essentials/export_import_data.rst:508
+#: ../../content/applications/essentials/export_import_data.rst:533
 msgid ""
 "The :guilabel:`External ID` field does **not** appear in the "
 ":guilabel:`Fields to export` list unless it is manually added, but it is "
@@ -2831,32 +3025,45 @@ msgid ""
 "data (import-compatible export)` checkbox is ticked, it is included in the "
 "export."
 msgstr ""
+"Trường :guilabel:`ID ngoài` **không** xuất hiện trong danh sách "
+":guilabel:`Trường cần xuất` trừ khi được thêm thủ công, nhưng trường này vẫn"
+" có trong tệp xuất. Tuy nhiên, nếu chọn hộp kiểm :guilabel:`Tôi muốn cập "
+"nhật dữ liệu (xuất tương thích nhập)`, thì trường này sẽ tự động có trong "
+"tệp xuất."
 
-#: ../../content/applications/essentials/export_import_data.rst:512
+#: ../../content/applications/essentials/export_import_data.rst:537
 msgid ""
 "Select the required fields to be included in the export using the "
 ":ref:`options <export-data>` on the pop-up window, then click "
 ":guilabel:`Export`."
 msgstr ""
+"Chọn các trường bắt buộc để đưa vào tệp xuất bằng cách sử dụng :ref:`tuỳ "
+"chọn <export-data>` trên cửa sổ bật lên, sau đó nhấp vào :guilabel:`Xuất`."
 
-#: ../../content/applications/essentials/export_import_data.rst:516
+#: ../../content/applications/essentials/export_import_data.rst:541
 msgid "Import updated data"
 msgstr "Nhập dữ liệu được cập nhật"
 
-#: ../../content/applications/essentials/export_import_data.rst:518
+#: ../../content/applications/essentials/export_import_data.rst:543
 msgid ""
 "After exporting, make any necessary changes to the data file. When the file "
 "is ready, it can be :ref:`imported <import-data>` by following the same "
 "process as a normal data import."
 msgstr ""
+"Sau khi xuất, thực hiện mọi thay đổi cần thiết trên tệp dữ liệu. Khi sẵn "
+"sàng, bạn có thể :ref:`nhập <import-data>` tệp bằng cách làm theo quy trình "
+"tương tự như nhập dữ liệu thông thường."
 
-#: ../../content/applications/essentials/export_import_data.rst:522
+#: ../../content/applications/essentials/export_import_data.rst:547
 msgid ""
 "When updating data, it is extremely important that the *External ID* remain "
 "consistent, as this is how the system identifies a record. If an ID is "
 "altered, or removed, the system may add a duplicate record, instead of "
 "updating the existing one."
 msgstr ""
+"Khi cập nhật dữ liệu, điều cực kỳ quan trọng là *ID ngoài* phải nhất quán, "
+"vì đây là cách hệ thống xác định bản ghi. Nếu ID bị thay đổi hoặc xóa, hệ "
+"thống có thể thêm bản ghi trùng lặp, thay vì cập nhật bản ghi hiện có."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:3
 msgid "In-app purchases (IAP)"
@@ -2869,10 +3076,14 @@ msgid ""
 "list of services is available on the `Odoo IAP Catalog "
 "<https://iap.odoo.com/iap/all-in-app-services>`_."
 msgstr ""
+"Mua hàng trong ứng dụng (IAP) là các dịch vụ tùy chọn giúp nâng cao cơ sở dữ"
+" liệu Odoo. Mỗi dịch vụ cung cấp những tính năng và chức năng riêng. Danh "
+"sách đầy đủ các dịch vụ có trên `Danh mục IAP của Odoo "
+"<https://iap.odoo.com/iap/all-in-app-services>`_."
 
 #: ../../content/applications/essentials/in_app_purchase.rst-1
 msgid "The IAP catalog with various services available on IAP.Odoo.com."
-msgstr ""
+msgstr "Danh mục IAP với nhiều dịch vụ khác nhau có sẵn trên IAP.Odoo.com."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:16
 msgid ""
@@ -2881,6 +3092,10 @@ msgid ""
 "scanned or PDF vendor bills, expenses, and resumes with optical character "
 "recognition (OCR) and artificial intelligence (AI)."
 msgstr ""
+"Dịch vụ :guilabel:`SMS` gửi tin nhắn văn bản đến liên hệ ngay từ cơ sở dữ "
+"liệu và dịch vụ :guilabel:`Số hóa tài liệu` sẽ số hóa các tệp được quét hoặc"
+" tệp PDF của hóa đơn mua hàng, chi phí và sơ yếu lý lịch bằng công nghệ nhận"
+" dạng ký tự quang học (OCR) và trí tuệ nhân tạo (AI)."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:20
 msgid ""
@@ -2889,6 +3104,10 @@ msgid ""
 "each service requires its own prepaid credits, and when they run out, users "
 "**must** :ref:`buy more <iap/buying_credits>` in order to keep using it."
 msgstr ""
+"**Không** cần cấu hình hoặc thiết lập dịch vụ |IAP| trước khi sử dụng. Người"
+" dùng Odoo chỉ cần nhấp vào dịch vụ trong ứng dụng để kích hoạt. Tuy nhiên, "
+"mỗi dịch vụ yêu cầu tín dụng trả trước riêng và khi hết, người dùng **phải**"
+" :ref:`mua thêm <iap/buying_credits>` để tiếp tục sử dụng."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:25
 msgid ""
@@ -2897,6 +3116,10 @@ msgid ""
 "includes demo/training databases, educational databases, and one-app-free "
 "databases."
 msgstr ""
+"Người dùng Odoo Enterprise có đăng ký hợp lệ sẽ nhận được tín dụng miễn phí "
+"để kiểm thử các tính năng IAP trước khi quyết định mua thêm tín dụng cho cơ "
+"sở dữ liệu; bao gồm cơ sở dữ liệu demo/đào tạo, cơ sở dữ liệu giáo dục và cơ"
+" sở dữ liệu có một ứng dụng miễn phí."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:32
 msgid "IAP services"
@@ -2907,40 +3130,51 @@ msgid ""
 "|IAP| services are provided by Odoo, as well as third-parties, and have a "
 "wide range of uses."
 msgstr ""
+"Các dịch vụ |IAP| được cung cấp bởi Odoo cũng như các bên thứ ba và có nhiều"
+" mục đích sử dụng khác nhau."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:36
 msgid "The following |IAP| services are offered by Odoo:"
-msgstr ""
+msgstr "Odoo cung cấp các dịch vụ |IAP| sau đây:"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:38
 msgid ""
 ":guilabel:`Documents Digitization`: digitizes scanned or PDF vendor bills, "
 "expenses, and resumes with OCR and AI."
 msgstr ""
+":guilabel:`Số hóa tài liệu`: số hóa các tệp được quét hoặc tệp PDF của hóa "
+"đơn mua hàng, chi phí và sơ yếu lý lịch bằng OCR và AI."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:40
 msgid ""
 ":guilabel:`Partner Autocomplete`: automatically populates contact records "
 "with corporate data."
 msgstr ""
+":guilabel:`Tự động điền thông tin đối tác`: tự động điền dữ liệu công ty vào"
+" hồ sơ liên hệ."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:41
 msgid ""
 ":guilabel:`SMS`: sends SMS text messages to contacts directly from the "
 "database."
 msgstr ""
+":guilabel:`SMS`: gửi tin nhắn văn bản SMS đến liên hệ ngay từ cơ sở dữ liệu."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:42
 msgid ""
 ":guilabel:`Lead Generation`: generates leads based on a set of criteria, and"
 " converts web visitors into quality leads and opportunities."
 msgstr ""
+":guilabel:`Tạo lead`: tạo lead dựa trên một bộ tiêu chí và chuyển đổi khách "
+"truy cập trang web thành lead và cơ hội chất lượng."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:44
 msgid ""
 ":guilabel:`Snailmail`: sends customer invoices and follow-up reports by "
 "post, worldwide."
 msgstr ""
+":guilabel:`Thư bưu điện`: gửi hóa đơn bán hàng và báo cáo follow-up qua "
+"đường bưu điện trên toàn thế giới."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:45
 msgid ""
@@ -2948,6 +3182,9 @@ msgid ""
 "Odoo *Sign* to provide their identity using the *itsme®* identity platform, "
 "which is available in Belgium and the Netherlands."
 msgstr ""
+":guilabel:`Định danh người ký tên bằng itsme®️`: yêu cầu người ký tài liệu "
+"trong Odoo *Ký tên* cung cấp thông tin danh tính của họ bằng nền tảng định "
+"danh *itsme®*, khả dụng tại Bỉ và Hà Lan."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:49
 msgid ""
@@ -2955,6 +3192,9 @@ msgid ""
 "developers other than Odoo), visit the `Odoo IAP Catalog "
 "<https://iap.odoo.com/iap/all-in-app-services>`_."
 msgstr ""
+"Để tìm hiểu thêm thông tin về mọi dịch vụ hiện có (do các lập trình viên "
+"ngoài Odoo cung cấp), hãy truy cập `Danh mục IAP của Odoo "
+"<https://iap.odoo.com/iap/all-in-app-services>`_."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:53
 msgid "Use IAP services"
@@ -2966,29 +3206,40 @@ msgid ""
 "require users to configure any settings. To use a service, simply interact "
 "with it wherever it appears in the database."
 msgstr ""
+"Dịch vụ |IAP| được tích hợp tự động với Odoo và **không** yêu cầu người dùng"
+" cấu hình bất kỳ cài đặt nào. Để sử dụng dịch vụ, chỉ cần tương tác với dịch"
+" vụ đó bất cứ khi nào nó xuất hiện trong cơ sở dữ liệu."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:59
 msgid ""
 "The following flow focuses on the *SMS* |IAP| service being used from a "
 "contact's record."
 msgstr ""
+"Chu trình sau đây tập trung vào dịch vụ |IAP| *SMS* được sử dụng từ hồ sơ "
+"của một liên hệ."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:61
 msgid ""
 "This can be done by clicking the :guilabel:`📱 SMS` icon within the database."
 msgstr ""
+"Bạn có thể thực hiện việc này bằng cách nhấp vào biểu tượng :guilabel:`📱 "
+"SMS` trong cơ sở dữ liệu."
 
 #: ../../content/applications/essentials/in_app_purchase.rst-1
 msgid ""
 "The SMS icon on a typical contact information form located within an Odoo "
 "database."
 msgstr ""
+"Biểu tượng SMS trên mẫu thông tin liên hệ thông thường nằm trong cơ sở dữ "
+"liệu Odoo."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:67
 msgid ""
 "One way to utilize the *SMS* |IAP| service with Odoo is showcased in the "
 "following steps:"
 msgstr ""
+"Một cách sử dụng dịch vụ |IAP| *SMS* với Odoo được trình bày theo các bước "
+"sau:"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:69
 msgid ""
@@ -2996,6 +3247,9 @@ msgid ""
 " contact with a mobile phone number entered in either the :guilabel:`Phone` "
 "or :guilabel:`Mobile` field of the contact form."
 msgstr ""
+"Đầu tiên, đi đến :menuselection:`ứng dụng Liên hệ` và nhấp vào một số liên "
+"hệ có số điện thoại di động được nhập vào trường :guilabel:`Điện thoại` hoặc"
+" :guilabel:`Di động` của biểu mẫu liên lạc."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:73
 msgid ""
@@ -3003,6 +3257,10 @@ msgid ""
 ":guilabel:`Phone` or :guilabel:`Mobile` fields. Click the :guilabel:`📱 SMS` "
 "icon, and a :guilabel:`Send SMS Text Message` pop-up window appears."
 msgstr ""
+"Tiếp theo, tìm biểu tượng :guilabel:`📱 SMS` xuất hiện ở bên phải các trường "
+":guilabel:`Điện thoại` hoặc :guilabel:`Di động`. Nhấp vào biểu tượng "
+":guilabel:`📱 SMS` và cửa sổ :guilabel:`Gửi tin nhắn văn bản SMS` sẽ xuất "
+"hiện."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:77
 msgid ""
@@ -3011,6 +3269,10 @@ msgid ""
 " to the contact, and logs what was sent in the *chatter* of the contact's "
 "form."
 msgstr ""
+"Nhập tin nhắn vào trường :guilabel:`Tin nhắn` của cửa sổ bật lên. Tiếp theo,"
+" nhấp vào nút :guilabel:`Gửi SMS`. Sau đó, Odoo gửi tin nhắn qua SMS đến "
+"liên hệ và ghi lại những gì đã gửi trong *cửa sổ trò chuyện* của biểu mẫu "
+"liên hệ."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:81
 msgid ""
@@ -3019,6 +3281,9 @@ msgid ""
 "not enough credits to send the message, Odoo prompts the user to purchase "
 "more."
 msgstr ""
+"Khi gửi tin nhắn SMS, số tín dụng trả trước cho dịch vụ |IAP| *SMS* sẽ tự "
+"động được khấu trừ khỏi số tín dụng hiện có. Nếu không đủ tín dụng để gửi "
+"tin nhắn, Odoo sẽ nhắc người dùng mua thêm."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:86
 msgid ""
@@ -3026,6 +3291,9 @@ msgid ""
 "depth instructions related to SMS functionality in Odoo, review the "
 "documentation below:"
 msgstr ""
+"Để biết thêm thông tin về cách sử dụng nhiều dịch vụ |IAP| khác nhau và "
+"hướng dẫn chi tiết hơn liên quan đến chức năng SMS trong Odoo, hãy xem tài "
+"liệu dưới đây:"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:89
 msgid ":doc:`Lead mining <../sales/crm/acquire_leads/lead_mining>`"
@@ -3036,6 +3304,8 @@ msgid ""
 ":doc:`Enrich your contacts base with Partner Autocomplete "
 "<../sales/crm/optimize/partner_autocomplete>`"
 msgstr ""
+":doc:`Làm giàu kho liên hệ của bạn với Tự động điền thông tin đối tác "
+"<../sales/crm/optimize/partner_autocomplete>`"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:92
 msgid ":doc:`SMS Marketing <../marketing/sms_marketing>`"
@@ -3052,6 +3322,10 @@ msgid ""
 "enough credits left to continue using a service. Email alerts can also be "
 "set up for when :ref:`credits are low <in_app_purchase/low-credits>`."
 msgstr ""
+"Mỗi lần sử dụng dịch vụ |IAP|, các khoản tín dụng trả trước cho dịch vụ đó "
+"sẽ được chi tiêu. Odoo nhắc mua thêm tín dụng khi không còn đủ tín dụng để "
+"tiếp tục sử dụng dịch vụ. Cảnh báo qua email cũng có thể được thiết lập khi "
+":ref:`tín dụng thấp <in_app_purchase/low-credits>`."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:103
 msgid ""
@@ -3059,12 +3333,17 @@ msgid ""
 "<https://iap.odoo.com/iap/all-in-app-services>`_, and pricing is specific to"
 " each service."
 msgstr ""
+"Tín dụng được mua theo *Gói* từ `Danh mục IAP của Odoo "
+"<https://iap.odoo.com/iap/all-in-app-services>`_ và giá cả sẽ được áp dụng "
+"riêng cho từng dịch vụ."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:107
 msgid ""
 "The `SMS service <https://iap.odoo.com/iap/in-app-services/1>`_ has four "
 "packs available, in denominations of:"
 msgstr ""
+"`Dịch vụ SMS <https://iap.odoo.com/iap/in-app-services/1>`_ có bốn gói với "
+"giá như sau:"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:110
 msgid ":guilabel:`Starter Pack`: 10 credits"
@@ -3084,19 +3363,23 @@ msgstr ":guilabel:`Gói chuyên gia`: 1000 tín dụng"
 
 #: ../../content/applications/essentials/in_app_purchase.rst-1
 msgid "Four different packs of credits for the SMS IAP service."
-msgstr ""
+msgstr "Bốn gói tín dụng khác nhau cho dịch vụ SMS IAP."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:119
 msgid ""
 "The number of credits consumed depends on the length of the SMS and the "
 "country of destination."
 msgstr ""
+"Số lượng tín dụng tiêu thụ phụ thuộc vào độ dài của tin nhắn SMS và quốc gia"
+" đích."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:121
 msgid ""
 "For more information, refer to the :doc:`SMS Pricing and FAQ "
 "<../marketing/sms_marketing/pricing_and_faq>` documentation."
 msgstr ""
+"Để tìm hiểu thêm thông tin, tham khảo :doc:`Tài liệu Giá SMS và câu hỏi "
+"thường gặp <../marketing/sms_marketing/pricing_and_faq>`."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:127
 msgid "Buy credits"
@@ -3107,6 +3390,8 @@ msgid ""
 "If there are not enough credits to perform a task, the database "
 "automatically prompts the purchase of more credits."
 msgstr ""
+"Nếu không có đủ tín dụng để thực hiện nhiệm vụ, cơ sở dữ liệu sẽ tự động "
+"nhắc mua thêm tín dụng."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:132
 msgid ""
@@ -3115,6 +3400,10 @@ msgid ""
 ":menuselection:`Settings app --> Contacts section`, and beneath the "
 ":guilabel:`Odoo IAP` setting, click :guilabel:`View My Services`."
 msgstr ""
+"Người dùng có thể kiểm tra số dư tín dụng hiện tại của từng dịch vụ và mua "
+"thêm tín dụng theo cách thủ công bằng cách đi đến :menuselection:`ứng dụng "
+"Cài đặt --> phần Liên hệ` và bên dưới phần cài đặt :guilabel:`Odoo IAP`, "
+"nhấp vào :guilabel:`Xem dịch vụ của tôi`."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:136
 msgid ""
@@ -3123,6 +3412,10 @@ msgid ""
 ":guilabel:`Account Information` page, where additional credits can be "
 "purchased."
 msgstr ""
+"Sau đó, trang :guilabel:`Dịch vụ IAP` sẽ hiển thị và liệt kê các dịch vụ "
+"|IAP| khác nhau trong cơ sở dữ liệu. Từ đây, nhấp vào một dịch vụ |IAP| để "
+"mở trang :guilabel:`Thông tin tài khoản` của dịch vụ đó, nơi bạn có thể mua "
+"thêm tín dụng."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:141
 msgid "Manually buy credits"
@@ -3130,7 +3423,7 @@ msgstr "Mua tín dụng theo cách thủ công"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:143
 msgid "To manually buy credits in Odoo, follow these steps:"
-msgstr ""
+msgstr "Để mua tín dụng thủ công trong Odoo, hãy làm theo các bước sau:"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:145
 msgid ""
@@ -3139,11 +3432,16 @@ msgid ""
 ":guilabel:`Contacts` section. Under the :guilabel:`Contacts` section, where "
 "it says :guilabel:`Odoo IAP`, click :guilabel:`View My Services`."
 msgstr ""
+"Đầu tiên, hãy đi đến :menuselection:`ứng dụng Cài đặt` và nhập `IAP` vào "
+"thanh :guilabel:`Tìm kiếm...`. Ngoài ra, người dùng có thể cuộn xuống phần "
+":guilabel:`Liên hệ`. Trong phần :guilabel:`Liên hệ`, nơi có ghi "
+":guilabel:`Odoo IAP`, hãy nhấp vào :guilabel:`Xem dịch vụ của tôi`."
 
 #: ../../content/applications/essentials/in_app_purchase.rst-1
 msgid ""
 "The Settings app showing the Odoo IAP heading and View My Services button."
 msgstr ""
+"Ứng dụng Cài đặt hiển thị tiêu đề Odoo IAP và nút Xem dịch vụ của tôi."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:154
 msgid ""
@@ -3152,6 +3450,10 @@ msgid ""
 ":guilabel:`Account Information` page, where additional credits can be "
 "purchased."
 msgstr ""
+"Sau đó, trang :guilabel:`Tài khoản IAP` sẽ hiển thị và liệt kê các dịch vụ "
+"|IAP| khác nhau trong cơ sở dữ liệu. Từ đây, nhấp vào một dịch vụ |IAP| để "
+"mở trang :guilabel:`Thông tin tài khoản` của dịch vụ đó, nơi bạn có thể mua "
+"thêm tín dụng."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:158
 msgid ""
@@ -3161,18 +3463,25 @@ msgid ""
 "credits. Then, follow the prompts to enter payment details, and confirm the "
 "order."
 msgstr ""
+"Trên trang :guilabel:`Thông tin tài khoản`, nhấp vào nút :guilabel:`Mua tín "
+"dụng`. Thao tác này sẽ tải trang :guilabel:`Mua tín dụng cho (Tài khoản "
+"IAP)` trong một tab mới. Từ đây, nhấp vào :guilabel:`Mua` trên gói tín dụng "
+"mong muốn. Sau đó, làm theo chỉ dẫn để nhập thông tin thanh toán và xác nhận"
+" đơn hàng."
 
 #: ../../content/applications/essentials/in_app_purchase.rst-1
 msgid ""
 "The SMS service page on IAP.Odoo.com with four packs of credits available "
 "for purchase."
-msgstr ""
+msgstr "Trang dịch vụ SMS trên IAP.Odoo.com có ​​bốn gói tín dụng có thể mua."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:167
 msgid ""
 "Once the transaction is complete, the credits are available for use in the "
 "database."
 msgstr ""
+"Sau khi giao dịch hoàn tất, số tín dụng sẽ có sẵn để sử dụng trong cơ sở dữ "
+"liệu."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:172
 msgid "Low-credit notification"
@@ -3184,6 +3493,9 @@ msgid ""
 "running out of credits, while using an |IAP| service. To do that, follow "
 "this process:"
 msgstr ""
+"Để tránh trường hợp hết tín dụng khi sử dụng dịch vụ |IAP|, bạn có thể được "
+"thông báo trước nếu tín dụng sắp hết. Để thực hiện, hãy làm theo quy trình "
+"sau:"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:177
 msgid ""
@@ -3191,6 +3503,9 @@ msgid ""
 ":guilabel:`Search...` bar. Under the :guilabel:`Contacts` section, where it "
 "says :guilabel:`Odoo IAP`, click :guilabel:`View My Services`."
 msgstr ""
+"Đi đến :menuselection:`ứng dụng Cài đặt` và nhập `IAP` vào thanh "
+":guilabel:`Tìm kiếm...`. Trong phần :guilabel:`Liên hệ`, nơi có ghi "
+":guilabel:`Odoo IAP`, hãy nhấp vào :guilabel:`Xem dịch vụ của tôi`."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:181
 msgid ""
@@ -3198,6 +3513,9 @@ msgid ""
 "Account` page. From here, click on the desired |IAP| account to view that "
 "service's :guilabel:`Account Information` page."
 msgstr ""
+"Các tài khoản |IAP| khả dụng sẽ xuất hiện trong chế độ xem danh sách trên "
+"trang :guilabel:`Tài khoản IAP`. Từ đây, hãy nhấp vào tài khoản |IAP| mong "
+"muốn để xem trang :guilabel:`Thông tin tài khoản` của dịch vụ đó."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:184
 msgid ""
@@ -3205,6 +3523,9 @@ msgid ""
 "checkbox. Doing so reveals two fields on the form: :guilabel:`Threshold` and"
 " :guilabel:`Warning Email`."
 msgstr ""
+"Trên trang :guilabel:`Thông tin tài khoản`, hãy tích vào hộp kiểm "
+":guilabel:`Cảnh báo tôi`. Thao tác này sẽ hiển thị hai trường trên biểu mẫu:"
+" :guilabel:`Ngưỡng` và :guilabel:`Email cảnh báo`."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:187
 msgid ""
@@ -3212,6 +3533,9 @@ msgid ""
 "use as the minimum threshold for this service. In the :guilabel:`Warning "
 "Email` field, enter the email address that receives the notification."
 msgstr ""
+"Trong trường :guilabel:`Ngưỡng`, nhập số tín dụng mà Odoo nên sử dụng làm "
+"ngưỡng tối thiểu cho dịch vụ này. Trong trường :guilabel:`Email cảnh báo`, "
+"nhập địa chỉ email nhận thông báo."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:191
 msgid ""
@@ -3219,6 +3543,8 @@ msgid ""
 "balance of credits falls below the amount listed as the "
 ":guilabel:`Threshold`."
 msgstr ""
+"Odoo sẽ gửi cảnh báo tín dụng thấp đến :guilabel:`Email cảnh báo` khi số dư "
+"tín dụng giảm xuống dưới số tiền được đặt làm :guilabel:`Ngưỡng`."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:3
 msgid "Keyboard shortcuts"
@@ -3229,16 +3555,20 @@ msgid ""
 "Users in Odoo can utilize several keyboard shortcuts to navigate through "
 "modules, execute actions, and manage data."
 msgstr ""
+"Người dùng Odoo có thể sử dụng một số phím tắt để điều hướng giữa các phân "
+"hệ, thực hiện tác vụ và quản lý dữ liệu."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:9
 msgid ""
 "Hold :kbd:`Ctrl` to view the keyboard shortcuts assigned to each element on "
 "the interface."
 msgstr ""
+"Giữ :kbd:`Ctrl` để xem các phím tắt được gán cho từng thành phần trên giao "
+"diện."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:0
 msgid "A selection of keyboard shortcuts in Odoo."
-msgstr ""
+msgstr "Một số phím tắt trong Odoo."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:16
 msgid ""
@@ -3246,6 +3576,9 @@ msgid ""
 "or effective depending on browsers, extensions, or other individual "
 "settings."
 msgstr ""
+"Một số phím tắt có thể không khả dụng trên các phiên bản Odoo khác nhau hoặc"
+" không hiệu quả tùy vào trình duyệt, tiện ích mở rộng hoặc các cài đặt riêng"
+" khác."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:20
 msgid "Keyboard shortcuts by operating system"
@@ -3256,6 +3589,8 @@ msgid ""
 "Below is a list of some of the most commonly used keyboard shortcuts within "
 "Odoo, listed by operating system."
 msgstr ""
+"Dưới đây là danh sách một số phím tắt được sử dụng phổ biến nhất trong Odoo,"
+" được liệt kê theo hệ điều hành."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:29
 msgid "Description"
@@ -3429,11 +3764,11 @@ msgstr ":kbd:`Command` + :kbd:`K`"
 msgid ""
 "After opening the command palette, search using the following keyboard "
 "shortcuts:"
-msgstr ""
+msgstr "Sau khi mở bảng lệnh, hãy tìm kiếm bằng các phím tắt sau:"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:75
 msgid ":kbd:`/`: search for menus, applications, and modules."
-msgstr ""
+msgstr ":kbd:`/`: tìm kiếm menu, ứng dụng và phân hệ."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:76
 msgid ":kbd:`@`: search for users."
@@ -3453,10 +3788,13 @@ msgid ""
 "through the available options. Then, click :kbd:`Ctrl` + :kbd:`Enter` to "
 "open the selected app, module, or menu in a new tab."
 msgstr ""
+"Nhập tên (hoặc thuật ngữ) vào thanh tìm kiếm hoặc sử dụng các phím mũi tên "
+"để cuộn qua những tùy chọn có sẵn. Sau đó, nhấp vào :kbd:`Ctrl` + "
+":kbd:`Enter` để mở ứng dụng, phân hệ hoặc menu đã chọn trong một tab mới."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:0
 msgid "The command palette in Odoo, with the menu search option selected."
-msgstr ""
+msgstr "Bảng lệnh trong Odoo, với tùy chọn tìm kiếm trong menu được chọn."
 
 #: ../../content/applications/essentials/reporting.rst:3
 msgid "Reporting"

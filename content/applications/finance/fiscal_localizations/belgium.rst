@@ -11,6 +11,10 @@ Install the :guilabel:`🇧🇪 Belgium` :ref:`fiscal localization package
 <fiscal_localizations/packages>` to get all the default accounting features of the Belgian
 localization, following the :abbr:`IFRS(International Financial Reporting Standards)` rules.
 
+.. seealso::
+   :doc:`Documentation on e-invoicing’s legality and compliance in Belgium
+   <../accounting/customer_invoices/electronic_invoicing/belgium>`
+
 .. _belgium/coa:
 
 Chart of accounts
@@ -584,8 +588,8 @@ provide the following information:
 - your company's name, address, and legal structure; and
 - the Mac address of your IoT Box.
 
-Once your IoT box is certified, :doc:`connect <../../general/iot/config/connect>` it to your
-database. To verify that the IoT Box recognizes the FDM, go to the IoT homepage and scroll down the
+Once your IoT box is certified, :doc:`connect <../../general/iot/connect>` it to your database. To
+verify that the IoT Box recognizes the FDM, go to the IoT homepage and scroll down the
 :guilabel:`IOT Device` section, which should display the FDM.
 
 .. image:: belgium/iot-devices.png

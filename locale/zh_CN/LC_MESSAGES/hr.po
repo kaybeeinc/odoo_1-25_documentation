@@ -13,7 +13,7 @@
 # Rhea Xiao, 2024
 # Wil Odoo, 2024
 # Odoo哥 <vnsoft.he@gmail.com>, 2024
-# Chloe Wang, 2024
+# Chloe Wang, 2025
 # 
 #, fuzzy
 msgid ""
@@ -22,7 +22,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-31 16:01+0000\n"
 "PO-Revision-Date: 2024-10-08 06:34+0000\n"
-"Last-Translator: Chloe Wang, 2024\n"
+"Last-Translator: Chloe Wang, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1608,14 +1608,14 @@ msgstr ""
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:102
 msgid "Use case: Assess highest improvement"
-msgstr ""
+msgstr "使用案例：评估最大改进"
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:104
 msgid ""
 "Another way to modify the :guilabel:`Appraisal Skills Report` is to identify"
 " the employee who has the highest amount of improved skills over a specific "
 "period of time."
-msgstr ""
+msgstr "修改 :guilabel:`考评技能报告` 的另一种方法是找出在特定时间内技能提高最多的员工。"
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:107
 msgid ""
@@ -1625,6 +1625,8 @@ msgid ""
 " :guilabel:`Filters` column. Enabling this filter only presents skills that "
 "have improved."
 msgstr ""
+"要查看此信息，首先移除搜索栏中的默认筛选器。然后，点击搜索栏中的 :icon:`fa-caret-down`:guilabel:`（向下箭头）` "
+"图标，再点击 :icon:`fa-filter`:guilabel:`筛选器` 栏下的 :guilabel:`改进`。启用此筛选器会仅显示已改进的技能。"
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:112
 msgid ""
@@ -1634,6 +1636,8 @@ msgid ""
 ":icon:`fa-filter` :guilabel:`Filters` column, and an :guilabel:`Add Custom "
 "Filter` pop-up window appears."
 msgstr ""
+"可以查看在一段时间内（如特定季度或月份）提高的技能。在搜索栏下拉菜单仍然展开的情况下，点击 :icon:`fa-filter` "
+":guilabel:`筛选器` 栏底部的 :guilabel:`添加自定义筛选器`，弹出一个 :guilabel:`添加自定义筛选器` 窗口。"
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:117
 msgid ""
@@ -1643,12 +1647,14 @@ msgid ""
 " calendar selector, select the date range to apply the filter to. Once all "
 "the fields are properly formatted, click :guilabel:`Add`."
 msgstr ""
+"在第一个下拉字段中选择 :guilabel:`创建日期`，然后在第二个下拉字段中选择 :guilabel:`之间`。选择 :guilabel:`之间` "
+"后，在最后一个字段之后会出现第二个字段。使用日历选择器，选择要应用筛选器的日期范围。所有字段格式正确后，点击 :guilabel:`添加`。"
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:122
 msgid ""
 "The custom filter presents only the skills that have improved during the "
 "specified time period, organized by employee."
-msgstr ""
+msgstr "自定义筛选器只显示在指定时间段内有所提高的技能，并按员工分类。"
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:126
 msgid ""
@@ -1658,6 +1664,8 @@ msgid ""
 ":guilabel:`Improvement` filter, then click :guilabel:`Add Custom Filter` at "
 "the bottom of the :icon:`fa-filter` :guilabel:`Filters` column."
 msgstr ""
+"要确定第三季度技能改进最多的员工，请移除 :guilabel:`考评技能报告` 搜索栏中的默认筛选项。接着，激活 :guilabel:`改进` "
+"筛选项，然后点击 :icon:`fa-filter` :guilabel:`筛选项` 列底部的 :guilabel:`添加自定义筛选项`。"
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:131
 msgid ""
@@ -1666,18 +1674,22 @@ msgid ""
 ":guilabel:`is between` for the second drop-down field. Two date fields "
 "appear after :guilabel:`is between` is selected."
 msgstr ""
+"在弹出的 :guilabel:`添加自定义筛选项` 窗口中，为第一个下拉字段选择 :guilabel:`创建日期`，然后为第二个下拉字段选择 "
+":guilabel:`之间`。选择 :guilabel:`之间` 后会出现两个日期字段。"
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:135
 msgid ""
 "Using the calendar selector, set the first date to :guilabel:`07/01/2024` "
 "and the second date to :guilabel:`09/30/2024`, then click :guilabel:`Add`."
 msgstr ""
+"使用日历选择器，将第一个日期设为 :guilabel:`07/01/2024`，将第二个日期设为 :guilabel:`09/30/2024`，然后点击"
+" :guilabel:`添加`。"
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:138
 msgid ""
 "These filters present only the skills that have improved during the third "
 "quarter (between July 1st and September 30th, 2024), organized by employee."
-msgstr ""
+msgstr "这些筛选项只显示第三季度（2024 年 7 月 1 日至 9 月 30 日）期间提高的技能，按员工分类。"
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:144
 msgid ""
@@ -1687,6 +1699,8 @@ msgid ""
 "employees populating the rows, and the only visible column represents the "
 "total number of improved skills."
 msgstr ""
+"要进一步详细查看员工人数和技能，请点击右上角的 :icon:`ioi-view-pivot`:guilabel:`(透视)` "
+"图标，以透视表查看数据。这将显示一个数据透视表，员工填充了各行，唯一可见的列表示改进技能的总数。"
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:149
 msgid ""
@@ -1696,6 +1710,8 @@ msgid ""
 "resulting drop-down menu. This organizes the total improved skills by their "
 "respective skill type."
 msgstr ""
+"要展开更多行或列以查看哪些技能类型的总体改进最大，请点击 :guilabel:`计数` 列上方的 :icon:`fa-plus-square` "
+":guilabel:`总计` ，然后从产生的下拉菜单中点击 :guilabel:`技能类型`。这将按各自的技能类型组织改进后的技能总数。"
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:155
 msgid ""
@@ -1704,10 +1720,12 @@ msgid ""
 "Additionally, they also had the most skill improvements for both "
 ":guilabel:`Languages` (three) and :guilabel:`Programming Languages` (two)."
 msgstr ""
+"在这个例子中，:guilabel:`Charles Reginald` 在第三季度的技能提高幅度最大，提高了六项技能。此外，他们在 "
+":guilabel:`语言` （三个）和 :guilabel:`编程语言` （两个）方面的技能提高也最多。"
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:0
 msgid "The pivot table showing the skill improvements for the third quarter."
-msgstr ""
+msgstr "显示第三季度技能提高情况的数据透视表。"
 
 #: ../../content/applications/hr/attendances.rst:5
 msgid "Attendances"
@@ -2341,7 +2359,7 @@ msgstr ":doc:`attendances/check_in_check_out`"
 
 #: ../../content/applications/hr/attendances.rst:307
 msgid ":doc:`attendances/kiosks`"
-msgstr ""
+msgstr ":doc:`attendances/kiosks`"
 
 #: ../../content/applications/hr/attendances.rst:308
 msgid ":doc:`attendances/hardware`"
@@ -2518,11 +2536,11 @@ msgid ""
 "Employees who are **not** database users, and therefore, do **not** have "
 "access to the *Attendances* app, must sign in and out of work using a kiosk."
 " The following are the physical requirements for setting up a kiosk."
-msgstr ""
+msgstr "员工**不是**数据库用户，因此**无法**访问*考勤*应用程序，则必须使用自助终端进行上下班签到。以下是设置自助终端的物理要求。"
 
 #: ../../content/applications/hr/attendances/hardware.rst:10
 msgid "Kiosk devices"
-msgstr ""
+msgstr "自助考勤终端设备"
 
 #: ../../content/applications/hr/attendances/hardware.rst:12
 msgid ""
@@ -2533,6 +2551,9 @@ msgid ""
 "kiosks only, but any device with an internet browser is able to be set up as"
 " a kiosk."
 msgstr ""
+"自助考勤终端是一种自助服务站，员工可以使用 :ref:`胸卡<attendances/hardware/badges>` 或:ref:`RFID "
+"钥匙扣<attendances/hardware/rfid>`，在其中进行 :ref:`上下班签到<attendances/kiosk-mode-"
+"entry>`。通常情况下，这些设备只能作为自助考勤终端使用，但任何带有互联网浏览器的设备都可以设置为自助考勤终端。"
 
 #: ../../content/applications/hr/attendances/hardware.rst:17
 msgid ""
@@ -2540,35 +2561,36 @@ msgid ""
 ":ref:`configuration <attendances/kiosk-settings>` section of the "
 "*Attendances* app."
 msgstr ""
+"通过导航到 *考勤* 应用程序的 :ref:`配置 <attendances/kiosk-settings>` 部分中指定的网页，即可使用自助考勤终端。"
 
 #: ../../content/applications/hr/attendances/hardware.rst:20
 msgid "Kiosks are set up using one of the following types of devices:"
-msgstr ""
+msgstr "可使用以下几种设备之一设置："
 
 #: ../../content/applications/hr/attendances/hardware.rst:22
 msgid "Laptop or Desktop computer"
-msgstr ""
+msgstr "笔记本电脑或台式电脑"
 
 #: ../../content/applications/hr/attendances/hardware.rst:23
 msgid "Tablet"
-msgstr ""
+msgstr "平板电脑"
 
 #: ../../content/applications/hr/attendances/hardware.rst:24
 msgid "Mobile phone (Android or iOS)"
-msgstr ""
+msgstr "手机（安卓或 iOS）"
 
 #: ../../content/applications/hr/attendances/hardware.rst:27
 msgid ""
 "Touchscreens are easy to use, and tablets and mobile phones take up less "
 "space. That's why most consider using a smaller device with a touchscreen as"
 " a kiosk."
-msgstr ""
+msgstr "触摸屏易于使用，平板电脑和手机占用的空间较小。因此，大多数人都会考虑使用带有触摸屏的小型设备作为自助考勤终端。"
 
 #: ../../content/applications/hr/attendances/hardware.rst:30
 msgid ""
 "It is recommended to place kiosks on a secure stand, or mount them securely "
 "on a wall."
-msgstr ""
+msgstr "建议放置在安全的支架上，或牢固地安装在墙上。"
 
 #: ../../content/applications/hr/attendances/hardware.rst:35
 msgid "Badges"
@@ -2578,7 +2600,7 @@ msgstr "徽标"
 msgid ""
 "Badges are a way for employees to quickly sign in and out from a kiosk, as "
 "badges are scanned by the kiosk's camera to quickly identify the employee."
-msgstr ""
+msgstr "胸卡是员工在自助考勤终端快速签到和签退的一种方式，因为胸卡会被自助考勤终端的摄像头扫描，以快速识别员工身份。"
 
 #: ../../content/applications/hr/attendances/hardware.rst:40
 msgid ""
@@ -2586,6 +2608,8 @@ msgid ""
 "Next, click on the desired employee card to open the employee's form, then "
 "click the :guilabel:`HR Settings` tab."
 msgstr ""
+"要生成胸卡，首先导航至 :menuselection:`员工应用程序`。接着，点击所需员工卡，打开员工表单，然后点击 "
+":guilabel:`人力资源设置` 选项卡。"
 
 #: ../../content/applications/hr/attendances/hardware.rst:43
 msgid ""
@@ -2596,34 +2620,37 @@ msgid ""
 ":guilabel:`Print Badge` at the end of the badge ID number to create a PDF "
 "file of the badge."
 msgstr ""
+"在 :guilabel:`出勤/销售点/制造` 部分，有一个 :guilabel:`胸卡 ID` 字段。如果该字段为空白，请点击 "
+":guilabel:`胸卡 ID` 行末尾的 :guilabel:`生成`，该字段将自动填入新的胸卡 ID 编号。然后，点击胸卡 ID 编号末尾的 "
+":guilabel:`打印胸卡`，创建胸卡的 PDF 文件。"
 
 #: ../../content/applications/hr/attendances/hardware.rst:48
 msgid ""
 "If a badge ID number is already present on the employee form, there is no "
 ":guilabel:`Generate` button, only a :guilabel:`Print Badge` button."
-msgstr ""
+msgstr "如果员工表单中已有胸卡 ID 编号，则没有 :guilabel:`生成` 按钮，只有 :guilabel:`打印胸卡` 按钮。"
 
 #: ../../content/applications/hr/attendances/hardware.rst:51
 msgid ""
 "The employee's badge contains the employee's photo, name, job position, "
 "company logo, and a barcode that can be scanned at a kiosk to check in and "
 "out."
-msgstr ""
+msgstr "员工胸卡上有员工的照片、姓名、工作职位、公司徽标和条形码，可以在自助考勤终端上扫描条形码，进行签到和签退。"
 
 #: ../../content/applications/hr/attendances/hardware.rst:54
 msgid ""
 "Badges can be printed for employees using any thermal or inkjet printer."
-msgstr ""
+msgstr "可使用任何热敏打印机或喷墨打印机为员工打印胸卡。"
 
 #: ../../content/applications/hr/attendances/hardware.rst-1
 msgid "A badge for an employee that is created from the Employees app."
-msgstr ""
+msgstr "通过员工应用程序为员工创建的胸卡。"
 
 #: ../../content/applications/hr/attendances/hardware.rst:61
 msgid ""
 "Badges are **not** required, as employees can manually identify themselves "
 "on the kiosk."
-msgstr ""
+msgstr "**无需**佩戴胸卡，因为员工可以在自助考勤终端上手动确认身份。"
 
 #: ../../content/applications/hr/attendances/hardware.rst:64
 msgid "Barcode scanners"
@@ -2634,26 +2661,26 @@ msgid ""
 "When using badges to check in and out, the barcode **must** be scanned to "
 "identify the employee. This can be done with the kiosk's camera, if one is "
 "available on the device."
-msgstr ""
+msgstr "使用胸卡办理出入卡时，**必须**扫描条形码以识别员工身份。如果设备上有摄像头，可以使用自助考勤终端的摄像头进行扫描。"
 
 #: ../../content/applications/hr/attendances/hardware.rst:69
 msgid ""
 "If a camera is **not** available on the kiosk device, an external barcode "
 "scanner must be used to scan badges."
-msgstr ""
+msgstr "如果自助考勤终端设备上**没有**摄像头，则必须使用外部条形码扫描仪扫描胸卡。"
 
 #: ../../content/applications/hr/attendances/hardware.rst:72
 msgid ""
 "Kiosks work with most USB barcode scanners. Bluetooth barcode scanners are "
 "also supported for devices without USB ports, or if a wireless connection is"
 " desired."
-msgstr ""
+msgstr "自助考勤终端可与大多数 USB 条形码扫描仪配合使用。对于没有 USB 端口的设备或需要无线连接的设备，也支持蓝牙条形码扫描仪。"
 
 #: ../../content/applications/hr/attendances/hardware.rst:75
 msgid ""
 "Follow the manufacturer's instructions on the barcode scanner to properly "
 "connect the barcode scanner to the kiosk device."
-msgstr ""
+msgstr "按照条形码扫描仪制造商的说明，正确连接条形码扫描仪和自助考勤终端设备。"
 
 #: ../../content/applications/hr/attendances/hardware.rst:79
 msgid ""
@@ -2661,10 +2688,12 @@ msgid ""
 " configured <../../inventory_and_mrp/barcode/setup/hardware>` to use the "
 "computer's keyboard layout."
 msgstr ""
+"如果条码扫描器直接连接到计算机，则 :doc:`必须配置 "
+"<.../../inventory_and_mrp/barcode/setup/hardware>` 以使用计算机的键盘布局。"
 
 #: ../../content/applications/hr/attendances/hardware.rst:83
 msgid "An IoT box is **not** required to use a barcode scanner."
-msgstr ""
+msgstr "使用条形码扫描器**并不**需要物联网盒。"
 
 #: ../../content/applications/hr/attendances/hardware.rst:88
 msgid "RFID key fob readers"
@@ -2676,6 +2705,8 @@ msgid ""
 " scan a personal RFID key fob with an RFID reader to check in and out of "
 "work."
 msgstr ""
+"员工无需使用 :ref:`胸卡 <attendances/hardware/badges>` ，只需用 RFID 阅读器扫描个人 RFID "
+"钥匙扣，即可办理上下班考勤手续。"
 
 #: ../../content/applications/hr/attendances/hardware.rst:93
 msgid ""
@@ -2683,10 +2714,12 @@ msgid ""
 "use this method to check in and out. Follow the manufacturer's directions to"
 " install the RFID reader, and set up the RFID key fob."
 msgstr ""
+"要使用这种方法办理考勤和签退手续，**必须**同时购买 RFID 钥匙扣和一个 RFID 阅读器。请按照制造商的说明安装 RFID 阅读器，并设置 "
+"RFID 钥匙扣。"
 
 #: ../../content/applications/hr/attendances/hardware.rst-1
 msgid "An RFID key fob is placed on an RFID reader."
-msgstr ""
+msgstr "将 RFID 钥匙扣放在 RFID 阅读器上。"
 
 #: ../../content/applications/hr/attendances/hardware.rst:103
 msgid ""
@@ -2694,37 +2727,40 @@ msgid ""
 "<https://neuftech.net/Neuftech-USB-RFID-Reader-ID-"
 "Kartenleseger%C3%A4t-Kartenleser-Kontaktlos-Card-Reader-f%C3%BCr-EM4100>`_."
 msgstr ""
+"推荐使用 `Neuftech USB RFID 阅读器 <https://neuftech.net/Neuftech-USB-RFID-Reader-"
+"ID-Kartenleseger%C3%A4t-Kartenleser-Kontaktlos-Card-Reader-f%C3%BCr-"
+"EM4100>`_。"
 
 #: ../../content/applications/hr/attendances/hardware.rst:107
 msgid "An IoT box is **not** required to use RFID key fobs."
-msgstr ""
+msgstr "使用 RFID 钥匙扣**并不**需要物联网盒子。"
 
 #: ../../content/applications/hr/attendances/kiosks.rst:3
 msgid "Kiosks"
-msgstr ""
+msgstr "自助考勤终端"
 
 #: ../../content/applications/hr/attendances/kiosks.rst:5
 msgid ""
 "Odoo's *Attendances* app allows employees to check in and out of work "
 "directly from the database, or from a kiosk."
-msgstr ""
+msgstr "Odoo 的 *考勤* 应用程序允许员工直接从数据库或自助考勤终端办理上班和下班手续。"
 
 #: ../../content/applications/hr/attendances/kiosks.rst:8
 msgid ""
 "A kiosk is a :doc:`dedicated device <hardware>` (a PC, tablet, or mobile "
 "phone) for employees to use when they check in and out."
-msgstr ""
+msgstr "自助服务终端供员工在签到和签退时使用 :doc:`专用设备<hardware>`（个人电脑、平板电脑或移动电话）。"
 
 #: ../../content/applications/hr/attendances/kiosks.rst:11
 msgid ""
 "Kiosks are needed for employees who do **not** have access to the database."
-msgstr ""
+msgstr "需要为**无法**访问数据库的员工配备自助考勤终端。"
 
 #: ../../content/applications/hr/attendances/kiosks.rst:13
 msgid ""
 "Only employees with access to the database can check in and out from the "
 "*Attendances* app, and they are referred to as *users*."
-msgstr ""
+msgstr "只有能够访问数据库的员工才能在*考勤*应用程序中办理签到和签退，这些员工为*用户*。"
 
 #: ../../content/applications/hr/attendances/kiosks.rst:17
 msgid ""
@@ -2733,6 +2769,9 @@ msgid ""
 " Mode <attendances/kiosk-mode>` **must** be available in order to use these "
 "two methods."
 msgstr ""
+"如果员工使用胸卡或 RFID :ref:`签到和签退 <attendances/kiosk-mode-entry>` ，则 "
+":doc:`无障碍设备<hardware>` 在 :ref:`自助考勤终端模式 <attendances/kiosk-mode>` "
+"中**必须**可用，这样才能使用这两种方法。"
 
 #: ../../content/applications/hr/attendances/kiosks.rst:24
 msgid ""
@@ -2741,6 +2780,9 @@ msgid ""
 "Configuration` to access the :guilabel:`Settings` page to configure the "
 ":ref:`attendances/kiosk-mode` and the :ref:`attendances/kiosk-settings`."
 msgstr ""
+"在 *考勤* 应用程序中使用自助签到终端只需进行少量配置。导航至 :menuselection:`考勤应用程序 --> 配置` 访问 "
+":guilabel:`设置` 页面，配置 :ref:`attendances/kiosk-mode` 和 "
+":ref:`attendances/kiosk-settings` 。"
 
 #: ../../content/applications/hr/attendances/kiosks.rst:28
 msgid ""
@@ -3233,6 +3275,7 @@ msgid ""
 "certification appear in the *Internal Certification* section of the *Resume*"
 " tab on the :doc:`employee form <new_employee>`."
 msgstr ""
+":guilabel:`内部认证`：选择此选项，认证将显示在 :doc:`员工表格<new_employee>` *简历* 选项卡的 *内部认证* 部分。"
 
 #: ../../content/applications/hr/employees/certifications.rst:91
 msgid ""
@@ -3240,19 +3283,21 @@ msgid ""
 "certification appear in *Completed Internal Training* section of the "
 "*Resume* tab on the :doc:`employee form <new_employee>`."
 msgstr ""
+":guilabel:`完成内部培训`：选择此选项，认证将显示在 :doc:`员工表格<new_employee>` *简历* 选项卡的 "
+"*已完成内部培训* 部分。"
 
 #: ../../content/applications/hr/employees/certifications.rst:95
 msgid ""
 ":guilabel:`Display Type`: Select the visibility of the certification in this"
 " field. The default options are:"
-msgstr ""
+msgstr ":guilabel:`显示类型`：选择该字段中认证的可见性。默认选项为："
 
 #: ../../content/applications/hr/employees/certifications.rst:98
 msgid ""
 ":guilabel:`Classic`: Select this option to have the certification appear in "
 "the *Resume* section of the employee form, and **not** appear on the "
 "*Employee Certifications* report."
-msgstr ""
+msgstr ":guilabel:经典`：选择此选项，认证将出现在员工表单的*简历*部分，而**不**出现在*员工认证*报告中。"
 
 #: ../../content/applications/hr/employees/certifications.rst:100
 msgid ""
@@ -3263,6 +3308,8 @@ msgid ""
 " Using the drop-down menu, select the course the employee took. The course "
 "is created in the **Surveys** app."
 msgstr ""
+":guilabel:`课程`：选择此选项可使认证显示在员工表单的*简历*部分，而**不**显示在*员工认证*报告中。选择此选项后，:guilabel:`显示类型`"
+" 字段下方会出现一个:guilabel:`课程` 字段。使用下拉菜单，选择员工参加的课程。课程在 **在线调查** 应用程序中创建。"
 
 #: ../../content/applications/hr/employees/certifications.rst:105
 msgid ""
@@ -3273,12 +3320,15 @@ msgid ""
 " field. Using the drop-down menu, select the certification the employee "
 "took."
 msgstr ""
+":guilabel:`认证`：选择此选项可使认证显示在员工表单的*简历*部分，**并** "
+"显示在*员工认证*报告中。选择此选项后，:guilabel:`显示类型` 字段下方会出现一个:guilabel:`认证` "
+"字段。使用下拉菜单，选择员工所获得的证书。"
 
 #: ../../content/applications/hr/employees/certifications.rst:110
 msgid ""
 ":guilabel:`Description`: Enter a description for the certification in this "
 "field."
-msgstr ""
+msgstr ":guilabel:`描述`：在此字段中输入认证描述。"
 
 #: ../../content/applications/hr/employees/certifications.rst:111
 msgid ""
@@ -4802,11 +4852,11 @@ msgid ""
 "employee record is updated to reflect their departure, log the reason why, "
 "close any open activities associated with the employee, and provide them "
 "with any important documents."
-msgstr ""
+msgstr "员工离职时，必须确保更新其员工记录，以反映其离职情况，记录离职原因，关闭与该员工相关的任何未结活动，并向其提供任何重要文件。"
 
 #: ../../content/applications/hr/employees/offboarding.rst:10
 msgid "Archive an employee"
-msgstr ""
+msgstr "员工存档"
 
 #: ../../content/applications/hr/employees/offboarding.rst:12
 msgid ""
@@ -4815,6 +4865,8 @@ msgid ""
 "From here, locate the employee who is leaving the company, and click on "
 "their employee card."
 msgstr ""
+"在 Odoo 中，员工离开公司时必须 *存档*。要将员工存档，首先要导航到 "
+":menuselection:`员工应用程序`。在此找到即将离开公司的员工，然后点击其员工卡。"
 
 #: ../../content/applications/hr/employees/offboarding.rst:16
 msgid ""
@@ -4823,52 +4875,54 @@ msgid ""
 "down menu appears. Click :icon:`oi-archive` :guilabel:`Archive`, and an "
 ":guilabel:`Employee Termination` pop-up window appears."
 msgstr ""
+"加载员工表单，显示员工的所有信息。点击左上角的 :icon:`fa-gear :guilabel:`齿轮 (gear)` 图标，出现一个下拉菜单。点击 "
+":icon:`oi-archive` :guilabel:`存档`，弹出 :guilabel:`员工终止` 窗口。"
 
 #: ../../content/applications/hr/employees/offboarding.rst:21
 #: ../../content/applications/hr/payroll/contracts.rst:343
 #: ../../content/applications/hr/time_off.rst:280
 msgid "Fill out the following fields on the form:"
-msgstr ""
+msgstr "在表格上填写以下字段："
 
 #: ../../content/applications/hr/employees/offboarding.rst:23
 msgid ""
 ":guilabel:`Departure Reason`: Select a reason the employee is leaving from "
 "the drop-down menu. The default options are:"
-msgstr ""
+msgstr ":guilabel:`离职原因`：从下拉菜单中选择员工离职的原因。默认选项为："
 
 #: ../../content/applications/hr/employees/offboarding.rst:26
 msgid ""
 ":guilabel:`Fired`: Select this option when an employee is being let go, and "
 "the company has given notice."
-msgstr ""
+msgstr ":guilabel:`已解雇`：当员工被解雇且公司已发出通知时，请选择此选项。"
 
 #: ../../content/applications/hr/employees/offboarding.rst:28
 msgid ""
 ":guilabel:`Resigned`: Select this option when the employee no longer wishes "
 "to be employed, and the employee has given notice."
-msgstr ""
+msgstr ":guilabel:`已辞职`：当员工不再希望继续受雇，并已发出通知时，请选择此选项。"
 
 #: ../../content/applications/hr/employees/offboarding.rst:30
 msgid ":guilabel:`Retired`: Select this option when the employee is retiring."
-msgstr ""
+msgstr ":guilabel:`已退休`：员工退休时选择此选项。"
 
 #: ../../content/applications/hr/employees/offboarding.rst:31
 msgid ""
 ":guilabel:`Became Freelance`: Select this option when the employee is no "
 "longer working for the company, but is becoming a freelance worker instead."
-msgstr ""
+msgstr ":guilabel:`成为自由职业者`：当员工不再为公司工作，而是成为自由职业者时，请选择此选项。"
 
 #: ../../content/applications/hr/employees/offboarding.rst:34
 msgid ""
 ":guilabel:`Contract End Date`: Using the calendar selector, select the last "
 "day the employee is working for the company."
-msgstr ""
+msgstr ":guilabel:`合同结束日期`：使用日历选择器，选择员工为公司工作的最后一天。"
 
 #: ../../content/applications/hr/employees/offboarding.rst:36
 msgid ""
 ":guilabel:`Detailed Reason`: Enter a short description for the employee's "
 "departure in this field."
-msgstr ""
+msgstr ":guilabel:`详细原因`：在此字段中输入员工离职的简短描述。"
 
 #: ../../content/applications/hr/employees/offboarding.rst:37
 msgid ""
@@ -4877,16 +4931,17 @@ msgid ""
 "recommended to tick **all** checkboxes that are applicable. The available "
 "options are:"
 msgstr ""
+":guilabel:`关闭活动`：勾选每种活动类型旁边的复选框，以关闭或删除与之相关的任何打开的活动。建议勾选适用的**全部**复选框。可用选项有："
 
 #: ../../content/applications/hr/employees/offboarding.rst:41
 msgid ""
 ":guilabel:`Appraisals`: cancels all appraisals scheduled after the contract "
 "end date."
-msgstr ""
+msgstr ":guilabel:`考评`：取消合同结束日期后的所有评估。"
 
 #: ../../content/applications/hr/employees/offboarding.rst:42
 msgid ":guilabel:`Contract`: applies an end date for the current contract."
-msgstr ""
+msgstr ":guilabel:`合同`：应用当前合同的结束日期。"
 
 #: ../../content/applications/hr/employees/offboarding.rst:43
 msgid ""
@@ -4894,12 +4949,14 @@ msgid ""
 "current company car, and :ref:`assigns the next driver "
 "<fleet/new_vehicle/new-driver>`, if applicable."
 msgstr ""
+":guilabel:`公司车辆`：删除员工当前公司车辆的司机，并 :ref:` 分配下一个司机<fleet/new_vehicle/new-"
+"driver>`（如适用）。"
 
 #: ../../content/applications/hr/employees/offboarding.rst:45
 msgid ""
 ":guilabel:`Time Off`: cancels any time off requests after the contract end "
 "date."
-msgstr ""
+msgstr ":guilabel:`休假`：取消合同结束日期后的任何休假请求。"
 
 #: ../../content/applications/hr/employees/offboarding.rst:46
 msgid ""
@@ -4918,7 +4975,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Private Email`: This field appears if the :guilabel:`HR Info` "
 "checkbox is ticked. Enter the private email address for the employee."
-msgstr ""
+msgstr ":guilabel:`私人电子邮件`：如果选中 :guilabel:`人力资源信息` 复选框，则显示此字段。输入员工的私人电子邮件地址。"
 
 #: ../../content/applications/hr/employees/offboarding.rst:53
 msgid ""
@@ -4929,6 +4986,10 @@ msgid ""
 "form. The chatter logs the :guilabel:`Departure Date` and "
 ":guilabel:`Departure Reason`, and if an access link was emailed."
 msgstr ""
+"表格填写完成后，点击 "
+":guilabel:`应用`。员工记录将被存档，带有个人文件下载链接的电子邮件将发送到员工的私人电子邮件地址（如已选择），员工表单的右上角会出现红色的 "
+":guilabel:`已存档` 条幅。聊天记录会记录 :guilabel:`离职日期` 和 :guilabel:`离职原因` "
+"以及是否通过电子邮件发送了访问链接。"
 
 #: ../../content/applications/hr/employees/offboarding.rst-1
 msgid "The employee termination form with all fields filled out."
@@ -4939,13 +5000,13 @@ msgid ""
 "While attempting to send the HR documents access link, an :guilabel:`Invalid"
 " Operation` pop-up window may appear, displaying the following error "
 "message:"
-msgstr ""
+msgstr "在尝试发送人力资源文件访问链接时，可能会弹出 :guilabel:`无效操作` 窗口，显示以下错误信息："
 
 #: ../../content/applications/hr/employees/offboarding.rst:67
 msgid ""
 ":guilabel:`Employee's related user and private email must be set to use "
 "\"Send Access Link\" function: (Employee Name)`"
-msgstr ""
+msgstr ":guilabel:`员工相关用户和私人电子邮件必须设置为使用 “发送访问链接” 功能：（员工姓名）`。"
 
 #: ../../content/applications/hr/employees/offboarding.rst:70
 msgid ""
@@ -4953,13 +5014,15 @@ msgid ""
 "then tick the :guilabel:`Send Access Link` checkbox to deselect it on the "
 ":guilabel:`Employee Termination` pop-up window."
 msgstr ""
+"如果出现此错误，请点击 :guilabel:`关闭` 关闭弹出窗口，然后在 :guilabel:`解雇员工` 弹出窗口中勾选 "
+":guilabel:`发送访问链接` 复选框以取消选择。"
 
 #: ../../content/applications/hr/employees/offboarding.rst:74
 msgid ""
 "Click :guilabel:`Apply` to archive the employee and close the selected "
 "activities on the :guilabel:`Employee Termination` pop-up window, returning "
 "to the employee form."
-msgstr ""
+msgstr "点击 :guilabel:`应用` 将员工存档，并关闭弹出的 :guilabel:`解雇员工` 窗口中的选定活动，返回员工表单。"
 
 #: ../../content/applications/hr/employees/offboarding.rst:77
 msgid "Once the employee form, ensure the following fields are populated:"
@@ -5004,6 +5067,9 @@ msgid ""
 ":guilabel:`Filters` column, then click away from the drop-down window to "
 "close it."
 msgstr ""
+"员工存档后，在主 **员工** 应用程序仪表板上将不再可见。要查看已存档的员工，请导航至 :menuselection:`员工应用程序` "
+"仪表板，然后点击搜索栏中的 :icon:`fa-caret-down`:guilabel:`（向下箭头）` 以显示下拉菜单。在 :icon:`fa-"
+"filter` :guilabel:`筛选项` 列底部选择:guilabel:`已存档`，然后点击离开下拉窗口以关闭它。"
 
 #: ../../content/applications/hr/employees/offboarding.rst:101
 msgid ""
@@ -5013,16 +5079,18 @@ msgid ""
 ":guilabel:`Send HR Documents Access Link` from the resulting drop-down menu."
 " The chatter logs that the link was sent."
 msgstr ""
+"现在，只有已存档员工才会出现在仪表板上。点击所需的员工，打开其员工表单。在该表单中，点击左上角的 :icon:`齿轮`:guilabel:`（齿轮）` "
+"图标，然后从出现的下拉菜单中点击 :guilabel:`发送人力资源文档访问链接`。聊天记录会显示链接已发送。"
 
 #: ../../content/applications/hr/employees/retention_report.rst:3
 msgid "Employee retention report"
-msgstr ""
+msgstr "员工留存报告"
 
 #: ../../content/applications/hr/employees/retention_report.rst:5
 msgid ""
 "It is possible to determine the retention rate for a company by modifying an"
 " existing report."
-msgstr ""
+msgstr "可以通过修改现有报告来确定公司的留存率。"
 
 #: ../../content/applications/hr/employees/retention_report.rst:7
 msgid ""
@@ -5031,10 +5099,12 @@ msgid ""
 "shows the number of all employees for the :guilabel:`Last 365 Days`, in a "
 "default :icon:`fa-line-chart` :guilabel:`Line Chart`."
 msgstr ""
+"首先，导航至 :menuselection:`员工应用程序 --> 报告 --> 合同` 打开 :guilabel:`员工分析` 报告。该报告以默认的 "
+":icon:`fa-line-chart` :guilabel:`折线图` 显示 :guilabel:`过去 365 天` 的所有员工人数。"
 
 #: ../../content/applications/hr/employees/retention_report.rst-1
 msgid "The default Employees Analysis report."
-msgstr ""
+msgstr "默认员工分析报告。"
 
 #: ../../content/applications/hr/employees/retention_report.rst:15
 msgid ""
@@ -5044,6 +5114,8 @@ msgid ""
 "Now, the report shows all the employees who were archived for the "
 ":guilabel:`Last 365 Days`."
 msgstr ""
+"接下来，点击左上角的 :guilabel:`度量` :icon:`fa-caret-down` 按钮，显示一个下拉菜单。点击列表中的 "
+":guilabel:`# 离职员工`，然后点击下拉菜单关闭。现在，报告显示在 :guilabel:`过去 365 天` 期间存档的所有员工。"
 
 #: ../../content/applications/hr/employees/retention_report.rst:20
 msgid ""
@@ -5051,6 +5123,7 @@ msgid ""
 "pivot` :guilabel:`(Pivot)` icon in the upper-right corner, and the data is "
 "presented in a pivot table."
 msgstr ""
+"要以更简便格式查看此信息，请点击右上角的 :icon:`oi-view-pivot` :guilabel:`(透视)` 图标，数据将显示在数据透视表中。"
 
 #: ../../content/applications/hr/employees/retention_report.rst:23
 msgid ""
@@ -5061,22 +5134,25 @@ msgid ""
 "Employees`, as well as the number of :guilabel:`Departure Employees` "
 "(employees who left)."
 msgstr ""
+"各行按部门显示不同的员工。各列显示以下总计：每月 :guilabel:`薪资` 预算、:guilabel:`加油卡` "
+"预算、:guilabel:`年度员工预算` 总计（也称为*年薪*）、:guilabel:`新员工` 数量以及 :guilabel:`离职员工` "
+"数量（已离职员工）。"
 
 #: ../../content/applications/hr/employees/retention_report.rst-1
 msgid ""
 "The Employees Analysis report, modified to show departed employees only."
-msgstr ""
+msgstr "员工分析报告，修改后只显示离职员工。"
 
 #: ../../content/applications/hr/employees/retention_report.rst:33
 msgid "Employee retention rate comparison report"
-msgstr ""
+msgstr "员工保留率比较报告"
 
 #: ../../content/applications/hr/employees/retention_report.rst:35
 msgid ""
 "It is possible to compare data only for employees who left, compared to the "
 "total current employees, between two separate time periods. This is commonly"
 " referred to as the *employee retention rate*."
-msgstr ""
+msgstr "可以比较两个不同时间段内离职员工与现有员工总数的数据。这通常被称为 *员工保留率*。"
 
 #: ../../content/applications/hr/employees/retention_report.rst:38
 msgid ""
@@ -5085,6 +5161,8 @@ msgid ""
 " Click the :icon:`oi-view-pivot` :guilabel:`(Pivot)` icon in the upper-right"
 " corner to view the information in a pivot table."
 msgstr ""
+"要查看这些指标，首先通过导航至 :menuselection:`员工应用程序 --> 报告 --> 合同` 打开 :guilabel:`员工分析` "
+"报告。点击右上角的 :icon:`oi-view-pivot`(透视)` 图标，在透视表中查看信息。"
 
 #: ../../content/applications/hr/employees/retention_report.rst:42
 msgid ""
@@ -5095,6 +5173,9 @@ msgid ""
 " table. Then, click :guilabel:`Count` at the bottom of the list to enable "
 "that metric."
 msgstr ""
+"接下来，点击左上角的 :guilabel:`指标` :icon:`fa-caret-down` 按钮，显示一个下拉菜单。点击列表中的 "
+":guilabel:`# 新员工`、:guilabel:`年度员工预算`、:guilabel:`加油卡` 和 :guilabel:`工资` "
+"取消选择这些指标并将其隐藏在表格中。然后，点击列表底部的 :guilabel:`计数` 以启用该指标。"
 
 #: ../../content/applications/hr/employees/retention_report.rst:47
 msgid ""
@@ -5103,6 +5184,8 @@ msgid ""
 "well as the total number of employees (:guilabel:`Count`), for the "
 ":guilabel:`Last 365 Days`."
 msgstr ""
+"点击离开下拉菜单关闭报告。现在，报告显示了 :guilabel:`过去 365 天` 中所有离开公司的员工（:guilabel:`# "
+"离职员工`）以及员工总数（:guilabel:`总数`）。"
 
 #: ../../content/applications/hr/employees/retention_report.rst:51
 msgid ""
@@ -5113,6 +5196,9 @@ msgid ""
 "Then, click :guilabel:`Date`, and click the current year (in this example, "
 ":guilabel:`2024`) from the resulting drop-down menu."
 msgstr ""
+"要比较当年和上一年的数据，请点击搜索栏中的 :icon:`fa-caret-down`:guilabel:`（向下箭头）`，显示多个筛选和分组选项。在 "
+":icon:`fa-filter` :guilabel:`筛选项` 列中点击 :guilabel:`过去 365 天`，关闭该筛选器。然后，点击 "
+":guilabel:`日期`，并从出现的下拉菜单中点击当前年份（在本例中为 :guilabel:`2024`）。"
 
 #: ../../content/applications/hr/employees/retention_report.rst:57
 msgid ""
@@ -5121,6 +5207,8 @@ msgid ""
 "column appears. Click :guilabel:`Date: Previous Year` in the new column, "
 "then click off of the drop-down menu to close it."
 msgstr ""
+"在 :icon:`fa-filter` :guilabel:`筛选器` 列的 :guilabel:`日期` 下方进行选择后，将出现 :icon:`fa-"
+"adjust` :guilabel:`比较`列。点击新列中的 :guilabel:`日期：上一年`，然后点击下拉菜单关闭它。"
 
 #: ../../content/applications/hr/employees/retention_report.rst:62
 msgid ""
@@ -5129,6 +5217,8 @@ msgid ""
 "selected. If not, the :icon:`fa-adjust` :guilabel:`Comparison` column is "
 "**not** visible."
 msgstr ""
+"在 Odoo 中，要访问 :icon:`fa-adjust`:guilabel:`比较` 列，必须选择 :guilabel:`过去 365 天` "
+"以外的特定时间。否则，:icon:`fa-adjust` :guilabel:`比较`列将 **不** 可见。"
 
 #: ../../content/applications/hr/employees/retention_report.rst:66
 msgid ""
@@ -5138,12 +5228,14 @@ msgid ""
 "the two different years, and also displays the :guilabel:`Variation` between"
 " the two."
 msgstr ""
+"现在，数据透视表显示了离开公司的员工总数（:guilabel:`# "
+"离职员工`），以及列中的员工总数（:guilabel:`计数`）。这些数据按两个不同年份进一步划分，并显示两者之间的 :guilabel:`差异`。"
 
 #: ../../content/applications/hr/employees/retention_report.rst:71
 msgid ""
 "The rows display the departments, and lists each individual employee for "
 "each department, in the rows."
-msgstr ""
+msgstr "各行显示各部门，并列出每个部门的每个员工。"
 
 #: ../../content/applications/hr/employees/retention_report.rst:74
 msgid ""
@@ -5153,6 +5245,8 @@ msgid ""
 " left the company for both years, compared to the total number of employees "
 "for both years, including the difference, in a percentage."
 msgstr ""
+"要更简洁地查看此报告，请单击部门和员工顶行上方的 :icon:`fa-minus-"
+"square-o`:guilabel:`总计`，以折叠行。现在，表格显示了两年中离职员工总数与两年中员工总数（包括差额）的百分比。"
 
 #: ../../content/applications/hr/employees/retention_report.rst:80
 msgid ""
@@ -5162,12 +5256,15 @@ msgid ""
 " to 2023. Additionally, there was a :guilabel:`143.37%` increase in the "
 "total number of employees in 2024 as compared to 2023."
 msgstr ""
+"在此示例中，2023 年离职的 :guilabel:`83` 名员工中有 :guilabel:`3` 名员工，2024 年离职的 "
+":guilabel:`202` 名员工中有 :guilabel:`8` 名员工。与 2023 年相比，2024 年的离职人数增加了 "
+"166.67%。此外，与 2023 年相比，2024 年的员工总数增加了 :guilabel:`143.37%` 。"
 
 #: ../../content/applications/hr/employees/retention_report.rst:0
 msgid ""
 "The report modified to show the difference between two years of employees "
 "who left."
-msgstr ""
+msgstr "修改后的报告显示了离职员工两年之间的差异。"
 
 #: ../../content/applications/hr/employees/retention_report.rst:89
 msgid ""
@@ -5179,6 +5276,9 @@ msgid ""
 "(:guilabel:`Count`), and the :guilabel:`Variation` (in a percentage) for "
 "both 2023 and 2024, organized by department."
 msgstr ""
+"要查看各部门更详细的比率，请点击单行中的 :icon:`fa-plus-square`:guilabel:`总计`，显示一个下拉菜单，然后点击 "
+":guilabel:`部门`。点击下拉菜单，关闭下拉菜单，现在数据透视表将显示 2023 年和 2024 年的离职员工总数（:guilabel:`# "
+"离职员工`）、员工总数（:guilabel:`计数`）和 :guilabel:`变量`（百分比），按部门分列。"
 
 #: ../../content/applications/hr/employees/retention_report.rst:96
 msgid ""
@@ -5189,6 +5289,8 @@ msgid ""
 "department had the most turnover, with a :guilabel:`Variation` of "
 ":guilabel:`300%`."
 msgstr ""
+"在此示例中，可以确定 2024 年 :guilabel:`管理` 部门与 2023 年相比留任率最高，:guilabel:`变化`比率为 "
+":guilabel:`100%`。此外，可以确定:guilabel:`管理/研发`部门的人员流失率最高，为:guilabel:`300%`。"
 
 #: ../../content/applications/hr/employees/retention_report.rst:0
 msgid "The expanded employee retention report by department."
@@ -5549,7 +5651,7 @@ msgstr ""
 
 #: ../../content/applications/hr/fleet/accidents.rst:97
 msgid "Service stages"
-msgstr ""
+msgstr "服务阶段"
 
 #: ../../content/applications/hr/fleet/accidents.rst:99
 msgid "In Odoo's *Fleet* app, there are four default service stages:"
@@ -5606,7 +5708,7 @@ msgstr ""
 
 #: ../../content/applications/hr/fleet/accidents.rst:129
 msgid "Service record"
-msgstr ""
+msgstr "服务记录"
 
 #: ../../content/applications/hr/fleet/accidents.rst:131
 msgid ""
@@ -5615,10 +5717,12 @@ msgid ""
 " open the detailed service form. Click the desired stage in the top-right "
 "corner, above the service form, to change the status."
 msgstr ""
+"通过导航至 :menuselection:`车队应用程序 --> 车队 --> 服务` 打开 *服务* "
+"主面板。然后，点击单个服务记录，打开详细的服务表单。点击服务表格上方右上角所需的阶段以更改状态。"
 
 #: ../../content/applications/hr/fleet/accidents.rst-1
 msgid "The stages as seen from the service form."
-msgstr ""
+msgstr "从服务表格中看到的阶段。"
 
 #: ../../content/applications/hr/fleet/accidents.rst:144
 msgid ""
@@ -5627,6 +5731,8 @@ msgid ""
 ":guilabel:`Kanban` icon in the top-right of the screen, which organizes all "
 "repairs by vehicle."
 msgstr ""
+"通过导航至 :menuselection:`车队应用程序 --> 车队 --> 服务` 打开 *服务* 主面板。首先，点击屏幕右上角的 "
+":icon:`oi-view-kanban`(查看看板) :guilabel:`Kanban`(看板) 图标，该图标按车辆组织所有维修。"
 
 #: ../../content/applications/hr/fleet/accidents.rst:148
 msgid ""
@@ -8754,7 +8860,7 @@ msgstr ""
 msgid ""
 "The visitor can tap either :guilabel:`Yes, please`, or :guilabel:`No, thank "
 "you`."
-msgstr ""
+msgstr "访客可以点击 :guilabel:`是的，谢谢` 或 :guilabel:`不，谢谢`。"
 
 #: ../../content/applications/hr/frontdesk/visitors.rst:119
 msgid ""
@@ -8763,12 +8869,15 @@ msgid ""
 " selection, or, if they do not want anything, they can tap the "
 ":guilabel:`Nothing, thanks` button at the bottom of the screen."
 msgstr ""
+"如果访客选择 "
+":guilabel:`是的，谢谢`，就会出现一个饮品选择屏幕，并列出预先配置的选项。然后，访问者点击所需的选项，或者，如果他们不想要任何东西，可以点击屏幕底部的"
+" :guilabel:`不，谢谢` 按钮。"
 
 #: ../../content/applications/hr/frontdesk/visitors.rst:123
 msgid ""
 "If a drink selection was made, a :guilabel:`Thank you for registering! Your "
 "drink is on the way.` message appears."
-msgstr ""
+msgstr "如果选择了饮品，则会出现 :guilabel:`谢谢！您的饮品马上就到。`"
 
 #: ../../content/applications/hr/frontdesk/visitors.rst:127
 msgid "Notifications"
@@ -8781,6 +8890,8 @@ msgid ""
 " are notified. The notification is either by email, SMS message, a *Discuss*"
 " chat, or any combination of those three options."
 msgstr ""
+"访客签到后，要拜访的人和其他任何被配置为在自助服务亭签到时收到通知的用户，都会收到通知。通知方式可以是电子邮件、短信、*内部讨论* "
+"应用程序或这三种方式的任意组合。"
 
 #: ../../content/applications/hr/frontdesk/visitors.rst:133
 msgid ""
@@ -8789,12 +8900,14 @@ msgid ""
 "*Discuss* application. The message that appears is: :guilabel:`(Visitor "
 "Name) just checked-in. They requested (Drink Name).`"
 msgstr ""
+"如果访客要求提供饮品，则会通过 *内部讨论* 应用程序通知在饮品表单上配置为 :guilabel:`要通知的人` 用户。出现的信息是： "
+":guilabel:`（访客姓名）刚刚登记。他们要求（饮品名称）。`"
 
 #: ../../content/applications/hr/frontdesk/visitors.rst:137
 msgid ""
 "Once the drink has been delivered to the guest, the person who delivered the"
 " drink is responsible for marking the drink as delivered."
-msgstr ""
+msgstr "饮品送到客人手中后，送饮品的人要负责标记饮品已送到。"
 
 #: ../../content/applications/hr/frontdesk/visitors.rst:140
 msgid ""
@@ -8802,6 +8915,8 @@ msgid ""
 "Stations`, and choose the desired station card displaying :guilabel:`(#) "
 "Drinks to serve`."
 msgstr ""
+"要将饮料标记为已递送，请导航至 :menuselection:`前台应用程序 --> 站点`，然后选择显示 :guilabel:`(#) 待供应饮品` "
+"所需站点。"
 
 #: ../../content/applications/hr/frontdesk/visitors.rst:143
 msgid ""
@@ -8810,12 +8925,14 @@ msgid ""
 " the line for the visitor who was served. Once they are marked as having "
 "their drink served, the visitor disappears from the list."
 msgstr ""
+"这将打开在该站登记，并正在等待饮品的所有访客列表。点击该行末尾的 :guilabel:`已供应饮品` "
+"按钮，查看访客是否已获得饮品。一旦被标记为已供应，该访客就会从列表中消失。"
 
 #: ../../content/applications/hr/frontdesk/visitors.rst:150
 msgid ""
 "Once the visitor has completed their business, and has left the premises, it"
 " is important to check them out for accurate record keeping."
-msgstr ""
+msgstr "一旦访客完成并离开，就必须进行检查，以便准确记录。"
 
 #: ../../content/applications/hr/frontdesk/visitors.rst:153
 msgid ""
@@ -8824,25 +8941,27 @@ msgid ""
 " Drinks to serve`. Doing so opens a list of all the visitors who are "
 "currently checked-in at that station."
 msgstr ""
+"要正确为访客办理退出手续，请导航至 :menuselection:`前台应用程序 --> 站点`，然后选择显示 :guilabel:`(#) "
+"待供应饮品` 所需站点。此操作将打开当前在该站签到的所有访客列表。"
 
 #: ../../content/applications/hr/frontdesk/visitors.rst:157
 msgid ""
 "Click the :guilabel:`Check out` button near the end of the line for the "
 "visitor who left. Once they are marked as checked-out, the visitor "
 "disappears from the list."
-msgstr ""
+msgstr "为离开的访客点击行尾的 :guilabel:`退出` 按钮。一旦访客被标记为已退出，就会从列表中消失。"
 
 #: ../../content/applications/hr/frontdesk/visitors.rst:161
 msgid ""
 "Visitors do **not** check themselves out when they leave. It is important "
 "for *Frontdesk* users to check out visitors for accurate record keeping."
-msgstr ""
+msgstr "访客离开时**不会**自己办理退出手续。*前台*用户必须为访客办理退出手续，以便准确记录。"
 
 #: ../../content/applications/hr/frontdesk/visitors.rst:164
 msgid ""
 "Always have an accurate list of who is on the premises at any given time. "
 "This is important for security purposes, and in the case of an emergency."
-msgstr ""
+msgstr "始终要有一个准确的在场人员清单。这不仅关系到日常安全，也能在发生突发事件时派上用场。"
 
 #: ../../content/applications/hr/lunch.rst:5
 msgid "Lunch"
@@ -8852,7 +8971,7 @@ msgstr "午餐"
 msgid ""
 "The *Lunch* application in Odoo allows users a convenient way to order food "
 "and pay for their meal directly from the database."
-msgstr ""
+msgstr "Odoo *午餐* 应用程序可方便用户直接从数据库中订餐，并支付餐费。"
 
 #: ../../content/applications/hr/lunch.rst:10
 msgid ""
@@ -8861,6 +8980,7 @@ msgid ""
 "categories, and alerts. Once these are created, employees can view offerings"
 " and order food."
 msgstr ""
+"在员工使用 *午餐* 应用程序之前，需要考虑一系列配置：设置、供应商、地点、产品、产品类别和警报。一旦创建了这些配置，员工就可以查看产品并订购食物。"
 
 #: ../../content/applications/hr/lunch.rst:17
 msgid ""
